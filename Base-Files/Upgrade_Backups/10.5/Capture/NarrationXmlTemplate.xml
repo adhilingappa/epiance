@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<EpiVPED>
+	<vpeds type="D" guid="" duration="2.581">	
+		<narration>
+			<imagename></imagename>
+			<annotations>
+				<annotation>
+					<region left = "" top = "" width = "" height = "" />
+					<desc></desc>
+					<annotationposition left = "" top = "" width = "" height="" />
+				</annotation>
+			</annotations>
+			<audio></audio>
+		</narration>
+	</vpeds>
+</EpiVPED>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+	<ControlRegion BorderColor="#FFFF0000" BorderThickness="2" Fill="true" FillColor="#FF90EE90"/>
+	<NotesRegion BorderColor="#000000" BorderThickness="1" Fill="true" FillColor="#FFFFC3" Font="Arial" Size="12" FontColor="#FFFFC3"/>
+	<MaskRegion BorderColor="#FF000000" BorderThickness="2" Fill="true" FillColor="#FF90EE90"/>
+</Settings>

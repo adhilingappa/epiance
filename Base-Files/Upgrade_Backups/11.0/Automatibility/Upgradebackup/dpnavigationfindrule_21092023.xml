@@ -1,0 +1,111 @@
+<DatapointNavigationFindRules>
+	<!-- <ExcludedStepsRule> -->
+		<!-- <Rule XPath="WorkFlow/Step[PlayBack/GeneralInfo/@Event='WindowActivate' or PlayBack/GeneralInfo/@Event='CaptionDestroy']"/> -->
+	<!-- </ExcludedStepsRule> -->
+	<Datapoint>
+		  <Rule Role="cell" RoleID="29" Event="typetext" />
+		  <Rule Role="list" RoleID="33" Event="select" />
+		  <!-- <Rule Role="text" RoleID="41" Event="" /> -->
+		  <Rule Role="editable text" RoleID="42" Event="typetext" />
+		  <Rule Role="check box" RoleID="44" Event="select" />
+		  <Rule Role="radio button" RoleID="45" Event="select" />		  
+		  <Rule Role="drop down" RoleID="47" Event="select" />
+		  <Rule Role="spin box" RoleID="52" Event="typetext" />
+		<!--  <Rule Role="IP address" RoleID="63" Event="typetext" />-->	
+          <Rule Role="combo box" RoleID="46" Event="typetext" /> 
+		  <Rule Role="SAPGuiCTextField" RoleID="103" Event="typetext" />
+		  <Rule Role="SAPGuiComboBox" RoleID="109" Event="typetext" />
+		  
+	</Datapoint>
+	<Navigation>
+		  <Rule Role="editable text" RoleID="42" Event="click" />
+		  <Rule Role="editable text" RoleID="42" Event="doubleclick" />
+		  <Rule Role="editable text" RoleID="42" Event="keyevent" />
+		  <Rule Role="editable text" RoleID="42" Event="select" />
+		  <Rule Role="combo box" RoleID="46" Event="" />
+		  <Rule Role="title bar" RoleID="1" Event="" />
+		  <Rule Role="menu bar" RoleID="2" Event="" />
+		  <Rule Role="scroll bar" RoleID="3" Event="" />
+		  <Rule Role="grip" RoleID="4" Event="" />
+		  <Rule Role="sound" RoleID="5" Event="" />
+		  <Rule Role="cursor" RoleID="6" Event="" />
+		  <Rule Role="caret" RoleID="7" Event="" />
+		  <Rule Role="alert" RoleID="8" Event="" />
+		  <Rule Role="window" RoleID="9" Event="" />
+		  <Rule Role="client" RoleID="10" Event="" />
+		  <Rule Role="popup menu" RoleID="11" Event="" />
+		  <Rule Role="menu item" RoleID="12" Event="" />
+		  <Rule Role="tool tip" RoleID="13" Event="" />
+		  <Rule Role="application" RoleID="14" Event="" />
+		  <Rule Role="document" RoleID="15" Event="" />
+		  <Rule Role="pane" RoleID="16" Event="" />
+		  <Rule Role="chart" RoleID="17" Event="" />
+		  <Rule Role="dialog" RoleID="18" Event="" />
+		  <Rule Role="border" RoleID="19" Event="" />
+		  <Rule Role="grouping" RoleID="20" Event="" />
+		  <Rule Role="separator" RoleID="21" Event="" />
+		  <Rule Role="tool bar" RoleID="22" Event="" />
+		  <Rule Role="status bar" RoleID="23" Event="" />
+		  <Rule Role="table" RoleID="24" Event="" />
+		  <Rule Role="column header" RoleID="25" Event="" />
+		  <Rule Role="row header" RoleID="26" Event="" />
+		  <Rule Role="column" RoleID="27" Event="" />
+		  <Rule Role="row" RoleID="28" Event="" />
+		  <Rule Role="link" RoleID="30" Event="" />
+		  <Rule Role="help balloon" RoleID="31" Event="" />
+		  <Rule Role="character" RoleID="32" Event="" />
+		  <Rule Role="list item" RoleID="34" Event="" />
+		  <Rule Role="outline" RoleID="35" Event="" />
+		  <Rule Role="OUTLINE ITEM" RoleID="36" Event="" />
+		  <Rule Role="page tab" RoleID="37" Event="" />
+		  <Rule Role="property page" RoleID="38" Event="" />
+		  <Rule Role="indicator" RoleID="39" Event="" />
+		  <Rule Role="graphic" RoleID="40" Event="" />
+		  <Rule Role="push button" RoleID="43" Event="" />
+		  <Rule Role="progress bar" RoleID="48" Event="" />
+		  <Rule Role="dial" RoleID="49" Event="" />
+		  <Rule Role="hot key field" RoleID="50" Event="" />
+		  <Rule Role="slider" RoleID="51" Event="" />
+		  <Rule Role="diagram" RoleID="53" Event="" />
+		  <Rule Role="animation" RoleID="54" Event="" />
+		  <Rule Role="equation" RoleID="55" Event="" />
+		  <Rule Role="drop down button" RoleID="56" Event="" />
+		  <Rule Role="menu button" RoleID="57" Event="" />
+		  <Rule Role="grid drop down button" RoleID="58" Event="" />
+		  <Rule Role="white space" RoleID="59" Event="" />
+		  <Rule Role="page tab list" RoleID="60" Event="" />
+		  <Rule Role="clock" RoleID="61" Event="" />
+		  <Rule Role="split button" RoleID="62" Event="" />
+		  <Rule Role="outline button" RoleID="64" Event="" />
+		  <Rule Role="Control" RoleID="65" Event="" />
+		  <Rule Role="Container" RoleID="66" Event="" />
+		  <Rule Role="hij" RoleID="67" Event="" />
+		  <Rule Role="CATIAUnknown" RoleID="68" Event="" />
+		  <Rule Role="CATIAAxis2D" RoleID="69" Event="" />
+		  <Rule Role="CATIAPoint2D" RoleID="70" Event="" />
+		  <Rule Role="CATIALine2D" RoleID="71" Event="" />
+		  <Rule Role="CATIAControlPoint2D" RoleID="72" Event="" />
+		  <Rule Role="CATIACircle2D" RoleID="73" Event="" />
+		  <Rule Role="CATIAHyperbola2D" RoleID="74" Event="" />
+		  <Rule Role="CATIAParabola2D" RoleID="75" Event="" />
+		  <Rule Role="CATIAEllipse2D" RoleID="76" Event="" />
+		  <Rule Role="CATIASpline2D" RoleID="77" Event="" />
+		  <Rule Role="CATIAPoint" RoleID="78" Event="" />
+		  <Rule Role="CATIALine" RoleID="79" Event="" />
+		  <Rule Role="CATIAPlane" RoleID="80" Event="" />
+		  <Rule Role="canvas" RoleID="81" Event="" />
+		  <Rule Role="icon" RoleID="82" Event="" />
+		  <Rule Role="file chooser" RoleID="83" Event="" />
+		  <Rule Role="filler" RoleID="84" Event="" />
+		  <Rule Role="frame" RoleID="85" Event="" />
+		  <Rule Role="menu" RoleID="86" Event="" />
+		  <Rule Role="desktop icon" RoleID="87" Event="" />
+		  <Rule Role="desktop icon" RoleID="88" Event="" />
+		  <Rule Role="desktop icon" RoleID="89" Event="" />
+		  <Rule Role="desktop icon" RoleID="90" Event="" />
+		  <Rule Role="grid row" RoleID="91" Event="" />		
+		  <Rule Role="cell" RoleID="29" Event="" />	
+		  <Rule Role="SAPGuiCTextField" RoleID="103" Event="" />
+		  <Rule Role="SAPGuiComboBox" RoleID="109" Event="" />
+	</Navigation>
+</DatapointNavigationFindRules>

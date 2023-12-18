@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Epiplex500>
+	<SampleRules>
+		<Rule type="VPEDS">
+			 <vpeds type="V" guid="" attachto="0" isautovpadded="0"  />
+		</Rule>
+		<Rule type="VP">
+			 <vp type="V" id="" seq="">
+				<item op="" stype="C">
+				  <name>Rule_1</name>
+				  <meta>
+					<control>Field Name</control>
+					<role>-1</role>
+					<app/>
+					<url/>
+					<screen/>
+					<region left="" top="" width="" height=""/>
+				  </meta>
+				  <rpa/>
+				  <rule id="0" value1="" value2="" regex="" desc=""/>
+				  <atchs>
+					<atch type="audio" src="" />
+					<atch type="video" src="" />
+					<atch type="file" src="" />
+					<atch type="image" src="" />
+				  </atchs>
+				  <desc/>
+				  <actiononfailure type="0">
+					<message/>
+				  </actiononfailure>
+				  <group/>
+				</item>
+			</vp>
+		</Rule>
+		<Rule type="DP">
+			 <dp type="C" id="" seq="">    
+				  <name>Datapoint_1</name>
+				  <meta>
+					<control>Field Name</control>
+					<role>-1</role>
+					<app/>
+					<url/>
+					<screen/>
+					<region left="" top="" width="" height=""/>
+					<duration>10</duration>
+					<roc>1</roc>
+					<cons>1</cons>
+					<dataformat>1</dataformat>
+					<remarks/>
+				  </meta>
+				  <rpa/>
+				  <desc>Enter the data point description here.</desc>
+			  </dp>
+		</Rule>
+		<Rule type="EXP">
+			 <exp type="S" recaction="1">
+				  <name>Exception Name</name>
+				  <meta>
+					<control>Field Name</control>
+					<role>-1</role>
+					<app/>
+					<url/>
+					<screen/>
+					<region left="" top="" width="" height=""/>
+					<img/>
+				  </meta>
+				   <rpa/>
+				   <desc>Enter the exception description here.</desc>
+			  </exp>
+		</Rule>
+	</SampleRules>
+	<VPRules>
+		<Condition id="0" name="None"  type="1" regex="" desc="" roles="*" mandatory="0"/>
+		<Condition id="1" name="Equals" type="1" regex="" desc="" roles="33,34,42,46,47,52,29" mandatory="1"/>
+		<Condition id="2" name="Case Equal" type="1" regex="" desc="" roles="33,34,42,46,47,52,29" mandatory="1"/>
+		<Condition id="3" name="Contains" type="1" regex="" desc="" roles="33,34,42,46,47,52,29" mandatory="1"/>
+		<Condition id="4" name="Starts with" type="1" regex="" desc="" roles="33,34,42,46,47,29" mandatory="1"/>
+		<Condition id="5" name="Between" type="1" regex="" desc="" roles="33,34,42,46,47,52,29" mandatory="1"/>
+		<Condition id="6" name="Greater than" type="1" regex="" desc="" roles="33,34,42,46,47,52,29" mandatory="1"/>
+		<Condition id="7" name="Less than" type="1" regex="" desc="" roles="33,34,42,46,47,52,29" mandatory="1"/>
+		<Condition id="8" name="Checked"  type="1" regex="" desc="" roles="44,45" mandatory="0"/>
+		<Condition id="9" name="Unchecked" type="1" regex="" desc="" roles="44,45" mandatory="0"/>
+		<Condition id="10" name="Not Equal" type="1" regex="" desc="" roles="33,34,42,46,47,52,29" mandatory="1"/>
+		<Condition id="11" name="Custom Rule" type="2" regex="" desc="" roles="33,34,42,46,47,29" mandatory="1" onsucessrules="" onfailurerules=""/>
+		<Condition id="12" name="Numeric Only" type="2" regex="^-?[0-9 ][0-9,\. ]+$" desc="Please enter Numbers Only" roles="33,34,42,46,47,52,29" mandatory="1" onsucessrules="" onfailurerules=""/>
+		<Condition id="13" name="Alpha Numeric" type="2" regex="^[0-9a-zA-Z,\.\- ]+$" desc="Please enter alpha numeric only" roles="33,34,42,46,47,29" mandatory="1" onsucessrules="" onfailurerules="12,14"/>
+		<Condition id="14" name="Alphabets only" type="2" regex="^[a-zA-Z ]+$" desc="Please enter Alphabets only" roles="33,34,42,46,47,29" mandatory="1" onsucessrules="" onfailurerules=""/>
+		<Condition id="15" name="Email" type="2" regex="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" desc="Please enter a valid email" roles="33,34,42,46,47,29" mandatory="1" onsucessrules="" onfailurerules=""/>
+		<Condition id="16" name="AadharNumber" type="2" regex="^[0-9]{12}$" desc="Please enter a valid Aadhaar Number" roles="33,34,42,46,47,29" mandatory="1" onsucessrules="" onfailurerules=""/>
+		<Condition id="17" name="Phone" type="2" regex="^([+]{0,1})([0-9]{0,2})([-, ]{0,1})([0-9]{10})$" desc="Please enter a valid phone number" roles="33,34,42,46,47,29" mandatory="1" onsucessrules="12" onfailurerules=""/>
+		<Condition id="18" name="Text" type="2" regex="^[\s\S]+$" desc="Please enter a some data" roles="33,34,42,46,47,29" mandatory="1" onsucessrules="" onfailurerules="12,13,14,15,16,17"/>
+	</VPRules>
+	<VPOperators>
+		<VPO id="0" desc="" />
+		<VPO id="1" desc="And" />
+		<VPO id="2" desc="Or" />
+		<VPO id="3" desc="Then" />
+	</VPOperators>
+	<ActionsOnFailure>
+		<AOF id="0" name="Continue" descrequired="0"/>
+		<AOF id="1" name="Throw Exception" descrequired="1"/>
+		<AOF id="2" name="Show Message" descrequired="1"/>
+		<AOF id="3" name="Exit" descrequired="0"/>
+	</ActionsOnFailure>
+	<Settings>
+		<RegionThreshold width="1500" height="900"/>
+		<DefaultDuration structured="10" unstructured="20"/>
+	</Settings>
+</Epiplex500>
+

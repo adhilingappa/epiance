@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XPathConstantSettings>
+	<XPathConstant Name="ControlType" XPath="MSAA/Control/@Role" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="ControlName" XPath="MSAA/Control/@Name" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="ControlValue" XPath="MSAA/Control/@Value" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="ControlDataValue" XPath="MSAA/Control/ControlData/Value" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="StepDuration" XPath="Info/TimeStamp/@StepDuration" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="IdleDuration" XPath="Info/TimeStamp/IdleTimeInfo/@IdleDuration" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="Sentence" XPath="Sentence/@Plain" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="Class" XPath="Standard/Control/@Class" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="ApplicationName" XPath="Info/TAP/@ApplicationName" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="ExeName" XPath="Info/TAP/@Name" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="AdaptorID" XPath="PlayBack/GeneralInfo/@AdaptorID" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="UIA_FOREGROUND_WINDOW_TYPE" XPath="PlayBack/AdditionalInfo/@UIA_FOREGROUND_WINDOW_TYPE" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="Bot_ControlName" XPath="PlayBack/ControlInfo/@ControlName" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="IEActiveTabCaption" XPath="PlayBack/ControlInfo/@IEActiveTabCaption" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="IEDocURL" XPath="PlayBack/AppInfo/@IEDocURL" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="Web_Name" XPath="PlayBack/AdditionalInfo/@Web_Name" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="IEControlID" XPath="PlayBack/ControlInfo/@IEControlID" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="IEControlAttributeTagName" XPath="PlayBack/ControlInfo/@IEControlAttributeTagName" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="IEControlClassName" XPath="PlayBack/ControlInfo/@IEControlClassName" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="IEControlTitle" XPath="PlayBack/ControlInfo/@IEControlTitle" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="IEControlInnerText" XPath="PlayBack/ControlInfo/@IEControlInnerText" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="Web_AncestorID" XPath="PlayBack/AdditionalInfo/@Web_AncestorID" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="Web_IDX" XPath="PlayBack/AdditionalInfo/@Web_IDX" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="Web_Value" XPath="PlayBack/AdditionalInfo/@Web_Value" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="Web_TagName" XPath="PlayBack/AdditionalInfo/@Web_TagName" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="WHLL_NEXT_CONTROL_NAME" XPath="PlayBack/AdditionalInfo/@WHLL_NEXT_CONTROL_NAME" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="WHLL_CURRENT_LABLE" XPath="PlayBack/AdditionalInfo/@WHLL_CURRENT_LABLE" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="WHLL_STARTY" XPath="PlayBack/AdditionalInfo/@WHLL_STARTY" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="WHLL_STARTX" XPath="PlayBack/AdditionalInfo/@WHLL_STARTX" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT" XPath="PlayBack/AdditionalInfo/@TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT" XPath="PlayBack/AdditionalInfo/@CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="UIA_Default_Action" XPath="PlayBack/AdditionalInfo/@UIA_Default_Action" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="Event" XPath="PlayBack/GeneralInfo/@Event" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="SPKeyStatus" XPath="PlayBack/GeneralInfo/@SPKeyStatus" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="DialogName" XPath="Info/Window/@Name" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<!-- <XPathConstant Name="ExeName" XPath="PlayBack/AppInfo/@ExeName" Enable="1" LogEventInfo="1" FileType="GPS" /> -->
+	<XPathConstant Name="UIA_PARENT_NAME" XPath="PlayBack/AdditionalInfo/@UIA_PARENT_NAME" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="UIA_PARENT_AUTOMATIONID" XPath="PlayBack/AdditionalInfo/@UIA_PARENT_AUTOMATIONID" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="UIA_PARENT_LOCALIZED_CONTROL_TYPE" XPath="PlayBack/AdditionalInfo/@UIA_PARENT_LOCALIZED_CONTROL_TYPE" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="IsCitrix" XPath="PlayBack/GeneralInfo/@IsCitrix" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="UniqueID" XPath="PlayBack/ControlInfo/@UniqueID" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="Role" XPath="PlayBack/ControlInfo/@Role" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="TagName" XPath="PlayBack/ControlInfo/@IEControlAttributeTagName" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="ControlHirarchy" XPath="PlayBack/ControlInfo/@ControlHirarchy" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="ScreenName" XPath="PlayBack/ControlInfo/@ScreenName" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="SessionID" XPath="PlayBack/ControlInfo/@SessionID" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="CSSSelector" XPath="PlayBack/AdditionalInfo/@Web_IFrameFullCssPath" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="XPath" XPath="PlayBack/AdditionalInfo/@Web_IFrameFullXPath" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="LocationLeft" XPath="MSAA/Control/Location/@Left" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="LocationRight" XPath="MSAA/Control/Location/@Right" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="LocationTop" XPath="MSAA/Control/Location/@Top" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="LocationBottom" XPath="MSAA/Control/Location/@Bottom" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="MouseDownX" XPath="Standard/ClickPoints/Screen/Down/@X" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="MouseDownY" XPath="Standard/ClickPoints/Screen/Down/@Y" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="MouseUpX" XPath="Standard/ClickPoints/Screen/Up/@X" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="MouseUpY" XPath="Standard/ClickPoints/Screen/Up/@Y" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="StepTimeStamp" XPath="Info/TimeStamp/@StartTime" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="TabID" XPath="PlayBack/AdditionalInfo/@TabID" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="UTCStartTime" XPath="Info/TimeStamp/@StartTime" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="UTCEndTime" XPath="Info/TimeStamp/@EndTime" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="StartTime" XPath="Info/TimeStamp/@LocalStartTime" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="EndTime" XPath="Info/TimeStamp/@LocalEndTime" Enable="1" LogEventInfo="1" FileType="GPS" />
+	<XPathConstant Name="TotalCapDuration" XPath="IdleTimeInfo/@CaptureDuration" Enable="1" LogEventInfo="1" FileType="GPS" IsHeaderInfo="1" />
+	<XPathConstant Name="ThinkTime" XPath="IdleTimeInfo/ThinkTimeInfo/@Duration" Enable="1" LogEventInfo="1" FileType="GPS" IsHeaderInfo="1" />
+	<XPathConstant Name="Process_Idle_Time" XPath="IdleTimeInfo/ProcessIdleInfo/@Duration" Enable="1" LogEventInfo="1" FileType="GPS" IsHeaderInfo="1" />
+	<XPathConstant Name="System_Idle_Time" XPath="IdleTimeInfo/SystemIdleInfo/@Duration" Enable="1" LogEventInfo="1" FileType="GPS" IsHeaderInfo="1" />
+	<XPathConstant Name="NoiseTime" XPath="NoiseInfo/@Duration" Enable="1" LogEventInfo="1" FileType="GPS" IsHeaderInfo="1" />
+</XPathConstantSettings>

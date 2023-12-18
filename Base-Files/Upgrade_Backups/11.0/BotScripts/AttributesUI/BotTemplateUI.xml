@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BotTemplateUI>
+	<AttributeList>
+		<!--Common Attibutes Starts-->
+		<Attribute BotType="All" AttributeName="ControlName" AdopterID="1|2|3|12" ColumnName="PlayBack__ControlInfo_ControlName" IncludeColumnName="Include_PlayBack__ControlInfo_ControlName"/>
+		<Attribute BotType="All" AttributeName="ControlData" AdopterID="1|3|6|12" ColumnName="PlayBack__ControlInfo_ControlData" IncludeColumnName="Include_PlayBack__ControlInfo_ControlData"/>
+		<Attribute BotType="All" AttributeName="ComboboxItem" AdopterID="1|3|6|9|12" ColumnName="Modified_Item" IncludeColumnName="Include_Modified_Item"/>
+		<Attribute BotType="All" AttributeName="DialogName" AdopterID="1|2|3|6|12" ColumnName="PlayBack__AppInfo_DialogName" IncludeColumnName="Include_PlayBack__AppInfo_DialogName"/>
+		<Attribute BotType="All" AttributeName="id/ID" AdopterID="3" ColumnName="PlayBack__ControlInfo_IEControlID" IncludeColumnName="Include_PlayBack__ControlInfo_IEControlID"/>
+		<Attribute BotType="All" AttributeName="name" AdopterID="3|12" ColumnName="PlayBack__AdditionalInfo_Web_Name" IncludeColumnName="Include_PlayBack__AdditionalInfo_Web_Name"/>
+		<Attribute BotType="All" AttributeName="name/ParentName" AdopterID="9|2" ColumnName="PlayBack__ParentInfo_ParentName" IncludeColumnName="Include_PlayBack__ParentInfo_ParentName"/>
+		<Attribute BotType="All" AttributeName="StartX/Column" AdopterID="4" ColumnName="PlayBack__AdditionalInfo_WHLL_STARTY" IncludeColumnName="Include_PlayBack__AdditionalInfo_WHLL_STARTY"/>
+		<Attribute BotType="All" AttributeName="StartY/Row" AdopterID="4" ColumnName="PlayBack__AdditionalInfo_WHLL_STARTX" IncludeColumnName="Include_PlayBack__AdditionalInfo_WHLL_STARTX"/>
+		<Attribute BotType="All" AttributeName="tag" AdopterID="12" ColumnName="PlayBack__AdditionalInfo_Web_TagName" IncludeColumnName="Include_PlayBack__AdditionalInfo_Web_TagName"/>
+		<Attribute BotType="All" AttributeName="tag/TagName" AdopterID="3" ColumnName="PlayBack__ControlInfo_IEControlAttributeTagName" IncludeColumnName="Include_PlayBack__ControlInfo_IEControlAttributeTagName"/>
+		<Attribute BotType="All" AttributeName="title" AdopterID="3" ColumnName="PlayBack__AdditionalInfo_Web_Title" IncludeColumnName="Include_PlayBack__AdditionalInfo_Web_Title"/>
+		<Attribute BotType="All" AttributeName="title1" AdopterID="3" ColumnName="PlayBack__ControlInfo_IEControlTitle" IncludeColumnName="Include_PlayBack__ControlInfo_IEControlTitle"/>
+		<Attribute BotType="All" AttributeName="UIA_NAME" AdopterID="3|12" ColumnName="PlayBack__AdditionalInfo_UIA_NAME" IncludeColumnName="Include_PlayBack__AdditionalInfo_UIA_NAME"/>
+		<Attribute BotType="All" AttributeName="url/wPageAddress/pURL" AdopterID="3|12" ColumnName="PlayBack__AppInfo_IEDocURL" IncludeColumnName="Include_PlayBack__AppInfo_IEDocURL"/>
+		<!--Common Attibutes Ends-->
+		<!--UIP Attibutes Ends-->
+		<Attribute BotType="UIP" AttributeName="automationid" AdopterID="1" ColumnName="UIP_PlayBack__AdditionalInfo_UIA_AUTOMATIONID" IncludeColumnName="Include_UIP_PlayBack__AdditionalInfo_UIA_AUTOMATIONID"/>
+		<Attribute BotType="UIP" AttributeName="cls" AdopterID="1|3|6" ColumnName="PlayBack__AdditionalInfo_UIA_FOREGROUND_WINDOW_TYPE" IncludeColumnName="Include_PlayBack__AdditionalInfo_UIA_FOREGROUND_WINDOW_TYPE"/>
+		<Attribute BotType="UIP" AttributeName="Class" AdopterID="3" ColumnName="UIP_PlayBack__ControlInfo_IEControlClassName" IncludeColumnName="Include_UIP_PlayBack__ControlInfo_IEControlClassName"/>
+		<Attribute BotType="UIP" AttributeName="css-selector" AdopterID="3" ColumnName="UIP_PlayBack__ControlInfo_XPath" IncludeColumnName="Include_UIP_PlayBack__ControlInfo_XPath"/>
+		<Attribute BotType="UIP" AttributeName="CSSPath" AdopterID="12" ColumnName="PlayBack__ControlInfo_CSSPath" IncludeColumnName="Include_PlayBack__ControlInfo_CSSPath"/>
+		<Attribute BotType="UIP" AttributeName="CONTROL_TYPE" AdopterID="2" ColumnName="PlayBack__AdditionalInfo_ACTUAL_CONTROL_TYPE" IncludeColumnName="Include_PlayBack__AdditionalInfo_ACTUAL_CONTROL_TYPE"/>
+		<Attribute BotType="UIP" AttributeName="FollowedBy" AdopterID="4" ColumnName="PlayBack__AdditionalInfo_WHLL_NEXT_CONTROL_NAME" IncludeColumnName="Include_PlayBack__AdditionalInfo_WHLL_NEXT_CONTROL_NAME"/>
+		<Attribute BotType="UIP" AttributeName="id" AdopterID="12" ColumnName="UIP_PlayBack__AdditionalInfo_Web_ID" IncludeColumnName="Include_UIP_PlayBack__AdditionalInfo_Web_ID"/>
+		<Attribute BotType="UIP" AttributeName="id" AdopterID="6" ColumnName="UIP_PlayBack__ControlInfo_UniqueID" IncludeColumnName="Include_UIP_PlayBack__ControlInfo_UniqueID"/>
+		<Attribute BotType="UIP" AttributeName="innertext" AdopterID="3" ColumnName="PlayBack__ControlInfo_IEControlInnerText" IncludeColumnName="Include_PlayBack__ControlInfo_IEControlInnerText"/>
+		<Attribute BotType="UIP" AttributeName="name" AdopterID="1|3|9" ColumnName="UIP_PlayBack__ControlInfo_ControlName" IncludeColumnName="Include_UIP_PlayBack__ControlInfo_ControlName"/>
+		<Attribute BotType="UIP" AttributeName="LabeledBy" AdopterID="4" ColumnName="PlayBack__AdditionalInfo_WHLL_CURRENT_LABLE" IncludeColumnName="Include_PlayBack__AdditionalInfo_WHLL_CURRENT_LABLE"/>
+		<Attribute BotType="UIP" AttributeName="PARENT_automationid" AdopterID="1" ColumnName="PlayBack__AdditionalInfo_UIA_PARENT_AUTOMATIONID" IncludeColumnName="Include_PlayBack__AdditionalInfo_UIA_PARENT_AUTOMATIONID"/>
+		<Attribute BotType="UIP" AttributeName="parentid" AdopterID="3|12" ColumnName="PlayBack__AdditionalInfo_Web_AncestorID" IncludeColumnName="Include_PlayBack__AdditionalInfo_Web_AncestorID"/>
+		<Attribute BotType="UIP" AttributeName="PARENT_CONTROL_TYPE" AdopterID="2" ColumnName="PlayBack__AdditionalInfo_ACTUAL_PARENT_CONTROL_TYPE" IncludeColumnName="Include_PlayBack__AdditionalInfo_ACTUAL_PARENT_CONTROL_TYPE"/>
+		<Attribute BotType="UIP" AttributeName="PARENT name" AdopterID="1" ColumnName="UIP_PlayBack__AdditionalInfo_UIA_PARENT_NAME" IncludeColumnName="Include_UIP_PlayBack__AdditionalInfo_UIA_PARENT_NAME"/>
+		<Attribute BotType="UIP" AttributeName="role" AdopterID="1" ColumnName="UIP_PlayBack__AdditionalInfo_UIA_LOCALIZED_CONTROL_TYPE" IncludeColumnName="Include_UIP_PlayBack__AdditionalInfo_UIA_LOCALIZED_CONTROL_TYPE"/>
+		<Attribute BotType="UIP" AttributeName="role_PARENT_LOCALIZED_CONTROL_TYPE" AdopterID="1" ColumnName="UIP_PlayBack__AdditionalInfo_UIA_PARENT_LOCALIZED_CONTROL_TYPE" IncludeColumnName="Include_UIP_PlayBack__AdditionalInfo_UIA_PARENT_LOCALIZED_CONTROL_TYPE"/>
+		<Attribute BotType="UIP" AttributeName="title2" AdopterID="1|6|9|12" ColumnName="UIP_PlayBack__AppInfo_DialogName" IncludeColumnName="Include_UIP_PlayBack__AppInfo_DialogName"/>
+		<Attribute BotType="UIP" AttributeName="UIA_NAME" AdopterID="1" ColumnName="UIP_PlayBack__AdditionalInfo_UIA_NAME" IncludeColumnName="Include_UIP_PlayBack__AdditionalInfo_UIA_NAME"/>
+		<Attribute BotType="UIP" AttributeName="value" AdopterID="3" ColumnName="UIP_PlayBack__AdditionalInfo_Web_Value" IncludeColumnName="Include_UIP_PlayBack__AdditionalInfo_Web_Value"/>
+		<Attribute BotType="UIP" AttributeName="Web_class" AdopterID="12" ColumnName="PlayBack__AdditionalInfo_Web_ClassName" IncludeColumnName="Include_PlayBack__AdditionalInfo_Web_ClassName"/>
+		<!--UIP Attibutes Ends-->
+		<!--BP Attibutes Starts-->
+		<Attribute BotType="BP" AttributeName="BP_IEControlTitle" AdopterID="1|3|12" ColumnName="BP_PlayBack__ControlInfo_IEControlTitle" IncludeColumnName="Include_BP_PlayBack__ControlInfo_IEControlTitle"/>
+		<Attribute BotType="BP" AttributeName="BP_PARENT_NAME" AdopterID="1|3|12" ColumnName="BP_PlayBack__AdditionalInfo_UIA_PARENT_NAME" IncludeColumnName="Include_BP_PlayBack__AdditionalInfo_UIA_PARENT_NAME"/>
+		<Attribute BotType="BP" AttributeName="BP_UIA_NAME" AdopterID="1|3|12" ColumnName="BP_PlayBack__AdditionalInfo_UIA_NAME" IncludeColumnName="Include_BP_PlayBack__AdditionalInfo_UIA_NAME"/>
+		<Attribute BotType="BP" AttributeName="BP_Web_AncestorCount" AdopterID="1|3|12" ColumnName="BP_PlayBack__AdditionalInfo_Web_AncestorCount" IncludeColumnName="Include_BP_PlayBack__AdditionalInfo_Web_AncestorCount"/>
+		<Attribute BotType="BP" AttributeName="BP_Web_IFrameFullXPath" AdopterID="1|3|12" ColumnName="BP_PlayBack__AdditionalInfo_Web_IFrameFullXPath" IncludeColumnName="Include_BP_PlayBack__AdditionalInfo_Web_IFrameFullXPath"/>
+		<Attribute BotType="BP" AttributeName="BP_Web_Name" AdopterID="1|3|12" ColumnName="BP_PlayBack__AdditionalInfo_Web_Name" IncludeColumnName="Include_BP_PlayBack__AdditionalInfo_Web_Name"/>
+		<Attribute BotType="BP" AttributeName="BP_Web_Type" AdopterID="1|3|12" ColumnName="BP_PlayBack__AdditionalInfo_Web_Type" IncludeColumnName="Include_BP_PlayBack__AdditionalInfo_Web_Type"/>
+		<Attribute BotType="BP" AttributeName="BP_Web_Value" AdopterID="1|3|12" ColumnName="BP_PlayBack__AdditionalInfo_Web_Value" IncludeColumnName="Include_BP_PlayBack__AdditionalInfo_Web_Value"/>
+		<Attribute BotType="BP" AttributeName="ChildCount" AdopterID="2" ColumnName="PlayBack__AdditionalInfo_JAVA_CHILDCOUNT" IncludeColumnName="Include_PlayBack__AdditionalInfo_JAVA_CHILDCOUNT"/>
+		<Attribute BotType="BP" AttributeName="ClassName" AdopterID="1" ColumnName="BP_PlayBack__AdditionalInfo_UIA_FOREGROUND_WINDOW_TYPE" IncludeColumnName="Include_BP_PlayBack__AdditionalInfo_UIA_FOREGROUND_WINDOW_TYPE"/>
+		<Attribute BotType="BP" AttributeName="ControlClassName" AdopterID="1|3|12" ColumnName="BP_PlayBack__ControlInfo_IEControlClassName" IncludeColumnName="Include_BP_PlayBack__ControlInfo_IEControlClassName"/>
+		<Attribute BotType="BP" AttributeName="EndX" AdopterID="4" ColumnName="PlayBack__AdditionalInfo_WHLL_ENDY" IncludeColumnName="Include_PlayBack__AdditionalInfo_WHLL_ENDY"/>
+		<Attribute BotType="BP" AttributeName="EndY" AdopterID="4" ColumnName="PlayBack__AdditionalInfo_WHLL_ENDX" IncludeColumnName="Include_PlayBack__AdditionalInfo_WHLL_ENDX"/>
+		<Attribute BotType="BP" AttributeName="puClassName" AdopterID="1" ColumnName="BP_PlayBack__AdditionalInfo_UIA_PARENT_CLASSNAME" IncludeColumnName="Include_BP_PlayBack__AdditionalInfo_UIA_PARENT_CLASSNAME"/>
+		<Attribute BotType="BP" AttributeName="puLocalizedControlType" AdopterID="1" ColumnName="BP_PlayBack__AdditionalInfo_UIA_PARENT_LOCALIZED_CONTROL_TYPE" IncludeColumnName="Include_BP_PlayBack__AdditionalInfo_UIA_PARENT_LOCALIZED_CONTROL_TYPE"/>
+		<Attribute BotType="BP" AttributeName="Ordinal" AdopterID="2" ColumnName="PlayBack__AdditionalInfo_JAVA_INDEXINPARENT" IncludeColumnName="Include_PlayBack__AdditionalInfo_JAVA_INDEXINPARENT"/>
+		<Attribute BotType="BP" AttributeName="uAccessKey" AdopterID="1" ColumnName="BP_PlayBack__AdditionalInfo_UIA_ACCESSKEY" IncludeColumnName="Include_BP_PlayBack__AdditionalInfo_UIA_ACCESSKEY"/>
+		<Attribute BotType="BP" AttributeName="uAutomationId" AdopterID="1" ColumnName="BP_PlayBack__AdditionalInfo_UIA_AUTOMATIONID" IncludeColumnName="Include_BP_PlayBack__AdditionalInfo_UIA_AUTOMATIONID"/>
+		<Attribute BotType="BP" AttributeName="uClassName" AdopterID="1" ColumnName="BP_PlayBack__AdditionalInfo_UIA_CLASSNAME" IncludeColumnName="Include_BP_PlayBack__AdditionalInfo_UIA_CLASSNAME"/>
+		<Attribute BotType="BP" AttributeName="uLocalizedControlType" AdopterID="1" ColumnName="BP_PlayBack__AdditionalInfo_UIA_LOCALIZED_CONTROL_TYPE" IncludeColumnName="Include_BP_PlayBack__AdditionalInfo_UIA_LOCALIZED_CONTROL_TYPE"/>
+		<Attribute BotType="BP" AttributeName="uName" AdopterID="1" ColumnName="BP_PlayBack__ControlInfo_ControlName" IncludeColumnName="Include_BP_PlayBack__ControlInfo_ControlName"/>
+		<Attribute BotType="BP" AttributeName="wId" AdopterID="12" ColumnName="BP_PlayBack__AdditionalInfo_Web_ID" IncludeColumnName="Include_BP_PlayBack__AdditionalInfo_Web_ID"/>
+		<Attribute BotType="BP" AttributeName="WindowText" AdopterID="1|12" ColumnName="BP_PlayBack__AppInfo_DialogName" IncludeColumnName="Include_BP_PlayBack__AppInfo_DialogName"/>
+		<!--BP Attibutes Ends-->
+		<!--Genie Attibutes Starts-->
+		<Attribute BotType="Genie" AttributeName="ParentInfo_ParentRoleId" AdopterID="2" ColumnName="PlayBack__ParentInfo_ParentRoleId" IncludeColumnName="Include_PlayBack__ParentInfo_ParentRoleId"/>
+		<Attribute BotType="Genie" AttributeName="RelativeCSSPath" AdopterID="1|3|12" ColumnName="PlayBack__ControlInfo_RelativeCSSPath" IncludeColumnName="Include_PlayBack__ControlInfo_RelativeCSSPath"/>
+		<!--Genie Attibutes Ends-->
+	</AttributeList>
+	<GlobalConditions>
+		<Attribute AttributeName="Delay" ColumnName="Delay" IncludeColumnName="Include_Delay" DefaultValue="500"/>
+		<Attribute AttributeName="Visible" ColumnName="Pre_Condition_Control_visible" IncludeColumnName="Include_Pre_Condition_Control_visible" DefaultValue="No"/>
+		<!--<Attribute AttributeName="Control_Enable" ColumnName="Pre_Condition_Control_enable" IncludeColumnName="Include_Pre_Condition_Control_enable" DefaultValue="No"/>-->
+		<Attribute AttributeName="WaitforIteration" ColumnName="WaitforIteration" IncludeColumnName="Include_WaitforIteration" DefaultValue="No"/>
+		<!-- <Attribute AttributeName="Exception" ColumnName="Exception" IncludeColumnName="Include_Exception" DefaultValue=""></Attribute>
+      <Attribute AttributeName="Data_Validation" ColumnName="Data_Validation" IncludeColumnName="Include_Data_Validation" DefaultValue="">
+	  </Attribute> -->
+	</GlobalConditions>
+	<GlobalSettings>
+		<ConditionFor>
+			<Condition>Application</Condition>
+			<Condition>Application2</Condition>
+		</ConditionFor>
+		<OperatorList>
+			<operator>Equal</operator>
+			<operator>Equal1</operator>
+		</OperatorList>
+		<ApplyFor>
+			<AppliedFor>Screen Name</AppliedFor>
+			<AppliedFor>Screen Name2</AppliedFor>
+		</ApplyFor>
+	</GlobalSettings>
+</BotTemplateUI>
+
+
+
+

@@ -1,0 +1,782 @@
+2023-10-10 09:20:23.426 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-10-10 09:20:23.434 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-10 09:20:23.435 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-10 09:20:23.448 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-10 09:20:23.449 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-10 09:20:23.449 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-10 09:20:23.450 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-10 09:20:23.450 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-10 09:20:23.451 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-10 09:20:23.451 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-10 09:20:23.452 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-10 09:20:23.452 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-10 09:20:23.452 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-10 09:20:23.453 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-10 09:20:23.453 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-10 09:20:23.454 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-10 09:20:23.454 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-10-10 09:20:25.120 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-10-10 09:20:25.121 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-10 09:20:25.121 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-10 09:20:25.121 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-10 09:20:25.122 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-10 09:20:25.122 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-10 09:20:25.122 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-10 09:20:25.122 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-10 09:20:25.122 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-10 09:20:25.123 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-10 09:20:25.123 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-10 09:20:25.123 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-10 09:20:25.123 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-10 09:20:25.124 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-10 09:20:25.124 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-10 09:20:25.124 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-10 09:20:25.124 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-10-10 09:20:25.293 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-10-10 09:20:25.294 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-10-10 09:20:25.338 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-10-10 09:20:25.396 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-10-10 09:20:25.397 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-10-10 09:20:25.398 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File check started...
+2023-10-10 09:20:25.566 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(s-d) Sheet Step validation started...
+2023-10-10 09:20:25.578 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 09:20:25.578 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(s-d) Sheet Step validation Ended
+2023-10-10 09:20:25.578 [main] INFO  utils.ExecutionUtils - Change annotation type Sheet Step validation started...
+2023-10-10 09:20:25.582 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 09:20:25.582 [main] INFO  utils.ExecutionUtils - Change annotation type Sheet Step validation Ended
+2023-10-10 09:20:25.582 [main] INFO  utils.ExecutionUtils - Sync annotation txt(prp-call) Sheet Step validation started...
+2023-10-10 09:20:25.586 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 09:20:25.586 [main] INFO  utils.ExecutionUtils - Sync annotation txt(prp-call) Sheet Step validation Ended
+2023-10-10 09:20:25.586 [main] INFO  utils.ExecutionUtils - Sync annotation txt(call-prp) Sheet Step validation started...
+2023-10-10 09:20:25.589 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 09:20:25.589 [main] INFO  utils.ExecutionUtils - Sync annotation txt(call-prp) Sheet Step validation Ended
+2023-10-10 09:20:25.589 [main] INFO  utils.ExecutionUtils - Apply_callouts_settings Sheet Step validation started...
+2023-10-10 09:20:25.591 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 09:20:25.592 [main] INFO  utils.ExecutionUtils - Apply_callouts_settings Sheet Step validation Ended
+2023-10-10 09:20:25.592 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(d-s) Sheet Step validation started...
+2023-10-10 09:20:25.595 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 09:20:25.595 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(d-s) Sheet Step validation Ended
+2023-10-10 09:20:25.595 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File Check ended
+2023-10-10 09:20:25.596 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-10-10 09:20:25.596 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-10-10 09:20:25.917 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 09:20:28.676 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 09:22:07.265 [main] ERROR actions.ElementFinder - CHECKBOX - 31 not found within 30 s
+2023-10-10 09:23:24.999 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 09:23:27.385 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 09:24:46.467 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 09:24:48.806 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 09:26:11.054 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 09:26:13.409 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 09:27:32.898 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 09:27:35.243 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 09:28:51.380 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 09:28:53.714 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 09:30:44.824 [main] ERROR actions.ElementFinder - CHECKBOX - 31 not found within 30 s
+2023-10-10 09:33:19.249 [main] ERROR actions.ElementFinder - CHECKBOX - 31 not found within 30 s
+2023-10-10 09:33:24.019 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-10-10 09:33:24.019 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-10-10 09:33:24.019 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-10-10 09:33:24.019 [main] INFO  core.Application - closeAllApps is started...
+2023-10-10 09:33:26.262 [main] INFO  core.Application - closeAllApps is completed...
+2023-10-10 09:33:26.262 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-10-10 09:52:17.359 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-10-10 09:52:17.363 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-10 09:52:17.363 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-10 09:52:17.369 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-10 09:52:17.370 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-10 09:52:17.370 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-10 09:52:17.370 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-10 09:52:17.371 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-10 09:52:17.371 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-10 09:52:17.371 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-10 09:52:17.371 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-10 09:52:17.371 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-10 09:52:17.372 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-10 09:52:17.372 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-10 09:52:17.372 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-10 09:52:17.372 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-10 09:52:17.372 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-10-10 09:52:18.993 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-10-10 09:52:18.993 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-10 09:52:18.993 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-10 09:52:18.994 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-10 09:52:18.994 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-10 09:52:18.994 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-10 09:52:18.994 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-10 09:52:18.995 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-10 09:52:18.995 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-10 09:52:18.995 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-10 09:52:18.996 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-10 09:52:18.996 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-10 09:52:18.996 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-10 09:52:18.996 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-10 09:52:18.996 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-10 09:52:18.997 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-10 09:52:18.997 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-10-10 09:52:19.126 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-10-10 09:52:19.127 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-10-10 09:52:19.201 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-10-10 09:52:19.277 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-10-10 09:52:19.283 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-10-10 09:52:19.286 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File check started...
+2023-10-10 09:52:19.762 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(s-d) Sheet Step validation started...
+2023-10-10 09:52:19.795 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 09:52:19.796 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(s-d) Sheet Step validation Ended
+2023-10-10 09:52:19.801 [main] INFO  utils.ExecutionUtils - Change annotation type Sheet Step validation started...
+2023-10-10 09:52:19.814 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 09:52:19.819 [main] INFO  utils.ExecutionUtils - Change annotation type Sheet Step validation Ended
+2023-10-10 09:52:19.819 [main] INFO  utils.ExecutionUtils - Sync annotation txt(prp-call) Sheet Step validation started...
+2023-10-10 09:52:19.828 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 09:52:19.830 [main] INFO  utils.ExecutionUtils - Sync annotation txt(prp-call) Sheet Step validation Ended
+2023-10-10 09:52:19.830 [main] INFO  utils.ExecutionUtils - Sync annotation txt(call-prp) Sheet Step validation started...
+2023-10-10 09:52:19.840 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 09:52:19.841 [main] INFO  utils.ExecutionUtils - Sync annotation txt(call-prp) Sheet Step validation Ended
+2023-10-10 09:52:19.842 [main] INFO  utils.ExecutionUtils - Apply_callouts_settings Sheet Step validation started...
+2023-10-10 09:52:19.843 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 09:52:19.844 [main] INFO  utils.ExecutionUtils - Apply_callouts_settings Sheet Step validation Ended
+2023-10-10 09:52:19.845 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(d-s) Sheet Step validation started...
+2023-10-10 09:52:19.848 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 09:52:19.848 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(d-s) Sheet Step validation Ended
+2023-10-10 09:52:19.848 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File Check ended
+2023-10-10 09:52:19.848 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-10-10 09:52:19.850 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-10-10 09:52:20.177 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 09:52:22.972 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 09:53:58.353 [main] ERROR actions.ElementFinder - CHECKBOX - 31 not found within 30 s
+2023-10-10 09:55:12.935 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 09:55:15.236 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 09:56:30.559 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 09:56:32.916 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 09:57:43.340 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 09:57:45.712 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 09:58:53.152 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 09:58:55.476 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 09:59:59.087 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 10:00:01.396 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 10:01:34.024 [main] ERROR actions.ElementFinder - CHECKBOX - 31 not found within 30 s
+2023-10-10 10:03:43.728 [main] ERROR actions.ElementFinder - CHECKBOX - 31 not found within 30 s
+2023-10-10 10:03:47.730 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-10-10 10:03:47.730 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-10-10 10:03:47.730 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-10-10 10:03:47.730 [main] INFO  core.Application - closeAllApps is started...
+2023-10-10 10:03:49.988 [main] INFO  core.Application - closeAllApps is completed...
+2023-10-10 10:03:49.988 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-10-10 10:38:09.254 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-10-10 10:38:09.260 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-10 10:38:09.261 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-10 10:38:09.270 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-10 10:38:09.271 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-10 10:38:09.271 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-10 10:38:09.271 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-10 10:38:09.271 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-10 10:38:09.272 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-10 10:38:09.272 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-10 10:38:09.272 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-10 10:38:09.272 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-10 10:38:09.272 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-10 10:38:09.272 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-10 10:38:09.273 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-10 10:38:09.273 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-10 10:38:09.273 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-10-10 10:38:10.846 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-10-10 10:38:10.846 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-10 10:38:10.846 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-10 10:38:10.847 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-10 10:38:10.847 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-10 10:38:10.847 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-10 10:38:10.847 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-10 10:38:10.848 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-10 10:38:10.849 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-10 10:38:10.849 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-10 10:38:10.849 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-10 10:38:10.849 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-10 10:38:10.849 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-10 10:38:10.849 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-10 10:38:10.849 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-10 10:38:10.850 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-10 10:38:10.850 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-10-10 10:38:10.991 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-10-10 10:38:10.991 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-10-10 10:38:11.041 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-10-10 10:38:11.099 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-10-10 10:38:11.099 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-10-10 10:38:11.101 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File check started...
+2023-10-10 10:38:11.249 [main] INFO  utils.ExecutionUtils - Apply ctlregion color thickness Sheet Step validation started...
+2023-10-10 10:38:11.261 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.262 [main] INFO  utils.ExecutionUtils - Apply ctlregion color thickness Sheet Step validation Ended
+2023-10-10 10:38:11.262 [main] INFO  utils.ExecutionUtils - special_settings Sheet Step validation started...
+2023-10-10 10:38:11.267 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.267 [main] INFO  utils.ExecutionUtils - special_settings Sheet Step validation Ended
+2023-10-10 10:38:11.267 [main] INFO  utils.ExecutionUtils - Update font Sheet Step validation started...
+2023-10-10 10:38:11.272 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.272 [main] INFO  utils.ExecutionUtils - Update font Sheet Step validation Ended
+2023-10-10 10:38:11.272 [main] INFO  utils.ExecutionUtils - Document_exclusion_filter Sheet Step validation started...
+2023-10-10 10:38:11.278 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.278 [main] INFO  utils.ExecutionUtils - Document_exclusion_filter Sheet Step validation Ended
+2023-10-10 10:38:11.278 [main] INFO  utils.ExecutionUtils - Crop region_specfd_height_len Sheet Step validation started...
+2023-10-10 10:38:11.282 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.282 [main] INFO  utils.ExecutionUtils - Crop region_specfd_height_len Sheet Step validation Ended
+2023-10-10 10:38:11.282 [main] INFO  utils.ExecutionUtils - Document_img_preferance Sheet Step validation started...
+2023-10-10 10:38:11.284 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.284 [main] INFO  utils.ExecutionUtils - Document_img_preferance Sheet Step validation Ended
+2023-10-10 10:38:11.284 [main] INFO  utils.ExecutionUtils - Manage_audio_remove_All Sheet Step validation started...
+2023-10-10 10:38:11.287 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.287 [main] INFO  utils.ExecutionUtils - Manage_audio_remove_All Sheet Step validation Ended
+2023-10-10 10:38:11.288 [main] INFO  utils.ExecutionUtils - Manage_Step_audio-tts Sheet Step validation started...
+2023-10-10 10:38:11.289 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.289 [main] INFO  utils.ExecutionUtils - Manage_Step_audio-tts Sheet Step validation Ended
+2023-10-10 10:38:11.290 [main] INFO  utils.ExecutionUtils - Manage audio_override_stepaudio Sheet Step validation started...
+2023-10-10 10:38:11.291 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.291 [main] INFO  utils.ExecutionUtils - Manage audio_override_stepaudio Sheet Step validation Ended
+2023-10-10 10:38:11.292 [main] INFO  utils.ExecutionUtils - Manage_stepaudio_settings Sheet Step validation started...
+2023-10-10 10:38:11.294 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.294 [main] INFO  utils.ExecutionUtils - Manage_stepaudio_settings Sheet Step validation Ended
+2023-10-10 10:38:11.294 [main] INFO  utils.ExecutionUtils - Remove_all_crop_regions Sheet Step validation started...
+2023-10-10 10:38:11.296 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.296 [main] INFO  utils.ExecutionUtils - Remove_all_crop_regions Sheet Step validation Ended
+2023-10-10 10:38:11.296 [main] INFO  utils.ExecutionUtils - Cropregion_active-dialogs Sheet Step validation started...
+2023-10-10 10:38:11.297 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.297 [main] INFO  utils.ExecutionUtils - Cropregion_active-dialogs Sheet Step validation Ended
+2023-10-10 10:38:11.298 [main] INFO  utils.ExecutionUtils - Delete auto generated callouts Sheet Step validation started...
+2023-10-10 10:38:11.299 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.299 [main] INFO  utils.ExecutionUtils - Delete auto generated callouts Sheet Step validation Ended
+2023-10-10 10:38:11.299 [main] INFO  utils.ExecutionUtils - Generate callouts or stickynote Sheet Step validation started...
+2023-10-10 10:38:11.303 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.304 [main] INFO  utils.ExecutionUtils - Generate callouts or stickynote Sheet Step validation Ended
+2023-10-10 10:38:11.304 [main] INFO  utils.ExecutionUtils - Add audio to callouts Sheet Step validation started...
+2023-10-10 10:38:11.306 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.308 [main] INFO  utils.ExecutionUtils - Add audio to callouts Sheet Step validation Ended
+2023-10-10 10:38:11.309 [main] INFO  utils.ExecutionUtils - Delete audio from the callouts Sheet Step validation started...
+2023-10-10 10:38:11.311 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.312 [main] INFO  utils.ExecutionUtils - Delete audio from the callouts Sheet Step validation Ended
+2023-10-10 10:38:11.312 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(s-d) Sheet Step validation started...
+2023-10-10 10:38:11.316 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.316 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(s-d) Sheet Step validation Ended
+2023-10-10 10:38:11.316 [main] INFO  utils.ExecutionUtils - Change annotation type Sheet Step validation started...
+2023-10-10 10:38:11.318 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.318 [main] INFO  utils.ExecutionUtils - Change annotation type Sheet Step validation Ended
+2023-10-10 10:38:11.320 [main] INFO  utils.ExecutionUtils - Sync annotation txt(prp-call) Sheet Step validation started...
+2023-10-10 10:38:11.321 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.322 [main] INFO  utils.ExecutionUtils - Sync annotation txt(prp-call) Sheet Step validation Ended
+2023-10-10 10:38:11.322 [main] INFO  utils.ExecutionUtils - Sync annotation txt(call-prp) Sheet Step validation started...
+2023-10-10 10:38:11.323 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.323 [main] INFO  utils.ExecutionUtils - Sync annotation txt(call-prp) Sheet Step validation Ended
+2023-10-10 10:38:11.323 [main] INFO  utils.ExecutionUtils - Apply_callouts_settings Sheet Step validation started...
+2023-10-10 10:38:11.324 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.325 [main] INFO  utils.ExecutionUtils - Apply_callouts_settings Sheet Step validation Ended
+2023-10-10 10:38:11.325 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(d-s) Sheet Step validation started...
+2023-10-10 10:38:11.327 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.328 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(d-s) Sheet Step validation Ended
+2023-10-10 10:38:11.328 [main] INFO  utils.ExecutionUtils - Apply New sen_selected Steps Sheet Step validation started...
+2023-10-10 10:38:11.329 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.331 [main] INFO  utils.ExecutionUtils - Apply New sen_selected Steps Sheet Step validation Ended
+2023-10-10 10:38:11.332 [main] INFO  utils.ExecutionUtils - Apply New sen_All Steps Sheet Step validation started...
+2023-10-10 10:38:11.334 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 10:38:11.334 [main] INFO  utils.ExecutionUtils - Apply New sen_All Steps Sheet Step validation Ended
+2023-10-10 10:38:11.334 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File Check ended
+2023-10-10 10:38:11.335 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-10-10 10:38:11.336 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-10-10 10:38:11.661 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 10:38:14.336 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 10:40:10.435 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 10:40:12.759 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 10:41:24.213 [main] ERROR actions.ElementFinder - LISTITEM - Arial Rounded MT not found within 30 s
+2023-10-10 10:42:10.116 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 10:42:12.42023-10-10 15:05:20.506 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-10-10 15:05:20.509 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-10 15:05:20.509 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-10 15:05:20.516 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-10 15:05:20.516 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-10 15:05:20.517 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-10 15:05:20.517 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-10 15:05:20.518 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-10 15:05:20.518 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-10 15:05:20.518 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-10 15:05:20.518 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-10 15:05:20.518 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-10 15:05:20.519 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-10 15:05:20.519 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-10 15:05:20.519 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-10 15:05:20.519 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-10 15:05:20.519 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-10-10 15:05:22.218 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-10-10 15:05:22.218 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-10 15:05:22.218 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-10 15:05:22.218 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-10 15:05:22.219 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-10 15:05:22.219 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-10 15:05:22.219 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-10 15:05:22.219 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-10 15:05:22.219 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-10 15:05:22.219 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-10 15:05:22.220 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-10 15:05:22.220 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-10 15:05:22.220 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-10 15:05:22.220 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-10 15:05:22.220 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-10 15:05:22.220 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-10 15:05:22.221 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-10-10 15:05:22.347 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-10-10 15:05:22.347 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-10-10 15:05:22.375 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-10-10 15:05:22.437 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-10-10 15:05:22.438 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-10-10 15:05:22.439 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File check started...
+2023-10-10 15:05:22.579 [main] INFO  utils.ExecutionUtils - Delete auto generated callouts Sheet Step validation started...
+2023-10-10 15:05:22.588 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 15:05:22.588 [main] INFO  utils.ExecutionUtils - Delete auto generated callouts Sheet Step validation Ended
+2023-10-10 15:05:22.588 [main] INFO  utils.ExecutionUtils - Generate callouts or stickynote Sheet Step validation started...
+2023-10-10 15:05:22.592 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 15:05:22.592 [main] INFO  utils.ExecutionUtils - Generate callouts or stickynote Sheet Step validation Ended
+2023-10-10 15:05:22.592 [main] INFO  utils.ExecutionUtils - Add audio to callouts Sheet Step validation started...
+2023-10-10 15:05:22.596 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 15:05:22.596 [main] INFO  utils.ExecutionUtils - Add audio to callouts Sheet Step validation Ended
+2023-10-10 15:05:22.596 [main] INFO  utils.ExecutionUtils - Delete audio from the callouts Sheet Step validation started...
+2023-10-10 15:05:22.598 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 15:05:22.599 [main] INFO  utils.ExecutionUtils - Delete audio from the callouts Sheet Step validation Ended
+2023-10-10 15:05:22.599 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File Check ended
+2023-10-10 15:05:22.599 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-10-10 15:05:22.600 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-10-10 15:05:22.914 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 15:05:26.362 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 15:06:34.281 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 15:06:36.656 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 15:07:48.292 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 15:07:50.620 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 15:09:01.287 [main] ERROR actions.ElementFinder - BUTTON - Save not found within 30 s
+2023-10-10 15:09:34.676 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 15:09:37.004 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 15:10:43.609 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-10-10 15:10:43.609 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-10-10 15:10:43.609 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-10-10 15:10:43.609 [main] INFO  core.Application - closeAllApps is started...
+2023-10-10 15:10:45.796 [main] INFO  core.Application - closeAllApps is completed...
+2023-10-10 15:10:45.796 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-10-10 15:29:45.600 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-10-10 15:29:45.609 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-10 15:29:45.610 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-10 15:29:45.621 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-10 15:29:45.621 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-10 15:29:45.622 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-10 15:29:45.622 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-10 15:29:45.622 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-10 15:29:45.623 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-10 15:29:45.623 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-10 15:29:45.623 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-10 15:29:45.623 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-10 15:29:45.624 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-10 15:29:45.624 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-10 15:29:45.624 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-10 15:29:45.624 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-10 15:29:45.625 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-10-10 15:29:47.095 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-10-10 15:29:47.096 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-10 15:29:47.096 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-10 15:29:47.096 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-10 15:29:47.097 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-10 15:29:47.097 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-10 15:29:47.097 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-10 15:29:47.097 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-10 15:29:47.097 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-10 15:29:47.097 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-10 15:29:47.098 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-10 15:29:47.098 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-10 15:29:47.098 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-10 15:29:47.098 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-10 15:29:47.098 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-10 15:29:47.098 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-10 15:29:47.098 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-10-10 15:29:47.218 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-10-10 15:29:47.218 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-10-10 15:29:47.263 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-10-10 15:29:47.307 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-10-10 15:29:47.307 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-10-10 15:29:47.309 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File check started...
+2023-10-10 15:29:47.460 [main] INFO  utils.ExecutionUtils - Delete auto generated callouts Sheet Step validation started...
+2023-10-10 15:29:47.519 [main] INFO  utils.ExecutionUtils - Delete auto generated callouts Sheet Step validation Ended
+2023-10-10 15:29:47.519 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File Check ended
+2023-10-10 15:29:47.520 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-10-10 15:29:47.520 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-10-10 15:29:47.843 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 15:29:50.558 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 15:30:59.259 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-10-10 15:30:59.259 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-10-10 15:30:59.259 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-10-10 15:30:59.259 [main] INFO  core.Application - closeAllApps is started...
+2023-10-10 15:31:00.399 [main] INFO  core.Application - closeAllApps is completed...
+2023-10-10 15:31:00.399 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-10-10 15:55:20.804 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-10-10 15:55:20.815 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-10 15:55:20.816 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-10 15:55:20.832 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-10 15:55:20.833 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-10 15:55:20.834 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-10 15:55:20.834 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-10 15:55:20.835 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-10 15:55:20.835 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-10 15:55:20.836 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-10 15:55:20.837 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-10 15:55:20.838 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-10 15:55:20.839 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-10 15:55:20.839 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-10 15:55:20.840 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-10 15:55:20.840 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-10 15:55:20.841 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-10-10 15:55:22.357 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-10-10 15:55:22.358 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-10 15:55:22.358 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-10 15:55:22.358 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-10 15:55:22.359 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-10 15:55:22.359 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-10 15:55:22.359 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-10 15:55:22.359 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-10 15:55:22.359 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-10 15:55:22.359 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-10 15:55:22.360 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-10 15:55:22.360 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-10 15:55:22.360 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-10 15:55:22.360 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-10 15:55:22.360 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-10 15:55:22.360 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-10 15:55:22.360 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-10-10 15:55:22.499 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-10-10 15:55:22.500 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-10-10 15:55:22.541 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-10-10 15:55:22.602 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-10-10 15:55:22.602 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-10-10 15:55:22.604 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File check started...
+2023-10-10 15:55:22.751 [main] INFO  utils.ExecutionUtils - Delete auto generated callouts Sheet Step validation started...
+2023-10-10 15:55:22.760 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 15:55:22.760 [main] INFO  utils.ExecutionUtils - Delete auto generated callouts Sheet Step validation Ended
+2023-10-10 15:55:22.760 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File Check ended
+2023-10-10 15:55:22.760 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-10-10 15:55:22.761 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-10-10 15:55:23.073 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 15:55:25.837 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 15:56:37.289 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-10-10 15:56:37.289 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-10-10 15:56:37.289 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-10-10 15:56:37.289 [main] INFO  core.Application - closeAllApps is started...
+2023-10-10 15:56:39.480 [main] INFO  core.Application - closeAllApps is completed...
+2023-10-10 15:56:39.480 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-10-10 15:58:50.475 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-10-10 15:58:50.486 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-10 15:58:50.487 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-10 15:58:50.498 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-10 15:58:50.498 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-10 15:58:50.499 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-10 15:58:50.499 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-10 15:58:50.499 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-10 15:58:50.499 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-10 15:58:50.500 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-10 15:58:50.500 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-10 15:58:50.500 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-10 15:58:50.501 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-10 15:58:50.501 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-10 15:58:50.501 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-10 15:58:50.501 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-10 15:58:50.502 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-10-10 15:58:52.014 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-10-10 15:58:52.015 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-10 15:58:52.015 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-10 15:58:52.015 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-10 15:58:52.016 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-10 15:58:52.016 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-10 15:58:52.016 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-10 15:58:52.016 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-10 15:58:52.016 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-10 15:58:52.017 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-10 15:58:52.017 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-10 15:58:52.017 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-10 15:58:52.017 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-10 15:58:52.017 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-10 15:58:52.017 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-10 15:58:52.018 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-10 15:58:52.018 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-10-10 15:58:52.141 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-10-10 15:58:52.142 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-10-10 15:58:52.181 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-10-10 15:58:52.224 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-10-10 15:58:52.224 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-10-10 15:58:52.226 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File check started...
+2023-10-10 15:58:52.382 [main] INFO  utils.ExecutionUtils - Apply ctlregion color thickness Sheet Step validation started...
+2023-10-10 15:58:52.442 [main] INFO  utils.ExecutionUtils - Apply ctlregion color thickness Sheet Step validation Ended
+2023-10-10 15:58:52.443 [main] INFO  utils.ExecutionUtils - special_settings Sheet Step validation started...
+2023-10-10 15:58:52.468 [main] INFO  utils.ExecutionUtils - special_settings Sheet Step validation Ended
+2023-10-10 15:58:52.469 [main] INFO  utils.ExecutionUtils - Update font Sheet Step validation started...
+2023-10-10 15:58:52.491 [main] INFO  utils.ExecutionUtils - Update font Sheet Step validation Ended
+2023-10-10 15:58:52.491 [main] INFO  utils.ExecutionUtils - Document_exclusion_filter Sheet Step validation started...
+2023-10-10 15:58:52.514 [main] INFO  utils.ExecutionUtils - Document_exclusion_filter Sheet Step validation Ended
+2023-10-10 15:58:52.514 [main] INFO  utils.ExecutionUtils - Crop region_specfd_height_len Sheet Step validation started...
+2023-10-10 15:58:52.535 [main] INFO  utils.ExecutionUtils - Crop region_specfd_height_len Sheet Step validation Ended
+2023-10-10 15:58:52.536 [main] INFO  utils.ExecutionUtils - Document_img_preferance Sheet Step validation started...
+2023-10-10 15:58:52.556 [main] INFO  utils.ExecutionUtils - Document_img_preferance Sheet Step validation Ended
+2023-10-10 15:58:52.557 [main] INFO  utils.ExecutionUtils - Manage_audio_remove_All Sheet Step validation started...
+2023-10-10 15:58:52.576 [main] INFO  utils.ExecutionUtils - Manage_audio_remove_All Sheet Step validation Ended
+2023-10-10 15:58:52.577 [main] INFO  utils.ExecutionUtils - Manage_Step_audio-tts Sheet Step validation started...
+2023-10-10 15:58:52.598 [main] INFO  utils.ExecutionUtils - Manage_Step_audio-tts Sheet Step validation Ended
+2023-10-10 15:58:52.598 [main] INFO  utils.ExecutionUtils - Manage audio_override_stepaudio Sheet Step validation started...
+2023-10-10 15:58:52.616 [main] INFO  utils.ExecutionUtils - Manage audio_override_stepaudio Sheet Step validation Ended
+2023-10-10 15:58:52.616 [main] INFO  utils.ExecutionUtils - Manage_stepaudio_settings Sheet Step validation started...
+2023-10-10 15:58:52.637 [main] INFO  utils.ExecutionUtils - Manage_stepaudio_settings Sheet Step validation Ended
+2023-10-10 15:58:52.637 [main] INFO  utils.ExecutionUtils - Remove_all_crop_regions Sheet Step validation started...
+2023-10-10 15:58:52.655 [main] INFO  utils.ExecutionUtils - Remove_all_crop_regions Sheet Step validation Ended
+2023-10-10 15:58:52.655 [main] INFO  utils.ExecutionUtils - Cropregion_active-dialogs Sheet Step validation started...
+2023-10-10 15:58:52.674 [main] INFO  utils.ExecutionUtils - Cropregion_active-dialogs Sheet Step validation Ended
+2023-10-10 15:58:52.674 [main] INFO  utils.ExecutionUtils - Delete auto generated callouts Sheet Step validation started...
+2023-10-10 15:58:52.692 [main] INFO  utils.ExecutionUtils - Delete auto generated callouts Sheet Step validation Ended
+2023-10-10 15:58:52.693 [main] INFO  utils.ExecutionUtils - Generate callouts or stickynote Sheet Step validation started...
+2023-10-10 15:58:52.711 [main] INFO  utils.ExecutionUtils - Generate callouts or stickynote Sheet Step validation Ended
+2023-10-10 15:58:52.711 [main] INFO  utils.ExecutionUtils - Add audio to callouts Sheet Step validation started...
+2023-10-10 15:58:52.729 [main] INFO  utils.ExecutionUtils - Add audio to callouts Sheet Step validation Ended
+2023-10-10 15:58:52.729 [main] INFO  utils.ExecutionUtils - Delete audio from the callouts Sheet Step validation started...
+2023-10-10 15:58:52.749 [main] INFO  utils.ExecutionUtils - Delete audio from the callouts Sheet Step validation Ended
+2023-10-10 15:58:52.750 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(s-d) Sheet Step validation started...
+2023-10-10 15:58:52.768 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(s-d) Sheet Step validation Ended
+2023-10-10 15:58:52.768 [main] INFO  utils.ExecutionUtils - Change annotation type Sheet Step validation started...
+2023-10-10 15:58:52.787 [main] INFO  utils.ExecutionUtils - Change annotation type Sheet Step validation Ended
+2023-10-10 15:58:52.787 [main] INFO  utils.ExecutionUtils - Sync annotation txt(prp-call) Sheet Step validation started...
+2023-10-10 15:58:52.806 [main] INFO  utils.ExecutionUtils - Sync annotation txt(prp-call) Sheet Step validation Ended
+2023-10-10 15:58:52.806 [main] INFO  utils.ExecutionUtils - Sync annotation txt(call-prp) Sheet Step validation started...
+2023-10-10 15:58:52.824 [main] INFO  utils.ExecutionUtils - Sync annotation txt(call-prp) Sheet Step validation Ended
+2023-10-10 15:58:52.824 [main] INFO  utils.ExecutionUtils - Apply_callouts_settings Sheet Step validation started...
+2023-10-10 15:58:52.842 [main] INFO  utils.ExecutionUtils - Apply_callouts_settings Sheet Step validation Ended
+2023-10-10 15:58:52.842 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(d-s) Sheet Step validation started...
+2023-10-10 15:58:52.860 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(d-s) Sheet Step validation Ended
+2023-10-10 15:58:52.860 [main] INFO  utils.ExecutionUtils - Apply New sen_selected Steps Sheet Step validation started...
+2023-10-10 15:58:52.878 [main] INFO  utils.ExecutionUtils - Apply New sen_selected Steps Sheet Step validation Ended
+2023-10-10 15:58:52.878 [main] INFO  utils.ExecutionUtils - Apply New sen_All Steps Sheet Step validation started...
+2023-10-10 15:58:52.896 [main] INFO  utils.ExecutionUtils - Apply New sen_All Steps Sheet Step validation Ended
+2023-10-10 15:58:52.896 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File Check ended
+2023-10-10 15:58:52.897 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-10-10 15:58:52.897 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-10-10 15:58:53.210 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 15:58:55.839 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:00:22.419 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:00:24.731 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:01:36.915 [main] ERROR actions.ElementFinder - LISTITEM - Arial Rounded MT not found within 30 s
+2023-10-10 16:02:20.397 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:02:22.694 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:03:42.425 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:03:44.706 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:05:17.561 [main] ERROR actions.ElementFinder - BUTTON - Save not found within 30 s
+2023-10-10 16:05:22.592 [main] ERROR actions.ElementFinder - BUTTON - Save not found within 5 s
+2023-10-10 16:05:27.904 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:05:30.216 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:06:51.651 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:06:53.960 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:08:02.735 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:08:05.028 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:09:09.229 [main] ERROR actions.ElementFinder - BUTTON - Save not found within 30 s
+2023-10-10 16:09:14.288 [main] ERROR actions.ElementFinder - BUTTON - Save not found within 5 s
+2023-10-10 16:09:19.583 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:09:21.908 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:10:37.607 [main] ERROR actions.ElementFinder - BUTTON - Save not found within 30 s
+2023-10-10 16:10:42.662 [main] ERROR actions.ElementFinder - BUTTON - Save not found within 5 s
+2023-10-10 16:10:48.254 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:10:50.594 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:12:03.276 [main] ERROR actions.ElementFinder - BUTTON - Save not found within 30 s
+2023-10-10 16:12:08.330 [main] ERROR actions.ElementFinder - BUTTON - Save not found within 5 s
+2023-10-10 16:12:13.860 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:12:16.185 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:13:32.474 [main] ERROR actions.ElementFinder - BUTTON - Save not found within 30 s
+2023-10-10 16:13:37.549 [main] ERROR actions.ElementFinder - BUTTON - Save not found within 5 s
+2023-10-10 16:13:42.859 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:13:45.184 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:14:51.718 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:14:54.058 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:16:03.835 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:16:06.160 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:17:13.743 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:17:16.067 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:18:27.904 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:18:30.244 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:20:14.565 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:20:16.890 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:21:51.376 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:21:53.701 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:23:24.240 [main] ERROR actions.ElementFinder - CHECKBOX - 31 not found within 30 s
+2023-10-10 16:24:37.034 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:24:39.384 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:25:48.416 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:25:50.756 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:27:02.953 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:27:05.293 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:28:41.739 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:28:44.001 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:29:48.884 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:29:51.238 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 16:31:25.573 [main] ERROR actions.ElementFinder - CHECKBOX - 31 not found within 30 s
+2023-10-10 16:33:35.656 [main] ERROR actions.ElementFinder - CHECKBOX - 31 not found within 30 s
+2023-10-10 16:33:39.500 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 16:33:41.794 2023-10-10 18:05:46.030 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-10-10 18:05:46.040 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-10 18:05:46.041 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-10 18:05:46.054 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-10 18:05:46.055 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-10 18:05:46.055 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-10 18:05:46.056 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-10 18:05:46.056 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-10 18:05:46.056 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-10 18:05:46.056 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-10 18:05:46.057 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-10 18:05:46.057 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-10 18:05:46.057 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-10 18:05:46.057 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-10 18:05:46.058 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-10 18:05:46.058 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-10 18:05:46.058 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-10-10 18:05:47.562 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-10-10 18:05:47.563 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-10 18:05:47.563 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-10 18:05:47.563 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-10 18:05:47.563 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-10 18:05:47.563 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-10 18:05:47.564 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-10 18:05:47.564 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-10 18:05:47.564 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-10 18:05:47.564 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-10 18:05:47.564 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-10 18:05:47.564 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-10 18:05:47.564 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-10 18:05:47.565 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-10 18:05:47.565 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-10 18:05:47.565 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-10 18:05:47.565 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-10-10 18:05:47.686 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-10-10 18:05:47.686 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-10-10 18:05:47.723 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-10-10 18:05:47.782 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-10-10 18:05:47.782 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-10-10 18:05:47.784 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File check started...
+2023-10-10 18:05:47.931 [main] INFO  utils.ExecutionUtils - Manage_audio_remove_All Sheet Step validation started...
+2023-10-10 18:05:47.937 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 18:05:47.937 [main] INFO  utils.ExecutionUtils - Manage_audio_remove_All Sheet Step validation Ended
+2023-10-10 18:05:47.937 [main] INFO  utils.ExecutionUtils - Manage_Step_audio-tts Sheet Step validation started...
+2023-10-10 18:05:47.940 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 18:05:47.940 [main] INFO  utils.ExecutionUtils - Manage_Step_audio-tts Sheet Step validation Ended
+2023-10-10 18:05:47.940 [main] INFO  utils.ExecutionUtils - Manage audio_override_stepaudio Sheet Step validation started...
+2023-10-10 18:05:47.943 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 18:05:47.943 [main] INFO  utils.ExecutionUtils - Manage audio_override_stepaudio Sheet Step validation Ended
+2023-10-10 18:05:47.944 [main] INFO  utils.ExecutionUtils - Manage_stepaudio_settings Sheet Step validation started...
+2023-10-10 18:05:47.948 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 18:05:47.948 [main] INFO  utils.ExecutionUtils - Manage_stepaudio_settings Sheet Step validation Ended
+2023-10-10 18:05:47.948 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File Check ended
+2023-10-10 18:05:47.949 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-10-10 18:05:47.950 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-10-10 18:05:48.273 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 18:05:51.030 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 18:07:03.169 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 18:07:05.523 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 18:08:17.524 [main] ERROR actions.ElementFinder - BUTTON - Save not found within 30 s
+2023-10-10 18:08:52.727 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 18:08:55.107 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 18:10:10.008 [main] ERROR actions.ElementFinder - BUTTON - Save not found within 30 s
+2023-10-10 18:10:43.423 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 18:10:45.810 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 18:12:35.789 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-10-10 18:12:35.789 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-10-10 18:12:35.789 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-10-10 18:12:35.789 [main] INFO  core.Application - closeAllApps is started...
+2023-10-10 18:12:37.993 [main] INFO  core.Application - closeAllApps is completed...
+2023-10-10 18:12:37.993 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-10-10 18:16:52.989 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-10-10 18:16:52.994 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-10 18:16:52.994 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-10 18:16:53.001 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-10 18:16:53.002 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-10 18:16:53.002 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-10 18:16:53.002 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-10 18:16:53.003 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-10 18:16:53.003 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-10 18:16:53.003 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-10 18:16:53.003 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-10 18:16:53.004 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-10 18:16:53.004 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-10 18:16:53.004 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-10 18:16:53.004 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-10 18:16:53.005 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-10 18:16:53.005 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-10-10 18:16:54.538 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-10-10 18:16:54.539 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-10 18:16:54.539 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-10 18:16:54.539 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-10 18:16:54.540 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-10 18:16:54.540 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-10 18:16:54.540 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-10 18:16:54.540 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-10 18:16:54.541 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-10 18:16:54.541 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-10 18:16:54.541 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-10 18:16:54.541 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-10 18:16:54.541 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-10 18:16:54.541 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-10 18:16:54.541 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-10 18:16:54.542 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-10 18:16:54.542 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-10-10 18:16:54.676 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-10-10 18:16:54.676 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-10-10 18:16:54.715 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-10-10 18:16:54.753 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-10-10 18:16:54.753 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-10-10 18:16:54.755 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File check started...
+2023-10-10 18:16:54.896 [main] INFO  utils.ExecutionUtils - Delete audio from the callouts Sheet Step validation started...
+2023-10-10 18:16:54.910 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 18:16:54.910 [main] INFO  utils.ExecutionUtils - Delete audio from the callouts Sheet Step validation Ended
+2023-10-10 18:16:54.910 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(s-d) Sheet Step validation started...
+2023-10-10 18:16:54.915 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 18:16:54.915 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(s-d) Sheet Step validation Ended
+2023-10-10 18:16:54.915 [main] INFO  utils.ExecutionUtils - Change annotation type Sheet Step validation started...
+2023-10-10 18:16:54.918 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 18:16:54.918 [main] INFO  utils.ExecutionUtils - Change annotation type Sheet Step validation Ended
+2023-10-10 18:16:54.919 [main] INFO  utils.ExecutionUtils - Sync annotation txt(prp-call) Sheet Step validation started...
+2023-10-10 18:16:54.921 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 18:16:54.921 [main] INFO  utils.ExecutionUtils - Sync annotation txt(prp-call) Sheet Step validation Ended
+2023-10-10 18:16:54.921 [main] INFO  utils.ExecutionUtils - Sync annotation txt(call-prp) Sheet Step validation started...
+2023-10-10 18:16:54.924 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 18:16:54.924 [main] INFO  utils.ExecutionUtils - Sync annotation txt(call-prp) Sheet Step validation Ended
+2023-10-10 18:16:54.924 [main] INFO  utils.ExecutionUtils - Apply_callouts_settings Sheet Step validation started...
+2023-10-10 18:16:54.925 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 18:16:54.926 [main] INFO  utils.ExecutionUtils - Apply_callouts_settings Sheet Step validation Ended
+2023-10-10 18:16:54.926 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(d-s) Sheet Step validation started...
+2023-10-10 18:16:54.929 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 18:16:54.930 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(d-s) Sheet Step validation Ended
+2023-10-10 18:16:54.930 [main] INFO  utils.ExecutionUtils - Apply New sen_selected Steps Sheet Step validation started...
+2023-10-10 18:16:54.932 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 18:16:54.932 [main] INFO  utils.ExecutionUtils - Apply New sen_selected Steps Sheet Step validation Ended
+2023-10-10 18:16:54.932 [main] INFO  utils.ExecutionUtils - Apply New sen_All Steps Sheet Step validation started...
+2023-10-10 18:16:54.934 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-10 18:16:54.935 [main] INFO  utils.ExecutionUtils - Apply New sen_All Steps Sheet Step validation Ended
+2023-10-10 18:16:54.935 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File Check ended
+2023-10-10 18:16:54.935 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-10-10 18:16:54.936 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-10-10 18:16:55.251 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 18:16:57.867 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 18:18:07.214 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 18:18:09.538 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 18:19:43.721 [main] ERROR actions.ElementFinder - CHECKBOX - 31 not found within 30 s
+2023-10-10 18:20:27.291 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 18:20:29.600 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 18:21:40.199 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 18:21:42.542 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 18:22:58.471 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 18:23:00.817 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 18:24:12.694 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 18:24:15.081 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 18:25:23.866 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 18:25:26.252 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 18:27:02.068 [main] ERROR actions.ElementFinder - CHECKBOX - 31 not found within 30 s
+2023-10-10 18:29:14.535 [main] ERROR actions.ElementFinder - CHECKBOX - 31 not found within 30 s
+2023-10-10 18:29:18.417 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 18:29:20.774 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 18:30:21.282 [main] ERROR actions.ElementFinder - CHECKBOX - Default Sentence not found within 30 s
+2023-10-10 18:31:32.264 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-10 18:31:34.667 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-10 18:32:34.608 [main] ERROR actions.ElementFinder - CHECKBOX - Default Sentence not found within 30 s
+2023-10-10 18:33:54.980 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-10-10 18:33:54.980 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-10-10 18:33:54.980 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-10-10 18:33:54.980 [main] INFO  core.Application - closeAllApps is started...
+2023-10-10 18:33:57.238 [main] INFO  core.Application - closeAllApps is completed...
+2023-10-10 18:33:57.238 [main] INFO  actions.TestcaseExecutor - Close all Application completed.

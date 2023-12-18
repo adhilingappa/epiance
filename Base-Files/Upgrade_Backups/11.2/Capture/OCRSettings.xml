@@ -1,0 +1,106 @@
+<OCRCNNSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EngineSetting Default="Tesseract">
+    <Engine Name="Microsoft">
+      <Connection>
+        <Key />
+        <EndPoint />
+        <Version>vision/v2.1/ocr</Version>
+      </Connection>
+    </Engine>
+    <Engine Name="Google">
+      <Connection>
+        <CredentialsFile />
+        <FilterOption>LINE</FilterOption>
+      </Connection>
+    </Engine>
+    <Engine Name="Amazon">
+      <Connection>
+        <FilterOption>LINE</FilterOption>
+        <SecretKey />
+        <AccessKeyID />
+        <RegionEndPoint>us-east-1</RegionEndPoint>
+      </Connection>
+    </Engine>
+    <Engine Name="Tesseract">
+      <AlternateEngine Enable="0" Name="Google" Percentage="65" />
+    </Engine>
+  </EngineSetting>
+  <GlobalOCRSettings>
+    <ECSPath>OCR\English</ECSPath>
+    <IgnoreList />
+    <EngineMode>2</EngineMode>
+    <Language>eng</Language>
+    <ImageMatchRatio>90</ImageMatchRatio>
+    <ImageMatchRatioForDPIDiff>75</ImageMatchRatioForDPIDiff>
+    <ZoomFactor>400</ZoomFactor>
+    <OverrideZFBasedOnDPI>0</OverrideZFBasedOnDPI>
+    <ZoomFactorFor_125>200</ZoomFactorFor_125>
+    <ZoomFactorFor_150>100</ZoomFactorFor_150>
+    <ZoomFactorFor_175>100</ZoomFactorFor_175>
+    <ContourZoomFactor>200</ContourZoomFactor>
+    <WhiteList>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</WhiteList>
+    <LogPath />
+    <OCROutputPath />
+    <InvertAbove>0</InvertAbove>
+    <ContourRectangleBorderWidth>1</ContourRectangleBorderWidth>
+    <ApplySmoothness>False</ApplySmoothness>
+    <IsCaseSensitive>False</IsCaseSensitive>
+    <SaveImage>True</SaveImage>
+    <InterpolationType>4</InterpolationType>
+    <AllowedList />
+    <PixelJump>15</PixelJump>
+    <MinControlWidth>60</MinControlWidth>
+    <MinControlHieght>20</MinControlHieght>
+    <BGColor>0, 0, 0</BGColor>
+    <SKIPColor>255, 255, 255</SKIPColor>
+    <PageSegMode>11</PageSegMode>
+    <MaxHorizontalDistance>500</MaxHorizontalDistance>
+    <MaxVerticalDistance>50</MaxVerticalDistance>
+  </GlobalOCRSettings>
+  <CustomOCRSettings>
+    <OCRSettings Id="default" Name="default" ModuleName="SIM">
+      <ZoomFactor>200</ZoomFactor>
+      <OverrideZFBasedOnDPI>1</OverrideZFBasedOnDPI>
+    </OCRSettings>
+    <OCRSettings Id="ADSDefault" Name="ADSDefault" ModuleName="ADS">
+      <ImageMatchRatio>95</ImageMatchRatio>
+      <ZoomFactor>200</ZoomFactor>
+      <OverrideZFBasedOnDPI>1</OverrideZFBasedOnDPI>
+      <LogPath>C:\Users\Public\Documents\Epiplex500\Repository\Logs\OCREngine.html</LogPath>
+    </OCRSettings>
+  </CustomOCRSettings>
+  <ContourSettings>
+    <Scale>1</Scale>
+    <Canny_threshold1>100</Canny_threshold1>
+    <Canny_threshold2>100</Canny_threshold2>
+    <ApproxPolyDP_epsilon_multiplier>0.03</ApproxPolyDP_epsilon_multiplier>
+    <InterpolationType>4</InterpolationType>
+    <ContoursRetrType>1</ContoursRetrType>
+    <ContoursChainApproxMethod>2</ContoursChainApproxMethod>
+    <FilterLessWidthPx>12</FilterLessWidthPx>
+    <FilterLessHeightPx>12</FilterLessHeightPx>
+    <IsNeedFilterBySize>1</IsNeedFilterBySize>
+    <FilterColLessWidthPx>20</FilterColLessWidthPx>
+    <FilterColLessHeightPx>10</FilterColLessHeightPx>
+    <GridDetectSettings>
+      <GapMinHorizontalInCells>0</GapMinHorizontalInCells>
+      <GapMaxHorizontalInCells>3</GapMaxHorizontalInCells>
+      <GapMinVerticalInCells>0</GapMinVerticalInCells>
+      <GapMaxVerticalInCells>3</GapMaxVerticalInCells>
+      <GapMaxHorizontalInFocusedCells>5</GapMaxHorizontalInFocusedCells>
+      <GapMaxVerticalInFocusedCells>5</GapMaxVerticalInFocusedCells>
+      <IsExcelApp>excel.exe|</IsExcelApp>
+    </GridDetectSettings>
+    <TextDetectSettings>
+      <GapMinHorizontalInCells>0</GapMinHorizontalInCells>
+      <GapMaxHorizontalInCells>3</GapMaxHorizontalInCells>
+      <GapMinVerticalInCells>0</GapMinVerticalInCells>
+      <GapMaxVerticalInCells>3</GapMaxVerticalInCells>
+      <GapMaxHorizontalInFocusedCells>3</GapMaxHorizontalInFocusedCells>
+      <GapMaxVerticalInFocusedCells>3</GapMaxVerticalInFocusedCells>
+    </TextDetectSettings>
+  </ContourSettings>
+  <MasklibSettings>
+    <ComparePrevImgData>0</ComparePrevImgData>
+  </MasklibSettings>
+</OCRCNNSettings>

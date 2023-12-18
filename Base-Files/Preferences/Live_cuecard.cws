@@ -1,0 +1,11 @@
+<CuecardWiz Name="Current" Shared="1" ReadOnly="0">
+	<IncludeInfoSteps>1</IncludeInfoSteps>
+	<InfoStepBeNumbered>0</InfoStepBeNumbered>
+	<IncludeSystemOutcomes>1</IncludeSystemOutcomes>
+	<TemplateFileName>IDTCuecard.htm</TemplateFileName>
+	<LaunchCuecard>0</LaunchCuecard>
+	<UseEpssCuecardSens>1</UseEpssCuecardSens>
+	<ExcludeAllFlaggedSteps>1</ExcludeAllFlaggedSteps>
+	<LiveCuecard>1</LiveCuecard>
+	<StaticCuecard>0</StaticCuecard>
+</CuecardWiz>

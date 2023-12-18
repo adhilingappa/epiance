@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><NewCapturePreference>
+    <HomeCaptureSettings AudioVideoSelection="1" CaptureAudio="1" FullScreenMode="3" HotKeyAudioVideo="F2" HotKeyValidation="" HotKeyException="" HotKeyNarration="" SentenceStructure="1" SentenceFormat="1" UseControlImg_Uncheck="1" ApplyAliasName="1" ApplicationFilterInclude="1" ApplicationFilterApps="explorer.exe" Organization="" CopyRight="" PropertiesWhileSave="1" SensDataMaskRuleImg="0" TaxonomyAddToNextStepsOnly="0" UIACaptureEnabled="0" NLPEnabled="1"/>
+    <ProcessEditor HideNoiseStep="1" ShowHideKeyStepGrid="0" ShowHideAdditionalGrid="1" BorderColor="#FFFF0000" BorderThickness="2" BorderShow="1" ShowMousePointer="1" ShowNavigationData="1"/>
+</NewCapturePreference>

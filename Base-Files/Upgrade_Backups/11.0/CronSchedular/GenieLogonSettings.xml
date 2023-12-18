@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GenieLogonServiceSettings>
+	<ServiceEnabled>1</ServiceEnabled>
+	<SystemMonitorTimerInterval>0:0:30</SystemMonitorTimerInterval>	
+	<SchedulesDownload>		
+		<Enabled>1</Enabled>
+		<TimerInterval>4:0:0</TimerInterval>
+	</SchedulesDownload>
+	<LogonExpert>		
+		<Path>C:\Program Files\Softros Systems\LogonExpert</Path>
+		<Mode>1</Mode>
+	</LogonExpert>
+	<DefaultDomain></DefaultDomain>
+	<LogonBeforeInterval>0:7:0</LogonBeforeInterval>
+	<LogonAfterInterval>0:7:0</LogonAfterInterval>	
+</GenieLogonServiceSettings>

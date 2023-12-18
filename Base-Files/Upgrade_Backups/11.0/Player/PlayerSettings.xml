@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PlayerSettings>
+  <PlayerProcess MaxProcessPoolSize="5" />
+  <RemoteAPI Enabled="0" Address="net.tcp://localhost" />
+  <Debug DisplayErrorMessageBox="true" />
+  <UI ShowDashBoard="True" ShowTrayIcon="True" />
+  <HotkeyShortcuts>
+    <!--(Modifyier key code combinations)=> Alt=1  Ctrl=2  Shift=4  Window=8 -->
+    <!--(Player Codes)=> Play=0  Resume=1 Pause=2 Stop=3 -->
+    <HotKey keycode="82" modifiercode="6" action="1">Resume(Ctrl+Shift+R)</HotKey>
+    <HotKey keycode="80" modifiercode="6" action="2">Pause(Ctrl+Shift+P)</HotKey>
+    <HotKey keycode="83" modifiercode="6" action="3">Stop(Ctrl+Shift+S)</HotKey>
+  </HotkeyShortcuts>
+  <ProjectHotKeyShortCuts>
+    <!--<HotKey keycode="112" modifiercode="6" action="0" project="notepad.epp">Play(Ctrl+Shift+F1)</HotKey>-->
+  </ProjectHotKeyShortCuts>
+  <PlayerBootStrapper StartWithoutServerConnection="true" ScheduleDownloadTimeout="100" ConnectionTimeout="100">
+    <StartUpRules activeruleid="1" />
+    <!-- 		<Rule id="1" description="Start program let user to decide continuation"/>
+		<Rule id="2" description="Terminate program by showing message"/>
+		<Rule id="3" description=""/>
+ -->
+  </PlayerBootStrapper>
+  <Prompt status="true"></Prompt>
+  <UpdateHeartBeat minutes="30"></UpdateHeartBeat>
+  <SecurityProtocolType Protocol="3072"></SecurityProtocolType>
+  <!-- Ssl3 = 48,Tls = 192, Tls11 = 768,Tls12 = 3072-->   
+  <Authentication Protocol="3072"></Authentication>
+ <!-- None = 0,Ssl2 = 12,Ssl3 = 48,Tls = 192,Default = 240, Tls11 = 768,Tls12 = 3072-->
+  
+</PlayerSettings>

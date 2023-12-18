@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Root destination path is epiplex settings path -->
+<!-- FileType="*" : for any other than xml files 
+	FileType="XML" : for xml files
+-->
+<CaptureSettingsFiles xmlns:urn="http://www.epiplex500.com">
+	<!-- <File FileType="XML"> -->
+		<!-- <Name>CaptureSettings.xml</Name> -->
+		<!-- <DestinationPath>Capture</DestinationPath> -->
+	<!-- </File> -->
+</CaptureSettingsFiles>

@@ -1,0 +1,37 @@
+<VTGUISettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UISettings>
+    <AudioProperties AudioExtract="1" />
+    <RemoveExtraSteps Enable="1" />
+    <ShowRemoveExtraStepCheckBox Enable="0" />
+  </UISettings>
+  <ImageOperationSettings>
+    <CursorContour Enable="0" />
+    <Logs Enable="0" />
+    <Debug Enable="0" />
+    <SimilarityPercentage Value="75" />
+  </ImageOperationSettings>
+  <IgnoreControlsSettings>
+    <Templates ReferenceImageName="PassPortSeva.png">
+      <ExcludeRegions>
+        <ExcludeRegion LeftTopRightBottom="179,288,440,738" />
+        <ExcludeRegion LeftTopRightBottom="" />
+        <ExcludeRegion LeftTopRightBottom="180,262,1173,291" />
+      </ExcludeRegions>
+    </Templates>
+    <Templates ReferenceImageName="NpPageSetup.png">
+      <ExcludeRegions>
+        <ExcludeRegion LeftTopRightBottom="367,92,531,342" />
+      </ExcludeRegions>
+    </Templates>
+    <Templates ReferenceImageName="NpFont.png">
+      <ExcludeRegions>
+        <ExcludeRegion LeftTopRightBottom="232,366,440,438" />
+      </ExcludeRegions>
+    </Templates>
+    <Templates ReferenceImageName="WordFont.png">
+      <ExcludeRegions>
+        <ExcludeRegion LeftTopRightBottom="534,514,909,588" />
+      </ExcludeRegions>
+    </Templates>
+  </IgnoreControlsSettings>
+</VTGUISettings>

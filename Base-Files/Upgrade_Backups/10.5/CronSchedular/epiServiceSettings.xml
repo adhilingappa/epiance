@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EpiServiceSettings>
+	<CheckTimerOnSeconds>30</CheckTimerOnSeconds>
+	<KeepSystemActiveBeforeSchdTimeInMin>7</KeepSystemActiveBeforeSchdTimeInMin>
+	<KeepSystemActiveAfterSchdTimeInMin>7</KeepSystemActiveAfterSchdTimeInMin>
+	<DisableUpdatedScheduleFromServer>false</DisableUpdatedScheduleFromServer>
+	<UpdatedPrimaryScheduleFromServerTimeInMins>240</UpdatedPrimaryScheduleFromServerTimeInMins>
+	<UpdatedScheduleFromServerTimeInHours>4</UpdatedScheduleFromServerTimeInHours>
+	<UnLockerAppPath>C:\Program Files\Softros Systems\LogonExpert</UnLockerAppPath>
+	<ServerQueriesRetryNumberOfTimes>3</ServerQueriesRetryNumberOfTimes>
+	<DefaultDomain></DefaultDomain>
+	<EnableAutoLogonFeature>0</EnableAutoLogonFeature>
+	<UseCommandLineMethod>1</UseCommandLineMethod>
+</EpiServiceSettings>

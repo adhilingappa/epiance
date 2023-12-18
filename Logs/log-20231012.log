@@ -1,0 +1,197 @@
+2023-10-12 09:35:08.585 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-10-12 09:35:08.585 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-12 09:35:08.585 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-12 09:35:08.599 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-12 09:35:08.599 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-12 09:35:08.599 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-12 09:35:08.599 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-12 09:35:08.599 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-12 09:35:08.599 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-12 09:35:08.599 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-12 09:35:08.599 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-12 09:35:08.599 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-12 09:35:08.599 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-12 09:35:08.599 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-12 09:35:08.599 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-12 09:35:08.599 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-12 09:35:08.599 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-10-12 09:35:10.475 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-10-12 09:35:10.475 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-12 09:35:10.475 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-12 09:35:10.475 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-12 09:35:10.475 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-12 09:35:10.475 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-12 09:35:10.475 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-12 09:35:10.475 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-12 09:35:10.475 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-12 09:35:10.475 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-12 09:35:10.475 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-12 09:35:10.475 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-12 09:35:10.475 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-12 09:35:10.475 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-12 09:35:10.475 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-12 09:35:10.475 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-12 09:35:10.475 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-10-12 09:35:10.648 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-10-12 09:35:10.648 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-10-12 09:35:10.679 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-10-12 09:35:10.742 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-10-12 09:35:10.742 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-10-12 09:35:10.742 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File check started...
+2023-10-12 09:35:10.889 [main] INFO  utils.ExecutionUtils - Apply ctlregion color thickness Sheet Step validation started...
+2023-10-12 09:35:10.898 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.898 [main] INFO  utils.ExecutionUtils - Apply ctlregion color thickness Sheet Step validation Ended
+2023-10-12 09:35:10.898 [main] INFO  utils.ExecutionUtils - special_settings Sheet Step validation started...
+2023-10-12 09:35:10.898 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.898 [main] INFO  utils.ExecutionUtils - special_settings Sheet Step validation Ended
+2023-10-12 09:35:10.898 [main] INFO  utils.ExecutionUtils - Update font Sheet Step validation started...
+2023-10-12 09:35:10.898 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.898 [main] INFO  utils.ExecutionUtils - Update font Sheet Step validation Ended
+2023-10-12 09:35:10.898 [main] INFO  utils.ExecutionUtils - Document_exclusion_filter Sheet Step validation started...
+2023-10-12 09:35:10.914 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.914 [main] INFO  utils.ExecutionUtils - Document_exclusion_filter Sheet Step validation Ended
+2023-10-12 09:35:10.914 [main] INFO  utils.ExecutionUtils - Crop region_specfd_height_len Sheet Step validation started...
+2023-10-12 09:35:10.914 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.914 [main] INFO  utils.ExecutionUtils - Crop region_specfd_height_len Sheet Step validation Ended
+2023-10-12 09:35:10.914 [main] INFO  utils.ExecutionUtils - Document_img_preferance Sheet Step validation started...
+2023-10-12 09:35:10.914 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.914 [main] INFO  utils.ExecutionUtils - Document_img_preferance Sheet Step validation Ended
+2023-10-12 09:35:10.914 [main] INFO  utils.ExecutionUtils - Manage_audio_remove_All Sheet Step validation started...
+2023-10-12 09:35:10.914 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.914 [main] INFO  utils.ExecutionUtils - Manage_audio_remove_All Sheet Step validation Ended
+2023-10-12 09:35:10.914 [main] INFO  utils.ExecutionUtils - Manage_Step_audio-tts Sheet Step validation started...
+2023-10-12 09:35:10.930 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.930 [main] INFO  utils.ExecutionUtils - Manage_Step_audio-tts Sheet Step validation Ended
+2023-10-12 09:35:10.930 [main] INFO  utils.ExecutionUtils - Manage audio_override_stepaudio Sheet Step validation started...
+2023-10-12 09:35:10.930 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.930 [main] INFO  utils.ExecutionUtils - Manage audio_override_stepaudio Sheet Step validation Ended
+2023-10-12 09:35:10.930 [main] INFO  utils.ExecutionUtils - Manage_stepaudio_settings Sheet Step validation started...
+2023-10-12 09:35:10.930 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.930 [main] INFO  utils.ExecutionUtils - Manage_stepaudio_settings Sheet Step validation Ended
+2023-10-12 09:35:10.930 [main] INFO  utils.ExecutionUtils - Remove_all_crop_regions Sheet Step validation started...
+2023-10-12 09:35:10.930 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.930 [main] INFO  utils.ExecutionUtils - Remove_all_crop_regions Sheet Step validation Ended
+2023-10-12 09:35:10.930 [main] INFO  utils.ExecutionUtils - Cropregion_active-dialogs Sheet Step validation started...
+2023-10-12 09:35:10.930 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.930 [main] INFO  utils.ExecutionUtils - Cropregion_active-dialogs Sheet Step validation Ended
+2023-10-12 09:35:10.930 [main] INFO  utils.ExecutionUtils - Delete auto generated callouts Sheet Step validation started...
+2023-10-12 09:35:10.930 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.930 [main] INFO  utils.ExecutionUtils - Delete auto generated callouts Sheet Step validation Ended
+2023-10-12 09:35:10.930 [main] INFO  utils.ExecutionUtils - Generate callouts or stickynote Sheet Step validation started...
+2023-10-12 09:35:10.930 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.930 [main] INFO  utils.ExecutionUtils - Generate callouts or stickynote Sheet Step validation Ended
+2023-10-12 09:35:10.930 [main] INFO  utils.ExecutionUtils - Add audio to callouts Sheet Step validation started...
+2023-10-12 09:35:10.930 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.930 [main] INFO  utils.ExecutionUtils - Add audio to callouts Sheet Step validation Ended
+2023-10-12 09:35:10.930 [main] INFO  utils.ExecutionUtils - Delete audio from the callouts Sheet Step validation started...
+2023-10-12 09:35:10.945 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.945 [main] INFO  utils.ExecutionUtils - Delete audio from the callouts Sheet Step validation Ended
+2023-10-12 09:35:10.945 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(s-d) Sheet Step validation started...
+2023-10-12 09:35:10.945 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.945 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(s-d) Sheet Step validation Ended
+2023-10-12 09:35:10.945 [main] INFO  utils.ExecutionUtils - Change annotation type Sheet Step validation started...
+2023-10-12 09:35:10.945 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.945 [main] INFO  utils.ExecutionUtils - Change annotation type Sheet Step validation Ended
+2023-10-12 09:35:10.945 [main] INFO  utils.ExecutionUtils - Sync annotation txt(prp-call) Sheet Step validation started...
+2023-10-12 09:35:10.945 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.961 [main] INFO  utils.ExecutionUtils - Sync annotation txt(prp-call) Sheet Step validation Ended
+2023-10-12 09:35:10.961 [main] INFO  utils.ExecutionUtils - Sync annotation txt(call-prp) Sheet Step validation started...
+2023-10-12 09:35:10.977 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.977 [main] INFO  utils.ExecutionUtils - Sync annotation txt(call-prp) Sheet Step validation Ended
+2023-10-12 09:35:10.977 [main] INFO  utils.ExecutionUtils - Apply_callouts_settings Sheet Step validation started...
+2023-10-12 09:35:10.977 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.977 [main] INFO  utils.ExecutionUtils - Apply_callouts_settings Sheet Step validation Ended
+2023-10-12 09:35:10.977 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(d-s) Sheet Step validation started...
+2023-10-12 09:35:10.977 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.977 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(d-s) Sheet Step validation Ended
+2023-10-12 09:35:10.977 [main] INFO  utils.ExecutionUtils - Apply New sen_selected Steps Sheet Step validation started...
+2023-10-12 09:35:10.977 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.977 [main] INFO  utils.ExecutionUtils - Apply New sen_selected Steps Sheet Step validation Ended
+2023-10-12 09:35:10.977 [main] INFO  utils.ExecutionUtils - Apply New sen_All Steps Sheet Step validation started...
+2023-10-12 09:35:10.989 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls (The process cannot access the file because it is being used by another process)
+2023-10-12 09:35:10.989 [main] INFO  utils.ExecutionUtils - Apply New sen_All Steps Sheet Step validation Ended
+2023-10-12 09:35:10.989 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File Check ended
+2023-10-12 09:35:10.989 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-10-12 09:35:10.989 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-10-12 09:35:11.621 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-12 09:35:14.243 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-12 09:37:02.854 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-12 09:37:05.147 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launched
+2023-10-12 09:38:14.205 [main] ERROR actions.ElementFinder - LISTITEM - Arial Rounded MT not found within 30 s
+2023-10-12 09:38:59.497 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is launching...
+2023-10-12 09:39:01.72023-10-12 11:19:15.371 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-10-12 11:19:15.382 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-12 11:19:15.383 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-12 11:19:15.400 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-12 11:19:15.402 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-12 11:19:15.402 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-12 11:19:15.403 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-12 11:19:15.403 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-12 11:19:15.404 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-12 11:19:15.404 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-12 11:19:15.405 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-12 11:19:15.405 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-12 11:19:15.405 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-12 11:19:15.406 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-12 11:19:15.406 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-12 11:19:15.406 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-12 11:19:15.406 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-10-12 11:19:17.036 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-10-12 11:19:17.036 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-10-12 11:19:17.036 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-10-12 11:19:17.037 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-10-12 11:19:17.037 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-10-12 11:19:17.037 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-10-12 11:19:17.037 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-10-12 11:19:17.037 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-10-12 11:19:17.038 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-10-12 11:19:17.038 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-10-12 11:19:17.038 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-10-12 11:19:17.038 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-10-12 11:19:17.038 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-10-12 11:19:17.038 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-10-12 11:19:17.038 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-10-12 11:19:17.038 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-10-12 11:19:17.039 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-10-12 11:19:17.156 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-10-12 11:19:17.156 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-10-12 11:19:17.192 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-10-12 11:19:17.249 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-10-12 11:19:17.249 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-10-12 11:19:17.251 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\PE.xls Excel File check started...
+2023-10-12 11:19:17.392 [main] INFO  utils.ExecutionUtils - Apply ctlregion color thickness Sheet Step validation started...
+2023-10-12 11:19:17.448 [main] INFO  utils.ExecutionUtils - Apply ctlregion color thickness Sheet Step validation Ended
+2023-10-12 11:19:17.449 [main] INFO  utils.ExecutionUtils - special_settings Sheet Step validation started...
+2023-10-12 11:19:17.472 [main] INFO  utils.ExecutionUtils - special_settings Sheet Step validation Ended
+2023-10-12 11:19:17.472 [main] INFO  utils.ExecutionUtils - Update font Sheet Step validation started...
+2023-10-12 11:19:17.495 [main] INFO  utils.ExecutionUtils - Update font Sheet Step validation Ended
+2023-10-12 11:19:17.495 [main] INFO  utils.ExecutionUtils - Document_exclusion_filter Sheet Step validation started...
+2023-10-12 11:19:17.521 [main] INFO  utils.ExecutionUtils - Document_exclusion_filter Sheet Step validation Ended
+2023-10-12 11:19:17.522 [main] INFO  utils.ExecutionUtils - Crop region_specfd_height_len Sheet Step validation started...
+2023-10-12 11:19:17.573 [main] INFO  utils.ExecutionUtils - Crop region_specfd_height_len Sheet Step validation Ended
+2023-10-12 11:19:17.574 [main] INFO  utils.ExecutionUtils - Document_img_preferance Sheet Step validation started...
+2023-10-12 11:19:17.599 [main] INFO  utils.ExecutionUtils - Document_img_preferance Sheet Step validation Ended
+2023-10-12 11:19:17.600 [main] INFO  utils.ExecutionUtils - Manage_audio_remove_All Sheet Step validation started...
+2023-10-12 11:19:17.621 [main] INFO  utils.ExecutionUtils - Manage_audio_remove_All Sheet Step validation Ended
+2023-10-12 11:19:17.621 [main] INFO  utils.ExecutionUtils - Manage_Step_audio-tts Sheet Step validation started...
+2023-10-12 11:19:17.640 [main] INFO  utils.ExecutionUtils - Manage_Step_audio-tts Sheet Step validation Ended
+2023-10-12 11:19:17.640 [main] INFO  utils.ExecutionUtils - Manage audio_override_stepaudio Sheet Step validation started...
+2023-10-12 11:19:17.657 [main] INFO  utils.ExecutionUtils - Manage audio_override_stepaudio Sheet Step validation Ended
+2023-10-12 11:19:17.658 [main] INFO  utils.ExecutionUtils - Manage_stepaudio_settings Sheet Step validation started...
+2023-10-12 11:19:17.675 [main] INFO  utils.ExecutionUtils - Manage_stepaudio_settings Sheet Step validation Ended
+2023-10-12 11:19:17.675 [main] INFO  utils.ExecutionUtils - Remove_all_crop_regions Sheet Step validation started...
+2023-10-12 11:19:17.692 [main] INFO  utils.ExecutionUtils - Remove_all_crop_regions Sheet Step validation Ended
+2023-10-12 11:19:17.692 [main] INFO  utils.ExecutionUtils - Cropregion_active-dialogs Sheet Step validation started...
+2023-10-12 11:19:17.710 [main] INFO  utils.ExecutionUtils - Cropregion_active-dialogs Sheet Step validation Ended
+2023-10-12 11:19:17.710 [main] INFO  utils.ExecutionUtils - Delete auto generated callouts Sheet Step validation started...
+2023-10-12 11:19:17.727 [main] INFO  utils.ExecutionUtils - Delete auto generated callouts Sheet Step validation Ended
+2023-10-12 11:19:17.727 [main] INFO  utils.ExecutionUtils - Generate callouts or stickynote Sheet Step validation started...
+2023-10-12 11:19:17.745 [main] INFO  utils.ExecutionUtils - Generate callouts or stickynote Sheet Step validation Ended
+2023-10-12 11:19:17.745 [main] INFO  utils.ExecutionUtils - Add audio to callouts Sheet Step validation started...
+2023-10-12 11:19:17.766 [main] INFO  utils.ExecutionUtils - Add audio to callouts Sheet Step validation Ended
+2023-10-12 11:19:17.766 [main] INFO  utils.ExecutionUtils - Delete audio from the callouts Sheet Step validation started...
+2023-10-12 11:19:17.784 [main] INFO  utils.ExecutionUtils - Delete audio from the callouts Sheet Step validation Ended
+2023-10-12 11:19:17.785 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(s-d) Sheet Step validation started...
+2023-10-12 11:19:17.801 [main] INFO  utils.ExecutionUtils - Copy Images & Annotations(s-d) Sheet Step validation Ended
+2023-10-12 11:19:17.801 [main] INFO  utils.ExecutionUtils - Change annotation type Sheet Step validation started...
+2023-10-12 11:19:17.819 [main] INFO  utils.ExecutionUtils - Change annotation type Shee

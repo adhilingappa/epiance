@@ -1,0 +1,417 @@
+2023-08-24 15:44:56.767 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-08-24 15:44:56.771 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-08-24 15:44:56.771 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-08-24 15:44:56.776 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-08-24 15:44:56.776 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-08-24 15:44:56.776 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-08-24 15:44:56.777 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-08-24 15:44:56.777 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-08-24 15:44:56.777 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-08-24 15:44:56.777 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-08-24 15:44:56.777 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-08-24 15:44:56.778 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-08-24 15:44:56.778 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-08-24 15:44:56.778 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-08-24 15:44:56.778 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-08-24 15:44:56.778 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-08-24 15:44:56.778 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-08-24 15:44:58.652 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-08-24 15:44:58.653 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-08-24 15:44:58.653 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-08-24 15:44:58.654 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-08-24 15:44:58.655 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-08-24 15:44:58.655 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-08-24 15:44:58.656 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-08-24 15:44:58.656 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-08-24 15:44:58.657 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-08-24 15:44:58.657 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-08-24 15:44:58.657 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-08-24 15:44:58.657 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-08-24 15:44:58.659 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-08-24 15:44:58.659 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-08-24 15:44:58.660 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-08-24 15:44:58.660 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-08-24 15:44:58.660 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-08-24 15:44:58.867 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-08-24 15:44:58.867 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-08-24 15:44:58.944 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-08-24 15:44:59.063 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-08-24 15:44:59.063 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-08-24 15:44:59.067 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\Captures.xls Excel File check started...
+2023-08-24 15:44:59.306 [main] INFO  utils.ExecutionUtils - Sheet2 Sheet Step validation started...
+2023-08-24 15:44:59.360 [main] INFO  utils.ExecutionUtils - Sheet2 Sheet Step validation Ended
+2023-08-24 15:44:59.361 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\Captures.xls Excel File Check ended
+2023-08-24 15:44:59.361 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-08-24 15:44:59.362 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-08-24 15:44:59.366 [main] INFO  epiplex.PerformanceUtils - open capture file EpiplexPerformanceTest from home initializing...
+2023-08-24 15:44:59.367 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiplex.exe is launching...
+2023-08-24 15:45:08.690 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiplex.exe is launched
+2023-08-24 15:47:42.845 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-08-24 15:47:42.856 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-08-24 15:47:42.856 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-08-24 15:47:42.876 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-08-24 15:47:42.877 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-08-24 15:47:42.877 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-08-24 15:47:42.878 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-08-24 15:47:42.878 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-08-24 15:47:42.878 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-08-24 15:47:42.878 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-08-24 15:47:42.879 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-08-24 15:47:42.879 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-08-24 15:47:42.879 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-08-24 15:47:42.879 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-08-24 15:47:42.880 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-08-24 15:47:42.880 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-08-24 15:47:42.880 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-08-24 15:47:44.350 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-08-24 15:47:44.351 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-08-24 15:47:44.351 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-08-24 15:47:44.351 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-08-24 15:47:44.351 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-08-24 15:47:44.352 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-08-24 15:47:44.352 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-08-24 15:47:44.352 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-08-24 15:47:44.352 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-08-24 15:47:44.352 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-08-24 15:47:44.352 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-08-24 15:47:44.352 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-08-24 15:47:44.353 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-08-24 15:47:44.353 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-08-24 15:47:44.353 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-08-24 15:47:44.353 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-08-24 15:47:44.353 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-08-24 15:47:44.492 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-08-24 15:47:44.493 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-08-24 15:47:44.530 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-08-24 15:47:44.583 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-08-24 15:47:44.584 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-08-24 15:47:44.586 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\Captures.xls Excel File check started...
+2023-08-24 15:47:44.724 [main] INFO  utils.ExecutionUtils - Sheet2 Sheet Step validation started...
+2023-08-24 15:47:44.766 [main] INFO  utils.ExecutionUtils - Sheet2 Sheet Step validation Ended
+2023-08-24 15:47:44.766 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\Captures.xls Excel File Check ended
+2023-08-24 15:47:44.766 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-08-24 15:47:44.767 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-08-24 15:47:45.081 [main] INFO  epiplex.PerformanceUtils - open capture file EpiplexPerformanceTest from home initializing...
+2023-08-24 15:47:45.082 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiplex.exe is launching...
+2023-08-24 15:47:55.451 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiplex.exe is launched
+2023-08-24 15:48:05.480 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-08-24 15:48:05.480 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-08-24 15:48:05.480 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-08-24 15:48:05.480 [main] INFO  core.Application - closeAllApps is started...
+2023-08-24 15:48:10.764 [main] INFO  core.Application - closeAllApps is completed...
+2023-08-24 15:48:10.765 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-08-24 15:59:27.887 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-08-24 15:59:27.898 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-08-24 15:59:27.899 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-08-24 15:59:27.907 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-08-24 15:59:27.908 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-08-24 15:59:27.908 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-08-24 15:59:27.908 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-08-24 15:59:27.908 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-08-24 15:59:27.909 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-08-24 15:59:27.909 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-08-24 15:59:27.909 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-08-24 15:59:27.909 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-08-24 15:59:27.909 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-08-24 15:59:27.910 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-08-24 15:59:27.910 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-08-24 15:59:27.910 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-08-24 15:59:27.910 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-08-24 15:59:29.351 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-08-24 15:59:29.351 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-08-24 15:59:29.351 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-08-24 15:59:29.352 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-08-24 15:59:29.352 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-08-24 15:59:29.352 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-08-24 15:59:29.352 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-08-24 15:59:29.352 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-08-24 15:59:29.353 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-08-24 15:59:29.353 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-08-24 15:59:29.353 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-08-24 15:59:29.353 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-08-24 15:59:29.353 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-08-24 15:59:29.353 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-08-24 15:59:29.354 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-08-24 15:59:29.354 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-08-24 15:59:29.354 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-08-24 15:59:29.467 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-08-24 15:59:29.468 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-08-24 15:59:29.504 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-08-24 15:59:29.551 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-08-24 15:59:29.551 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-08-24 15:59:29.554 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\Captures.xls Excel File check started...
+2023-08-24 15:59:29.697 [main] INFO  utils.ExecutionUtils - Sheet2 Sheet Step validation started...
+2023-08-24 15:59:29.734 [main] INFO  utils.ExecutionUtils - Sheet2 Sheet Step validation Ended
+2023-08-24 15:59:29.735 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\Captures.xls Excel File Check ended
+2023-08-24 15:59:29.735 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-08-24 15:59:29.736 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-08-24 15:59:30.058 [main] INFO  epiplex.PerformanceUtils - open capture file EpiplexPerformanceTest from home initializing...
+2023-08-24 15:59:30.059 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiplex.exe is launching...
+2023-08-24 15:59:41.696 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiplex.exe is launched
+2023-08-24 15:59:57.346 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 15:59:59.397 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 16:00:09.896 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 16:00:12.109 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 16:00:17.092 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 16:00:19.910 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 16:00:22.393 [main] INFO  epiplex.PerformanceUtils - open capture file EpiplexPerformanceTest from home completed
+2023-08-24 16:00:23.000 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-08-24 16:00:23.000 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-08-24 16:00:23.000 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-08-24 16:00:23.000 [main] INFO  core.Application - closeAllApps is started...
+2023-08-24 16:00:28.344 [main] INFO  core.Application - closeAllApps is completed...
+2023-08-24 16:00:28.344 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-08-24 16:52:43.368 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-08-24 16:52:43.373 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-08-24 16:52:43.373 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-08-24 16:52:43.378 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-08-24 16:52:43.378 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-08-24 16:52:43.379 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-08-24 16:52:43.379 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-08-24 16:52:43.379 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-08-24 16:52:43.379 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-08-24 16:52:43.379 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-08-24 16:52:43.380 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-08-24 16:52:43.380 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-08-24 16:52:43.380 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-08-24 16:52:43.380 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-08-24 16:52:43.381 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-08-24 16:52:43.381 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-08-24 16:52:43.381 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-08-24 16:52:45.322 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-08-24 16:52:45.323 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-08-24 16:52:45.323 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-08-24 16:52:45.324 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-08-24 16:52:45.324 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-08-24 16:52:45.324 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-08-24 16:52:45.326 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-08-24 16:52:45.327 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-08-24 16:52:45.327 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-08-24 16:52:45.328 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-08-24 16:52:45.328 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-08-24 16:52:45.328 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-08-24 16:52:45.329 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-08-24 16:52:45.331 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-08-24 16:52:45.333 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-08-24 16:52:45.334 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-08-24 16:52:45.334 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-08-24 16:52:45.652 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-08-24 16:52:45.652 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-08-24 16:52:45.718 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-08-24 16:52:45.801 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-08-24 16:52:45.802 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-08-24 16:52:45.804 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\Captures.xls Excel File check started...
+2023-08-24 16:52:46.032 [main] INFO  utils.ExecutionUtils - Sheet2 Sheet Step validation started...
+2023-08-24 16:52:46.107 [main] INFO  utils.ExecutionUtils - Sheet2 Sheet Step validation Ended
+2023-08-24 16:52:46.108 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\Captures.xls Excel File Check ended
+2023-08-24 16:52:46.108 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-08-24 16:52:46.109 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-08-24 16:52:46.435 [main] INFO  epiplex.PerformanceUtils - open capture file EpiplexPerformanceTest from home initializing...
+2023-08-24 16:52:46.435 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiplex.exe is launching...
+2023-08-24 16:53:01.406 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiplex.exe is launched
+2023-08-24 16:53:20.122 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 16:53:28.217 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 16:53:31.516 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 16:53:47.045 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 16:53:51.908 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 16:53:57.862 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 16:54:01.789 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 16:54:05.017 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 16:54:07.685 [main] INFO  epiplex.PerformanceUtils - open capture file EpiplexPerformanceTest from home completed
+2023-08-24 16:54:14.331 [main] INFO  epiplex.PerformanceUtils - process Editor fileEpiplexPerformanceTest Save is completed
+2023-08-24 16:54:14.331 [main] INFO  core.Application - Epiplex is closing...
+2023-08-24 16:54:15.553 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiplex.exe is closed.
+2023-08-24 16:54:15.553 [main] INFO  epiplex.PerformanceUtils - epiplex Application closed successfuly
+2023-08-24 16:54:16.354 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-08-24 16:54:16.356 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-08-24 16:54:16.357 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-08-24 16:54:16.359 [main] INFO  core.Application - closeAllApps is started...
+2023-08-24 16:54:16.399 [main] INFO  core.Application - closeAllApps is completed...
+2023-08-24 16:54:16.400 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-08-24 17:19:11.747 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-08-24 17:19:11.749 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-08-24 17:19:11.750 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-08-24 17:19:11.753 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-08-24 17:19:11.754 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-08-24 17:19:11.754 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-08-24 17:19:11.754 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-08-24 17:19:11.754 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-08-24 17:19:11.754 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-08-24 17:19:11.754 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-08-24 17:19:11.755 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-08-24 17:19:11.755 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-08-24 17:19:11.755 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-08-24 17:19:11.755 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-08-24 17:19:11.755 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-08-24 17:19:11.755 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-08-24 17:19:11.755 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-08-24 17:19:13.234 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-08-24 17:19:13.234 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-08-24 17:19:13.234 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-08-24 17:19:13.234 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-08-24 17:19:13.235 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-08-24 17:19:13.235 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-08-24 17:19:13.235 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-08-24 17:19:13.235 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-08-24 17:19:13.235 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-08-24 17:19:13.235 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-08-24 17:19:13.236 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-08-24 17:19:13.236 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-08-24 17:19:13.236 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-08-24 17:19:13.236 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-08-24 17:19:13.236 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-08-24 17:19:13.237 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-08-24 17:19:13.237 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-08-24 17:19:13.376 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-08-24 17:19:13.376 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-08-24 17:19:13.409 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-08-24 17:19:13.452 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-08-24 17:19:13.452 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-08-24 17:19:13.454 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\performanceTestcase500.xls Excel File check started...
+2023-08-24 17:19:13.576 [main] INFO  utils.ExecutionUtils - StartEpiplex Sheet Step validation started...
+2023-08-24 17:19:13.611 [main] INFO  utils.ExecutionUtils - StartEpiplex Sheet Step validation Ended
+2023-08-24 17:19:13.611 [main] INFO  utils.ExecutionUtils - shortcuts Sheet Step validation started...
+2023-08-24 17:19:13.649 [main] INFO  utils.ExecutionUtils - shortcuts Sheet Step validation Ended
+2023-08-24 17:19:13.649 [main] INFO  utils.ExecutionUtils - Chrome Test_with narration Sheet Step validation started...
+2023-08-24 17:19:13.664 [main] INFO  utils.ExecutionUtils - Chrome Test_with narration Sheet Step validation Ended
+2023-08-24 17:19:13.665 [main] INFO  utils.ExecutionUtils - Edge Test_with audio Sheet Step validation started...
+2023-08-24 17:19:13.680 [main] INFO  utils.ExecutionUtils - Edge Test_with audio Sheet Step validation Ended
+2023-08-24 17:19:13.680 [main] INFO  utils.ExecutionUtils - Dotnet Test Sheet Step validation started...
+2023-08-24 17:19:13.694 [main] INFO  utils.ExecutionUtils - Dotnet Test Sheet Step validation Ended
+2023-08-24 17:19:13.694 [main] INFO  utils.ExecutionUtils - Notepad Test Sheet Step validation started...
+2023-08-24 17:19:13.706 [main] INFO  utils.ExecutionUtils - Notepad Test Sheet Step validation Ended
+2023-08-24 17:19:13.707 [main] INFO  utils.ExecutionUtils - CancelPerformance Sheet Step validation started...
+2023-08-24 17:19:13.718 [main] INFO  utils.ExecutionUtils - CancelPerformance Sheet Step validation Ended
+2023-08-24 17:19:13.719 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\performanceTestcase500.xls Excel File Check ended
+2023-08-24 17:19:13.719 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-08-24 17:19:13.719 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-08-24 17:19:14.047 [main] INFO  utils.XML_Library - Automation settings updation started
+2023-08-24 17:19:14.348 [main] INFO  utils.XML_Library - Automation settings updation completed
+2023-08-24 17:19:14.349 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiplex.exe is launching...
+2023-08-24 17:19:24.625 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiplex.exe is launched
+2023-08-24 17:19:38.663 [main] ERROR actions.ElementFinder - File already exists. Do you want to overwrite? not displyed within 3 s
+2023-08-24 17:19:42.868 [main] ERROR actions.ElementFinder - File Name specified is pending to recover and save. Do you want to overwrite the file? not displyed within 3 s
+2023-08-24 17:20:19.604 [main] INFO  core.Application - chrome is closing...
+2023-08-24 17:20:19.647 [main] INFO  core.Application - C:\Program Files\Google\Chrome\Application\chrome.exe is closed.
+2023-08-24 17:20:19.961 [main] INFO  core.Application - msedge is closing...
+2023-08-24 17:20:25.248 [main] INFO  core.Application - C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe is closed.
+2023-08-24 17:20:25.553 [main] INFO  core.Application - Dotnet App is closing...
+2023-08-24 17:20:25.603 [main] INFO  core.Application - D:\\Selenium Workspace\\TEST\\Automation-Framework\\Base-Files\\Epiplex500ERP.exe is closed.
+2023-08-24 17:20:25.910 [main] INFO  core.Application - notepad is closing...
+2023-08-24 17:20:25.966 [main] INFO  core.Application - C:\\WINDOWS\\SYSTEM32\\notepad.exe is closed.
+2023-08-24 17:20:26.282 [main] INFO  core.Application - C:\Program Files\Google\Chrome\Application\chrome.exe is launching...
+2023-08-24 17:20:31.725 [main] INFO  core.Application - C:\Program Files\Google\Chrome\Application\chrome.exe is launched
+2023-08-24 17:20:34.277 [main] INFO  core.Application - C:\\WINDOWS\\SYSTEM32\\notepad.exe is launching...
+2023-08-24 17:20:38.473 [main] INFO  core.Application - C:\\WINDOWS\\SYSTEM32\\notepad.exe is launched
+2023-08-24 17:20:40.607 [main] INFO  core.Application - C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe is launching...
+2023-08-24 17:20:45.072 [main] INFO  core.Application - C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe is launched
+2023-08-24 17:20:51.639 [main] INFO  core.Application - D:\\Selenium Workspace\\TEST\\Automation-Framework\\Base-Files\\Epiplex500ERP.exe is launching...
+2023-08-24 17:20:58.724 [main] INFO  core.Application - D:\\Selenium Workspace\\TEST\\Automation-Framework\\Base-Files\\Epiplex500ERP.exe is launched
+2023-08-24 17:22:26.396 [main] INFO  core.Application - chrome is closing...
+2023-08-24 17:22:32.851 [main] INFO  core.Application - C:\Program Files\Google\Chrome\Application\chrome.exe is closed.
+2023-08-24 17:22:33.151 [main] INFO  core.Application - msedge is closing...
+2023-08-24 17:22:35.363 [main] INFO  core.Application - C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe is closed.
+2023-08-24 17:22:35.708 [main] INFO  core.Application - Dotnet App is closing...
+2023-08-24 17:22:37.245 [main] INFO  core.Application - D:\\Selenium Workspace\\TEST\\Automation-Framework\\Base-Files\\Epiplex500ERP.exe is closed.
+2023-08-24 17:22:37.559 [main] INFO  core.Application - notepad is closing...
+2023-08-24 17:22:38.954 [main] INFO  core.Application - C:\\WINDOWS\\SYSTEM32\\notepad.exe is closed.
+2023-08-24 17:22:39.268 [main] INFO  core.Application - chrome is closing...
+2023-08-24 17:22:39.315 [main] INFO  core.Application - C:\Program Files\Google\Chrome\Application\chrome.exe is closed.
+2023-08-24 17:22:39.625 [main] INFO  core.Application - C:\Program Files\Google\Chrome\Application\chrome.exe is launching...
+2023-08-24 17:22:44.708 [main] INFO  core.Application - C:\Program Files\Google\Chrome\Application\chrome.exe is launched
+2023-08-24 17:23:09.828 [main] INFO  core.Application - chrome is closing...
+2023-08-24 17:23:12.025 [main] INFO  core.Application - C:\Program Files\Google\Chrome\Application\chrome.exe is closed.
+2023-08-24 17:23:12.336 [main] INFO  core.Application - msedge is closing...
+2023-08-24 17:23:17.672 [main] INFO  core.Application - C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe is closed.
+2023-08-24 17:23:17.987 [main] INFO  core.Application - C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe is launching...
+2023-08-24 17:23:20.433 [main] INFO  core.Application - C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe is launched
+2023-08-24 17:23:48.229 [main] INFO  core.Application - msedge is closing...
+2023-08-24 17:23:50.484 [main] INFO  core.Application - C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe is closed.
+2023-08-24 17:23:50.798 [main] INFO  core.Application - Dotnet App is closing...
+2023-08-24 17:23:50.861 [main] INFO  core.Application - D:\\Selenium Workspace\\TEST\\Automation-Framework\\Base-Files\\Epiplex500ERP.exe is closed.
+2023-08-24 17:23:51.174 [main] INFO  core.Application - D:\\Selenium Workspace\\TEST\\Automation-Framework\\Base-Files\\Epiplex500ERP.exe is launching...
+2023-08-24 17:23:54.928 [main] INFO  core.Application - D:\\Selenium Workspace\\TEST\\Automation-Framework\\Base-Files\\Epiplex500ERP.exe is launched
+2023-08-24 17:24:32.545 [main] INFO  core.Application - Dotnet App is closing...
+2023-08-24 17:24:33.646 [main] INFO  core.Application - D:\\Selenium Workspace\\TEST\\Automation-Framework\\Base-Files\\Epiplex500ERP.exe is closed.
+2023-08-24 17:24:33.960 [main] INFO  core.Application - notepad is closing...
+2023-08-24 17:24:34.002 [main] INFO  core.Application - C:\\WINDOWS\\SYSTEM32\\notepad.exe is closed.
+2023-08-24 17:24:34.317 [main] INFO  core.Application - C:\\WINDOWS\\SYSTEM32\\notepad.exe is launching...
+2023-08-24 17:24:37.738 [main] INFO  core.Application - C:\\WINDOWS\\SYSTEM32\\notepad.exe is launched
+2023-08-24 17:25:01.273 [main] INFO  core.Application - notepad is closing...
+2023-08-24 17:25:02.387 [main] INFO  core.Application - C:\\WINDOWS\\SYSTEM32\\notepad.exe is closed.
+2023-08-24 17:25:02.703 [main] INFO  epiplex.PerformanceUtils - Capture cancel initializing...
+2023-08-24 17:25:12.038 [main] INFO  epiplex.PerformanceUtils - Capture cancel completed.
+2023-08-24 17:25:12.663 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-08-24 17:25:12.663 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-08-24 17:25:12.663 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-08-24 17:25:12.663 [main] INFO  core.Application - closeAllApps is started...
+2023-08-24 17:25:24.481 [main] INFO  core.Application - closeAllApps is completed...
+2023-08-24 17:25:24.482 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-08-24 17:52:45.360 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-08-24 17:52:45.365 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-08-24 17:52:45.365 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-08-24 17:52:45.372 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-08-24 17:52:45.372 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-08-24 17:52:45.373 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-08-24 17:52:45.373 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-08-24 17:52:45.373 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-08-24 17:52:45.373 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-08-24 17:52:45.374 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-08-24 17:52:45.374 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-08-24 17:52:45.374 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-08-24 17:52:45.374 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-08-24 17:52:45.375 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-08-24 17:52:45.375 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-08-24 17:52:45.375 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-08-24 17:52:45.375 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-08-24 17:52:47.385 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-08-24 17:52:47.386 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-08-24 17:52:47.386 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-08-24 17:52:47.387 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-08-24 17:52:47.387 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-08-24 17:52:47.387 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-08-24 17:52:47.387 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-08-24 17:52:47.388 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-08-24 17:52:47.389 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-08-24 17:52:47.389 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-08-24 17:52:47.389 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-08-24 17:52:47.390 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-08-24 17:52:47.390 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-08-24 17:52:47.391 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-08-24 17:52:47.391 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-08-24 17:52:47.392 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-08-24 17:52:47.392 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-08-24 17:52:47.671 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-08-24 17:52:47.671 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-08-24 17:52:47.726 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-08-24 17:52:47.826 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-08-24 17:52:47.827 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-08-24 17:52:47.832 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\Captures.xls Excel File check started...
+2023-08-24 17:52:48.069 [main] INFO  utils.ExecutionUtils - Sheet2 Sheet Step validation started...
+2023-08-24 17:52:48.132 [main] INFO  utils.ExecutionUtils - Sheet2 Sheet Step validation Ended
+2023-08-24 17:52:48.133 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\Captures.xls Excel File Check ended
+2023-08-24 17:52:48.133 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-08-24 17:52:48.134 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-08-24 17:52:48.455 [main] INFO  epiplex.PerformanceUtils - open capture file EpiplexPerformanceTest from home initializing...
+2023-08-24 17:52:48.456 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiplex.exe is launching...
+2023-08-24 17:53:03.188 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiplex.exe is launched
+2023-08-24 17:53:23.673 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 17:53:31.606 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 17:53:39.524 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 17:53:50.563 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 17:53:52.995 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 17:53:59.244 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 17:54:02.991 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 17:54:05.053 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 17:54:08.093 [main] ERROR actions.ElementFinder - Process Editor - [ not displyed within 2 s
+2023-08-24 17:54:11.047 [main] INFO  epiplex.PerformanceUtils - open capture file EpiplexPerformanceTest from home completed
+2023-08-24 17:54:17.059 [main] INFO  epiplex.PerformanceUtils - process Editor fileEpiplexPerformanceTest Save is completed
+2023-08-24 17:54:17.059 [main] INFO  core.Application - Epiplex is closing...
+2023-08-24 17:54:18.282 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiplex.exe is closed.
+2023-08-24 17:54:18.282 [main] INFO  epiplex.PerformanceUtils - epiplex Application closed successfuly
+2023-08-24 17:54:19.110 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-08-24 17:54:19.110 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-08-24 17:54:19.111 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-08-24 17:54:19.111 [main] INFO  core.Application - closeAllApps is started...
+2023-08-24 17:54:19.146 [main] INFO  core.Application - closeAllApps is completed...
+2023-08-24 17:54:19.146 [main] INFO  actions.TestcaseExecutor - Close all Application completed.

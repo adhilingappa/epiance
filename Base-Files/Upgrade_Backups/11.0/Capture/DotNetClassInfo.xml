@@ -1,0 +1,86 @@
+<Classes>
+  <Class Name="Janus.Windows.ButtonBar.ButtonBar">
+    <Name>SelectedItem.Text</Name>
+    <Value />
+    <Type>43</Type>
+    <ClientRect L="SelectedItem.Bounds.Left" T="SelectedItem.Bounds.Top" H="SelectedItem.Bounds.Height" W="SelectedItem.Bounds.Width" />
+    <CDT>0</CDT>
+    <PrevLabel>0</PrevLabel>
+    <LooseFocus>1</LooseFocus>
+    <SetLFMsgId>513</SetLFMsgId>
+    <UpDateLFmsgId>513</UpDateLFmsgId>
+    <LooseFocus_Property>111</LooseFocus_Property>
+  </Class>
+  <Class Name="Janus.Windows.UI.Tab.UITab">
+    <Name>SelectedTab.Text</Name>
+    <Value />
+    <Type>37</Type>
+    <ClientRect L="" T="" H="" W="" />
+    <CDT>0</CDT>
+    <PrevLabel>0</PrevLabel>
+    <LooseFocus>1</LooseFocus>
+    <SetLFMsgId>513</SetLFMsgId>
+    <UpDateLFmsgId>513</UpDateLFmsgId>
+    <LooseFocus_Property>111</LooseFocus_Property>
+  </Class>
+  <Class Name="Janus.Windows.UI.CommandBars.UICommandBar">
+    <Name>Text</Name>
+    <Value>Name</Value>
+    <Type>43</Type>
+    <ClientRect L="" T="" H="" W="" />
+    <CDT>0</CDT>
+    <PrevLabel>0</PrevLabel>
+    <LooseFocus>0</LooseFocus>
+    <SetLFMsgId>0</SetLFMsgId>
+    <UpDateLFmsgId>0</UpDateLFmsgId>
+    <LooseFocus_Property>111</LooseFocus_Property>
+  </Class>
+  <Class Name="Janus.Windows.GridEX.EditControls.EditBox">
+    <Name>Name</Name>
+    <Value>Text</Value>
+    <Type>42</Type>
+    <ClientRect L="Bounds.Left" T="Bounds.Top" H="Bounds.Height" W="Bounds.Width" />
+    <CDT>1</CDT>
+    <PrevLabel>1</PrevLabel>
+    <LooseFocus>0</LooseFocus>
+    <SetLFMsgId>0</SetLFMsgId>
+    <UpDateLFmsgId>0</UpDateLFmsgId>
+    <LooseFocus_Property>111</LooseFocus_Property>
+  </Class>
+  <Class Name="Janus.Windows.CalendarCombo.JNSS">
+    <Name>Text</Name>
+    <Value>Value</Value>
+    <Type>34</Type>
+    <ClientRect L="Bounds.Left" T="Bounds.Top" H="Bounds.Height" W="Bounds.Width" />
+    <CDT>0</CDT>
+    <PrevLabel>0</PrevLabel>
+    <LooseFocus>0</LooseFocus>
+    <SetLFMsgId>0</SetLFMsgId>
+    <UpDateLFmsgId>0</UpDateLFmsgId>
+    <LooseFocus_Property>111</LooseFocus_Property>
+  </Class>
+  <Class Name="Janus.Windows.UI.Dock.UIPanelGroup">
+    <Name>SelectedPanel.Name</Name>
+    <Value />
+    <Type>37</Type>
+    <ClientRect L="SelectedPanel.Bounds.Left" T="SelectedPanel.Bounds.Top" H="SelectedPanel.Bounds.Height" W="SelectedPanel.Bounds.Width" />
+    <CDT>0</CDT>
+    <PrevLabel>0</PrevLabel>
+    <LooseFocus>1</LooseFocus>
+    <SetLFMsgId>513</SetLFMsgId>
+    <UpDateLFmsgId>513</UpDateLFmsgId>
+    <LooseFocus_Property>111</LooseFocus_Property>
+  </Class>
+  <Class Name="Janus.Windows.EditControls.UIComboBox">
+    <Name>Name</Name>
+    <Value>SelectedItem.Text</Value>
+    <Type>46</Type>
+    <ClientRect L="" T="" H="" W="" />
+    <CDT>0</CDT>
+    <PrevLabel>1</PrevLabel>
+    <LooseFocus>1</LooseFocus>
+    <SetLFMsgId>513</SetLFMsgId>
+    <UpDateLFmsgId>513</UpDateLFmsgId>
+    <LooseFocus_Property>111</LooseFocus_Property>
+  </Class>
+</Classes>

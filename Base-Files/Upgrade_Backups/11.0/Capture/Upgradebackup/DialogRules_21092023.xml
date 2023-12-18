@@ -1,0 +1,42 @@
+<Rules>
+ <ExcludeFilter ExcludedExeList="" ExcludedDomainList="">
+  <PartialUriMatchRegex>
+	<![CDATA[^(?<prefix>(?<scheme>[a-z][a-z0-9+.-]+):\/\/\/?)?(?<host>[a-zA-Z0-9.\-_~]+)(?<port>:\d+)?(?<path>(?:[a-zA-Z0-9-._~]|%[a-f0-9]|[!$&'()*+,;=:@])+(?:\/(?:[a-zA-Z0-9-._~]|%[a-f0-9]|[!$&'()*+,;=:@])*)*|(?:\/(?:[a-zA-Z0-9-._~]|%[a-f0-9]|[!$&'()*+,;=:@])+)*)?(?<query>\?(?:[a-zA-Z0-9-._~]|%[a-f0-9]|[!$&'()*+,;=:@]|[\/?])+)?(?<fragment>\#(?:[a-zA-Z0-9-._~]|%[a-f0-9]|[!$&'()*+,;=:@]|[\/?])+)?$]]>
+  </PartialUriMatchRegex>
+ </ExcludeFilter>
+ <Application AppName="notepad.exe" Person="1" Org="1" Loc="0">
+  <Rule RuleNo="1" Name="Date" RegEx="(\d{1,4})[-\/][A-Za-z0-9]{1,10}[-\/](\d{1,4})" Enable="1" ReplaceWith=""/>
+  <Rule RuleNo="2" Name="TimeStamp" RegEx="[0-9]{1,2}:[0-9]{1,2}:[0-9]{1,2}" Enable="1" ReplaceWith=""/>
+  <Rule RuleNo="3" Name="email" RegEx="[A-Za-z0-9_\-\+\.]+@[A-Za-z0-9\-]+\.([A-Za-z]{2,3})(?:\.[a-zA-Z]{3})?" Enable="1" ReplaceWith=""/>
+  <Rule RuleNo="4" Name="FileName" RegEx="[a-zA-Z0-9\-_]+[ ]?[.][a-zA-Z]{2,4}" Enable="1" ReplaceWith=""/>
+  <Rule RuleNo="5" Name="WordEndsWithNum" RegEx="[\w]+[\d]+[\w]+|[\w]+[\d]+" Enable="1" ReplaceWith=""/>
+  <Rule RuleNo="6" Name="Number" RegEx="\d+" Enable="1" ReplaceWith=""/>
+  <Rule RuleNo="7" Name="Brackets" RegEx="\(.*?\)|\{.*?\}|\[.*?\]" Enable="1" ReplaceWith=""/>
+  <Rule RuleNo="8" Name="SpecialCharectersStartandEnd" RegEx="\W*$|^\W*" Enable="1" ReplaceWith=""/>
+ </Application>
+ <Application AppName="*" Person="1" Org="1" Loc="1"> 
+  <Rule RuleNo="1" Name="Date" RegEx="(\d{1,4})[-\/][A-Za-z0-9]{1,10}[-\/](\d{1,4})" Enable="1" ReplaceWith=""/>
+  <Rule RuleNo="2" Name="TimeStamp" RegEx="[0-9]{1,2}:[0-9]{1,2}:[0-9]{1,2}" Enable="1" ReplaceWith=""/>
+  <Rule RuleNo="3" Name="email" RegEx="[A-Za-z0-9_\-\+\.]+@[A-Za-z0-9\-]+\.([A-Za-z]{2,3})(?:\.[a-zA-Z]{3})?" Enable="1" ReplaceWith=""/>
+  <Rule RuleNo="4" Name="FileName" RegEx="[a-zA-Z0-9\-_]+[ ]?[.][a-zA-Z]{2,4}" Enable="1" ReplaceWith=""/>
+  <Rule RuleNo="5" Name="WordEndsWithNum" RegEx="[\w]+[\d]+[\w]+|[\w]+[\d]+" Enable="1" ReplaceWith=""/>
+  <Rule RuleNo="6" Name="Number" RegEx="\d+" Enable="1" ReplaceWith=""/>
+  <Rule RuleNo="7" Name="Brackets" RegEx="\(.*?\)|\{.*?\}|\[.*?\]" Enable="1" ReplaceWith=""/>
+  <Rule RuleNo="8" Name="IEandWIE" RegEx="([^\w]*Windows Internet Explorer[^\w]*)+|[|\\^\r\n]+|([^\w]*Internet Explorer[^\w]*)+|[|\\^\r\n]+" Enable="1" ReplaceWith=""/>
+  <Rule RuleNo="9" Name="MFFandMTB" RegEx="([^\w]*Mozilla Firefox[^\w]*)+|[|\\^\r\n]+|([^\w]*Mozilla Thunderbird[^\w]*)+|[|\\^\r\n]+" Enable="1" ReplaceWith=""/>
+  <Rule RuleNo="10" Name="SpecialCharectersStartandEnd" RegEx="\W*$|^\W*" Enable="1" ReplaceWith=""/>
+  <Rule RuleNo="11" Name="Chrome" RegEx="([^\w]*Google Chrome[^\w]*)+|[|\\^\r\n]+" Enable="1" ReplaceWith=""/>
+ </Application>
+ <NlpRules>
+  <Rule Name="PERSON" ReplaceWith="">
+   <RegEx><![CDATA[<[PERSON]+>.*?</[PERSON]+>]]></RegEx>
+  </Rule>
+  <Rule Name="LOCATION" ReplaceWith="">
+   <RegEx><![CDATA[<[LOCATION]+>.*?</[LOCATION]+>]]></RegEx>
+  </Rule>
+  <Rule Name="ORGANIZATION" ReplaceWith="">
+   <RegEx><![CDATA[<[ORGANIZATION]+>.*?</[ORGANIZATION]+>]]></RegEx>
+  </Rule>
+ </NlpRules>
+</Rules>
+ 

@@ -1,0 +1,11 @@
+<Settings>
+	<Adapters>
+		<GreenScreenAdapter >
+			<Application ID = "1a" AppName= "WDDspPag.Bin.exe" dllPath = "C:\Program Files (x86)\NetManage\RUMBA\System\WHLLAPI.DLL" DelayMS = "1000" FullCDT="True"/>
+			<Application ID = "1b" AppName= "Rumba.exe" dllPath = "C:\Program Files (x86)\NetManage\RUMBA\System\WHLLAPI.DLL" DelayMS = "1000" FullCDT="True"/>
+		</GreenScreenAdapter>
+		<IEAdapter ID = "2" AppName= "iexplore.exe" DelayMS = "1000" FullCDT="True"/>		
+		<SAPAdapter ID = "3" AppName= "saplogon.exe" FullCDT="True"/>
+		<UIAdapter ID = "4" AppName= "*" FullCDT="False"/>
+	</Adapters>
+</Settings>

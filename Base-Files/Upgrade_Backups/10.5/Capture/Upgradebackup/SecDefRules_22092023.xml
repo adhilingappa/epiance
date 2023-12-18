@@ -1,0 +1,177 @@
+<SecDefRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SecDefHashRules>
+    <SecDefHashRule Id="1" XQuery="WorkFlow/Step[@ActiveChannelID = '3' and IE/Element/@ElemType='password' and Info/TAP/@EXEName='iexplore.exe']">
+      <HashCodeItems>
+        <HashCodeItem Id="13" Name="ClassIndex" ItemType="1" />
+        <HashCodeItem Id="5" Name="WindowCaption" ItemType="1" />
+        <HashCodeItem Id="3" Name="AppVersion" ItemType="2" />
+        <HashCodeItem Id="22" Name="ParentLocation" ItemType="2" />
+        <HashCodeItem Id="23" Name="ParentClientLocation" ItemType="2" />
+        <HashCodeItem Id="24" Name="DocURL" ItemType="2" />
+        <HashCodeItem Id="25" Name="ScreenNumber" ItemType="2" />
+        <HashCodeItem Id="26" Name="UniqueControlID" ItemType="2" />
+        <HashCodeItem Id="14" Name="ControlData" ItemType="2" />
+        <HashCodeItem Id="29" Name="PlayBackControlData" ItemType="2" />
+      </HashCodeItems>
+    </SecDefHashRule>
+    <SecDefHashRule Id="2" XQuery="WorkFlow/Step[Info[TAP[@Name = 'chrome.exe']] and IE[contains(@DocURL,'https://ap15.lightning.force.com/lightning/r/Lead')]]">
+      <HashCodeItems>
+        <HashCodeItem Id="7" Name="ControlName" ItemType="1" GroupNumber="0" />
+        <HashCodeItem Id="14" Name="ControlData" ItemType="2" />
+        <HashCodeItem Id="2" Name="AppName" ItemType="1" GroupNumber="0" />
+        <HashCodeItem Id="24" Name="DocURL" ItemType="1" Regex="^(https:\/\/ap15.lightning.force.com\/lightning\/r\/Lead)\/(.*)\/(view)$" GroupNumber="1" />
+        <HashCodeItem Id="29" Name="PlayBackControlData" ItemType="2" />
+      </HashCodeItems>
+    </SecDefHashRule>
+    <SecDefHashRule Id="19" XQuery="WorkFlow/Step[ MSAA/Control/@Event= 'KEYEVENT' and @AdaptorID = '6']">
+      <HashCodeItems>
+        <HashCodeItem Id="7" Name="ControlName" ItemType="1" />
+        <HashCodeItem Id="12" Name="SPKeyStatus" ItemType="1" />
+        <HashCodeItem Id="14" Name="ControlData" ItemType="1" />
+        <HashCodeItem Id="5" Name="WindowCaption" ItemType="1" />
+		<HashCodeItem Id="26" Name="UniqueControlID" ItemType="1" Regex="^\/(?'Application'\w+)\/(?'Connection'[a-zA-Z]+\[[0-9]+\])\/(?'Session'[a-zA-Z]+\[[0-9]+\])\/(?'Window'[a-zA-Z]+\[[0-9]+\])\/(?'UniqueID'.*)" GroupName="UniqueID" />
+      </HashCodeItems>
+    </SecDefHashRule>
+    <SecDefHashRule Id="3" XQuery="WorkFlow/Step[@AdaptorID = '6' and MSAA/Control/@Role = 'SAPGuiPasswordField']">
+      <HashCodeItems>
+        <HashCodeItem Id="5" Name="WindowCaption" ItemType="1" />
+		<HashCodeItem Id="7" Name="ControlName" ItemType="1" />
+		<HashCodeItem Id="26" Name="UniqueControlID" ItemType="1" Regex="^\/(?'Application'\w+)\/(?'Connection'[a-zA-Z]+\[[0-9]+\])\/(?'Session'[a-zA-Z]+\[[0-9]+\])\/(?'Window'[a-zA-Z]+\[[0-9]+\])\/(?'UniqueID'.*)" GroupName="UniqueID" />
+        <HashCodeItem Id="14" Name="ControlData" ItemType="2" />
+        <HashCodeItem Id="29" Name="PlayBackControlData" ItemType="2" />
+      </HashCodeItems>
+    </SecDefHashRule>
+    <SecDefHashRule Id="4" XQuery="WorkFlow/Step[@AdaptorID = '6']">
+      <HashCodeItems>
+        <HashCodeItem Id="7" Name="ControlName" ItemType="1" />
+        <HashCodeItem Id="5" Name="WindowCaption" ItemType="1" Regex="^(Change Invoice)(.*)" GroupNumber="1" />
+        <HashCodeItem Id="26" Name="UniqueControlID" ItemType="1" Regex="^\/(?'Application'\w+)\/(?'Connection'[a-zA-Z]+\[[0-9]+\])\/(?'Session'[a-zA-Z]+\[[0-9]+\])\/(?'Window'[a-zA-Z]+\[[0-9]+\])\/(?'UniqueID'.*)" GroupName="UniqueID" />
+        <HashCodeItem Id="29" Name="PlayBackControlData" ItemType="2" />		
+        <HashCodeItem Id="14" Name="ControlData" ItemType="2" />
+      </HashCodeItems>
+    </SecDefHashRule>
+	<SecDefHashRule Id="18" XQuery="WorkFlow/Step[Info/TAP/@EXEName='saplgpad.exe' or Info/TAP/@EXEName='saplogon.exe']">
+      <HashCodeItems>
+        <HashCodeItem Id="7" Name="ControlName" ItemType="1" />
+        <HashCodeItem Id="5" Name="WindowCaption" ItemType="1" Regex="^(Change Invoice)(.*)" GroupNumber="1" />
+        <HashCodeItem Id="29" Name="PlayBackControlData" ItemType="2" />		
+        <HashCodeItem Id="14" Name="ControlData" ItemType="2" />
+      </HashCodeItems>
+    </SecDefHashRule>
+    <SecDefHashRule Id="7" XQuery="WorkFlow/Step[Info/TAP/@EXEName='WdDspPag.Bin']">
+      <HashCodeItems>
+        <HashCodeItem Id="5" Name="WindowCaption" ItemType="1" />
+        <HashCodeItem Id="1" Name="ChannelId" ItemType="1" />
+        <HashCodeItem Id="2" Name="AppName" ItemType="1" />
+        <HashCodeItem Id="7" Name="ControlName" ItemType="1" />
+        <HashCodeItem Id="8" Name="ControlType" ItemType="1" />
+        <HashCodeItem Id="3" Name="AppVersion" ItemType="2" />
+        <HashCodeItem Id="27" Name="HighLevelEvent" ItemType="2" />
+        <HashCodeItem Id="26" Name="UniqueControlID" ItemType="2" />
+        <HashCodeItem Id="14" Name="ControlData" ItemType="2" />
+        <HashCodeItem Id="29" Name="PlayBackControlData" ItemType="2" />
+      </HashCodeItems>
+    </SecDefHashRule>
+    <SecDefHashRule Id="10" XQuery="WorkFlow/Step[Info/TAP/@EXEName='pstools.exe']">
+      <HashCodeItems>
+        <HashCodeItem Id="1" Name="ChannelId" ItemType="1" />
+        <HashCodeItem Id="2" Name="AppName" ItemType="1" />
+        <HashCodeItem Id="5" Name="WindowCaption" ItemType="1" />
+        <HashCodeItem Id="7" Name="ControlName" ItemType="1" />
+        <HashCodeItem Id="8" Name="ControlType" ItemType="1" />
+        <HashCodeItem Id="13" Name="ClassIndex" ItemType="1" />
+        <HashCodeItem Id="14" Name="ControlData" ItemType="2" />
+        <HashCodeItem Id="29" Name="PlayBackControlData" ItemType="2" />
+      </HashCodeItems>
+    </SecDefHashRule>
+    <SecDefHashRule Id="17" XQuery="WorkFlow/Step[Info/TAP/@EXEName='excel.exe']">
+      <HashCodeItems>
+        <HashCodeItem Id="1" Name="ChannelId" ItemType="1" />
+        <HashCodeItem Id="2" Name="AppName" ItemType="1" />
+        <HashCodeItem Id="5" Name="WindowCaption" ItemType="1" />
+        <HashCodeItem Id="7" Name="ControlName" ItemType="1" />
+        <HashCodeItem Id="8" Name="ControlType" ItemType="1" />
+        <HashCodeItem Id="30" Name="SheetName" ItemType="1" />
+        <HashCodeItem Id="14" Name="ControlData" ItemType="2" />
+        <HashCodeItem Id="29" Name="PlayBackControlData" ItemType="2" />
+      </HashCodeItems>
+    </SecDefHashRule>
+    <SecDefHashRule Id="11" XQuery="WorkFlow/Step[IE[@DocURL!='']]">
+      <HashCodeItems>
+        <HashCodeItem Id="2" Name="AppName" ItemType="1" />
+        <HashCodeItem Id="5" Name="WindowCaption" ItemType="1" />
+        <HashCodeItem Id="7" Name="ControlName" ItemType="1" />
+        <HashCodeItem Id="14" Name="ControlData" ItemType="2" />
+        <HashCodeItem Id="24" Name="DocURL" ItemType="1" Regex="(([\w\:\/]+)([\w\-]*)(?:\.)([\w\-]*)\.(\w*)(?:\:(\d*))*([\/\w\-\.]*))(.*)$" GroupNumber="1" />
+        <HashCodeItem Id="28" Name="XPath" ItemType="1" />
+        <HashCodeItem Id="29" Name="PlayBackControlData" ItemType="2" />
+      </HashCodeItems>
+    </SecDefHashRule>
+    <SecDefHashRule Id="9" XQuery="WorkFlow/Step[@ActiveChannelID = '1' or @ActiveChannelID = '0']">
+      <HashCodeItems>
+        <HashCodeItem Id="2" Name="AppName" ItemType="1" />
+        <HashCodeItem Id="5" Name="WindowCaption" ItemType="1" />
+        <HashCodeItem Id="7" Name="ControlName" ItemType="1" />
+        <HashCodeItem Id="8" Name="ControlType" ItemType="1" />
+        <HashCodeItem Id="3" Name="AppVersion" ItemType="2" />
+        <HashCodeItem Id="26" Name="UniqueControlID" ItemType="2" />
+        <HashCodeItem Id="14" Name="ControlData" ItemType="2" />
+        <HashCodeItem Id="27" Name="HighLevelEvent" ItemType="2" />
+        <HashCodeItem Id="29" Name="PlayBackControlData" ItemType="2" />
+      </HashCodeItems>
+    </SecDefHashRule>
+    <SecDefHashRule Id="6" XQuery="WorkFlow/Step[SecurityInfo/@IsPassword = '1' and @ActiveChannelID = '0']">
+      <HashCodeItems>
+        <HashCodeItem Id="15" Name="Location" ItemType="1" />
+        <HashCodeItem Id="13" Name="ClassIndex" ItemType="1" />
+        <HashCodeItem Id="3" Name="AppVersion" ItemType="2" />
+        <HashCodeItem Id="27" Name="HighLevelEvent" ItemType="2" />
+        <HashCodeItem Id="14" Name="ControlData" ItemType="2" />
+        <HashCodeItem Id="26" Name="UniqueControlID" ItemType="2" />
+        <HashCodeItem Id="29" Name="PlayBackControlData" ItemType="2" />
+      </HashCodeItems>
+    </SecDefHashRule>
+    <SecDefHashRule Id="13" XQuery="WorkFlow/Step[Info/TAP/@EXEName='activconsole.exe']">
+      <HashCodeItems>
+        <HashCodeItem Id="5" Name="WindowCaption" ItemType="1" />
+        <HashCodeItem Id="1" Name="ChannelId" ItemType="1" />
+        <HashCodeItem Id="2" Name="AppName" ItemType="1" />
+        <HashCodeItem Id="8" Name="ControlType" ItemType="1" />
+        <HashCodeItem Id="7" Name="ControlName" ItemType="1" />
+        <HashCodeItem Id="3" Name="AppVersion" ItemType="2" />
+        <HashCodeItem Id="27" Name="HighLevelEvent" ItemType="2" />
+        <HashCodeItem Id="14" Name="ControlData" ItemType="2" />
+        <HashCodeItem Id="26" Name="UniqueControlID" ItemType="2" />
+        <HashCodeItem Id="29" Name="PlayBackControlData" ItemType="2" />
+      </HashCodeItems>
+    </SecDefHashRule>
+    <SecDefHashRule Id="15" XQuery="WorkFlow/Step">
+      <HashCodeItems>
+        <HashCodeItem Id="7" Name="ControlName" ItemType="1" />
+        <HashCodeItem Id="2" Name="AppName" ItemType="1" />
+        <HashCodeItem Id="5" Name="WindowCaption" ItemType="1" />
+        <HashCodeItem Id="14" Name="ControlData" ItemType="2" />
+        <HashCodeItem Id="29" Name="PlayBackControlData" ItemType="2" />
+      </HashCodeItems>
+    </SecDefHashRule>
+  </SecDefHashRules>
+  <ScreenHashRules>
+    <ScreenHashRule Id="16" XQuery="WorkFlow/Step">
+      <HashCodeItems>
+        <HashCodeItem Id="5" Name="WindowCaption" ItemType="1" />
+      </HashCodeItems>
+    </ScreenHashRule>
+  </ScreenHashRules>
+  <SecDefMaskAndAliasRules>
+    <SecDefMaskAndAliasRule HashRuleId="1" HashCode="5z0f5tMqbuTzZxgUuVZAvg==" RuleType="2" Value="" />
+    <SecDefMaskAndAliasRule HashRuleId="10" HashCode="5z0f5tMqbuTzZxgUuVZAvg==" RuleType="2" Value="Empl ID" />
+    <SecDefMaskAndAliasRule HashRuleId="10" HashCode="hETzzLeQGWKTH9VxPVD40Q==" RuleType="2" Value="Name" />
+    <SecDefMaskAndAliasRule HashRuleId="10" HashCode="7tXO8798eWwU47jB7zy6ZA==" RuleType="2" Value="Prefix" />
+    <SecDefMaskAndAliasRule HashRuleId="10" HashCode="f2KEWOR4GzL06PqO4aTIWg==" RuleType="2" Value="National ID" />
+    <SecDefMaskAndAliasRule HashRuleId="10" HashCode="O1dJpsaUYMBe0pV5HBsCpA==" RuleType="2" Value="Address 1" />
+    <SecDefMaskAndAliasRule HashRuleId="10" HashCode="HR2KPz2wDo3K6yuQo8qqXA==" RuleType="2" Value="Address 2" />
+    <SecDefMaskAndAliasRule HashRuleId="11" HashCode="2_5_7_24_28~54QRXbfAU7uTrCRUNuiu7Q==" RuleType="1" Value="Sample Address" />
+    <SecDefMaskAndAliasRule HashRuleId="11" HashCode="2_5_7_24_28~5nZ6pZ5L8oHy154V8fBW3g==" RuleType="1" Value="Sample Address" />
+    <SecDefMaskAndAliasRule HashRuleId="11" HashCode="2_5_7_24_28~yyBu6CGBNF5xMBnMMhhKJQ==" RuleType="1" Value="XXXX4567" />
+  </SecDefMaskAndAliasRules>
+</SecDefRules>

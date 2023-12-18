@@ -1,0 +1,37 @@
+<AutomatibilityReport>
+	<AutomationRate>
+	</AutomationRate>
+	
+	<DataPointAutomationRate>
+	</DataPointAutomationRate>
+	
+	<ValidationAutomationRate>
+	</ValidationAutomationRate>
+	
+	<NavigationAutomationRate>
+	</NavigationAutomationRate>
+	
+	<StepLevelRating>		
+		<!-- <Step>		 -->
+			<!-- <Guid>d8e3cd9b-bddb-442c-80d3-a20df25a6d3d</Guid> -->
+			<!-- <Type>Nav/dp</Type> -->
+			<!-- <AutomationRuleId></AutomationRuleId> -->
+			<!-- <ValidationRuleId></ValidationRuleId> -->
+			<!-- <DatapointRating></DatapointRating> -->
+			<!-- <ValidationRating></ValidationRating> -->
+			<!-- <NavigationRating></NavigationRating> -->
+			<!-- <CanAutomatable>1</CanAutomatable> -->
+		<!-- </Step> -->			
+	</StepLevelRating>
+	
+	<ScreenLevelRating>
+		<Screen dialogname="" rating=""/>
+	</ScreenLevelRating>
+	
+	<ValidationRating>
+		<Rating></Rating>
+		<NoOfAutmatableFields></NoOfAutmatableFields>
+		<TotalNoOfFields></TotalNoOfFields>
+	</ValidationRating>
+	
+</AutomatibilityReport>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GPSProperties>
+  <GPSProperty Name="Title" XQuery="WorkFlow/@Title" Type="1"/>
+  
+  <GPSProperty Name="Author" XQuery="WorkFlow/@Author" Type="1"/>
+  <GPSProperty Name="Organization" XQuery="WorkFlow/@Organization" Type="1"/>
+  <GPSProperty Name="Copyright" XQuery="WorkFlow/@Copyright" Type="1"/>
+  <GPSProperty Name="Description" XQuery="WorkFlow/@Description" Type="1"/>
+  <GPSProperty Name="Secured" XQuery="WorkFlow/@Secured" Type="1"/>
+  <GPSProperty Name="Reviewed" XQuery="WorkFlow/@Reviewed" Type="1"/>
+  
+  <GPSProperty Name="Process Name" XQuery="WorkFlow/@Title" Type="2"/>
+  <GPSProperty Name="Automatability" XQuery="WorkFlow/Header/AutomatibilityReport/AutomationRate/text()" Type="2"/>
+  <GPSProperty Name="No. of Process Variation" XQuery="count(WorkFlow/VariationStep)" Type="2" ToEvaluate="true"/>
+  <GPSProperty Name="No. of Application Used" XQuery="count(WorkFlow/Header/TAPS/TAP)" Type="2" ToEvaluate="true"/>
+  <GPSProperty Name="No. of Screens" XQuery="count(WorkFlow/GroupStep)" Type="2" ToEvaluate="true"/>
+  <GPSProperty Name="Structured Data" XQuery="count(WorkFlow/Step/vpeds/dp/meta/dataformat[text()=1])" Type="2" ToEvaluate="true"/>
+  <GPSProperty Name="Unstructured Data" XQuery="count(WorkFlow/Step/vpeds/dp/meta/dataformat[text()=2])" Type="2" ToEvaluate="true"/>
+  <GPSProperty Name="No. of Prerequisites Defined" XQuery="count(WorkFlow/Step/vpeds/dp[@type='P'])" Type="2" ToEvaluate="true"/>
+  <GPSProperty Name="No. of Validation Defined" XQuery="count(WorkFlow/Step/vpeds/dp[@type='V'])" Type="2" ToEvaluate="true"/>
+  <GPSProperty Name="No. of Exceptions Defined" XQuery="count(WorkFlow/VariationStep[@Type='ExceptionStep'])" Type="2" ToEvaluate="true"/>
+  <GPSProperty Name="Total No. of Steps Involved" XQuery="count(WorkFlow/Step)" Type="2" ToEvaluate="true"/>
+  <GPSProperty Name="No. of Data Points" XQuery="count(WorkFlow/Step/vpeds/dp)" Type="2" ToEvaluate="true"/>
+  <GPSProperty Name="Process Time Taken" XQuery="WorkFlow/Header/Summary/TimeStamp/@Duration" Type="2"/>
+  <GPSProperty Name="Noise Step Number" XQuery="WorkFlow/Header/NoiseInfo/@Steps" Type="2"/>
+  <GPSProperty Name="Noise Step Duration" XQuery="WorkFlow/Header/NoiseInfo/@Duration" Type="2"/>
+  <GPSProperty Name="System Idle Time" XQuery="WorkFlow/Header/IdleTimeInfo/SystemIdleInfo/@Duration" Type="2"/>
+  <GPSProperty Name="Think Time" XQuery="WorkFlow/Header/IdleTimeInfo/ThinkTimeInfo/@Duration" Type="2"/>
+  <GPSProperty Name="Idle Time Between Steps" XQuery="WorkFlow/Header/IdleTimeInfo/ProcessIdleInfo/@Duration" Type="2"/>
+  <GPSProperty Name="Expert Knowledge Input" XQuery="WorkFlow/Header/IdleTimeInfo/TacitInfo/@Duration" Type="2"/>
+  
+</GPSProperties>

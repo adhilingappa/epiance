@@ -1,0 +1,1726 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkFlow Version="11.2" OldVersion="11.2" Author="dhanush" Organization="" Description="" Copyright="" Generator="Perpetual" Title="" UserName="dhanush" MachineName="EPNCD025C" KeyWords="" isEncryptionEnabled="false" Secured="0" Reviewed="0">
+  <Header IsNoiseFilterApplied="1" IsTobeReviewedApplied="1" IsAudioCorrected="1">
+    <Summary CICSeqID="0" AVSeqID="0" ImgSeqID="1" ImgConverted="0" ImgFilePath="C:\Users\dhanush\Desktop\Automation Utils\05-07-2023\Epiplex500\Epiplex500\epiplex\Repository\Capture\As400_files\Images" CICFilePath="C:\Users\dhanush\Desktop\Automation Utils\05-07-2023\Epiplex500\Epiplex500\epiplex\Repository\Capture\As400_files\AudioVideo" GPSID="6c1929f5-5eb4-4ed4-9e29-b09161a3ed05" UniqueID="11">
+      <ProcessName>As400.gps</ProcessName>
+      <CapDepFolder>As400_files</CapDepFolder>
+      <ProcessList>
+      </ProcessList>
+      <BookMark>0</BookMark>
+      <Version Processor="Processor11.2" PBD="11.2" />
+      <TimeStamp Date="2023-07-10" CaptureStart="2023-07-10 T 13:01:52.6620987" CaptureEnd="2023-07-10 T 13:02:21.9399482" Duration="29.278" />
+      <License CountryID="66" OrgID="123" SiteID="6" />
+    </Summary>
+    <Sentence Structure="1" Format="1" />
+    <OSSettings>
+      <OSVersionInfo InfoSize="148" MajorVersion="10" MinorVersion="0" BuildNumber="22621" PlatformID="2" CSDVersion="" SystemType="64" ProductType="1" OS="OSName" Platform="Platform">
+        <!--
+					ProductType 1=WORKSTATION,2=DOMAIN_CONTROLLER,3=SERVER
+				-->
+      </OSVersionInfo>
+      <Resolution Horz="1366" Vert="768" />
+      <Image Height="768" Width="1366" />
+      <ScreenSettings BitsPerPixel="32" Color="0" Orientation="0" />
+      <MetricsInfo HorzSpacing="75" VertSpacing="75" TitleWrap="1" />
+    </OSSettings>
+    <TAPS>
+      <TAP Name="wddsppag.bin" ApplicationName="RUMBA Display Page" Version="4231.75.0.0" Path="C:\PROGRAM FILES (X86)\NETMANAGE\RUMBA\SYSTEM" EXEName="wddsppag.bin" />
+    </TAPS>
+    <IdleTimeInfo CaptureDuration="29.278">
+      <ExcludedAppInfo />
+      <TacitInfo Duration="0.000" />
+      <ThinkTimeInfo Duration="3.119" />
+      <SystemIdleInfo Duration="0.000" />
+      <ProcessIdleInfo Duration="0.000" />
+    </IdleTimeInfo>
+    <NoiseInfo Steps="0" Duration="0.000" />
+    <KPPList>
+      <KPP id="kpp_cmp" value="" />
+      <KPP id="kpp_aht" value="" />
+      <KPP id="kpp_bct" value="" />
+      <KPP id="kpp_err" value="" />
+      <KPP id="kpp_ttc" value="" />
+    </KPPList>
+    <AutomatibilityReport>
+      <AutomationRate>49.94</AutomationRate>
+      <DataPointAutomationRate>0</DataPointAutomationRate>
+      <ValidationAutomationRate>99.44</ValidationAutomationRate>
+      <NavigationAutomationRate>100</NavigationAutomationRate>
+    </AutomatibilityReport>
+  </Header>
+  <GroupStep ID="1" Caption="As400.gps" ParentID="1" Level="1" ProcessID="0" />
+  <GroupStep ID="2" Caption="Sign On" ParentID="1" Level="2" ProcessID="1252" Guid="8321ac6f-6dd2-4d48-bdf6-2df17fe851d6">
+    <DrawMarkRegion />
+    <Tacit />
+  </GroupStep>
+  <Step ID="3" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="0" PacketID="1" ProcessID="1252" SessionID="1252" UID="1" EventType="" Validator="" AliasName="Sign On" BookMark="Start" HookMessage="6" ThreadID="14628" AudioFile="" Guid="3a61f3ce-cc3f-4155-bdc9-b047f294ff06" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="0.000" DocArea="0" SecDefHashCode="2_5_7_8~4Eh8M8Oo2cTPKyx+7Q5NPw==" HashCodeRuleId="9" ScreenHashCode="5~Q1L+ae/3j/ihnU/MclfOnw==" ScreenHashCodeRuleId="16" IsStrayStep="2" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="wddsppag.bin" ApplicationName="RUMBA Display Page" Version="4231.75.0.0" Path="C:\PROGRAM FILES (X86)\NETMANAGE\RUMBA\SYSTEM" EXEName="wddsppag.bin" />
+      <Window Name="Sign On" Value="Sign On" Type="" Old_Name="Sign On" />
+      <TimeStamp StartTime="07/10/2023 T 13:01:57.349" EndTime="07/10/2023 T 13:01:57.349" InternetTime="" LocalStartTime="07/10/2023 T 18:31:57.349" LocalEndTime="07/10/2023 T 18:31:57.349" StepDuration="4.687">
+        <IdleTimeInfo ActionDuration="4.687" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="409601921" Name="" Caption="Sign On" Class="10" DialogName="Sign On" AliasName="" WPARAM="1" LPARAM="0" Style="399441920" TypedKey_En="" TypedKey_Locale="" ExtStyle="256" Old_DialogName="Sign On">
+        <HighLevelEvent>WINDOWACTIVATE</HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ClientRegion Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="" Style="" Size="" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="454793656" UserAction="" ClipData="" KeyCount="" IsDummyEvent="0" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name="Sign On" Type="client" Value="" Role="client" RoleID="10" State="1" DialogName="Sign On" DialogPartialMatch="" Event="WindowActivate" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="0" SPKeyWithData="" DefaultAction="" ClassIndex="0" Help="" RoleInCurrentLanguage="client" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="21105022" ParentHandle="21105022" Index="0" InfoFilledFromOMNI="0" IsDummyWindowActivate="0" DummyWindowName="" Old_DialogName="Sign On">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>
+          </Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>884,120</CaretPos>
+        <StateComplete>399441920</StateComplete>
+        <Location Left="-8" Top="-8" Right="1362" Bottom="716" />
+        <ClientLocation Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="(Untitled) - RUMBA AS/400 Display" Value="" Role="window" RoleID="WdPageFrame" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="window">
+        <Location Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ClientLocation>-8,-8,1374,728</ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="0" />
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="(Untitled) - RUMBA AS/400 Display_6Img" FileName="As400_TW_1280_2.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="(Untitled) - RUMBA AS/400 Display_6Img" FileName="As400_TW_1280_2.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="(Untitled) - RUMBA AS/400 Display_6Img" FileName="As400_TW_1280_2.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="(Untitled) - RUMBA AS/400 Display_6Img" FileName="As400_TW_1280_2.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+    </ImageStore>
+    <Sentence Plain="Sign On screen is displayed." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Sign On&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; screen is displayed.&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="wddsppag.bin" Path="" DialogName="Sign On" IEDocURL="" />
+      <GeneralInfo Event="WindowActivate" AdaptorID="0" IsCitrix="" IsAI="" ProcessID="1252" MouseButton="" SPKeyStatus="16" StepDelay="0" />
+      <ControlInfo ControlName="" RoleId="10" Role="client" UniqueID="" AutomationID="" ControlRectSC="" ControlRectCL="" ControlData="" ControlMouseCL="" LabelImage="" ControlImage="" ControlRect="" LabelRect="" IEActiveTabCaption="" />
+      <ParentInfo ParentName="" ParentRoleId="WdPageFrame" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="" UIA_REQUIRED="" UIA_PROCESSID="" UIA_PASSWORD="" UIA_ORIENTATION="" UIA_OFFSCREEN="" UIA_LOCALIZED_CONTROL_TYPE="" UIA_HELPTEXT="" UIA_HEIGHT="" UIA_HAS_KEYBOARD_FOCUS="" UIA_ENABLED="" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="" UIA_PARENT_CONTROL_TYPE="" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="" UIA_PARENT_AUTOMATIONID="" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="" UIA_FOREGROUND_WINDOW_TYPE="WdPageFrame" UIA_NAME="" UIA_CONTROL_TYPE="" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="" WHLL_STARTY="" WHLL_ENDX="" WHLL_ENDY="" WHLL_NEXT_CONTROL_NAME="" WHLL_CURRENT_LABLE="" CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="" CONTROL_INDEX_PATH="" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+  <Step ID="4" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="4" PacketID="2" ProcessID="1252" SessionID="1252" UID="2" EventType="" Validator="" AliasName="User  . . . . . . . . . . . . . ." BookMark="" HookMessage="1280" ThreadID="14628" AudioFile="" Guid="09f409ed-e260-4176-9773-3260c2abb0f9" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="31.000" DocArea="0" SecDefHashCode="5_1_2_7_8~tC4F05VnuqediHX80B/EUg==" HashCodeRuleId="7" ScreenHashCode="5~Q1L+ae/3j/ihnU/MclfOnw==" ScreenHashCodeRuleId="16" IsStrayStep="0" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="wddsppag.bin" ApplicationName="RUMBA Display Page" Version="4231.75.0.0" Path="C:\PROGRAM FILES (X86)\NETMANAGE\RUMBA\SYSTEM" EXEName="wddsppag.bin" />
+      <Window Name="Sign On" Value="Sign On" Type="" Old_Name="Sign On" />
+      <TimeStamp StartTime="07/10/2023 T 13:02:02.546" EndTime="07/10/2023 T 13:02:03.468" InternetTime="" LocalStartTime="07/10/2023 T 18:32:02.546" LocalEndTime="07/10/2023 T 18:32:03.468" StepDuration="6.119" keystrokes="6">
+        <IdleTimeInfo ActionDuration="3" TacitDuration="0.000" ThinkDuration="3.1189999999999997" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption="User  . . . . . . . . . . . . . ." Class="User  . . . . . . . . . . . . . ." DialogName="Sign On" AliasName="" WPARAM="84" LPARAM="1" Style="1442840576" TypedKey_En="" TypedKey_Locale="TEST_1" ExtStyle="20" Old_DialogName="Sign On">
+        <HighLevelEvent>TYPETEXT</HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="884" Top="205" Right="1071" Bottom="231" />
+        <ClientRegion Left="884" Top="205" Right="1071" Bottom="231" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ContainerSC Left="0" Top="75" Right="1366" Bottom="699" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="454798859" UserAction="KeyDown" ClipData="" KeyCount="" IsDummyEvent="" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name="User  . . . . . . . . . . . . . ." Type="KEYBOARD" Value="" Role="editable text" RoleID="42" State="1" DialogName="Sign On" DialogPartialMatch="" Event="TYPETEXT" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="18" SPKeyWithData="" DefaultAction="" ClassIndex="1" Help="" RoleInCurrentLanguage="editable text" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="5834318" ParentHandle="" Index="0" InfoFilledFromOMNI="0" Old_DialogName="Sign On">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>TEST_1</Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>884,120</CaretPos>
+        <StateComplete>
+        </StateComplete>
+        <Location Left="884" Top="205" Right="1071" Bottom="231" />
+        <ClientLocation Left="884" Top="205" Right="1071" Bottom="231" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="client" RoleID="" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="client">
+        <Location Left="" Top="" Right="" Bottom="" />
+        <ClientLocation>
+        </ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="1">
+      <vp type="V" id="4a563624-c0f7-41dd-9b7c-88e98ac1ee10" seq="1">
+        <item op="" stype="C">
+          <name>Rule_1</name>
+          <meta>
+            <control>
+            </control>
+            <role>42</role>
+            <app>wddsppag.bin</app>
+            <url>
+            </url>
+            <screen>Sign On</screen>
+            <region left="" top="" width="" height="" />
+          </meta>
+          <rpa>
+            <AppInfo ExeName="wddsppag.bin" Path="" DialogName="Sign On" IEDocURL="" />
+            <GeneralInfo Event="TYPETEXT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="1252" MouseButton="" SPKeyStatus="18">
+              <Model Enabled="True">
+                <Properties Name="User2" />
+              </Model>
+            </GeneralInfo>
+            <ControlInfo ControlName="" RoleId="42" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="0,75,1366,699," ControlRectCL="0,32,1366,656," ControlData="TEST_1" ControlMouseCL="" LabelImage="" ControlImage="As400_CI_1280_1.PNG" ControlRect="884,205,1071,231," LabelRect="" IEActiveTabCaption="" ScreenName="Sign On" SessionID="G" CursorLoc="" />
+            <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+            <AdditionalInfo UIA_CLASSNAME="AfxWnd42" UIA_REQUIRED="0" UIA_PROCESSID="1252" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="699" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="AfxOleControl42" UIA_PARENT_AUTOMATIONID="" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WdPageFrame" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="6" WHLL_STARTY="53" WHLL_ENDX="6" WHLL_ENDY="63" WHLL_NEXT_CONTROL_NAME="                                " WHLL_CURRENT_LABLE="User  . . . . . . . . . . . . . ." CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="AfxWnd42" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+          </rpa>
+          <rule id="14" value1="" value2="" regex="^[a-zA-Z ]+$" desc="" />
+          <atchs>
+            <atch type="audio" src="" />
+            <atch type="video" src="" />
+            <atch type="file" src="" />
+            <atch type="image" src="" />
+          </atchs>
+          <desc />
+          <actiononfailure type="0">
+            <message />
+          </actiononfailure>
+          <group />
+        </item>
+      </vp>
+    </vpeds>
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="Sign On_1280Img" FileName="As400_TW_1280_2.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="Sign On_1280Img" FileName="As400_TW_1280_2.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="Sign On_1280Img" FileName="As400_TW_1280_2.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="Sign On_1280Img" FileName="As400_TW_1284_3.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+      <ControlImage>
+        <ImageData ID="1" Name="Sign On_1280Img" FileName="As400_CI_1280_1.PNG" LocWithTolerance="" />
+      </ControlImage>
+    </ImageStore>
+    <Sentence Plain="In the User  . . . . . . . . . . . . . . box, enter &quot;TEST_1&quot;." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;In the &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;User  . . . . . . . . . . . . . .&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; box, enter "&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;TEST_1&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;".&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="Sign On" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="wddsppag.bin" Path="" DialogName="Sign On" IEDocURL="" />
+      <GeneralInfo Event="TYPETEXT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="1252" MouseButton="" SPKeyStatus="18" StepDelay="5197">
+        <Model Enabled="True">
+          <Properties Name="User2" />
+        </Model>
+      </GeneralInfo>
+      <ControlInfo ControlName="" RoleId="42" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="0,75,1366,699," ControlRectCL="0,32,1366,656," ControlData="TEST_1" ControlMouseCL="" LabelImage="" ControlImage="As400_CI_1280_1.PNG" ControlRect="884,205,1071,231," LabelRect="" IEActiveTabCaption="" ScreenName="Sign On" SessionID="G" CursorLoc="" />
+      <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="AfxWnd42" UIA_REQUIRED="0" UIA_PROCESSID="1252" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="699" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="AfxOleControl42" UIA_PARENT_AUTOMATIONID="" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WdPageFrame" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="6" WHLL_STARTY="53" WHLL_ENDX="6" WHLL_ENDY="63" WHLL_NEXT_CONTROL_NAME="                                " WHLL_CURRENT_LABLE="User  . . . . . . . . . . . . . ." CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="AfxWnd42" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+  <Step ID="5" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="4" PacketID="3" ProcessID="1252" SessionID="1252" UID="3" EventType="" Validator="" AliasName="Password  . . . . . . . . . . . ." BookMark="" HookMessage="1284" ThreadID="14628" AudioFile="" Guid="c2fca3cf-3d73-411c-ac31-60cc0fbc8ee0" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="860.000" DocArea="0" SecDefHashCode="5_1_2_7_8~UzYVpC9plBS030e5tC/1TQ==" HashCodeRuleId="7" ScreenHashCode="5~Q1L+ae/3j/ihnU/MclfOnw==" ScreenHashCodeRuleId="16" IsStrayStep="2" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="wddsppag.bin" ApplicationName="RUMBA Display Page" Version="4231.75.0.0" Path="C:\PROGRAM FILES (X86)\NETMANAGE\RUMBA\SYSTEM" EXEName="wddsppag.bin" />
+      <Window Name="Sign On" Value="Sign On" Type="" Old_Name="Sign On" />
+      <TimeStamp StartTime="07/10/2023 T 13:02:04.485" EndTime="07/10/2023 T 13:02:04.485" InternetTime="" LocalStartTime="07/10/2023 T 18:32:04.485" LocalEndTime="07/10/2023 T 18:32:04.485" StepDuration="1.017">
+        <IdleTimeInfo ActionDuration="1.017" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption="Password  . . . . . . . . . . . ." Class="Password  . . . . . . . . . . . ." DialogName="Sign On" AliasName="" WPARAM="9" LPARAM="3222208513" Style="1442840576" TypedKey_En="Tab" TypedKey_Locale="Tab" ExtStyle="20" Old_DialogName="Sign On">
+        <HighLevelEvent>ALL</HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="884" Top="231" Right="1071" Bottom="257" />
+        <ClientRegion Left="884" Top="231" Right="1071" Bottom="257" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ContainerSC Left="0" Top="75" Right="1366" Bottom="699" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="454800796" UserAction="KeyDown" ClipData="" KeyCount="" IsDummyEvent="" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name="Password  . . . . . . . . . . . ." Type="KEYBOARD" Value="" Role="editable text" RoleID="42" State="3" DialogName="Sign On" DialogPartialMatch="" Event="KEYEVENT" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="16" SPKeyWithData="Tab" DefaultAction="" ClassIndex="1" Help="" RoleInCurrentLanguage="editable text" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="5834318" ParentHandle="" Index="0" InfoFilledFromOMNI="0" Old_DialogName="Sign On">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>Tab</Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>884,144</CaretPos>
+        <StateComplete>
+        </StateComplete>
+        <Location Left="884" Top="231" Right="1071" Bottom="257" />
+        <ClientLocation Left="884" Top="231" Right="1071" Bottom="257" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="client" RoleID="" KBShortcut="" Help="" State="3" Desc="" RoleInCurrentLanguage="client">
+        <Location Left="" Top="" Right="" Bottom="" />
+        <ClientLocation>
+        </ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="0" />
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="Sign On_1284Img" FileName="As400_TW_1284_3.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="Sign On_1284Img" FileName="As400_TW_1284_3.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="Sign On_1284Img" FileName="As400_TW_1284_3.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="Sign On_1284Img" FileName="As400_TW_1284_3.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+      <ControlImage>
+        <ImageData ID="1" Name="Sign On_1284Img" FileName="As400_CI_1284_2.PNG" LocWithTolerance="" />
+      </ControlImage>
+    </ImageStore>
+    <Sentence Plain="Press Tab key." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;Press &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Tab&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; key.&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="Sign On" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="wddsppag.bin" Path="" DialogName="Sign On" IEDocURL="" />
+      <GeneralInfo Event="KEYEVENT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="1252" MouseButton="" SPKeyStatus="16" StepDelay="1017" />
+      <ControlInfo ControlName="" RoleId="42" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="0,75,1366,699," ControlRectCL="0,32,1366,656," ControlData="Tab" ControlMouseCL="" LabelImage="" ControlImage="As400_CI_1284_2.PNG" ControlRect="884,231,1071,257," LabelRect="" IEActiveTabCaption="" ScreenName="Sign On" SessionID="G" CursorLoc="" />
+      <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="AfxWnd42" UIA_REQUIRED="0" UIA_PROCESSID="1252" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="699" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="AfxOleControl42" UIA_PARENT_AUTOMATIONID="" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WdPageFrame" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="7" WHLL_STARTY="53" WHLL_ENDX="7" WHLL_ENDY="63" WHLL_NEXT_CONTROL_NAME="                                " WHLL_CURRENT_LABLE="Password  . . . . . . . . . . . ." CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="AfxWnd42" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+  <Step ID="6" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="4" PacketID="4" ProcessID="1252" SessionID="1252" UID="4" EventType="" Validator="" AliasName="Password  . . . . . . . . . . . ." BookMark="" HookMessage="1280" ThreadID="14628" AudioFile="" Guid="21e3c012-0635-499c-b761-e065708ce8e4" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="110.000" DocArea="0" SecDefHashCode="5_1_2_7_8~UzYVpC9plBS030e5tC/1TQ==" HashCodeRuleId="7" ScreenHashCode="5~Q1L+ae/3j/ihnU/MclfOnw==" ScreenHashCodeRuleId="16" IsStrayStep="0" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="wddsppag.bin" ApplicationName="RUMBA Display Page" Version="4231.75.0.0" Path="C:\PROGRAM FILES (X86)\NETMANAGE\RUMBA\SYSTEM" EXEName="wddsppag.bin" />
+      <Window Name="Sign On" Value="Sign On" Type="" Old_Name="Sign On" />
+      <TimeStamp StartTime="07/10/2023 T 13:02:05.398" EndTime="07/10/2023 T 13:02:06.226" InternetTime="" LocalStartTime="07/10/2023 T 18:32:05.398" LocalEndTime="07/10/2023 T 18:32:06.226" StepDuration="1.741" keystrokes="6">
+        <IdleTimeInfo ActionDuration="1.741" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption="Password  . . . . . . . . . . . ." Class="Password  . . . . . . . . . . . ." DialogName="Sign On" AliasName="" WPARAM="84" LPARAM="1" Style="1442840576" TypedKey_En="" TypedKey_Locale="Test_2" ExtStyle="20" Old_DialogName="Sign On">
+        <HighLevelEvent>TYPETEXT</HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="884" Top="231" Right="1071" Bottom="257" />
+        <ClientRegion Left="884" Top="231" Right="1071" Bottom="257" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ContainerSC Left="0" Top="75" Right="1366" Bottom="699" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="454801703" UserAction="KeyDown" ClipData="" KeyCount="" IsDummyEvent="" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name="Password  . . . . . . . . . . . ." Type="KEYBOARD" Value="" Role="editable text" RoleID="42" State="3" DialogName="Sign On" DialogPartialMatch="" Event="TYPETEXT" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="18" SPKeyWithData="" DefaultAction="" ClassIndex="1" Help="" RoleInCurrentLanguage="editable text" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="5834318" ParentHandle="" Index="0" InfoFilledFromOMNI="0" Old_DialogName="Sign On">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>*****</Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>884,144</CaretPos>
+        <StateComplete>
+        </StateComplete>
+        <Location Left="884" Top="231" Right="1071" Bottom="257" />
+        <ClientLocation Left="884" Top="231" Right="1071" Bottom="257" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="client" RoleID="" KBShortcut="" Help="" State="3" Desc="" RoleInCurrentLanguage="client">
+        <Location Left="" Top="" Right="" Bottom="" />
+        <ClientLocation>
+        </ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="1">
+      <vp type="V" id="986f69d9-80c7-490a-ac6f-a50255eec057" seq="1">
+        <item op="" stype="C">
+          <name>Rule_1</name>
+          <meta>
+            <control>
+            </control>
+            <role>42</role>
+            <app>wddsppag.bin</app>
+            <url>
+            </url>
+            <screen>Sign On</screen>
+            <region left="" top="" width="" height="" />
+          </meta>
+          <rpa>
+            <AppInfo ExeName="wddsppag.bin" Path="" DialogName="Sign On" IEDocURL="" />
+            <GeneralInfo Event="TYPETEXT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="1252" MouseButton="" SPKeyStatus="18">
+              <Model Enabled="True">
+                <Properties Name="Password4" />
+              </Model>
+            </GeneralInfo>
+            <ControlInfo ControlName="" RoleId="42" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="0,75,1366,699," ControlRectCL="0,32,1366,656," ControlData="*****" ControlMouseCL="" LabelImage="" ControlImage="As400_CI_1280_3.PNG" ControlRect="884,231,1071,257," LabelRect="" IEActiveTabCaption="" ScreenName="Sign On" SessionID="G" CursorLoc="" />
+            <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+            <AdditionalInfo UIA_CLASSNAME="AfxWnd42" UIA_REQUIRED="0" UIA_PROCESSID="1252" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="699" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="AfxOleControl42" UIA_PARENT_AUTOMATIONID="" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WdPageFrame" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="7" WHLL_STARTY="53" WHLL_ENDX="7" WHLL_ENDY="63" WHLL_NEXT_CONTROL_NAME="                                " WHLL_CURRENT_LABLE="Password  . . . . . . . . . . . ." CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="AfxWnd42" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+          </rpa>
+          <rule id="18" value1="" value2="" regex="^[\s\S]+$" desc="" />
+          <atchs>
+            <atch type="audio" src="" />
+            <atch type="video" src="" />
+            <atch type="file" src="" />
+            <atch type="image" src="" />
+          </atchs>
+          <desc />
+          <actiononfailure type="0">
+            <message />
+          </actiononfailure>
+          <group />
+        </item>
+      </vp>
+    </vpeds>
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="Sign On_1280Img" FileName="As400_TW_1280_4.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="Sign On_1280Img" FileName="As400_TW_1280_4.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="Sign On_1280Img" FileName="As400_TW_1280_4.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="Sign On_1280Img" FileName="As400_TW_1284_5.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+      <ControlImage>
+        <ImageData ID="1" Name="Sign On_1280Img" FileName="As400_CI_1280_3.PNG" LocWithTolerance="" />
+      </ControlImage>
+    </ImageStore>
+    <Sentence Plain="In the Password  . . . . . . . . . . . . box, enter *****" Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;In the &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Password  . . . . . . . . . . . .&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; box, enter &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;*****&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="Sign On" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="1" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="1" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="wddsppag.bin" Path="" DialogName="Sign On" IEDocURL="" />
+      <GeneralInfo Event="TYPETEXT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="1252" MouseButton="" SPKeyStatus="18" StepDelay="913">
+        <Model Enabled="True">
+          <Properties Name="Password4" />
+        </Model>
+      </GeneralInfo>
+      <ControlInfo ControlName="" RoleId="42" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="0,75,1366,699," ControlRectCL="0,32,1366,656," ControlData="*****" ControlMouseCL="" LabelImage="" ControlImage="As400_CI_1280_3.PNG" ControlRect="884,231,1071,257," LabelRect="" IEActiveTabCaption="" ScreenName="Sign On" SessionID="G" CursorLoc="" />
+      <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="AfxWnd42" UIA_REQUIRED="0" UIA_PROCESSID="1252" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="699" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="AfxOleControl42" UIA_PARENT_AUTOMATIONID="" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WdPageFrame" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="7" WHLL_STARTY="53" WHLL_ENDX="7" WHLL_ENDY="63" WHLL_NEXT_CONTROL_NAME="                                " WHLL_CURRENT_LABLE="Password  . . . . . . . . . . . ." CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="AfxWnd42" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+  <Step ID="7" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="4" PacketID="5" ProcessID="1252" SessionID="1252" UID="5" EventType="" Validator="" AliasName="Program/procedure . . . . . . . ." BookMark="" HookMessage="1284" ThreadID="14628" AudioFile="" Guid="75016dd0-be39-4b64-a787-06b5c8322fb5" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="94.000" DocArea="0" SecDefHashCode="5_1_2_7_8~pkdI1Km77mZMRNr4RqKk9Q==" HashCodeRuleId="7" ScreenHashCode="5~Q1L+ae/3j/ihnU/MclfOnw==" ScreenHashCodeRuleId="16" IsStrayStep="2" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="wddsppag.bin" ApplicationName="RUMBA Display Page" Version="4231.75.0.0" Path="C:\PROGRAM FILES (X86)\NETMANAGE\RUMBA\SYSTEM" EXEName="wddsppag.bin" />
+      <Window Name="Sign On" Value="Sign On" Type="" Old_Name="Sign On" />
+      <TimeStamp StartTime="07/10/2023 T 13:02:07.292" EndTime="07/10/2023 T 13:02:07.292" InternetTime="" LocalStartTime="07/10/2023 T 18:32:07.292" LocalEndTime="07/10/2023 T 18:32:07.292" StepDuration="1.066">
+        <IdleTimeInfo ActionDuration="1.066" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption="Program/procedure . . . . . . . ." Class="Program/procedure . . . . . . . ." DialogName="Sign On" AliasName="" WPARAM="9" LPARAM="3222208513" Style="1442840576" TypedKey_En="Tab" TypedKey_Locale="Tab" ExtStyle="20" Old_DialogName="Sign On">
+        <HighLevelEvent>ALL</HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="884" Top="257" Right="1071" Bottom="283" />
+        <ClientRegion Left="884" Top="257" Right="1071" Bottom="283" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ContainerSC Left="0" Top="75" Right="1366" Bottom="699" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="454803562" UserAction="KeyDown" ClipData="" KeyCount="" IsDummyEvent="" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name="Program/procedure . . . . . . . ." Type="KEYBOARD" Value="" Role="editable text" RoleID="42" State="1" DialogName="Sign On" DialogPartialMatch="" Event="KEYEVENT" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="16" SPKeyWithData="Tab" DefaultAction="" ClassIndex="1" Help="" RoleInCurrentLanguage="editable text" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="5834318" ParentHandle="" Index="0" InfoFilledFromOMNI="0" Old_DialogName="Sign On">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>Tab</Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>884,168</CaretPos>
+        <StateComplete>
+        </StateComplete>
+        <Location Left="884" Top="257" Right="1071" Bottom="283" />
+        <ClientLocation Left="884" Top="257" Right="1071" Bottom="283" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="client" RoleID="" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="client">
+        <Location Left="" Top="" Right="" Bottom="" />
+        <ClientLocation>
+        </ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="0" />
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="Sign On_1284Img" FileName="As400_TW_1284_5.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="Sign On_1284Img" FileName="As400_TW_1284_5.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="Sign On_1284Img" FileName="As400_TW_1284_5.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="Sign On_1284Img" FileName="As400_TW_1284_5.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+      <ControlImage>
+        <ImageData ID="1" Name="Sign On_1284Img" FileName="As400_CI_1284_4.PNG" LocWithTolerance="" />
+      </ControlImage>
+    </ImageStore>
+    <Sentence Plain="Press Tab key." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;Press &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Tab&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; key.&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="Sign On" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="wddsppag.bin" Path="" DialogName="Sign On" IEDocURL="" />
+      <GeneralInfo Event="KEYEVENT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="1252" MouseButton="" SPKeyStatus="16" StepDelay="1066" />
+      <ControlInfo ControlName="" RoleId="42" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="0,75,1366,699," ControlRectCL="0,32,1366,656," ControlData="Tab" ControlMouseCL="" LabelImage="" ControlImage="As400_CI_1284_4.PNG" ControlRect="884,257,1071,283," LabelRect="" IEActiveTabCaption="" ScreenName="Sign On" SessionID="G" CursorLoc="" />
+      <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="AfxWnd42" UIA_REQUIRED="0" UIA_PROCESSID="1252" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="699" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="AfxOleControl42" UIA_PARENT_AUTOMATIONID="" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WdPageFrame" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="8" WHLL_STARTY="53" WHLL_ENDX="8" WHLL_ENDY="63" WHLL_NEXT_CONTROL_NAME="                                " WHLL_CURRENT_LABLE="Program/procedure . . . . . . . ." CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="AfxWnd42" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+  <Step ID="8" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="4" PacketID="6" ProcessID="1252" SessionID="1252" UID="6" EventType="" Validator="" AliasName="Program/procedure . . . . . . . ." BookMark="" HookMessage="1280" ThreadID="14628" AudioFile="" Guid="da8b76f7-5715-491a-88f7-289e04b09347" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="860.000" DocArea="0" SecDefHashCode="5_1_2_7_8~pkdI1Km77mZMRNr4RqKk9Q==" HashCodeRuleId="7" ScreenHashCode="5~Q1L+ae/3j/ihnU/MclfOnw==" ScreenHashCodeRuleId="16" IsStrayStep="0" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="wddsppag.bin" ApplicationName="RUMBA Display Page" Version="4231.75.0.0" Path="C:\PROGRAM FILES (X86)\NETMANAGE\RUMBA\SYSTEM" EXEName="wddsppag.bin" />
+      <Window Name="Sign On" Value="Sign On" Type="" Old_Name="Sign On" />
+      <TimeStamp StartTime="07/10/2023 T 13:02:08.171" EndTime="07/10/2023 T 13:02:08.999" InternetTime="" LocalStartTime="07/10/2023 T 18:32:08.171" LocalEndTime="07/10/2023 T 18:32:08.999" StepDuration="1.707" keystrokes="6">
+        <IdleTimeInfo ActionDuration="1.707" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption="Program/procedure . . . . . . . ." Class="Program/procedure . . . . . . . ." DialogName="Sign On" AliasName="" WPARAM="84" LPARAM="1" Style="1442840576" TypedKey_En="" TypedKey_Locale="Test_3" ExtStyle="20" Old_DialogName="Sign On">
+        <HighLevelEvent>TYPETEXT</HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="884" Top="257" Right="1071" Bottom="283" />
+        <ClientRegion Left="884" Top="257" Right="1071" Bottom="283" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ContainerSC Left="0" Top="75" Right="1366" Bottom="699" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="454804484" UserAction="KeyDown" ClipData="" KeyCount="" IsDummyEvent="" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name="Program/procedure . . . . . . . ." Type="KEYBOARD" Value="" Role="editable text" RoleID="42" State="1" DialogName="Sign On" DialogPartialMatch="" Event="TYPETEXT" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="18" SPKeyWithData="" DefaultAction="" ClassIndex="1" Help="" RoleInCurrentLanguage="editable text" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="5834318" ParentHandle="" Index="0" InfoFilledFromOMNI="0" Old_DialogName="Sign On">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>Test_3</Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>884,168</CaretPos>
+        <StateComplete>
+        </StateComplete>
+        <Location Left="884" Top="257" Right="1071" Bottom="283" />
+        <ClientLocation Left="884" Top="257" Right="1071" Bottom="283" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="client" RoleID="" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="client">
+        <Location Left="" Top="" Right="" Bottom="" />
+        <ClientLocation>
+        </ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="1">
+      <vp type="V" id="eb6655df-85fb-4bc7-95bc-f001108a8208" seq="1">
+        <item op="" stype="C">
+          <name>Rule_1</name>
+          <meta>
+            <control>
+            </control>
+            <role>42</role>
+            <app>wddsppag.bin</app>
+            <url>
+            </url>
+            <screen>Sign On</screen>
+            <region left="" top="" width="" height="" />
+          </meta>
+          <rpa>
+            <AppInfo ExeName="wddsppag.bin" Path="" DialogName="Sign On" IEDocURL="" />
+            <GeneralInfo Event="TYPETEXT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="1252" MouseButton="" SPKeyStatus="18">
+              <Model Enabled="True">
+                <Properties Name="Programprocedure6" />
+              </Model>
+            </GeneralInfo>
+            <ControlInfo ControlName="" RoleId="42" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="0,75,1366,699," ControlRectCL="0,32,1366,656," ControlData="Test_3" ControlMouseCL="" LabelImage="" ControlImage="As400_CI_1280_5.PNG" ControlRect="884,257,1071,283," LabelRect="" IEActiveTabCaption="" ScreenName="Sign On" SessionID="G" CursorLoc="" />
+            <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+            <AdditionalInfo UIA_CLASSNAME="AfxWnd42" UIA_REQUIRED="0" UIA_PROCESSID="1252" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="699" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="AfxOleControl42" UIA_PARENT_AUTOMATIONID="" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WdPageFrame" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="8" WHLL_STARTY="53" WHLL_ENDX="8" WHLL_ENDY="63" WHLL_NEXT_CONTROL_NAME="                                " WHLL_CURRENT_LABLE="Program/procedure . . . . . . . ." CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="AfxWnd42" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+          </rpa>
+          <rule id="14" value1="" value2="" regex="^[a-zA-Z ]+$" desc="" />
+          <atchs>
+            <atch type="audio" src="" />
+            <atch type="video" src="" />
+            <atch type="file" src="" />
+            <atch type="image" src="" />
+          </atchs>
+          <desc />
+          <actiononfailure type="0">
+            <message />
+          </actiononfailure>
+          <group />
+        </item>
+      </vp>
+    </vpeds>
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="Sign On_1280Img" FileName="As400_TW_1280_6.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="Sign On_1280Img" FileName="As400_TW_1280_6.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="Sign On_1280Img" FileName="As400_TW_1280_6.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="Sign On_1280Img" FileName="As400_TW_1284_7.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+      <ControlImage>
+        <ImageData ID="1" Name="Sign On_1280Img" FileName="As400_CI_1280_5.PNG" LocWithTolerance="" />
+      </ControlImage>
+    </ImageStore>
+    <Sentence Plain="In the Program/procedure . . . . . . . . box, enter &quot;Test_3&quot;." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;In the &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Program/procedure . . . . . . . .&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; box, enter "&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Test_3&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;".&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="Sign On" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="wddsppag.bin" Path="" DialogName="Sign On" IEDocURL="" />
+      <GeneralInfo Event="TYPETEXT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="1252" MouseButton="" SPKeyStatus="18" StepDelay="879">
+        <Model Enabled="True">
+          <Properties Name="Programprocedure6" />
+        </Model>
+      </GeneralInfo>
+      <ControlInfo ControlName="" RoleId="42" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="0,75,1366,699," ControlRectCL="0,32,1366,656," ControlData="Test_3" ControlMouseCL="" LabelImage="" ControlImage="As400_CI_1280_5.PNG" ControlRect="884,257,1071,283," LabelRect="" IEActiveTabCaption="" ScreenName="Sign On" SessionID="G" CursorLoc="" />
+      <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="AfxWnd42" UIA_REQUIRED="0" UIA_PROCESSID="1252" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="699" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="AfxOleControl42" UIA_PARENT_AUTOMATIONID="" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WdPageFrame" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="8" WHLL_STARTY="53" WHLL_ENDX="8" WHLL_ENDY="63" WHLL_NEXT_CONTROL_NAME="                                " WHLL_CURRENT_LABLE="Program/procedure . . . . . . . ." CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="AfxWnd42" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+  <Step ID="9" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="4" PacketID="7" ProcessID="1252" SessionID="1252" UID="7" EventType="" Validator="" AliasName="Menu  . . . . . . . . . . . . . ." BookMark="" HookMessage="1284" ThreadID="14628" AudioFile="" Guid="912fb34f-4057-465a-b8ae-bc0255493ecd" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="313.000" DocArea="0" SecDefHashCode="5_1_2_7_8~kFn7MLmiC9jYo3YqwQFUCg==" HashCodeRuleId="7" ScreenHashCode="5~Q1L+ae/3j/ihnU/MclfOnw==" ScreenHashCodeRuleId="16" IsStrayStep="2" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="wddsppag.bin" ApplicationName="RUMBA Display Page" Version="4231.75.0.0" Path="C:\PROGRAM FILES (X86)\NETMANAGE\RUMBA\SYSTEM" EXEName="wddsppag.bin" />
+      <Window Name="Sign On" Value="Sign On" Type="" Old_Name="Sign On" />
+      <TimeStamp StartTime="07/10/2023 T 13:02:10.077" EndTime="07/10/2023 T 13:02:10.077" InternetTime="" LocalStartTime="07/10/2023 T 18:32:10.077" LocalEndTime="07/10/2023 T 18:32:10.077" StepDuration="1.078">
+        <IdleTimeInfo ActionDuration="1.078" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption="Menu  . . . . . . . . . . . . . ." Class="Menu  . . . . . . . . . . . . . ." DialogName="Sign On" AliasName="" WPARAM="9" LPARAM="3222208513" Style="1442840576" TypedKey_En="Tab" TypedKey_Locale="Tab" ExtStyle="20" Old_DialogName="Sign On">
+        <HighLevelEvent>ALL</HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="884" Top="283" Right="1071" Bottom="309" />
+        <ClientRegion Left="884" Top="283" Right="1071" Bottom="309" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ContainerSC Left="0" Top="75" Right="1366" Bottom="699" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="454806343" UserAction="KeyDown" ClipData="" KeyCount="" IsDummyEvent="" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name="Menu  . . . . . . . . . . . . . ." Type="KEYBOARD" Value="" Role="editable text" RoleID="42" State="1" DialogName="Sign On" DialogPartialMatch="" Event="KEYEVENT" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="16" SPKeyWithData="Tab" DefaultAction="" ClassIndex="1" Help="" RoleInCurrentLanguage="editable text" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="5834318" ParentHandle="" Index="0" InfoFilledFromOMNI="0" Old_DialogName="Sign On">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>Tab</Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>884,192</CaretPos>
+        <StateComplete>
+        </StateComplete>
+        <Location Left="884" Top="283" Right="1071" Bottom="309" />
+        <ClientLocation Left="884" Top="283" Right="1071" Bottom="309" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="client" RoleID="" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="client">
+        <Location Left="" Top="" Right="" Bottom="" />
+        <ClientLocation>
+        </ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="0" />
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="Sign On_1284Img" FileName="As400_TW_1284_7.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="Sign On_1284Img" FileName="As400_TW_1284_7.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="Sign On_1284Img" FileName="As400_TW_1284_7.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="Sign On_1284Img" FileName="As400_TW_1284_7.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+      <ControlImage>
+        <ImageData ID="1" Name="Sign On_1284Img" FileName="As400_CI_1284_6.PNG" LocWithTolerance="" />
+      </ControlImage>
+    </ImageStore>
+    <Sentence Plain="Press Tab key." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;Press &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Tab&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; key.&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="Sign On" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="wddsppag.bin" Path="" DialogName="Sign On" IEDocURL="" />
+      <GeneralInfo Event="KEYEVENT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="1252" MouseButton="" SPKeyStatus="16" StepDelay="1078" />
+      <ControlInfo ControlName="" RoleId="42" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="0,75,1366,699," ControlRectCL="0,32,1366,656," ControlData="Tab" ControlMouseCL="" LabelImage="" ControlImage="As400_CI_1284_6.PNG" ControlRect="884,283,1071,309," LabelRect="" IEActiveTabCaption="" ScreenName="Sign On" SessionID="G" CursorLoc="" />
+      <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="AfxWnd42" UIA_REQUIRED="0" UIA_PROCESSID="1252" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="699" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="AfxOleControl42" UIA_PARENT_AUTOMATIONID="" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WdPageFrame" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="9" WHLL_STARTY="53" WHLL_ENDX="9" WHLL_ENDY="63" WHLL_NEXT_CONTROL_NAME="                                " WHLL_CURRENT_LABLE="Menu  . . . . . . . . . . . . . ." CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="AfxWnd42" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+  <Step ID="10" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="4" PacketID="8" ProcessID="1252" SessionID="1252" UID="8" EventType="" Validator="" AliasName="Menu  . . . . . . . . . . . . . ." BookMark="" HookMessage="1280" ThreadID="14628" AudioFile="" Guid="82c9cb0e-2f79-4fe0-a5ec-c707a94a7b17" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="31.000" DocArea="0" SecDefHashCode="5_1_2_7_8~kFn7MLmiC9jYo3YqwQFUCg==" HashCodeRuleId="7" ScreenHashCode="5~Q1L+ae/3j/ihnU/MclfOnw==" ScreenHashCodeRuleId="16" IsStrayStep="0" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="wddsppag.bin" ApplicationName="RUMBA Display Page" Version="4231.75.0.0" Path="C:\PROGRAM FILES (X86)\NETMANAGE\RUMBA\SYSTEM" EXEName="wddsppag.bin" />
+      <Window Name="Sign On" Value="Sign On" Type="" Old_Name="Sign On" />
+      <TimeStamp StartTime="07/10/2023 T 13:02:10.967" EndTime="07/10/2023 T 13:02:11.795" InternetTime="" LocalStartTime="07/10/2023 T 18:32:10.967" LocalEndTime="07/10/2023 T 18:32:11.795" StepDuration="1.718" keystrokes="6">
+        <IdleTimeInfo ActionDuration="1.718" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption="Menu  . . . . . . . . . . . . . ." Class="Menu  . . . . . . . . . . . . . ." DialogName="Sign On" AliasName="" WPARAM="84" LPARAM="1" Style="1442840576" TypedKey_En="" TypedKey_Locale="Test_4" ExtStyle="20" Old_DialogName="Sign On">
+        <HighLevelEvent>TYPETEXT</HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="884" Top="283" Right="1071" Bottom="309" />
+        <ClientRegion Left="884" Top="283" Right="1071" Bottom="309" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ContainerSC Left="0" Top="75" Right="1366" Bottom="699" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="454807281" UserAction="KeyDown" ClipData="" KeyCount="" IsDummyEvent="" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name="Menu  . . . . . . . . . . . . . ." Type="KEYBOARD" Value="" Role="editable text" RoleID="42" State="1" DialogName="Sign On" DialogPartialMatch="" Event="TYPETEXT" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="18" SPKeyWithData="" DefaultAction="" ClassIndex="1" Help="" RoleInCurrentLanguage="editable text" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="5834318" ParentHandle="" Index="0" InfoFilledFromOMNI="0" Old_DialogName="Sign On">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>Test_4</Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>884,192</CaretPos>
+        <StateComplete>
+        </StateComplete>
+        <Location Left="884" Top="283" Right="1071" Bottom="309" />
+        <ClientLocation Left="884" Top="283" Right="1071" Bottom="309" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="client" RoleID="" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="client">
+        <Location Left="" Top="" Right="" Bottom="" />
+        <ClientLocation>
+        </ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="1">
+      <vp type="V" id="1213ebe9-4c18-4fae-a41b-5d1dd36c19a3" seq="1">
+        <item op="" stype="C">
+          <name>Rule_1</name>
+          <meta>
+            <control>
+            </control>
+            <role>42</role>
+            <app>wddsppag.bin</app>
+            <url>
+            </url>
+            <screen>Sign On</screen>
+            <region left="" top="" width="" height="" />
+          </meta>
+          <rpa>
+            <AppInfo ExeName="wddsppag.bin" Path="" DialogName="Sign On" IEDocURL="" />
+            <GeneralInfo Event="TYPETEXT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="1252" MouseButton="" SPKeyStatus="18">
+              <Model Enabled="True">
+                <Properties Name="Menu8" />
+              </Model>
+            </GeneralInfo>
+            <ControlInfo ControlName="" RoleId="42" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="0,75,1366,699," ControlRectCL="0,32,1366,656," ControlData="Test_4" ControlMouseCL="" LabelImage="" ControlImage="As400_CI_1280_7.PNG" ControlRect="884,283,1071,309," LabelRect="" IEActiveTabCaption="" ScreenName="Sign On" SessionID="G" CursorLoc="" />
+            <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+            <AdditionalInfo UIA_CLASSNAME="AfxWnd42" UIA_REQUIRED="0" UIA_PROCESSID="1252" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="699" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="AfxOleControl42" UIA_PARENT_AUTOMATIONID="" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WdPageFrame" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="9" WHLL_STARTY="53" WHLL_ENDX="9" WHLL_ENDY="63" WHLL_NEXT_CONTROL_NAME="                                " WHLL_CURRENT_LABLE="Menu  . . . . . . . . . . . . . ." CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="AfxWnd42" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+          </rpa>
+          <rule id="14" value1="" value2="" regex="^[a-zA-Z ]+$" desc="" />
+          <atchs>
+            <atch type="audio" src="" />
+            <atch type="video" src="" />
+            <atch type="file" src="" />
+            <atch type="image" src="" />
+          </atchs>
+          <desc />
+          <actiononfailure type="0">
+            <message />
+          </actiononfailure>
+          <group />
+        </item>
+      </vp>
+    </vpeds>
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="Sign On_1280Img" FileName="As400_TW_1280_8.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="Sign On_1280Img" FileName="As400_TW_1280_8.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="Sign On_1280Img" FileName="As400_TW_1280_8.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="Sign On_1280Img" FileName="As400_TW_1284_9.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+      <ControlImage>
+        <ImageData ID="1" Name="Sign On_1280Img" FileName="As400_CI_1280_7.PNG" LocWithTolerance="" />
+      </ControlImage>
+    </ImageStore>
+    <Sentence Plain="In the Menu  . . . . . . . . . . . . . . box, enter &quot;Test_4&quot;." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;In the &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Menu  . . . . . . . . . . . . . .&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; box, enter "&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Test_4&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;".&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="Sign On" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="wddsppag.bin" Path="" DialogName="Sign On" IEDocURL="" />
+      <GeneralInfo Event="TYPETEXT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="1252" MouseButton="" SPKeyStatus="18" StepDelay="890">
+        <Model Enabled="True">
+          <Properties Name="Menu8" />
+        </Model>
+      </GeneralInfo>
+      <ControlInfo ControlName="" RoleId="42" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="0,75,1366,699," ControlRectCL="0,32,1366,656," ControlData="Test_4" ControlMouseCL="" LabelImage="" ControlImage="As400_CI_1280_7.PNG" ControlRect="884,283,1071,309," LabelRect="" IEActiveTabCaption="" ScreenName="Sign On" SessionID="G" CursorLoc="" />
+      <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="AfxWnd42" UIA_REQUIRED="0" UIA_PROCESSID="1252" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="699" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="AfxOleControl42" UIA_PARENT_AUTOMATIONID="" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WdPageFrame" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="9" WHLL_STARTY="53" WHLL_ENDX="9" WHLL_ENDY="63" WHLL_NEXT_CONTROL_NAME="                                " WHLL_CURRENT_LABLE="Menu  . . . . . . . . . . . . . ." CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="AfxWnd42" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+  <Step ID="11" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="4" PacketID="9" ProcessID="1252" SessionID="1252" UID="9" EventType="" Validator="" AliasName="Current library . . . . . . . . ." BookMark="" HookMessage="1284" ThreadID="14628" AudioFile="" Guid="e9243167-2f37-4b16-bc1b-f00b48a1548a" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="516.000" DocArea="0" SecDefHashCode="5_1_2_7_8~n7SSqfjD1o1KXirABcx6og==" HashCodeRuleId="7" ScreenHashCode="5~Q1L+ae/3j/ihnU/MclfOnw==" ScreenHashCodeRuleId="16" IsStrayStep="2" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="wddsppag.bin" ApplicationName="RUMBA Display Page" Version="4231.75.0.0" Path="C:\PROGRAM FILES (X86)\NETMANAGE\RUMBA\SYSTEM" EXEName="wddsppag.bin" />
+      <Window Name="Sign On" Value="Sign On" Type="" Old_Name="Sign On" />
+      <TimeStamp StartTime="07/10/2023 T 13:02:12.858" EndTime="07/10/2023 T 13:02:12.858" InternetTime="" LocalStartTime="07/10/2023 T 18:32:12.858" LocalEndTime="07/10/2023 T 18:32:12.858" StepDuration="1.063">
+        <IdleTimeInfo ActionDuration="1.063" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption="Current library . . . . . . . . ." Class="Current library . . . . . . . . ." DialogName="Sign On" AliasName="" WPARAM="9" LPARAM="3222208513" Style="1442840576" TypedKey_En="Tab" TypedKey_Locale="Tab" ExtStyle="20" Old_DialogName="Sign On">
+        <HighLevelEvent>ALL</HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="884" Top="309" Right="1071" Bottom="335" />
+        <ClientRegion Left="884" Top="309" Right="1071" Bottom="335" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ContainerSC Left="0" Top="75" Right="1366" Bottom="699" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="454809140" UserAction="KeyDown" ClipData="" KeyCount="" IsDummyEvent="" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name="Current library . . . . . . . . ." Type="KEYBOARD" Value="" Role="editable text" RoleID="42" State="1" DialogName="Sign On" DialogPartialMatch="" Event="KEYEVENT" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="16" SPKeyWithData="Tab" DefaultAction="" ClassIndex="1" Help="" RoleInCurrentLanguage="editable text" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="5834318" ParentHandle="" Index="0" InfoFilledFromOMNI="0" Old_DialogName="Sign On">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>Tab</Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>884,216</CaretPos>
+        <StateComplete>
+        </StateComplete>
+        <Location Left="884" Top="309" Right="1071" Bottom="335" />
+        <ClientLocation Left="884" Top="309" Right="1071" Bottom="335" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="client" RoleID="" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="client">
+        <Location Left="" Top="" Right="" Bottom="" />
+        <ClientLocation>
+        </ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="0" />
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="Sign On_1284Img" FileName="As400_TW_1284_9.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="Sign On_1284Img" FileName="As400_TW_1284_9.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="Sign On_1284Img" FileName="As400_TW_1284_9.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="Sign On_1284Img" FileName="As400_TW_1284_9.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+      <ControlImage>
+        <ImageData ID="1" Name="Sign On_1284Img" FileName="As400_CI_1284_8.PNG" LocWithTolerance="" />
+      </ControlImage>
+    </ImageStore>
+    <Sentence Plain="Press Tab key." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;Press &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Tab&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; key.&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="Sign On" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="wddsppag.bin" Path="" DialogName="Sign On" IEDocURL="" />
+      <GeneralInfo Event="KEYEVENT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="1252" MouseButton="" SPKeyStatus="16" StepDelay="1063" />
+      <ControlInfo ControlName="" RoleId="42" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="0,75,1366,699," ControlRectCL="0,32,1366,656," ControlData="Tab" ControlMouseCL="" LabelImage="" ControlImage="As400_CI_1284_8.PNG" ControlRect="884,309,1071,335," LabelRect="" IEActiveTabCaption="" ScreenName="Sign On" SessionID="G" CursorLoc="" />
+      <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="AfxWnd42" UIA_REQUIRED="0" UIA_PROCESSID="1252" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="699" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="AfxOleControl42" UIA_PARENT_AUTOMATIONID="" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WdPageFrame" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="10" WHLL_STARTY="53" WHLL_ENDX="10" WHLL_ENDY="63" WHLL_NEXT_CONTROL_NAME="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       " WHLL_CURRENT_LABLE="Current library . . . . . . . . ." CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="AfxWnd42" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+  <Step ID="12" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="4" PacketID="10" ProcessID="1252" SessionID="1252" UID="10" EventType="" Validator="" AliasName="Current library . . . . . . . . ." BookMark="" HookMessage="1280" ThreadID="14628" AudioFile="" Guid="dfbbd8d9-61df-4a17-9c93-f552dcaac99e" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="4968.000" DocArea="0" SecDefHashCode="5_1_2_7_8~n7SSqfjD1o1KXirABcx6og==" HashCodeRuleId="7" ScreenHashCode="5~Q1L+ae/3j/ihnU/MclfOnw==" ScreenHashCodeRuleId="16" IsStrayStep="0" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="wddsppag.bin" ApplicationName="RUMBA Display Page" Version="4231.75.0.0" Path="C:\PROGRAM FILES (X86)\NETMANAGE\RUMBA\SYSTEM" EXEName="wddsppag.bin" />
+      <Window Name="Sign On" Value="Sign On" Type="" Old_Name="Sign On" />
+      <TimeStamp StartTime="07/10/2023 T 13:02:13.764" EndTime="07/10/2023 T 13:02:14.592" InternetTime="" LocalStartTime="07/10/2023 T 18:32:13.764" LocalEndTime="07/10/2023 T 18:32:14.592" StepDuration="1.734" keystrokes="6">
+        <IdleTimeInfo ActionDuration="1.734" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption="Current library . . . . . . . . ." Class="Current library . . . . . . . . ." DialogName="Sign On" AliasName="" WPARAM="84" LPARAM="1" Style="1442840576" TypedKey_En="" TypedKey_Locale="Test_5" ExtStyle="20" Old_DialogName="Sign On">
+        <HighLevelEvent>TYPETEXT</HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="884" Top="309" Right="1071" Bottom="335" />
+        <ClientRegion Left="884" Top="309" Right="1071" Bottom="335" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ContainerSC Left="0" Top="75" Right="1366" Bottom="699" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="454810078" UserAction="KeyDown" ClipData="" KeyCount="" IsDummyEvent="" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name="Current library . . . . . . . . ." Type="KEYBOARD" Value="" Role="editable text" RoleID="42" State="1" DialogName="Sign On" DialogPartialMatch="" Event="TYPETEXT" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="18" SPKeyWithData="" DefaultAction="" ClassIndex="1" Help="" RoleInCurrentLanguage="editable text" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="5834318" ParentHandle="" Index="0" InfoFilledFromOMNI="0" Old_DialogName="Sign On">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>Test_5</Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>884,216</CaretPos>
+        <StateComplete>
+        </StateComplete>
+        <Location Left="884" Top="309" Right="1071" Bottom="335" />
+        <ClientLocation Left="884" Top="309" Right="1071" Bottom="335" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="client" RoleID="" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="client">
+        <Location Left="" Top="" Right="" Bottom="" />
+        <ClientLocation>
+        </ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="1">
+      <vp type="V" id="c8a5ccbc-73a2-4dc6-a9e9-ed60bd777e43" seq="1">
+        <item op="" stype="C">
+          <name>Rule_1</name>
+          <meta>
+            <control>
+            </control>
+            <role>42</role>
+            <app>wddsppag.bin</app>
+            <url>
+            </url>
+            <screen>Sign On</screen>
+            <region left="" top="" width="" height="" />
+          </meta>
+          <rpa>
+            <AppInfo ExeName="wddsppag.bin" Path="" DialogName="Sign On" IEDocURL="" />
+            <GeneralInfo Event="TYPETEXT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="1252" MouseButton="" SPKeyStatus="18">
+              <Model Enabled="True">
+                <Properties Name="Currentlibrary10" />
+              </Model>
+            </GeneralInfo>
+            <ControlInfo ControlName="" RoleId="42" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="0,75,1366,699," ControlRectCL="0,32,1366,656," ControlData="Test_5" ControlMouseCL="" LabelImage="" ControlImage="As400_CI_1280_9.PNG" ControlRect="884,309,1071,335," LabelRect="" IEActiveTabCaption="" ScreenName="Sign On" SessionID="G" CursorLoc="" />
+            <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+            <AdditionalInfo UIA_CLASSNAME="AfxWnd42" UIA_REQUIRED="0" UIA_PROCESSID="1252" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="699" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="AfxOleControl42" UIA_PARENT_AUTOMATIONID="" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WdPageFrame" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="10" WHLL_STARTY="53" WHLL_ENDX="10" WHLL_ENDY="63" WHLL_NEXT_CONTROL_NAME="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       " WHLL_CURRENT_LABLE="Current library . . . . . . . . ." CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="AfxWnd42" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+          </rpa>
+          <rule id="14" value1="" value2="" regex="^[a-zA-Z ]+$" desc="" />
+          <atchs>
+            <atch type="audio" src="" />
+            <atch type="video" src="" />
+            <atch type="file" src="" />
+            <atch type="image" src="" />
+          </atchs>
+          <desc />
+          <actiononfailure type="0">
+            <message />
+          </actiononfailure>
+          <group />
+        </item>
+      </vp>
+    </vpeds>
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="Sign On_1280Img" FileName="As400_TW_1280_10.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="Sign On_1280Img" FileName="As400_TW_1280_10.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="Sign On_1280Img" FileName="As400_TW_1280_10.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="Sign On_1280Img" FileName="As400_TW_1280_10.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+      <ControlImage>
+        <ImageData ID="1" Name="Sign On_1280Img" FileName="As400_CI_1280_9.PNG" LocWithTolerance="" />
+      </ControlImage>
+    </ImageStore>
+    <Sentence Plain="In the Current library . . . . . . . . . box, enter &quot;Test_5&quot;." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;In the &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Current library . . . . . . . . .&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; box, enter "&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Test_5&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;".&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="Sign On" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="wddsppag.bin" Path="" DialogName="Sign On" IEDocURL="" />
+      <GeneralInfo Event="TYPETEXT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="1252" MouseButton="" SPKeyStatus="18" StepDelay="906">
+        <Model Enabled="True">
+          <Properties Name="Currentlibrary10" />
+        </Model>
+      </GeneralInfo>
+      <ControlInfo ControlName="" RoleId="42" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="0,75,1366,699," ControlRectCL="0,32,1366,656," ControlData="Test_5" ControlMouseCL="" LabelImage="" ControlImage="As400_CI_1280_9.PNG" ControlRect="884,309,1071,335," LabelRect="" IEActiveTabCaption="" ScreenName="Sign On" SessionID="G" CursorLoc="" />
+      <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="AfxWnd42" UIA_REQUIRED="0" UIA_PROCESSID="1252" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="699" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="AfxOleControl42" UIA_PARENT_AUTOMATIONID="" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WdPageFrame" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="10" WHLL_STARTY="53" WHLL_ENDX="10" WHLL_ENDY="63" WHLL_NEXT_CONTROL_NAME="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       " WHLL_CURRENT_LABLE="Current library . . . . . . . . ." CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="AfxWnd42" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+  <GroupStep ID="13" Caption="Sign On" ParentID="1" Level="2" ProcessID="1252" Guid="c53b7fe7-0457-4373-8a78-70ba076e7d89">
+    <Tacit />
+    <DrawMarkRegion />
+  </GroupStep>
+  <Step ID="14" Version="11." ParentID="13" Level="3" ActiveChannelID="0" AdaptorID="0" PacketID="11" ProcessID="1252" SessionID="1252" UID="11" EventType="" Validator="" AliasName="Sign On" BookMark="End" HookMessage="6" ThreadID="14628" AudioFile="" Guid="337b8e99-dcda-4259-a615-ec0b3f706776" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="4968.000" DocArea="0" SecDefHashCode="2_5_7_8~4Eh8M8Oo2cTPKyx+7Q5NPw==" HashCodeRuleId="9" ScreenHashCode="5~Q1L+ae/3j/ihnU/MclfOnw==" ScreenHashCodeRuleId="16" IsStrayStep="2" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="wddsppag.bin" ApplicationName="RUMBA Display Page" Version="4231.75.0.0" Path="C:\PROGRAM FILES (X86)\NETMANAGE\RUMBA\SYSTEM" EXEName="wddsppag.bin" />
+      <Window Name="Sign On" Value="Sign On" Type="" Old_Name="Sign On" />
+      <TimeStamp StartTime="07/10/2023 T 13:02:21.939" EndTime="07/10/2023 T 13:02:21.939" InternetTime="" LocalStartTime="07/10/2023 T 18:32:21.939" LocalEndTime="" StepDuration="7.347">
+        <IdleTimeInfo ActionDuration="7.347" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption="Sign On" Class="10" DialogName="Sign On" AliasName="" WPARAM="84" LPARAM="1" Style="1442840576" TypedKey_En="" TypedKey_Locale="Test_5" ExtStyle="20" Old_DialogName="Sign On">
+        <HighLevelEvent>WINDOWACTIVATE</HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="884" Top="309" Right="1071" Bottom="335" />
+        <ClientRegion Left="884" Top="309" Right="1071" Bottom="335" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="454810078" UserAction="" ClipData="" KeyCount="" IsDummyEvent="0" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name="Sign On" Type="client" Value="" Role="client" RoleID="10" State="1" DialogName="Sign On" DialogPartialMatch="" Event="WindowActivate" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="0" SPKeyWithData="" DefaultAction="" ClassIndex="1" Help="" RoleInCurrentLanguage="client" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="5834318" ParentHandle="4787800" Index="0" InfoFilledFromOMNI="0" IsDummyWindowActivate="0" DummyWindowName="" Old_DialogName="Sign On">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>T</Value>
+        </ControlData>
+        <Hierarchy>5834318</Hierarchy>
+        <CaretPos>884,216</CaretPos>
+        <StateComplete>1442840576</StateComplete>
+        <Location Left="884" Top="309" Right="1071" Bottom="335" />
+        <ClientLocation Left="884" Top="309" Right="1071" Bottom="335" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="window" RoleID="AfxOleControl42" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="window">
+        <Location Left="0" Top="75" Right="1366" Bottom="699" />
+        <ClientLocation>0,75,1366,699</ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="0" />
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="Sign On_1280Img" FileName="As400_TW_2713_11.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="Sign On_1280Img" FileName="As400_TW_2713_11.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="Sign On_1280Img" FileName="As400_TW_2713_11.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="Sign On_1280Img" FileName="As400_TW_2713_11.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+    </ImageStore>
+    <Sentence Plain="Sign On screen is displayed." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Sign On&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; screen is displayed.&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="wddsppag.bin" Path="" DialogName="Sign On" IEDocURL="" />
+      <GeneralInfo Event="WindowActivate" AdaptorID="0" IsCitrix="" IsAI="" ProcessID="1252" MouseButton="" SPKeyStatus="" StepDelay="7347" />
+      <ControlInfo ControlName="" RoleId="10" Role="client" UniqueID="" AutomationID="" ControlRectSC="" ControlRectCL="" ControlData="T" ControlMouseCL="" LabelImage="" ControlImage="" ControlRect="" LabelRect="" IEActiveTabCaption="" />
+      <ParentInfo ParentName="" ParentRoleId="AfxOleControl42" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="" UIA_REQUIRED="" UIA_PROCESSID="" UIA_PASSWORD="" UIA_ORIENTATION="" UIA_OFFSCREEN="" UIA_LOCALIZED_CONTROL_TYPE="" UIA_HELPTEXT="" UIA_HEIGHT="" UIA_HAS_KEYBOARD_FOCUS="" UIA_ENABLED="" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="" UIA_PARENT_CONTROL_TYPE="" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="" UIA_PARENT_AUTOMATIONID="" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="" UIA_FOREGROUND_WINDOW_TYPE="WdPageFrame" UIA_NAME="" UIA_CONTROL_TYPE="" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="" WHLL_STARTY="" WHLL_ENDX="" WHLL_ENDY="" WHLL_NEXT_CONTROL_NAME="" WHLL_CURRENT_LABLE="" CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="" CONTROL_INDEX_PATH="" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+</WorkFlow>

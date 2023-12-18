@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GPSXPathConstants>
+  <GPSXPathConstant Id="1" Name="ChannelId" XPath="@AdaptorID" />
+  <GPSXPathConstant Id="2" Name="AppName"   XPath="Info/TAP/@EXEName" />
+  <GPSXPathConstant Id="3" Name="AppVersion" XPath="Info/TAP/@Version" />
+  <GPSXPathConstant Id="4" Name="AppPath" XPath="Info/TAP/@Path"/>
+  <GPSXPathConstant Id="5" Name="WindowCaption" XPath="Info/Window/@Name" />
+  <GPSXPathConstant Id="6" Name="ClassName"  XPath="Standard/Control/@Name" />
+  <GPSXPathConstant Id="7" Name="ControlName" XPath="MSAA/Control/@Name" />
+  <GPSXPathConstant Id="8" Name="ControlType" XPath="MSAA/Control/@RoleID" />
+  <GPSXPathConstant Id="9" Name="ControlTypeInText" XPath="MSAA/Control/@Role"/>
+  <GPSXPathConstant Id="10" Name="ControlValue" XPath="MSAA/Control/@Value" />
+  <GPSXPathConstant Id="11" Name="Event" XPath="MSAA/Control/@Event"/>
+  <GPSXPathConstant Id="12" Name="SPKeyStatus" XPath="MSAA/Control/@SPKeyStatus" />
+  <GPSXPathConstant Id="13" Name="ClassIndex" XPath="MSAA/Control/@ClassIndex" />
+  <GPSXPathConstant Id="14" Name="ControlData" XPath="MSAA/Control/ControlData/Value" />
+  <GPSXPathConstant Id="15" Name="Location" XPath="MSAA/Control/@Location" />
+  <GPSXPathConstant Id="16" Name="ClientLocation" XPath="MSAA/Control/@ClientLocation" />
+  <GPSXPathConstant Id="17" Name="MouseButton" XPath="MSAA/Control/@MouseButton" />
+  <GPSXPathConstant Id="18" Name="ParentName" XPath="MSAA/ParentControl/@Name" />
+  <GPSXPathConstant Id="19" Name="ParentControlType" XPath="MSAA/ParentControl/@RoleID" />
+  <GPSXPathConstant Id="20" Name="ParentControlTypeText" XPath="MSAA/ParentControl/@Role" />
+  <GPSXPathConstant Id="21" Name="ParentControlValue" XPath="MSAA/ParentControl/@Value" />
+  <GPSXPathConstant Id="22" Name="ParentLocation" XPath="MSAA/ParentControl/@Location" />
+  <GPSXPathConstant Id="23" Name="ParentClientLocation" XPath="MSAA/ParentControl/@ClientLocation" />
+  <GPSXPathConstant Id="24" Name="DocURL" XPath="IE/@DocURL" />
+  <GPSXPathConstant Id="25" Name="ScreenNumber" XPath="AddIn/SAP/Info/@ScreenNumber"/>
+  <GPSXPathConstant Id="26" Name="UniqueControlID" XPath="MSAA/Control/@UniqueControlID"/>
+  <GPSXPathConstant Id="27" Name="HighLevelEvent" XPath="Standard/Control/HighLevelEvent"/>
+  <GPSXPathConstant Id="28" Name="XPath" XPath="PlayBack/ControlInfo/@XPath"/>
+  <GPSXPathConstant Id="29" Name="PlayBackControlData" XPath="PlayBack/ControlInfo/@ControlData"/>
+  <GPSXPathConstant Id="30" Name="Sheetname" XPath="PlayBack/AdditionalInfo/@EXCEL_SHEET_NAME"/>
+  </GPSXPathConstants>

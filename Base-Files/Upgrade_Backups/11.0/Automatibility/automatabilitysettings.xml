@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutomatabilityRuleSettings>
+  <Rules>
+    <!-- ROC >> 1=Required, 2=Optional, 3=Conditional -->
+    <!-- CONS >> 1=As Is, 2=Transform, 3=Decision -->
+    <DataPoint>
+      <!-- Default -->
+      <!-- Rect based -->
+      <Rule Id="3bfe60a7-294b-4aa5-a42f-bb7a960953ea" type="R" Name="" Description="">
+        <Condition>
+          <control>editable text</control>
+          <application></application>
+          <role>42</role>
+        </Condition>
+        <Equation>
+          <StructuredData>95</StructuredData>
+          <UnstructuredData>88</UnstructuredData>
+          <roc>1</roc>
+          <cons>1</cons>
+        </Equation>
+      </Rule>
+      <Rule Id="713aefa6-f748-4b00-b356-7e0ed28463cb" type="R" Name="" Description="">
+        <Condition>
+          <control>check box</control>
+          <application></application>
+          <role>44</role>
+        </Condition>
+        <Equation>
+          <StructuredData>100</StructuredData>
+          <UnstructuredData>88</UnstructuredData>
+          <roc>1</roc>
+          <cons>1</cons>
+        </Equation>
+      </Rule>
+      <Rule Id="51fda828-c9f5-4e6d-a88a-2cc39a89d1fe" type="R" Name="" Description="">
+        <Condition>
+          <control>radio button</control>
+          <application></application>
+          <role>45</role>
+        </Condition>
+        <Equation>
+          <StructuredData>100</StructuredData>
+          <UnstructuredData>88</UnstructuredData>
+          <roc>1</roc>
+          <cons>1</cons>
+        </Equation>
+      </Rule>
+      <Rule Id="0533c8c4-3169-4ea3-a239-6b5b1fc6dcd4" type="R" Name="" Description="">
+        <Condition>
+          <control>combo box</control>
+          <application></application>
+          <role>46</role>
+        </Condition>
+        <Equation>
+          <StructuredData>100</StructuredData>
+          <UnstructuredData>88</UnstructuredData>
+          <roc>1</roc>
+          <cons>1</cons>
+        </Equation>
+      </Rule>
+      <Rule Id="608c413a-0bf2-489f-92d2-108f34b63afb" type="R" Name="" Description="">
+        <Condition>
+          <control>drop down</control>
+          <application></application>
+          <role>47</role>
+        </Condition>
+        <Equation>
+          <StructuredData>100</StructuredData>
+          <UnstructuredData>88</UnstructuredData>
+          <roc>1</roc>
+          <cons>1</cons>
+        </Equation>
+      </Rule>
+      <Rule Id="f1b34d66-d633-47ec-ad2f-b9cfcb282e77" type="R" Name="" Description="">
+        <Condition>
+          <control>table cell</control>
+          <application></application>
+          <role>29</role>
+        </Condition>
+        <Equation>
+          <StructuredData>100</StructuredData>
+          <UnstructuredData>88</UnstructuredData>
+          <roc>1</roc>
+          <cons>1</cons>
+        </Equation>
+      </Rule>
+      <Rule Id="0b135468-b619-4eed-9a19-fbb61db02a05" type="R" Name="" Description="">
+        <Condition>
+          <control>list</control>
+          <application></application>
+          <role>33</role>
+        </Condition>
+        <Equation>
+          <StructuredData>100</StructuredData>
+          <UnstructuredData>88</UnstructuredData>
+          <roc>1</roc>
+          <cons>1</cons>
+        </Equation>
+      </Rule>
+      <!-- Control based	 -->
+      <Rule Id="ccc02ae4-f9de-407b-8616-2cf06c92c4b7" type="C" Name="" Description="">
+        <Condition>
+          <control>editable text</control>
+          <application></application>
+          <role>42</role>
+        </Condition>
+        <Equation>
+          <StructuredData>100</StructuredData>
+          <UnstructuredData>88</UnstructuredData>
+          <roc>1</roc>
+          <cons>1</cons>
+        </Equation>
+      </Rule>
+      <Rule Id="5dbc043b-1f11-45ba-91da-91f55cb5a0f6" type="C" Name="" Description="">
+        <Condition>
+          <control>check box</control>
+          <application></application>
+          <role>44</role>
+        </Condition>
+        <Equation>
+          <StructuredData>100</StructuredData>
+          <UnstructuredData>88</UnstructuredData>
+          <roc>1</roc>
+          <cons>1</cons>
+        </Equation>
+      </Rule>
+      <Rule Id="e654a2c1-6e98-44b6-b637-72851025368a" type="C" Name="" Description="">
+        <Condition>
+          <control>radio button</control>
+          <application></application>
+          <role>45</role>
+        </Condition>
+        <Equation>
+          <StructuredData>100</StructuredData>
+          <UnstructuredData>88</UnstructuredData>
+          <roc>1</roc>
+          <cons>1</cons>
+        </Equation>
+      </Rule>
+      <Rule Id="b64d015c-6a64-4631-a672-5db83dc18458" type="C" Name="" Description="">
+        <Condition>
+          <control>combo box</control>
+          <application></application>
+          <role>46</role>
+        </Condition>
+        <Equation>
+          <StructuredData>100</StructuredData>
+          <UnstructuredData>88</UnstructuredData>
+          <roc>1</roc>
+          <cons>1</cons>
+        </Equation>
+      </Rule>
+      <Rule Id="0e80934f-4d11-4e1a-8b26-61f226200d18" type="C" Name="" Description="">
+        <Condition>
+          <control>drop down</control>
+          <application></application>
+          <role>47</role>
+        </Condition>
+        <Equation>
+          <StructuredData>100</StructuredData>
+          <UnstructuredData>88</UnstructuredData>
+          <roc>1</roc>
+          <cons>1</cons>
+        </Equation>
+      </Rule>
+      <Rule Id="b3595009-e838-47c8-b69b-80cbeee7dcd9" type="C" Name="" Description="">
+        <Condition>
+          <control>table cell</control>
+          <application></application>
+          <role>29</role>
+        </Condition>
+        <Equation>
+          <StructuredData>100</StructuredData>
+          <UnstructuredData>88</UnstructuredData>
+          <roc>1</roc>
+          <cons>1</cons>
+        </Equation>
+      </Rule>
+      <Rule Id="fe5bb60c-bce0-43a2-b05e-937ff0d7c26f" type="C" Name="" Description="">
+        <Condition>
+          <control>list</control>
+          <application></application>
+          <role>33</role>
+        </Condition>
+        <Equation>
+          <StructuredData>100</StructuredData>
+          <UnstructuredData>88</UnstructuredData>
+          <roc>1</roc>
+          <cons>1</cons>
+        </Equation>
+      </Rule>
+      <!-- Default Ends -->
+      <!-- Automation rules App Specific
+				type= R(rect based), C(control based)
+				Name = name of the rule
+			-->
+    </DataPoint>
+    <Validation>
+      <Rule Id="38a4fc6d-2761-4ac9-b5b0-169240c607b4"></Rule>
+    </Validation>
+  </Rules>
+</AutomatabilityRuleSettings>

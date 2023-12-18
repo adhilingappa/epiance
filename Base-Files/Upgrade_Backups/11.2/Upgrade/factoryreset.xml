@@ -1,0 +1,14 @@
+<settings>
+    <file name="Common\NewCapturePreference.xml" >
+		<attrs>
+			<attr xpath="Preference/Processor/Common/Properties/@Author" />
+			<attr xpath="Preference/Processor/Common/Properties/@CopyRight" />
+			<attr xpath="Preference/Processor/Common/Properties/@Organization" />
+			<attr xpath="Preference/Processor/Common/Properties/@Description" />
+		</attrs>
+		<nodes>
+			<node xpath="Preference/Processor/CaptureSettings/ExcludeCaptureApps" validation="nodevalue" />
+			<node xpath="Preference/Processor/CaptureSettings/ApplicationFilter" validation="nodevalue"/>
+		</nodes>
+	</file>
+</settings>

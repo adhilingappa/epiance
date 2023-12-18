@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preference Version="8.0.0" OldVersion="">
+  <Processor>
+    <Common>
+      <Properties Author="" CopyRight="" Organization="" Description="" />
+      <Border Show="1" Thickness="2" Color="#FFFF0000" />
+      <MousePointer Show="1" />
+      <Sentence Structure="1" Format="1" ApplyChangesOnAll="1" UseCtrlImage="0" />
+      <SecurityDefn Apply="1">
+        <SecureDataBy>1</SecureDataBy>
+      </SecurityDefn>
+      <ApplyAliasName>0</ApplyAliasName>
+    </Common>
+    <CaptureSettings NLPEnabled="1">
+      <ExcludeCaptureApps>
+        <App>epiGuide.exe</App>
+        <App>eDocDataMigration.exe</App>
+        <App>eDocSynch.exe</App>
+        <App>ProcessInitiator.exe</App>
+        <App>ExWait.exe</App>
+        <App>GuruRegApp.exe</App>
+        <App>GWizMsg.exe</App>
+        <App>PlayerServer.exe</App>
+        <App>Processer.exe</App>
+        <App>regtypelib.exe</App>
+        <App>ScriptEditor.exe</App>
+        <App>TopGuru.exe</App>
+        <App>WizMaker.exe</App>
+        <App>Processor.exe</App>
+        <App>GuruHTMLParser.exe</App>
+        <App>FormDisplayer.exe</App>
+        <App>GPSEditor.exe</App>
+        <App>ProjectPlayer.exe</App>
+        <App>ProjectRunner.exe</App>
+        <App>DynamicInput.exe</App>
+        <App>FormWrapper.exe</App>
+        <App>TaskPlayer.exe</App>
+        <App>Recorder.exe</App>
+        <App>epiRemoteClient.exe</App>
+        <App>RemoteProcessor.exe</App>
+        <App>MSDEV.exe</App>
+        <App>MSAADotNetAdaptor.exe</App>
+      </ExcludeCaptureApps>
+      <ApplicationFilter CaptureOnlyIncluded="1">
+        <Applications>explorer.exe</Applications>
+        <SelectedApps>explorer.exe|</SelectedApps>
+      </ApplicationFilter>
+      <RemoteCaptureApps />
+      <ShowProp>1</ShowProp>
+      <ShowMousePointer>1</ShowMousePointer>
+      <PauseResume Allow="0" HotKey="F6" />
+      <ShowPropertiesDialogWhileSaving>0</ShowPropertiesDialogWhileSaving>
+      <LocCheckApps>
+        <App>activconsole.exe</App>
+      </LocCheckApps>
+      <CompositeControls>
+        <Ctrl>combo box</Ctrl>
+        <Ctrl>combobox</Ctrl>
+        <Ctrl>listbox</Ctrl>
+        <Ctrl>list</Ctrl>
+        <Ctrl>spin box</Ctrl>
+      </CompositeControls>
+      <SecDefDataControls>
+        <Ctrl>combo box</Ctrl>
+        <Ctrl>editable text</Ctrl>
+        <Ctrl>list item</Ctrl>
+        <Ctrl>list</Ctrl>
+        <Ctrl>combo box</Ctrl>
+        <Ctrl>combobox</Ctrl>
+        <Ctrl>listbox</Ctrl>
+        <Ctrl>SAPGuiPasswordField</Ctrl>
+        <Ctrl>SAPGuiTextField</Ctrl>
+        <Ctrl>SAPGuiCTextField</Ctrl>
+        <Ctrl>SAPGuiComboBox</Ctrl>
+        <Ctrl>SAPGuiOkCodeField</Ctrl>
+      </SecDefDataControls>
+      <NumEntToBeTrans>0</NumEntToBeTrans>
+      <NotesAndImages>
+        <Notes SeqNotesSetting="0" />
+        <ManualImage Allow="0" HotKey="Print Screen" />
+        <AutoImage Allow="1">
+          <ControlImage Allow="0" Mode="1" />
+          <ScreenImage Allow="1" Mode="3" />
+        </AutoImage>
+      </NotesAndImages>
+      <AudioVideo Allow="0" AllowUserControl="1" CapturePreference="1" CaptureMode="0" HotKey="F2" ShowVisualCue="1" SelectedRuleOption="0" SelectedFileName="" FrameRate="1" TaggingLogic="1" />
+      <AdvancedSetting ShowCaptureInfo="0" MinimizeToSysTray="1" CaptureCDT="0" DefaultEventProperties="1" />
+      <Settings WarnForSystemOutcome="1" ReduceBrightness="1" />
+      <ScreenCapture Allow="0" AllowUserControl="1" CaptureMode="0" HotKey="F4" ShowVisualCue="1" FrameRate="5" IncludeCursor="1" CaptureRegion="100,100,500,400" />
+      <General RecMode="0" />
+      <AutoSave EventsLimit="20" />
+      <IssueReport StepLimit="20" />
+      <Switch Hierarchy="1" ActiveTab="1" />
+      <Narration Allow="1" HotKey="F6" />
+    </CaptureSettings>
+    <EditorSettings>
+      <ExcludeEvents>
+        <Evt>captiondestroy</Evt>
+        <Evt>menucaptiondestroy</Evt>
+        <Evt>menu popup</Evt>
+        <Evt>collapse popup</Evt>
+        <Evt>KeyHLE</Evt>
+        <Evt>OnEntry</Evt>
+        <Evt>OnExit</Evt>
+        <Evt>AppClose</Evt>
+        <Evt>ChildActivate</Evt>
+        <Evt>AppSwitch</Evt>
+        <Evt>LoseFocus</Evt>
+        <Evt>OnHover</Evt>
+        <Evt>START TRANSACTION</Evt>
+        <Evt>END TRANSACTION</Evt>
+        <Evt>MESSAGE</Evt>
+        <Evt>CaptionCreate</Evt>
+        <Evt>Start Capture</Evt>
+        <Evt>Stop Capture</Evt>
+        <Evt>Refresh</Evt>
+        <Evt>Disk Full</Evt>
+        <Evt>Idle Mode - Start</Evt>
+        <Evt>Idle Mode - End</Evt>
+        <Evt>Cancel Capture</Evt>
+        <Evt>Black Listed App - Entry</Evt>
+        <Evt>White Listed App - Entry</Evt>
+      </ExcludeEvents>
+    </EditorSettings>
+  </Processor>
+</Preference>

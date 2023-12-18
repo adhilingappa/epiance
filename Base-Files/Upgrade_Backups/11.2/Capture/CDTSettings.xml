@@ -1,0 +1,18 @@
+<Settings>
+	<Adapters>
+		<GreenScreenAdapter>
+			<Application ID = "1a" AppName= "wddsppag.bin.exe" dllPath = "C:\Program Files (x86)\NetManage\RUMBA\System\WHLLAPI.DLL" DelayMS = "1000" FullCDT="True"/>
+			<Application ID = "1b" AppName= "rumba.exe" dllPath = "C:\Program Files (x86)\NetManage\RUMBA\System\WHLLAPI.DLL" DelayMS = "1000" FullCDT="True"/>
+		</GreenScreenAdapter>
+		<IEAdapter ID = "2" AppName= "iexplore.exe" DelayMS = "1000" FullCDT="True"/>		
+		<SAPAdapter ID = "3" AppName= "saplogon.exe" FullCDT="True"/>
+		<NetOnAdapter>
+			<Application ID = "12a" AppName= "chrome.exe" FullCDT="True"/>
+			<Application ID = "12b" AppName= "firefox.exe" FullCDT="True"/>
+			<Application ID = "12c" AppName= "opera.exe" FullCDT="True"/>
+			<Application ID = "12d" AppName= "msedge.exe" FullCDT="True"/>
+		</NetOnAdapter>
+		<UIAdapter ID = "4" AppName= "*" FullCDT="False"/>
+		
+	</Adapters>
+</Settings>

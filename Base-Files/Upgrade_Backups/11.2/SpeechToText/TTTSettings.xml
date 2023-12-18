@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TTTSettings Default="Google">
+  <Engine Name="Amazon">
+    <KeyID></KeyID>
+    <SecurityKey></SecurityKey>
+  </Engine>
+  <Engine Name="Microsoft">
+    <SubscriptionKey>b5b54cb063e3451aa0664b82824b1401</SubscriptionKey>     
+	<EndPoint>https://api.cognitive.microsofttranslator.com/</EndPoint>     
+	<Location>centralindia</Location>
+    
+  </Engine>
+  <Engine Name="Google">
+    <LicenseFilePath>C:\ProgramData\Epiplex500\Settings\SpeechToText\License.json</LicenseFilePath>
+  </Engine>
+  <SelectedLanguage LanguageName="English" LanguageCode="en" />
+</TTTSettings>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><NewCapturePreference>
+    <HomeCaptureSettings AudioVideoSelection="1" CaptureAudio="1" FullScreenMode="2" HotKeyAudioVideo="F8" HotKeyValidation="Validation" HotKeyException="Exception" HotKeyNarration="Narration" SentenceStructure="1013" SentenceFormat="4" UseControlImg_Uncheck="0" ApplyAliasName="0" ApplicationFilterInclude="2" ApplicationFilterApps="explorer.exe|WINWORD.EXE" Organization="Epiance Software" CopyRight="www.epiance.com" PropertiesWhileSave="0" SensDataMaskRuleImg="0" TaxonomyAddToNextStepsOnly="" UIACaptureEnabled="1" NLPEnabled="0"/>
+    <ProcessEditor HideNoiseStep="0" ShowHideKeyStepGrid="0" ShowHideAdditionalGrid="0" BorderColor="#FF0070C0" BorderThickness="3" BorderShow="1" ShowMousePointer="0" ShowNavigationData="0"/>
+</NewCapturePreference>

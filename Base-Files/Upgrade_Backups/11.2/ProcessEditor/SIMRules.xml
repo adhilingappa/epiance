@@ -1,0 +1,41 @@
+<RuleInfo>
+  <ControlRules>
+    <Rule Id="1" SettingId="default" RuleType="image" RuleDesc="Mask Landscape" RefImage="REF_b31rrepqkobj.png" DPI="1">
+      <MaskInfo Type="block" BackColorType="given" BackColor="IndianRed" />
+      <RefRegion Pattern="DSRI_5ou6ult1.png" LocationRelativity="auto" JumpToField="1">
+        <Direction type="right" />
+        <PatternRegion Left="26" Top="229" Width="84" Height="46" />
+      </RefRegion>
+    </Rule>
+  </ControlRules>
+  <ApplicationGroup>
+    <Application Id="anyapp" Name="All Application">
+      <AppRules />
+      <Screens>
+        <Screen Id="1" Name="All Screen">
+          <Controls />
+          <ScreenRules />
+        </Screen>
+      </Screens>
+    </Application>
+    <Application Id="7eb532a2-5cd4-4222-845e-e4d1ce36654b" Name="notepad">
+      <AppRules>
+        <AppRule Id="1" SettingId="default" Pattern="notepad.exe" RuleDesc="" Match="exe" RefImage="REF_rav69zk6kx3i.png" DPI="1" />
+      </AppRules>
+      <Screens>
+        <Screen Id="518dc4af-dbb6-496b-856c-3a23d3eac977" Name="All Screen">
+          <Controls />
+          <ScreenRules />
+        </Screen>
+        <Screen Id="2199aea1-18be-42dc-81db-808247c6fe6c" Name="Page Setup">
+          <Controls>
+            <Control Id="44f33e77-058a-4e5b-8ad4-7393dd754876" Name="Landscape" RuleID="1" />
+          </Controls>
+          <ScreenRules>
+            <ScreenRule Id="1" SettingId="default" Pattern="Page Setup" RuleDesc="" Match="title" RefImage="REF_rav69zk6kx3i.png" DPI="1" />
+          </ScreenRules>
+        </Screen>
+      </Screens>
+    </Application>
+  </ApplicationGroup>
+</RuleInfo>

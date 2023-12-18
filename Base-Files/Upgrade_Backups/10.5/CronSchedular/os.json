@@ -1,0 +1,6 @@
+[
+{"MachineName":"mchnCode01","ProjectName":"Project1","DomainUserName":"user.name","ApplicationPassword":"encrypted password","DeleteDate":""},
+{"MachineName":"mchnCode01","ProjectName":"Project2","DomainUserName":"user.name","ApplicationPassword":"encrypted password","DeleteDate":""},
+{"MachineName":"mchnCode01","ProjectName":"Project3","DomainUserName":"user.name","ApplicationPassword":"encrypted password","DeleteDate":""}
+]
+

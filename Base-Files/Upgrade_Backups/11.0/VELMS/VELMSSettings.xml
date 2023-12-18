@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VELMS Enabled="0">
+	<Address value=""/>
+	<Hbt Enabled="1" ></Hbt>
+	<!-- LicenseRenewInterval must be set in Minutes
+         LicenseRenewInterval must be less than license expiry interval in server configuration	
+	-->
+	<LicenseRenewInterval value="10"></LicenseRenewInterval>
+	<RetryTimerInterval value="10"></RetryTimerInterval><!--Seconds-->
+	<ClientGUID>c49eeff4-e9e2-44f6-805e-16cbb0456f83</ClientGUID>
+</VELMS>

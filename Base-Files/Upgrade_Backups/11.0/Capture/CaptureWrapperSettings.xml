@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preferences>
+  <General>
+    <BookMark Start="Start" End="End" />
+    <WrapperUI IconCount="6" TimerInterval="250" EnableDoubleClick="0">
+    </WrapperUI>
+  </General>  
+</Preferences>

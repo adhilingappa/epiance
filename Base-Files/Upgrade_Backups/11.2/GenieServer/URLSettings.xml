@@ -1,0 +1,16 @@
+<GenieServerURL EnforceEval="1" OverrideSSLErrors="false">
+<UserInfo>
+   <UserName></UserName>
+   <MachineName></MachineName>
+   <DomainName></DomainName>
+ </UserInfo>
+  <address>
+    <URL ID="1" IsDefault="1" Address="" AllowUnstrustedCertificate="true" />
+    <URL ID="2" IsDefault="0" Address="" AllowUnstrustedCertificate="true" />
+  </address>
+  <proxy UseProxySettings="false">
+    <address></address>
+    <port></port>
+  </proxy>
+  <processindex value="1275" />
+</GenieServerURL>

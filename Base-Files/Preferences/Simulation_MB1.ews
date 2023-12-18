@@ -1,0 +1,83 @@
+<epiLearnWiz Name="Current" Shared="1" ReadOnly="0">
+	<SM>1</SM>
+	<Doc>0</Doc>
+	<GM>1</GM>
+	<Test>1</Test>
+	<TestDescription></TestDescription>
+	<DocGenPref>0</DocGenPref>
+	<Rez>1024x768</Rez>
+	<Dithering>1</Dithering>
+	<SupportedRez>800*600~1024*768~1280*1024~1600*1200</SupportedRez>
+	<ShowSingleStep>0</ShowSingleStep>
+	<UseStaticFiles>0</UseStaticFiles>
+	<StaticLocation/>
+	<MouseSpeedIndex>2</MouseSpeedIndex>
+	<TransitAfter>0</TransitAfter>
+	<TransitAfter4SysOutcome>3</TransitAfter4SysOutcome>
+	<AutoPlay>0</AutoPlay>
+	<Rewind>1</Rewind>
+	<ImageFormat>PNG</ImageFormat>
+	<ImageResizeLogic>1</ImageResizeLogic>
+	<ShowCalloutOnStartupInGuideMe>0</ShowCalloutOnStartupInGuideMe>
+	<ShowCalloutOnStartupInShowMe>0</ShowCalloutOnStartupInShowMe>
+	<BlinkCoachMarkSequenceInShowMe>0</BlinkCoachMarkSequenceInShowMe>
+	<ShowCalloutFor>3</ShowCalloutFor>
+	<GenericTestText>You will now be tested on this procedure. You may begin at any time.To review the steps click the Show Details button.</GenericTestText>
+	<GenericFeedbackText/>
+	<InfoStepCaption>InfoStep</InfoStepCaption>
+	<ColorDepth>256</ColorDepth>
+	<ImageDithering>100</ImageDithering>
+	<ImageInterlacing>0</ImageInterlacing>
+	<ProcessTreeOptions>0</ProcessTreeOptions>
+	<ShowNotesInTest>0</ShowNotesInTest>
+	<InfoStepBeNumbered>1</InfoStepBeNumbered>
+	<AudioPos>1</AudioPos>
+	<CueCardBehaviorForTM>2</CueCardBehaviorForTM>
+	<CustomClientArea OptedFor="0" ResizeTemplate="1" Borderless="0">
+		<PercentageLeft>10</PercentageLeft>
+		<PercentageTop>10</PercentageTop>
+		<PercentageWidth>80</PercentageWidth>
+		<PercentageHeight>80</PercentageHeight>
+	</CustomClientArea>
+	<ResizeAnnotationInnerHTML>0</ResizeAnnotationInnerHTML>
+	<UseScreenVideo>0</UseScreenVideo>
+	<UseScreenVideoInGuide>0</UseScreenVideoInGuide>
+	<JPGQualityFactor>90</JPGQualityFactor>
+	<AnimationType>0</AnimationType>
+	<FileFormat>3</FileFormat>
+	<ServerURL>http://yourserverpath/XMLReceiver.asp</ServerURL>
+	<UpdateToServer>0</UpdateToServer>
+	<DisplayResult>0</DisplayResult>
+	<ReturnData>0</ReturnData>
+	<PrintCuecardAfterTest>0</PrintCuecardAfterTest>
+	<UnicodeFormat>0</UnicodeFormat>
+	<WebAccessibility>0</WebAccessibility>
+	<OverrideControlRegionSettings>0</OverrideControlRegionSettings>
+	<SystemOutcomeNumbering>0</SystemOutcomeNumbering>
+	<ApplyThemeToAnnotation>0</ApplyThemeToAnnotation>
+	<ThemeTobeAppliedForAnnotation/>
+	<LaunchepiLearn>0</LaunchepiLearn>
+	<BrowserSupport>0~1~3</BrowserSupport>
+	<GenerateForLang>English</GenerateForLang>
+	<IncludeTestData>1</IncludeTestData>
+	<UseModePage>0</UseModePage>
+	<ModePageThemeId>0</ModePageThemeId>
+	<UseHomePage>0</UseHomePage>
+	<HomePageThemeId>0</HomePageThemeId>
+	<HighlightRegion Show="0" Guide="0" Test="0" Doc="0"/>
+	<Title>Untitled</Title><SelectedTemplates Name="Current" Shared="1" ReadOnly="0">
+		<ProcessWord id="93">TrainingGuide.dot</ProcessWord>
+		<ProcessHTML id="35">proceduralmanual.htm</ProcessHTML>
+		<ProcessXML id="10">purexmldocument.xsl</ProcessXML>
+		<ProcessPPT id="105">Theme3.pot</ProcessPPT>
+		<ProcessExcel id="120">ProcessDataTable.xlt</ProcessExcel>
+		<EpiLearn>Default.etp</EpiLearn>
+		<ManualActivity>Epiplex Blue.mtp</ManualActivity>
+		<Question>Epiplex Blue.qtp</Question>
+		<InfoStep>Epiplex Blue.itp</InfoStep>
+		<HTML5EpiLearn>epiplex_mb1</HTML5EpiLearn>
+		<ProcessBPMN id="116">bpmnbase.xml</ProcessBPMN>
+		<ProcessVisio id="116">baseVisio.xml</ProcessVisio>
+		<VariationStep>Epiplex Blue.vtp</VariationStep>
+	</SelectedTemplates>
+	<OutputType>3</OutputType><PackedEpilearn>0</PackedEpilearn></epiLearnWiz>

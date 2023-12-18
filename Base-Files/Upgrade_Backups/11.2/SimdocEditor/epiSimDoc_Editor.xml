@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+Epiplex500 (c) Copyright All rights reserved
+This source code is an unpublished work fully protected by the Indian copyright laws and those countries within the Berne Convention. It is considered a trade secret belonging to the copyright holder.
+Source code from this program may not be used for any purpose other than for which it was purchased without written consent. The material contained herein is supplied without representation or warranty of any kind and therefore assumes no responsibility and shall have no liability of any kind arising from the supply or use of this code or the material contained herein.
+Epiplex500 (c) Copyright All rights reserved.
+This source code, in whole or in part, may not be reproduced or transmitted in any form or by any means without the express prior written consent. 
+
+-->
+<Settings>
+	<General>
+		<Animator/>
+		<Simulator/>
+		<ShowXLIFFImportExport>0</ShowXLIFFImportExport>
+		<ShowCuecardMenu>1</ShowCuecardMenu>
+		<IsWordInstalled>0</IsWordInstalled>
+		<IsPPTInstalled>0</IsPPTInstalled>
+		<IsExcelInstalled>0</IsExcelInstalled>
+		<DOCX>0</DOCX>
+		<PPTX>0</PPTX>
+		<XLSX>0</XLSX>
+		<AnnKeys>37|38|39|40|33|34|35|36|144|145|19|44|20|27|112|113|114|115|116|117|118|119|120|121|122|123|124|125|126|127|128|129|130|131|132|133|
+		134|135|16|17|18</AnnKeys>
+	</General>
+	<PersonalPreferences Name="Current">
+		<HTML5Browser PreferSystemDefault="1" Excecutable="" CommandlineArguments=""/>
+		<PictureEditor PreferSystemDefault="1" ExternalPictureEditor=""/>
+		<AudioEditor PreferSystemDefault="1" ExternalAudioEditor=""/>
+		<AutoScrollCanvas>0</AutoScrollCanvas>
+		<ShowRulers>1</ShowRulers>
+		<ShowImagePreferenceColumn>1</ShowImagePreferenceColumn>
+		<ShowDocExclusionFilterColumn>1</ShowDocExclusionFilterColumn>
+		<ShowAudioVideoIndicationColumn>1</ShowAudioVideoIndicationColumn>
+		<ShowROCColumn>1</ShowROCColumn>
+		<ShowSystemOutcomeColumn>1</ShowSystemOutcomeColumn>
+		<ShowEpssCuecardDescription>0</ShowEpssCuecardDescription>
+		<Prompts>
+			<Prompt Key="Prompt0">1</Prompt>
+			<Prompt Key="Prompt1">1</Prompt>
+			<Prompt Key="Prompt2">0</Prompt>
+			<Prompt Key="Prompt3">1</Prompt>
+			<Prompt Key="Prompt4">1</Prompt>
+		</Prompts>
+		<CallPointerOnEdge>1</CallPointerOnEdge>
+		<ShowValidationColumn>1</ShowValidationColumn>
+		<AnnotationInlineEditing>1</AnnotationInlineEditing>
+		<NavigationExclusionRoles>combo box|listitem|page tab</NavigationExclusionRoles>
+		<UpdateIsStrayStep>1</UpdateIsStrayStep>
+		<IsNetworkPath>0</IsNetworkPath>
+		<ShowWordOnSave>0</ShowWordOnSave>
+		<ShowWordOnGeneration>0</ShowWordOnGeneration>
+	</PersonalPreferences>
+	<PersonalPreferences Name="OEM">
+		<PictureEditor PreferSystemDefault="1" ExternalPictureEditor=""/>
+		<AudioEditor PreferSystemDefault="1" ExternalAudioEditor=""/>
+		<AutoScrollCanvas>1</AutoScrollCanvas>
+		<ShowRulers>1</ShowRulers>
+		<Prompts>
+			<Prompt Key="Prompt0">1</Prompt>
+			<Prompt Key="Prompt1">1</Prompt>
+			<Prompt Key="Prompt2">1</Prompt>
+			<Prompt Key="Prompt3">1</Prompt>
+			<Prompt Key="Prompt4">1</Prompt>
+		</Prompts>
+	</PersonalPreferences>
+	<Preferences>
+		<Preference Name="Current" Shared="1" ReadOnly="0">
+			<Audio Encode="1">
+				<Codec ManufacturerID="1" ProductID="38">Microsoft PCM Converter</Codec>
+				<CodecAttrib FormatID="15" FormatTag="1">15</CodecAttrib>
+				<TTS Type="1" AWSKey="AKIAZO25VBQQJFFAW4AZ" AWSSecret="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" Gender="1" Voice="Raveena" Rate="0" Volume="85"/>
+			</Audio>
+			<UseGreenScreenLogic>1</UseGreenScreenLogic>
+			<GreenScreenApps>|WDDSPPAG.BIN|MSTSC.EXE|PCSWS.EXE|JAVAW.EXE|ESKCNTR.EXE|EXTRA.EXE|PCSWS.EXE|HOSTEX32.EXE|WDDSPPAG.BIN|WDDSPPAG.EXE|R8WIN.EXE|</GreenScreenApps>
+			<ReGenSenOnGrping>0</ReGenSenOnGrping>
+			<ShowSmallIcons>0</ShowSmallIcons>
+			<SingleModeOperation>1</SingleModeOperation>
+			<ResourceSetAvailable></ResourceSetAvailable>
+			<AnnotationDefaults>
+				<Callout Color="#9CC3FF" Oval="1" Orientation="2" ShowAnnoRect="0"/>
+				<StickyNote Color="#FFFFC6"/>
+				<TutorMaskColor>#12deed</TutorMaskColor>
+				<TutorDefaultColor>#d6cac2</TutorDefaultColor>
+				<Font>
+					<Face>Arial Black</Face>
+					<HTMLSize>2</HTMLSize>
+					<B>1</B>
+					<I>1</I>
+					<U>1</U>
+					<Colour>#000000</Colour>
+				</Font>
+				<OuterRegion Color="#FFFF33" Thickness="5"/>
+				<InnerRegion Color="#800000" Thickness="3"/>
+				<DropRegion Color="#00FF00" Thickness="3"/>
+				<HighlightRegion Color="#00FFFF" Thickness="3"/>
+				<VariationBorder Color="#FFFFFF"/>
+				<VariationBg Color="#FF0000"/>
+				<VariationGradient Color="#FFAABB"/>
+				<VariationDisabled Color="#3C3C3C"/>
+			</AnnotationDefaults>
+			<CalculateDocImgPrf>1</CalculateDocImgPrf>
+			<CalculateDocImgPrefPercentage>95</CalculateDocImgPrefPercentage>
+			<CalculateGSDocImgPrefPercentage>70</CalculateGSDocImgPrefPercentage>
+			<TestDescDataEntryRoles>
+				<!--<Role>list item</Role>				
+				<Role>list</Role>
+				<Role>combo box</Role>
+				<Role>editable text</Role>
+				<Role>SAPGuiComboBox</Role>
+				<Role>SAPGuiCTextField</Role>
+				<Role>SAPGuiPasswordField</Role>
+				<Role>SAPGuiTextField</Role>
+				<Role>SAPGuiOkCodeField</Role>-->
+			</TestDescDataEntryRoles>
+			<BackCompFont>
+				<Face>Comic Sans MS</Face>
+				<HTMLSize>1</HTMLSize>
+				<B>1</B>
+				<I>0</I>
+				<U>0</U>
+			</BackCompFont>
+			<LangTranslator ActiveId="0" GenSenIndividualy="0">
+				<BingTranslator Id="1">
+					<ClientId></ClientId>
+					<Clientkey></Clientkey>
+				</BingTranslator>
+				<googleTranslator Id="2">
+					<ApiKey></ApiKey>
+				</googleTranslator>
+			</LangTranslator>
+		</Preference>
+	</Preferences>
+	<LastGenerated>
+		<Doc>C:\Users\Public\Documents\Epiplex500\Repository\Content\Documents\Upgrade_1.doc</Doc>
+		<epiLearn>C:\Users\Public\Documents\Epiplex500\Repository\Content\epiLearns\Upgrade_1\Upgrade_1.htm</epiLearn>
+		<PackedepiLearn/>
+		<Flash/>
+		<Cuecard>C:\Users\Public\Documents\Epiplex500\Repository\Content\Cuecards\Upgrade_1\Upgrade_1.htm</Cuecard>
+	</LastGenerated>
+	<SelectedTemplates Name="Current" Shared="1" ReadOnly="0">
+		<ProcessWord id="89">TestingGuide.dot</ProcessWord>
+		<ProcessHTML id="38">proceduralmanual.htm</ProcessHTML>
+		<ProcessXML id="10">purexmldocument.xsl</ProcessXML>
+		<ProcessPPT id="106">Theme4.pot</ProcessPPT>
+		<ProcessExcel id="111">Default.xlt</ProcessExcel>
+		<EpiLearn>Default.etp</EpiLearn>
+		<ManualActivity>Epiplex Blue.mtp</ManualActivity>
+		<Question>Epiplex Blue.qtp</Question>
+		<InfoStep>Epiplex Blue.itp</InfoStep>
+		<HTML5EpiLearn>epiplex_mb1</HTML5EpiLearn>
+		<ProcessBPMN id="116">bpmnbase.xml</ProcessBPMN>
+		<ProcessVisio id="116">baseVisio.xml</ProcessVisio>
+		<VariationStep>Epiplex Blue.vtp</VariationStep>
+	</SelectedTemplates>
+	<Wizards>
+		<DocWizards>
+			<DocWiz Name="Current" Shared="1" ReadOnly="0">
+				<DocFileFormat>1</DocFileFormat>
+				<GenerateForSelectedProcesses/>
+				<IntroductionPage></IntroductionPage>
+				<LaunchDocument>1</LaunchDocument>
+				<SaveAsDocx>0</SaveAsDocx>
+				<UseWordTemplate4PDF>0</UseWordTemplate4PDF>
+				<UseHtmlTemplate4Excel>0</UseHtmlTemplate4Excel>
+				<UseIncludeImageForXml>0</UseIncludeImageForXml>
+				<ExcludeDocSectionForPPT>1</ExcludeDocSectionForPPT>
+				<A4MaxWidth>600</A4MaxWidth>
+				<A4MaxHeight>820</A4MaxHeight>
+				<IncludeImageForXSL>0</IncludeImageForXSL>
+				<HideNew>0</HideNew>
+				<HideExtraTemplates>1</HideExtraTemplates>
+			</DocWiz>
+			<DocWiz Name="epiLearn" Shared="1" ReadOnly="0">
+				<DocFileFormat>7</DocFileFormat>
+				<GenerateForSelectedProcesses/>
+				<IntroductionPage>
+				</IntroductionPage>
+				<LaunchDocument>0</LaunchDocument>
+			</DocWiz>
+		</DocWizards>
+		<epiLearnWizards>
+			<epiLearnWiz Name="Current" Shared="1" ReadOnly="0">
+				<SM>1</SM>
+				<Doc>0</Doc>
+				<GM>1</GM>
+				<Test>1</Test>
+				<TestDescription></TestDescription>
+				<DocGenPref>0</DocGenPref>
+				<Rez>1024x768</Rez>
+				<Dithering>1</Dithering>
+				<SupportedRez>800*600~1024*768~1280*1024~1600*1200</SupportedRez>
+				<ShowSingleStep>0</ShowSingleStep>
+				<UseStaticFiles>0</UseStaticFiles>
+				<StaticLocation/>
+				<MouseSpeedIndex>2</MouseSpeedIndex>
+				<TransitAfter>0</TransitAfter>
+				<TransitAfter4SysOutcome>3</TransitAfter4SysOutcome>
+				<AutoPlay>0</AutoPlay>
+				<Rewind>1</Rewind>
+				<ImageFormat>PNG</ImageFormat>
+				<ImageResizeLogic>1</ImageResizeLogic>
+				<ShowCalloutOnStartupInGuideMe>0</ShowCalloutOnStartupInGuideMe>
+				<ShowCalloutOnStartupInShowMe>0</ShowCalloutOnStartupInShowMe>
+				<BlinkCoachMarkSequenceInShowMe>0</BlinkCoachMarkSequenceInShowMe>
+				<ShowCalloutFor>3</ShowCalloutFor>
+				<GenericTestText>You will now be tested on this procedure. You may begin at any time.To review the steps click the Show Details button.</GenericTestText>
+				<GenericFeedbackText/>
+				<InfoStepCaption>InfoStep</InfoStepCaption>
+				<ColorDepth>256</ColorDepth>
+				<ImageDithering>100</ImageDithering>
+				<ImageInterlacing>0</ImageInterlacing>
+				<ProcessTreeOptions>0</ProcessTreeOptions>
+				<ShowNotesInTest>0</ShowNotesInTest>
+				<InfoStepBeNumbered>1</InfoStepBeNumbered>
+				<AudioPos>1</AudioPos>
+				<CueCardBehaviorForTM>2</CueCardBehaviorForTM>
+				<CustomClientArea OptedFor="0" ResizeTemplate="1" Borderless="0">
+					<PercentageLeft>10</PercentageLeft>
+					<PercentageTop>10</PercentageTop>
+					<PercentageWidth>80</PercentageWidth>
+					<PercentageHeight>80</PercentageHeight>
+				</CustomClientArea>
+				<ResizeAnnotationInnerHTML>0</ResizeAnnotationInnerHTML>
+				<UseScreenVideo>0</UseScreenVideo>
+				<UseScreenVideoInGuide>0</UseScreenVideoInGuide>
+				<JPGQualityFactor>90</JPGQualityFactor>
+				<AnimationType>0</AnimationType>
+				<FileFormat>3</FileFormat>
+				<ServerURL>http://yourserverpath/XMLReceiver.asp</ServerURL>
+				<UpdateToServer>0</UpdateToServer>
+				<DisplayResult>0</DisplayResult>
+				<ReturnData>0</ReturnData>
+				<PrintCuecardAfterTest>0</PrintCuecardAfterTest>
+				<UnicodeFormat>0</UnicodeFormat>
+				<WebAccessibility>0</WebAccessibility>
+				<OverrideControlRegionSettings>0</OverrideControlRegionSettings>
+				<SystemOutcomeNumbering>0</SystemOutcomeNumbering>
+				<ApplyThemeToAnnotation>0</ApplyThemeToAnnotation>
+				<ThemeTobeAppliedForAnnotation>or</ThemeTobeAppliedForAnnotation>
+				<LaunchepiLearn>0</LaunchepiLearn>
+				<BrowserSupport>0~1~3</BrowserSupport>
+				<GenerateForLang>English</GenerateForLang>
+				<IncludeTestData>1</IncludeTestData>
+				<UseModePage>0</UseModePage>
+				<ModePageThemeId>0</ModePageThemeId>
+				<UseHomePage>0</UseHomePage>
+				<HomePageThemeId>0</HomePageThemeId>
+				<HighlightRegion Show="0" Guide="0" Test="0" Doc="0"/>
+			</epiLearnWiz>
+		</epiLearnWizards>
+		<NewFileWizards>
+			<NewFileWizard Name="Current" Shared="1" ReadOnly="0">
+				<Sentences ImportIfAvailable="0">
+					<Structure>English - Microsoft Style Guide</Structure>
+					<Format>Formal</Format>
+					<PreferControlImages>1</PreferControlImages>
+				</Sentences>
+				<AnnotateWithSentence>
+					<AutoPopulate>0</AutoPopulate>
+					<UseCallout>1</UseCallout>
+					<UseStickyNoteForWA>1</UseStickyNoteForWA>
+					<UseAnnotationForWA>1</UseAnnotationForWA>
+					<Callout Color="#FFFFC6" Oval="0" Orientation="2"/>
+					<StickyNote Color="#FFFFC6"/>
+					<AnnInclFilter>0</AnnInclFilter>
+					<AnnInclFilters>
+						<Filter Role="client" Event="WindowActivate"/>
+						<Filter Role="editable text" Event="TYPETEXT"/>
+						<Filter Role="editable text" Event="KEYEVENT"/>
+						<Filter Role="editable text" Event="Click"/>
+						<Filter Role="menu item" Event="Select"/>
+						<Filter Role="menu item" Event="DoubleClick"/>
+						<Filter Role="title bar" Event="DoubleClick"/>
+						<Filter Role="push button" Event="Click"/>
+					</AnnInclFilters>
+				</AnnotateWithSentence>
+				<PreferSnapShot>0</PreferSnapShot>
+				<GroupRelatedSteps>1</GroupRelatedSteps>
+				<OverrideSettings>
+					<FontSettings Override="1">
+						<Face>Book Antiqua</Face>
+						<Size>9.75</Size>
+						<B>0</B>
+						<I>0</I>
+						<U>0</U>
+						<S>0</S>
+						<ForeColor>#000000</ForeColor>
+						<BackColor>#00FFFF</BackColor>
+					</FontSettings>
+					<Optional Override="1">0</Optional>
+					<Validations>
+						<ExactValue Override="1">1</ExactValue>
+						<ExactCase Override="0"/>
+						<VType Override="0" Len="" Time="" type="3"/>
+					</Validations>
+				</OverrideSettings>
+				<Audio AutoAudio="0" OverrideCaptureAudio="1">
+					<Audible>24000</Audible>
+					<ImportAudio>0</ImportAudio>
+				</Audio>
+			</NewFileWizard>
+		</NewFileWizards>
+		<CuecardWizards>
+			<CuecardWiz Name="Current" Shared="1" ReadOnly="0">
+				<IncludeInfoSteps>0</IncludeInfoSteps>
+				<InfoStepBeNumbered>0</InfoStepBeNumbered>
+				<IncludeSystemOutcomes>1</IncludeSystemOutcomes>
+				<TemplateFileName/>
+				<LaunchCuecard>1</LaunchCuecard>
+				<UseEpssCuecardSens>0</UseEpssCuecardSens>
+				<ExcludeAllFlaggedSteps>1</ExcludeAllFlaggedSteps>
+				<LiveCuecard>0</LiveCuecard>
+				<StaticCuecard>1</StaticCuecard>
+			</CuecardWiz>
+		</CuecardWizards>
+		<MP4Wizards>
+			<MP4Wiz Name="Current" Shared="1" ReadOnly="0">
+				<ShowCallouts>1</ShowCallouts>
+				<ShowControlRect>1</ShowControlRect>
+				<ShowHighlighter>1</ShowHighlighter>
+				<ShowMousePointer>0</ShowMousePointer>
+				<MousePointerAnimation>1</MousePointerAnimation>
+				<LaunchMP4>0</LaunchMP4>
+				<StepDelay>5</StepDelay>
+				<Resolution>0</Resolution>
+				<FilterDocSteps>1</FilterDocSteps>
+				<ApplyThemeToAnnotation>0</ApplyThemeToAnnotation>
+				<ThemeTobeAppliedForAnnotation>bl</ThemeTobeAppliedForAnnotation>
+				<Fps>6</Fps>
+			</MP4Wiz>
+		</MP4Wizards>
+	</Wizards>
+	<MRU>
+		<File>C:\Users\Public\Documents\Epiplex500\Repository\epiSimDocs\Upgrade_1.efx</File><File>C:\Users\Public\Documents\Epiplex500\Repository\epiSimDocs\315_TPSID.efx</File></MRU>
+	<Plugins>
+		<Plugin Name="SamplePlugin.SampleClass" Shared="1" ReadOnly="0" AuthorName="Sameers">
+			<Nothing/>
+		</Plugin>
+	</Plugins>
+	<HistoryFields>
+		<Field Name="ID" DisplayName="ID" DataType="" MinLength="" MaxLength="" ColWidth="500" ShowInGrid="1" Editable="1" Mandatory="1"/>
+		<Field Name="Version" DisplayName="Version *" DataType="" MinLength="" MaxLength="" ColWidth="1000" ShowInGrid="1" Editable="1" Mandatory="1"/>
+		<Field Name="Date" DisplayName="Review Date *" DataType="" MinLength="" MaxLength="" ColWidth="1500" ShowInGrid="1" Editable="1" Mandatory="1"/>
+		<Field Name="Desc" DisplayName="Description" DataType="" MinLength="" MaxLength="" ColWidth="1000" ShowInGrid="1" Editable="1" Mandatory="0"/>
+		<Field Name="Reviewer" DisplayName="Reviewer" DataType="" MinLength="" MaxLength="" ColWidth="1230" ShowInGrid="1" Editable="1" Mandatory="0"/>
+	</HistoryFields>
+	<DocStepSettings default="2">
+		<ROC ID="1" Text="Required" ShortText="R"/>
+		<ROC ID="2" Text="Optional" ShortText="O"/>
+		<ROC ID="3" Text="Conditional" ShortText="C"/>
+	</DocStepSettings>
+	<HTML5Mode>1</HTML5Mode>
+	<ToolsSettings>
+		<ApplyDocImgPref Percent="96" ClearDocImgs="">
+		</ApplyDocImgPref>
+		<PwdReq>0</PwdReq>
+		<OwnerPwd>0</OwnerPwd>
+		<PrintList>0</PrintList>
+		<RestrictModif>0</RestrictModif>
+		<RestrictAnno>0</RestrictAnno>
+		<RestrictCopy>0</RestrictCopy>
+		<RestrictTxt>0</RestrictTxt>
+		<NewSentence DefaultSentence="1" EpssSentence="0" ApplyTo="1" SentenceStructure="12" SentenceFormat="3" UseCtrlImg="1" SyncAutoCalloutToNotes="0" TranslateRes="0" TranslateResEnabled="0"></NewSentence><SpecialSentence ApplyTo="0" OverrideFonts="1" FontName="Arial" FontSize="8" ForeColorTag="" ForeColorVal="0" BackColorTag="" BackColorVal="16777215" StepValidFor="2"></SpecialSentence><ApplyCalloutSettings Callout_color="#FFFFFF" Callout_dir="0" Callout_shape="0" Sticky_color="#9CC3FF" Callout_color_enabled="1" Callout_shape_enabled="1" Sticky_color_enabled="1" Callout_color_checked="1" Callout_shape_checked="1" Sticky_color_checked="1"></ApplyCalloutSettings><AutoGenMgmt MainTask="4" StepToAnno="1" AnnoToStep="0" Callout_color="#FFFFC6" Callout_dir="0" Callout_shape="0" Sticky_color="#FFFFC6" CalloutSelected="1" Callout_color_enabled="1" Callout_shape_enabled="1" Sticky_color_enabled="1"></AutoGenMgmt><ApplyCtrlRgnSettings ApplyTo="1" OuterCtrlThick="0" OuterCtrlColor="0" OuterCtrlThickVal="2" OuterCtrlTag="#0000FF" OuterCtrlBorderColor="16711680" InnerCtrlThick="1" InnerCtrlColor="1" InnerCtrlThickVal="3" InnerCtrlTag="#FFCC99" InnerCtrlBorderColor="10079487" ApplySelectedSettings="0"></ApplyCtrlRgnSettings><AudioMgmt ApplyTo="1" Convert="1" Override="1" Delete="0"></AudioMgmt><FontUpdate UpdateSentence="1" UpdateAnnotation="0" UpdateNotes="0" UpdateFontSize="0" UpdateFontColor="1" UpdateFontName="1" FontSize="1" FontName="Malgun Gothic"></FontUpdate></ToolsSettings>
+</Settings>

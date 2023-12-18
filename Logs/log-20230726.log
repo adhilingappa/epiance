@@ -1,0 +1,15 @@
+2023-07-26 14:40:11.515 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-07-26 14:40:11.519 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-07-26 14:40:11.523 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-07-26 14:40:11.524 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-07-26 14:40:11.524 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-07-26 14:40:11.524 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-07-26 14:40:11.524 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-07-26 14:40:11.525 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-07-26 14:40:11.525 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-07-26 14:40:11.525 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-07-26 14:40:11.525 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-07-26 14:40:11.525 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-07-26 14:40:11.525 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-07-26 14:40:11.526 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-07-26 14:40:11.526 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed

@@ -1,0 +1,70 @@
+2023-09-22 15:12:10.381 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-09-22 15:12:10.389 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-09-22 15:12:10.389 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-09-22 15:12:10.398 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-09-22 15:12:10.399 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-09-22 15:12:10.399 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-09-22 15:12:10.400 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-09-22 15:12:10.400 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-09-22 15:12:10.400 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-09-22 15:12:10.401 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-09-22 15:12:10.401 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-09-22 15:12:10.402 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-09-22 15:12:10.403 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-09-22 15:12:10.403 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-09-22 15:12:10.403 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-09-22 15:12:10.404 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-09-22 15:12:10.404 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-09-22 15:12:11.871 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-09-22 15:12:11.872 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-09-22 15:12:11.872 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-09-22 15:12:11.872 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-09-22 15:12:11.873 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-09-22 15:12:11.873 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-09-22 15:12:11.873 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-09-22 15:12:11.873 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-09-22 15:12:11.873 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-09-22 15:12:11.873 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-09-22 15:12:11.873 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-09-22 15:12:11.873 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-09-22 15:12:11.874 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-09-22 15:12:11.874 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-09-22 15:12:11.874 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-09-22 15:12:11.874 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-09-22 15:12:11.875 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-09-22 15:12:11.996 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-09-22 15:12:11.996 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-09-22 15:12:12.033 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-09-22 15:12:12.106 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-09-22 15:12:12.106 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-09-22 15:12:12.108 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\Finalized\2_Capture Test.xls Excel File check started...
+2023-09-22 15:12:12.249 [main] INFO  utils.ExecutionUtils - Chrome Test_with narration Sheet Step validation started...
+2023-09-22 15:12:12.307 [main] INFO  utils.ExecutionUtils - Chrome Test_with narration Sheet Step validation Ended
+2023-09-22 15:12:12.307 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\Finalized\2_Capture Test.xls Excel File Check ended
+2023-09-22 15:12:12.307 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-09-22 15:12:12.309 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-09-22 15:12:12.632 [main] INFO  utils.XML_Library - Automation settings updation started
+2023-09-22 15:12:13.250 [main] INFO  utils.XML_Library - Automation settings updation completed
+2023-09-22 15:12:13.561 [main] INFO  core.Application - chrome is closing...
+2023-09-22 15:12:13.697 [main] INFO  core.Application - C:\Program Files\Google\Chrome\Application\chrome.exe is closed.
+2023-09-22 15:12:14.012 [main] INFO  core.Application - C:\Program Files\Google\Chrome\Application\chrome.exe is launching...
+2023-09-22 15:12:20.086 [main] INFO  core.Application - C:\Program Files\Google\Chrome\Application\chrome.exe is launched
+2023-09-22 15:12:22.594 [main] INFO  utils.XML_Library - Automation settings updation started
+2023-09-22 15:12:23.014 [main] INFO  utils.XML_Library - Automation settings updation completed
+2023-09-22 15:12:23.014 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiplex.exe is launching...
+2023-09-22 15:12:38.982 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiplex.exe is launched
+2023-09-22 15:15:43.360 [main] ERROR actions.ElementFinder - Epiplex500 not displyed within 30 s
+2023-09-22 15:15:44.817 [main] INFO  core.Application - Epiplex is closing...
+2023-09-22 15:15:45.925 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiplex.exe is closed.
+2023-09-22 15:15:46.239 [main] INFO  utils.XML_Library - transformGPS started
+2023-09-22 15:15:46.506 [main] INFO  utils.XML_Library - transform-GPS completed
+2023-09-22 15:15:46.506 [main] INFO  utils.XML_Library - transformGPS started
+2023-09-22 15:15:46.537 [main] INFO  utils.XML_Library - transform-GPS completed
+2023-09-22 15:15:46.883 [main] INFO  core.Application - chrome is closing...
+2023-09-22 15:15:48.004 [main] INFO  core.Application - C:\Program Files\Google\Chrome\Application\chrome.exe is closed.
+2023-09-22 15:15:51.160 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-09-22 15:15:51.160 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-09-22 15:15:51.160 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-09-22 15:15:51.160 [main] INFO  core.Application - closeAllApps is started...
+2023-09-22 15:15:51.191 [main] INFO  core.Application - closeAllApps is completed...
+2023-09-22 15:15:51.191 [main] INFO  actions.TestcaseExecutor - Close all Application completed.

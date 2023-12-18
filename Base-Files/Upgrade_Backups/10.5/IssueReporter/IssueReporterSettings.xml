@@ -1,0 +1,19 @@
+<Settings DeleteEvidenceAfterUpload="True">
+	<Languages SelectedLang="1">
+		<Lang ID="1" DisplayName="English" ResourceName="IssueReport_Eng.xml" PreviewResourceName="ProcessPreview_Eng.xml"></Lang>
+		<Lang ID="2" DisplayName="Bahasa" ResourceName="IssueReport_Bahasa.xml" PreviewResourceName="ProcessPreview_Bahasa.xml"></Lang>
+	</Languages>
+	<KeepWindowOnTop>True</KeepWindowOnTop>
+	<ShowProxySettingsLink>True</ShowProxySettingsLink>
+	<IssueReportURL WebService="/ServiceIssueReporter.svc">
+		<serviceAddress></serviceAddress>
+	</IssueReportURL>
+	<EvidenceURL>/GetEvidence/AccessEvidence?fileName=</EvidenceURL>
+	<Proxy UseDefault="True" RequiresAuthentication="False">
+		<Host></Host>
+		<Port></Port>
+		<UserName></UserName>
+		<Domain></Domain>
+		<Password></Password>
+	</Proxy>
+</Settings>

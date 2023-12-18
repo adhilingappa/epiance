@@ -1,0 +1,70 @@
+<STTSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EngineSetting Default="Google">
+    <Engine Name="Google">
+      <CredentialsFile></CredentialsFile>
+      <DefaultSpeechAdpClassTokens>$OOV_CLASS_ALPHANUMERIC_SEQUENCE,$OOV_CLASS_AM_RADIO_FREQUENCY,$OOV_CLASS_DIGIT_SEQUENCE,$OOV_CLASS_FM_RADIO_FREQUENCY,$OOV_CLASS_ORDINAL,$OOV_CLASS_TEMPERATURE,$OOV_CLASS_TV_CHANNEL,$ADDRESSNUM,$DAY,$FULLPHONENUM,$MONEY,$MONTH,$OPERAND,$PERCENT,$POSTALCODE,$STREET,$TIME,$YEAR</DefaultSpeechAdpClassTokens>
+      <SupportedLanguages>
+        <Language name="Kannada" code="kn-IN" wl_confidence="0" auto_punctuation="0" enhancemodel="0" model="Default" />
+        <Language name="English" code="en-US" wl_confidence="1" auto_punctuation="1" enhancemodel="1" model="video" />
+        <Language name="Japanese" code="ja-JP" wl_confidence="1" auto_punctuation="1" enhancemodel="0" model="latest_long" />
+        <Language name="Spanish" code="es-ES" wl_confidence="1" auto_punctuation="1" enhancemodel="0" model="latest_long" />
+        <Language name="Chinese" code="zh" wl_confidence="0" auto_punctuation="1" enhancemodel="0" model="Default" />
+        <Language name="Arabic" code="ar-EG" wl_confidence="1" auto_punctuation="0" enhancemodel="0" model="latest_long" />
+        <Language name="Czech" code="cs-CZ" wl_confidence="0" auto_punctuation="1" enhancemodel="0" model="Default" />
+        <Language name="Danish" code="da-DK" wl_confidence="1" auto_punctuation="1" enhancemodel="0" model="latest_long" />
+        <Language name="Dutch" code="nl-NL" wl_confidence="1" auto_punctuation="0" enhancemodel="0" model="latest_long" />
+        <Language name="Filipino" code="fil-PH" wl_confidence="0" auto_punctuation="0" enhancemodel="0" model="Default" />
+        <Language name="Finnish" code="fi-FI" wl_confidence="1" auto_punctuation="1" enhancemodel="0" model="latest_long" />
+        <Language name="French" code="fr-FR" wl_confidence="1" auto_punctuation="1" enhancemodel="0" model="latest_long" />
+        <Language name="German" code="de-DE" wl_confidence="1" auto_punctuation="1" enhancemodel="0" model="latest_long" />
+        <Language name="Hebrew" code="iw-IL" wl_confidence="0" auto_punctuation="0" enhancemodel="0" model="Default" />
+        <Language name="Hindi" code="hi-IN" wl_confidence="1" auto_punctuation="1" enhancemodel="0" model="latest_long" />
+        <Language name="Hungarian" code="hu-HU" wl_confidence="0" auto_punctuation="0" enhancemodel="0" model="Default" />
+        <Language name="Italian" code="it-IT" wl_confidence="1" auto_punctuation="1" enhancemodel="0" model="latest_long" />
+        <Language name="Korean" code="ko-KR" wl_confidence="1" auto_punctuation="1" enhancemodel="0" model="latest_long" />
+        <Language name="Norwegian" code="no-NO" wl_confidence="1" auto_punctuation="1" enhancemodel="0" model="latest_long" />
+        <Language name="Polish" code="pl-PL" wl_confidence="1" auto_punctuation="1" enhancemodel="0" model="latest_long" />
+        <Language name="Portuguese" code="pt-BR" wl_confidence="1" auto_punctuation="1" enhancemodel="0" model="latest_long" />
+        <Language name="Romanian" code="ro-RO" wl_confidence="1" auto_punctuation="0" enhancemodel="0" model="latest_long" />
+        <Language name="Russian" code="ru-RU" wl_confidence="1" auto_punctuation="0" enhancemodel="0" model="latest_long" />
+        <Language name="Swedish" code="sv-SE" wl_confidence="0" auto_punctuation="1" enhancemodel="0" model="Default" />
+        <Language name="Thai" code="th-TH" wl_confidence="1" auto_punctuation="0" enhancemodel="0" model="latest_long" />
+        <Language name="Traditional Chinese" code="yue-Hant-HK" wl_confidence="0" auto_punctuation="0" enhancemodel="0" model="Default" />
+        <Language name="Turkish" code="tr-TR" wl_confidence="1" auto_punctuation="1" enhancemodel="0" model="latest_long" />
+        <Language name="Vietnamese" code="vi-VN" wl_confidence="1" auto_punctuation="0" enhancemodel="0" model="latest_long" />
+      </SupportedLanguages>
+    </Engine>
+	<Engine Name="Microsoft">
+      <LicenseKey></LicenseKey>
+	  <Region></Region>
+      <SupportedLanguages>
+        <Language name="Kannada" code="kn-IN" wl_confidence="1"/>
+        <Language name="English" code="en-US" wl_confidence="1"/>
+        <Language name="Japanese" code="ja-JP" wl_confidence="1"/>
+        <Language name="Spanish" code="es-ES" wl_confidence="1"/>
+        <Language name="Chinese" code="zh-CN" wl_confidence="1"/>
+        <Language name="Arabic" code="ar-EG" wl_confidence="1"/>
+        <Language name="Czech" code="cs-CZ" wl_confidence="1"/>
+        <Language name="Danish" code="da-DK" wl_confidence="1"/>
+        <Language name="Dutch" code="nl-NL"  wl_confidence="1"/>
+        <Language name="Filipino" code="fil-PH" wl_confidence="1"/>
+        <Language name="Finnish" code="fi-FI"  wl_confidence="1"/>
+        <Language name="French" code="fr-FR" wl_confidence="1"/>
+        <Language name="German" code="de-DE" wl_confidence="1"/>
+        <Language name="Hebrew" code="iw-IL" wl_confidence="1"/>
+        <Language name="Hindi" code="hi-IN" wl_confidence="1"/>
+        <Language name="Hungarian" code="hu-HU" wl_confidence="1"/>
+        <Language name="Italian" code="it-IT" wl_confidence="1"/>
+        <Language name="Korean" code="ko-KR" wl_confidence="1"/>
+        <Language name="Polish" code="pl-PL" wl_confidence="1"/>
+        <Language name="Portuguese" code="pt-BR" wl_confidence="1"/>
+        <Language name="Romanian" code="ro-RO" wl_confidence="1"/>
+        <Language name="Russian" code="ru-RU" wl_confidence="1"/>
+        <Language name="Swedish" code="sv-SE" wl_confidence="1"/>
+        <Language name="Thai" code="th-TH" wl_confidence="1"/>
+        <Language name="Turkish" code="tr-TR" wl_confidence="1"/>
+        <Language name="Vietnamese" code="vi-VN" wl_confidence="1"/>
+      </SupportedLanguages>
+    </Engine>
+  </EngineSetting>
+</STTSettings>

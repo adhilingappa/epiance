@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preference Version="10.5" OldVersion="">
+  <Processor>
+    <Common>
+      <Properties Author="Shwetha.k" CopyRight="www.epiance.com" Organization="Epiance software" Description="">
+      </Properties>
+      <Border Show="1" Thickness="3" Color="#FF0070C0">
+      </Border>
+      <Border1 Show="1" Thickness="2" Color="#000000">
+      </Border1>
+      <MousePointer Show="0">
+      </MousePointer>
+      <Sentence Structure="1013" Format="4" ApplyChangesOnAll="1" UseCtrlImage="0">
+      </Sentence>
+      <SecurityDefn Apply="0">
+        <SecureDataBy>1</SecureDataBy>
+      </SecurityDefn>
+      <ApplyAliasName>0</ApplyAliasName>
+      <EnableCNNMarkRegion>0</EnableCNNMarkRegion>
+      <MinDiskSpaceReqd ProgramFilesInMB="500" RepositoryInMB="500">
+      </MinDiskSpaceReqd>
+    </Common>
+    <CaptureSettings Enterprise="1" ExcludedPopupControlNamesForImageCapture="|AutoSuggest Drop-Down|" ProcessEventDuration="10" ThinkTime="15" IsSpanishLocale="0" CalculateIdleTime="1" ADSEnabled="1" IsToBeProcess="0" InstantMask="1" EnableADSScannedReport="1" NLPEnabled="1" AppendRowNumberToControlName="0" ColumnHeaderBuffer="5" WarnIfExtentionMissing="0">
+      <ExcludeCaptureApps>
+        <App>epiGuide.exe</App>
+        <App>eDocDataMigration.exe</App>
+        <App>eDocSynch.exe</App>
+        <App>ProcessInitiator.exe</App>
+        <App>ExWait.exe</App>
+        <App>GuruRegApp.exe</App>
+        <App>GWizMsg.exe</App>
+        <App>PlayerServer.exe</App>
+        <App>Processer.exe</App>
+        <App>regtypelib.exe</App>
+        <App>ScriptEditor.exe</App>
+        <App>TopGuru.exe</App>
+        <App>WizMaker.exe</App>
+        <App>Processor.exe</App>
+        <App>GuruHTMLParser.exe</App>
+        <App>FormDisplayer.exe</App>
+        <App>WHLLWrapper.exe</App>
+        <App>WhllSessionWatchProcess.exe</App>
+        <App>GPSEditor.exe</App>
+        <App>ProjectPlayer.exe</App>
+        <App>ProjectRunner.exe</App>
+        <App>DynamicInput.exe</App>
+        <App>FormWrapper.exe</App>
+        <App>TaskPlayer.exe</App>
+        <App>Recorder.exe</App>
+        <App>RemoteCaptureClient.exe</App>
+        <App>RemoteProcessor.exe</App>
+        <App>MSDEV.exe</App>
+        <App>MSAADotNetAdaptor.exe</App>
+      </ExcludeCaptureApps>
+      <ApplicationFilter CaptureOnlyIncluded="2">
+        <Applications>explorer.exe|WINWORD.EXE</Applications>
+        <SelectedApps>explorer.exe|WINWORD.EXE</SelectedApps>
+      </ApplicationFilter>
+      <ReRecordSettings AutoGenFileName="1" FileNameSequence="1~2~3~4" PauseShortcut="Ctrl+Shift+A" ResumeShortcut="Ctrl+Shift+F">
+      </ReRecordSettings>
+      <RemoteCaptureApps>
+      </RemoteCaptureApps>
+      <ShowProp>1</ShowProp>
+      <ShowMousePointer>1</ShowMousePointer>
+      <PauseResume Allow="0" HotKey="None" StopAndSaveHotKey="None">
+      </PauseResume>
+      <ShowPropertiesDialogWhileSaving>0</ShowPropertiesDialogWhileSaving>
+      <LocCheckApps>
+        <App>activconsole.exe</App>
+      </LocCheckApps>
+      <CompositeControls>
+        <Ctrl>combo box</Ctrl>
+        <Ctrl>combobox</Ctrl>
+        <Ctrl>listbox</Ctrl>
+        <Ctrl>list</Ctrl>
+        <Ctrl>spin box</Ctrl>
+      </CompositeControls>
+      <SecDefDataControls>
+        <Ctrl>combo box</Ctrl>
+        <Ctrl>editable text</Ctrl>
+        <Ctrl>list item</Ctrl>
+        <Ctrl>list</Ctrl>
+        <Ctrl>combo box</Ctrl>
+        <Ctrl>combobox</Ctrl>
+        <Ctrl>listbox</Ctrl>
+        <Ctrl>SAPGuiPasswordField</Ctrl>
+        <Ctrl>SAPGuiTextField</Ctrl>
+        <Ctrl>SAPGuiCTextField</Ctrl>
+        <Ctrl>SAPGuiComboBox</Ctrl>
+        <Ctrl>SAPGuiOkCodeField</Ctrl>
+      </SecDefDataControls>
+      <NumEntToBeTrans>0</NumEntToBeTrans>
+      <NotesAndImages>
+        <Notes SeqNotesSetting="0">
+        </Notes>
+        <ManualImage Allow="0" HotKey="Print Screen">
+        </ManualImage>
+        <AutoImage Allow="1">
+          <ControlImage Allow="1" Mode="2">
+          </ControlImage>
+          <ScreenImage Allow="1" Mode="2">
+          </ScreenImage>
+        </AutoImage>
+      </NotesAndImages>
+      <AudioVideo Allow="1" AllowUserControl="1" CapturePreference="1" CaptureMode="0" HotKey="F8" ShowVisualCue="1" SelectedRuleOption="0" SelectedFileName="" FrameRate="1" TaggingLogic="1">
+      </AudioVideo>
+      <AdvancedSetting ShowCaptureInfo="1" MinimizeToSysTray="1" CaptureCDT="0" DefaultEventProperties="1">
+      </AdvancedSetting>
+      <Settings WarnForSystemOutcome="1" ReduceBrightness="1">
+      </Settings>
+      <ScreenCapture Allow="0" AllowUserControl="1" CaptureMode="2" HotKey="F4" ShowVisualCue="1" FrameRate="5" IncludeCursor="1" CaptureRegion="100,100,500,400">
+      </ScreenCapture>
+      <General RecMode="0">
+      </General>
+      <AutoSave EventsLimit="20">
+      </AutoSave>
+      <Switch Hierarchy="1" ActiveTab="1">
+      </Switch>
+      <CaptionChangeText>
+        <Rule SearchCaption="( - )(?:.(?! - ))+@.*- IFS Applications" ReplaceCaption="">
+        </Rule>
+      </CaptionChangeText>
+      <InsertDummyWndActivate Enable="0" ImgComparisionRatio="95" ExcludedRoles="|12|46|34|42|" ThresholdImageMatchRatioForExcludedRoles="30">
+      </InsertDummyWndActivate>
+      <InputValidation Enable="1">
+        <HotkeyShortcuts>
+          <HotKey keycode="80" modifiercode="6" action="1" caption="Ctrl+Shift+V|Ctrl+Shift+P" codes="86|80" seperator="|">Validation</HotKey>
+          <HotKey keycode="88" modifiercode="6" action="2" caption="Ctrl+Shift+E|Ctrl+Shift+X" codes="69|88" seperator="|">Exception</HotKey>
+          <HotKey keycode="73" modifiercode="6" action="3" caption="Ctrl+Shift+I|Ctrl+Shift+D" codes="73|68" seperator="|">Input Data</HotKey>
+          <HotKey keycode="82" modifiercode="6" action="4" caption="Ctrl+Shift+R|Ctrl+Shift+T" codes="82|84" seperator="|">Return to UI</HotKey>
+          <HotKey keycode="83" modifiercode="6" action="5" caption="Ctrl+Shift+S|Ctrl+Shift+O" codes="83|79" seperator="|">Recovery Stop</HotKey>
+          <HotKey keycode="77" modifiercode="6" action="6" caption="Ctrl+Shift+N|Ctrl+Shift+M" codes="78|77" seperator="|">Narration</HotKey>
+        </HotkeyShortcuts>
+        <ValidVPEDEventList>|513|6|161|1284|</ValidVPEDEventList>
+      </InputValidation>
+      <Narration Allow="1">
+      </Narration>
+      <!-- UIACapture : EXE'S SHOULD BE PIPE SEPARATED :- |MSTSC.EXE|CDVIEWER.EXE|WINWORD.EXE| -->
+      <UIACapture Enabled="1" ExcludedApps="">
+      </UIACapture>
+    </CaptureSettings>
+    <BrowserExtension Enabled="1" IpcUri="net.pipe://localhost" HBTInterval="10">
+      <NativeCaptureHost Enabled="1">
+      </NativeCaptureHost>
+      <WSHost Enabled="1" url="ws://127.0.0.1">
+        <Webports>
+          <Port value="8989">
+          </Port>
+          <Port value="8080">
+          </Port>
+          <Port value="8181">
+          </Port>
+          <Port value="8083">
+          </Port>
+          <Port value="8085">
+          </Port>
+        </Webports>
+      </WSHost>
+    </BrowserExtension>
+    <EditorSettings MaxUndoCount="10" AutoFocusControlRegion="1" EnableAutoValidation="1">
+      <ExcludeEvents>
+        <Evt>captiondestroy</Evt>
+        <Evt>menucaptiondestroy</Evt>
+        <Evt>menu popup</Evt>
+        <Evt>collapse popup</Evt>
+        <Evt>KeyHLE</Evt>
+        <Evt>OnEntry</Evt>
+        <Evt>OnExit</Evt>
+        <Evt>AppClose</Evt>
+        <Evt>ChildActivate</Evt>
+        <Evt>AppSwitch</Evt>
+        <Evt>LoseFocus</Evt>
+        <Evt>OnHover</Evt>
+        <Evt>START TRANSACTION</Evt>
+        <Evt>END TRANSACTION</Evt>
+        <Evt>MESSAGE</Evt>
+        <Evt>CaptionCreate</Evt>
+        <Evt>Start Capture</Evt>
+        <Evt>Stop Capture</Evt>
+        <Evt>Refresh</Evt>
+        <Evt>Disk Full</Evt>
+        <Evt>Idle Mode - Start</Evt>
+        <Evt>Idle Mode - End</Evt>
+        <Evt>Cancel Capture</Evt>
+        <Evt>Black Listed App - Entry</Evt>
+        <Evt>White Listed App - Entry</Evt>
+        <Evt>SystemLockEvent</Evt>
+        <Evt>ExcludeEvent</Evt>
+      </ExcludeEvents>
+      <ModelControlRoles>
+        <Role>41</Role>
+        <Role>42</Role>
+        <Role>102</Role>
+        <Role>105</Role>
+        <Role>108</Role>
+      </ModelControlRoles>
+      <MaskingSettings AppSpecific="1">
+        <MatchRatio>97</MatchRatio>
+        <!-- Values between 70 to 99 are ideal, Max allowed value is 100 -->
+        <DefaultMaskType>Blur</DefaultMaskType>
+        <!--Available options are "Blur" ,"Block", "Image" and "Text" -->
+        <BlurMasking>
+          <BlurSize>10</BlurSize>
+          <!-- Values between 10 to 20 are ideal, Max allowed value is 50 -->
+        </BlurMasking>
+        <ImageMasking>
+          <ImagePath>
+          </ImagePath>
+        </ImageMasking>
+        <TextMasking>
+          <FontColor>Black</FontColor>
+          <!-- Any HTML color code is valid -->
+          <BGColor>Transparent</BGColor>
+          <!-- Any HTML color code is valid -->
+          <FontSize>8</FontSize>
+          <!-- Values between 6 to 20 are ideal, Max allowed value is 30 -->
+          <FontFamily>Arial</FontFamily>
+          <IsBold>False</IsBold>
+          <IsItalic>False</IsItalic>
+          <IsUnderline>False</IsUnderline>
+          <IsStrikeout>False</IsStrikeout>
+          <MaskText>
+          </MaskText>
+        </TextMasking>
+        <BufferRegionSize>
+          <!-- Size 400x250 is ideal, Max allowed size is of image itself  -->
+          <Width>400</Width>
+          <Height>250</Height>
+        </BufferRegionSize>
+      </MaskingSettings>
+      <PlayBackAppTypes>
+        <AppType Type="MSAA" ID="1">
+        </AppType>
+        <AppType Type="OTHERS" ID="0">
+        </AppType>
+      </PlayBackAppTypes>
+      <PlayBackQueryTypes>
+        <QueryType Type="CssSelector" ID="1">
+        </QueryType>
+        <QueryType Type="XPath" ID="2">
+        </QueryType>
+        <QueryType Type="Id" ID="3">
+        </QueryType>
+        <QueryType Type="Title" ID="4">
+        </QueryType>
+      </PlayBackQueryTypes>
+      <UserSettings>
+        <ViewMenu ShowKeyStep="0" ShowAVInfo="1" ShowNoiseStep="1" ShowVPEDS="0">
+        </ViewMenu>
+        <Settings HideNoiseSteps="0" HideNavigationSteps="0">
+        </Settings>
+      </UserSettings>
+      <ToBeReviewed>
+        <ControlName Roles="42|44|45|46|33|34" MinLength="2" MaxLength="50">
+        </ControlName>
+        <ControlRegion MaxWidth="800" MaxHeight="600">
+        </ControlRegion>
+      </ToBeReviewed>
+      <TruncateControlDataXpaths ControlDataLimit="100">
+        <XPath>MSAA/Control/ControlData/Value</XPath>
+        <XPath>PlayBack/ControlInfo/@ControlData</XPath>
+        <XPath>vpeds/vp/item/rpa/ControlInfo/@ControlData</XPath>
+        <XPath>vpeds/dp/rpa/ControlInfo/@ControlData</XPath>
+        <XPath>vpeds/exp/rpa/ControlInfo/@ControlData</XPath>
+        <XPath>Standard/Control/@TypedKey_Locale</XPath>
+        <XPath>AddIn/UIA/@UIA_CONTROL_IS_SELECTED</XPath>
+        <XPath>MSAA/Control/ControlData/@OldControlName</XPath>
+        <XPath>PlayBack/AdditionalInfo/@UIA_PARENT_NAME</XPath>
+      </TruncateControlDataXpaths>
+      <ConvertScrollEventToClick Enabled="0" />
+    </EditorSettings>
+    <RecentFiles NoOfFilesToDispaly="5" TotalFiles="50">
+      <File Name="C:\Users\Public\Documents\Epiplex500\Repository\Capture\Upgrade_12.gps" />
+      <File Name="C:\Users\Public\Documents\Epiplex500\Repository\Capture\Upgrade_1.gps" />
+      <File Name="C:\Users\Public\Documents\Epiplex500\Repository\Capture\Sample_ProcessCapture.gps" />
+    </RecentFiles>
+    <SavePendingFiles MaxSaveRetryCount="2">
+    </SavePendingFiles>
+    <SpeechTotext>
+      <LanguageCode language="Kannada" langCode="kn" default="0">
+      </LanguageCode>
+      <LanguageCode language="English" langCode="en" default="1">
+      </LanguageCode>
+      <LanguageCode language="Japanese" langCode="ja" default="0">
+      </LanguageCode>
+      <LanguageCode language="Spanish" langCode="es" default="0">
+      </LanguageCode>
+      <LanguageCode language="Chinese" langCode="zh" default="0">
+      </LanguageCode>
+      <LanguageCode language="Arabic" langCode="ar" default="0">
+      </LanguageCode>
+      <LanguageCode language="Bahasa" langCode="ms" default="0">
+      </LanguageCode>
+      <LanguageCode language="Czech" langCode="cs" default="0">
+      </LanguageCode>
+      <LanguageCode language="Danish" langCode="da" default="0">
+      </LanguageCode>
+      <LanguageCode language="Dutch" langCode="nl" default="0">
+      </LanguageCode>
+      <LanguageCode language="Filipino" langCode="fil" default="0">
+      </LanguageCode>
+      <LanguageCode language="Finnish" langCode="fi" default="0">
+      </LanguageCode>
+      <LanguageCode language="French" langCode="fr" default="0">
+      </LanguageCode>
+      <LanguageCode language="German" langCode="de" default="0">
+      </LanguageCode>
+      <LanguageCode language="Hebrew" langCode="he" default="0">
+      </LanguageCode>
+      <LanguageCode language="Hindi" langCode="hi" default="1">
+      </LanguageCode>
+      <LanguageCode language="Hungarian" langCode="hu" default="0">
+      </LanguageCode>
+      <LanguageCode language="Italian" langCode="it" default="0">
+      </LanguageCode>
+      <LanguageCode language="Korean" langCode="ko" default="0">
+      </LanguageCode>
+      <LanguageCode language="Norwegian" langCode="nb" default="0">
+      </LanguageCode>
+      <LanguageCode language="Polish" langCode="pl" default="0">
+      </LanguageCode>
+      <LanguageCode language="Portuguese" langCode="pt" default="0">
+      </LanguageCode>
+      <LanguageCode language="Romanian" langCode="ro" default="0">
+      </LanguageCode>
+      <LanguageCode language="Russian" langCode="ru" default="0">
+      </LanguageCode>
+      <LanguageCode language="Swedish" langCode="sv" default="0">
+      </LanguageCode>
+      <LanguageCode language="Thai" langCode="th" default="0">
+      </LanguageCode>
+      <LanguageCode language="Traditional Chinese" langCode="yue" default="0">
+      </LanguageCode>
+      <LanguageCode language="Turkish" langCode="tr" default="0">
+      </LanguageCode>
+      <LanguageCode language="Vietnamese" langCode="vi" default="0">
+      </LanguageCode>
+    </SpeechTotext>
+    <ContourFetchSettings>
+      <DefaultSetting>
+        <ContourFetchMethod>All,OnlyText</ContourFetchMethod>
+        <Scale>1</Scale>
+        <Canny_threshold1>100</Canny_threshold1>
+        <Canny_threshold2>100</Canny_threshold2>
+        <ApproxPolyDP_epsilon_multiplier>0.03</ApproxPolyDP_epsilon_multiplier>
+        <InterpolatioType>4</InterpolatioType>
+        <ContoursRetrType>1</ContoursRetrType>
+        <ContoursChainApproxMethod>2</ContoursChainApproxMethod>
+        <FilterLessWidthPx>50</FilterLessWidthPx>
+        <FilterLessHeightPx>10</FilterLessHeightPx>
+        <IsNeedFilterBySize>1</IsNeedFilterBySize>
+      </DefaultSetting>
+    </ContourFetchSettings>
+  </Processor>
+</Preference>

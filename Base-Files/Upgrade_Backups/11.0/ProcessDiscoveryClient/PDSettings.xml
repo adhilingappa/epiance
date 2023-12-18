@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:urn="http://www.epiplex500.com">
+  <SecurityProtocolConfig Enabled="1" SecurityProtocol="Tls12" />
+  <PDServer value="http://localhost:65153/"></PDServer>
+</Settings>

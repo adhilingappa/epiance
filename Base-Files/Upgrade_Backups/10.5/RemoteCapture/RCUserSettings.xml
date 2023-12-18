@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserSettings xmlns:urn="http://www.epiplex500.com">
+  <UserInfo>
+    <Name></Name>
+    <Password></Password>
+  </UserInfo>
+  <Project>
+    <ID>0</ID>
+    <Group>testgrp</Group>
+    <RepositoryName>testrep</RepositoryName>
+    <RepositoryPath>http://winserver08:8090/analyzerrepository/ERPreferences</RepositoryPath>
+    <RepositoryRelativePath>july_project</RepositoryRelativePath>
+    <Location>http://winserver08:8090/analyzer</Location>
+  </Project>
+  <ProcessDiscovery>
+    <SecurityProtocolConfig Enabled="1" SecurityProtocol="Tls12" />
+    <WindowsAuthentication>Disabled</WindowsAuthentication>
+    <Address>https://oneazrap3334.one.ofc.loc/</Address>
+  </ProcessDiscovery>
+</UserSettings>

@@ -1,0 +1,679 @@
+<Epiplex500 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Preferences ExcludeApps="explorer.exe|mspaint.exe|notepad.exe|skype.exe|applicationframehost.exe|calc.exe|winword.exe|excel.exe|powerpnt.exe|taskhost.exe|AcroRd32.exe|ptoneclk.exe |StikyNot.exe|Outlook.exe|WWAHost.exe|cmd.exe|powershell.exe" PartialMatchAlternateText="1" MaxThreadCount="4" ConsiderFieldDataRules="1" ConsiderFieldNameRules="1" FieldNameRuleOptions="1"/>
+	<Groups>
+		<!-- Group Type="1|2" 1 for Key Group,2 for OEM Group-->
+		<!-- Group UseDefaultMask="0|1" 0 for considering Individual MaskInfo, 2 for global-->
+		<!-- MaskInfo Has 3 types blur|text|block
+	<MaskInfo Type="blur" BlurIntensity="30" /> 
+	<MaskInfo Type="text" Text="XXXXXXXX" BackColorType="auto" ForeColor="Black" FontSize="14" FontName="Arial" FontStyle="Regular"/>	
+	<MaskInfo Type="block" BackColorType="given" BackColor="Red"/>
+	-->
+		<Group Type="1" Id="e6c620c9-a8c7-4d6b-b455-466f868100d9" Name="Personal Data" UseDefaultMask="1" Consider="1">
+			<MaskInfo Type="blur" BlurIntensity="30"/>
+			<Apps>
+				<App Id="ec0dc7f8-534c-4337-ba0e-122295780506" Name="" Consider="1">
+					<Screens>
+						<Screen Id="d315c8e0-6d27-485e-823a-863a5b7e5cdf" Name="">
+							<SecurityKeys>
+								<SecurityKey Id="68fc7049-ed14-4365-b54c-b15ecda66d4b" Key="First Name" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample First Name">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="e7b9b646-625b-40f4-ae2b-7642af2e4406" Key="Given Name" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Given Name">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="00a4e6e1-7dd9-4324-b309-4c7aa1e48583" Key="User Name|UserName" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample UserName">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="a8c8d6c0-08e7-4d4e-8745-34dd4d5c81c9" Key="Forename" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Forename">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="c0f74ae5-e639-44e1-b21c-570a1be1de2e" Key="Surname|family name" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Surname/family name">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="8b40318a-38f5-41b3-a74f-cadd5da06e2e" Key="Middle Name" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Middle Name">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="dff91387-2fb1-4be2-983f-2d6f49995b95" Key="Last Name" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Last Name">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="b666d653-9c30-4144-a5f8-5a37dc219f2f" Key="Full Name" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Full Name">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="50f40f4b-b693-47ce-b685-37675c3f3dfc" Key="Father's name" Consider="1" RuleType="image" JumpToField="1" AlternateText="Parent's Name">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="101a5f4d-37da-4078-89b0-c6d4326f0be8" Key="Mother's Name" Consider="1" RuleType="image" JumpToField="1" AlternateText="Parent's Name">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="17b34ee5-6e00-4cea-9060-6c266a3569bc" Key="Age" Consider="1" RuleType="image" JumpToField="1" AlternateText="XX">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="d15a6461-6c9d-4d8c-8acc-1f82262204a2" Key="Date of Birth|DOB|D.O.B|BirthDate" Consider="1" RuleType="image" JumpToField="1" AlternateText="DD/MM/YYYY">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="910a0321-7ad1-4889-969e-cfdf52934887" Key="Landline|TelePhone" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXXX1234">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="7f7d812c-164d-4e8f-ae19-8c9939d6a65f" Key="Contact Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXXX1234">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="8b681409-306e-4fa4-bb32-f2d722408c47" Key="Mobile Number|Mobile No|Mobile|Mob" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXXX1234">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="c171e3b3-edc6-4ab8-8a1a-f56c65c4792a" Key="Phone number|Phone" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXXX1234">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="8a05162c-b915-4831-9763-6d94780c2746" Key="Email address|E-mail address|E-mail Id|Email Id|E-mail|Work Email|Email" Consider="1" RuleType="image" JumpToField="1" AlternateText="xyz@sample.com">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="d359d17e-af3e-49fa-9f4d-bca8d7ee8bf6" Key="Postal code|Postal Address|PostCode|PinCode|PIN|ZIP" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXX123">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="57f6477c-9c02-4fc5-8a10-df3497606bde" Key="Address|Street" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Address">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="fdd7f54c-dec6-445a-b7c7-2b4c90ed9217" Key="Place of Birth|City of Birth" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Place/City of Birth">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="d4471ffd-4db2-4b73-aecc-bfce4c70881c" Key="Country of Birth" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Country of Birth">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="e6305886-926f-4ff1-9972-719e37086026" Key="Country of Citizenship|Citizenship" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Citizenship">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="ae2ea015-7269-4b85-9e30-9e8dcfb502a3" Key="Driving License Number|Driving License" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXX7890">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="a419dc14-d0e9-4b12-a0a5-e0f56123aa62" Key="Aadhaar Number|Aadhar Card No|Aadhaar No|Aadhaar" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXX XXXX 3333">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="f3e5eb06-cea1-46bc-880f-093ed482c1e8" Key="Passport Number|passport No|Passport" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXX4567">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="c4c93e95-122f-4b20-9407-172154fc458f" Key="Permanent Account Number|PAN" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXX1234A">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="9109c095-eeeb-4bed-8c20-a49fbe774a39" Key="TAN|Tax Deduction Account Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="ABCD12345A">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="8dd737dd-b02c-4d65-96fd-28cd57f35ca6" Key="Tax Identification Number|TIN|TAX Code|TAX" Consider="1" RuleType="image" JumpToField="1" AlternateText="12-3456789">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="64b47628-6529-422d-95a0-44bd4828dcce" Key="VAT|Value Added Tax Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXVATNO">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="97105333-5cf3-4adb-9dbe-92bd24a397bb" Key="GST" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXGSTNO">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="ccab1f5e-cd7c-4463-8382-a6c1a99c1764" Key="DIN|Director Identification Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXDIN">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="39e138c6-b17b-4045-b253-5822ef2ea91d" Key="DSC|Digital Signature Certificates" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXDSC">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="bbd4abb1-d635-457a-ba0d-f37245aeb0f0" Key="Service ID" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXX-XXX1234">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="bc111536-2c6f-4cb4-b37d-181c420191d6" Key="Voter ID" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXX1234">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="d1c93f6e-972a-42e8-872e-1c398cf419e7" Key="Relegion" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Relegion">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="e86710fb-8229-4208-a3f7-f4ec7308ee42" Key="Nationality|Country of Citizenship" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Nationality">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="b5eb1b8f-9743-430f-a4cb-7517f39c6d18" Key="Full Name" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Full Name">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="7b983db5-c0b3-461a-851c-c54b382511f2" Key="Maiden Name" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Maiden Name">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="5dc22ee1-7a1d-43c2-9808-2324e0685a23" Key="Landmark" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Landmark">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="cb41abff-94cf-4728-915f-c2fc94a61d15" Key="Marital status" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Marital status">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="eedf2f4d-34e3-48b3-b626-9219d17e0c3a" Key="IMEI|International Mobile Equipment Identity Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXXXXXX12345">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="620c38bd-2e62-41c7-8d8e-df388478ac7f" Key="Identity Certificate No|Certificate No|Identity Card No" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXX1234">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+							</SecurityKeys>
+						</Screen>
+					</Screens>
+				</App>
+			</Apps>
+		</Group>
+		<Group Type="1" Id="5b7dabfb-b367-465d-9fb7-3d565ad2e2de" Name="Banking" UseDefaultMask="1" Consider="1">
+			<MaskInfo Type="blur" BlurIntensity="30"/>
+			<Apps>
+				<App Id="74ddd068-053e-47a0-904f-1c90b2b95b45" Name="" Consider="1">
+					<Screens>
+						<Screen Id="ed65c797-6685-42f4-8b89-14297d21c66b" Name="">
+							<SecurityKeys>
+								<SecurityKey Id="ace3e954-2c5a-46ed-bbcd-23a80f3d5524" Key="Debit Card Number|Debit Card" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXX-XXXX-XXXX-1234">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="3b0de72b-4e49-4faa-83ed-39003442997e" Key="Account Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXXXXXXX1234">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="bfa68934-c362-4398-acb9-f3d25274758f" Key="User Id|Corporate ID" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXX12345">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="63bc43d4-86ec-471e-9cba-6e928f1b962d" Key="Customer ID" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXX5678">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="bb4dfeed-b337-4b77-aac4-a0c032076e48" Key="Card Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXX-XXXX-XXXX-1234">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="9d53ce2b-e787-4d6a-bde9-9d501ee91519" Key="IFSC" Consider="1" RuleType="image" JumpToField="1" AlternateText="ABCD0001234">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="567fb2f7-5b0f-469f-ae53-661db2e3c875" Key="Login Id" Consider="1" RuleType="image" JumpToField="1" AlternateText="SampleID">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="b44f34c0-c108-4a0d-9fad-50b2202a80a9" Key="Account Holder" Consider="1" RuleType="image" JumpToField="1" AlternateText="Samle Name">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="d5d2529b-6009-4cda-a0bc-d127f70bed6a" Key="Joint Account Holder" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Name">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="6018e326-581b-4586-aa95-de19f0a4e534" Key="Available Balance" Consider="1" RuleType="image" JumpToField="1" AlternateText="000.00">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="d3aa79f1-796c-4267-93a3-f66cd30e11e6" Key="Beneficiary" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Beneficiary">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="983a0101-16bd-42bd-b3e8-bfa9a7a89dbc" Key="Cosigner" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Consigner">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="0316b39b-8ace-45f4-8ea2-dfdd0df408b6" Key="Applicant" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Applicant">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="e381ed46-0b64-431d-ac86-a429ae4c1883" Key="Credit Score" Consider="1" RuleType="image" JumpToField="1" AlternateText="00">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="a50d8ef4-5f38-4613-9d48-915d823e774e" Key="Credit Limit" Consider="1" RuleType="image" JumpToField="1" AlternateText="000,00.00">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+							</SecurityKeys>
+						</Screen>
+					</Screens>
+				</App>
+			</Apps>
+		</Group>
+		<Group Type="1" Id="06be7777-25fb-4d49-b82b-55bd041bc4aa" Name="Network" UseDefaultMask="1" Consider="1">
+			<MaskInfo Type="blur" BlurIntensity="30"/>
+			<Apps>
+				<App Id="d7005ebe-6e8c-4b9b-acf6-cc69d8fb34ca" Name="" Consider="1">
+					<Screens>
+						<Screen Id="5e67d922-c7e6-4548-ac15-401ce93d67e0" Name="">
+							<SecurityKeys>
+								<SecurityKey Id="84836295-0c7b-446a-a020-8acd9310fe9c" Key="IP Address" Consider="1" RuleType="image" JumpToField="1" AlternateText="255.255.255.0">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="d1e6a2ab-5adf-4f9b-9451-8afa46b3932c" Key="Mac Address" Consider="1" RuleType="image" JumpToField="1" AlternateText="00-00-00-AA-00-A1">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="f92417ff-7ac3-4cf6-bec7-af4980eb0587" Key="Domain Name" Consider="1" RuleType="image" JumpToField="1" AlternateText="abc.com">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="d027fd03-f2b8-4124-8b0e-62c12dad3f41" Key="Mac Address Local" Consider="1" RuleType="image" JumpToField="1" AlternateText="00-00-00-AA-00-A1">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+							</SecurityKeys>
+						</Screen>
+					</Screens>
+				</App>
+			</Apps>
+		</Group>
+		<Group Type="1" Id="ac536d70-dbc5-425b-847e-80e3c16d5c71" Name="HealthCare" UseDefaultMask="1" Consider="1">
+			<MaskInfo Type="blur" BlurIntensity="30"/>
+			<Apps>
+				<App Id="3fe36042-0f15-4285-b0a6-c6a1916e6e72" Name="" Consider="1">
+					<Screens>
+						<Screen Id="8caa97d2-5570-4195-bee5-3f5b3264a6fe" Name="">
+							<SecurityKeys>
+								<SecurityKey Id="49b6fbad-9e31-4021-9d43-cf6329f7cd10" Key="Policy Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXX123456">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="89443b52-9492-4a32-af25-0fe2081d1b11" Key="Insurance number" Consider="1" RuleType="image" JumpToField="1" AlternateText="AB-12-34-56-Z">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="46d95306-ced7-4f72-8c17-28dd43d15710" Key="Patient name|Patient Identifier" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Name">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="1f6586bb-b4a0-4747-aa51-2757b6ef8bb3" Key="SSN#|Social security Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="000-00-0000">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="7d076d0f-9408-4bd4-a856-dd5abd86a3c2" Key="Medical Examiner" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Name">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="77b22860-c55e-44e7-87c8-7df138c5d1b3" Key="Medicare Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXX-XXX-XXXX">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="1eb8c754-fb3a-4795-b25b-f4966464aebb" Key="Emergency Number|Emerg. No|Emergency Contact|Emerg" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXXX1234">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="913d6acd-c2e8-4da3-bf22-8dafd1c41ad5" Key="Provider No" Consider="1" RuleType="image" JumpToField="1" AlternateText="123456XX">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="276f2413-01ac-4649-b700-38c24208476e" Key="Latitude" Consider="1" RuleType="image" JumpToField="1" AlternateText="0.000000">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="f178d69f-64eb-41b4-8b4f-f908563af701" Key="Longitude" Consider="1" RuleType="image" JumpToField="1" AlternateText="0.000000">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="c09067ec-6176-46de-8c7f-2733c48cb3ac" Key="Occupation" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Occupation">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="f42d3c70-42c3-4699-84e7-a919cb81cf8c" Key="Employer" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Employer">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="5a189816-4b99-4010-b059-354406cfc058" Key="Partner Name" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Partner">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="d8d769a5-a2f4-4efa-b37f-710d5c3ae84d" Key="Blood Group|Blood type" Consider="1" RuleType="image" JumpToField="1" AlternateText="XY">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="515c21d8-8424-4a2f-bf72-9fca35e50637" Key="Pension Number|PPO No" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXXXXXX12">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="d71e2acd-3815-47e0-9939-3e68216ea1e4" Key="DVA No" Consider="1" RuleType="image" JumpToField="1" AlternateText="xxxDVX NO">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="d2813706-6f92-47e4-869e-6640a28242e0" Key="Doctor Name" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Dr Name">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="f6ec2081-dc17-4ab5-948f-d03264519087" Key="FAX" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXXFAX">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="f1d5dc81-9888-475f-b326-8e60caa782a0" Key="Location" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Location">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="74ff8fa7-7d0b-4207-8ac7-adfe94acef88" Key="Date of Discharge" Consider="1" RuleType="image" JumpToField="1" AlternateText="DD/MM/YYYY">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="bea2da55-03a6-426c-b809-38b04b4ebc03" Key="CCN" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXCCN">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="4f779602-6447-4ed6-ad33-5d7bc981564a" Key="UHID" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXUHID">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="cd11623a-b8dc-4614-8727-0a8da0cce38c" Key="Referred.By" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Reference">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="75136819-8f26-41ee-bda2-5de803c0ad80" Key="Primary Consultant" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Conultant">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="184c4e3b-34ad-4d8f-bb10-9b48ef0e788d" Key="Consultant" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Conultant">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="78346e2a-4046-42d6-b3dc-3064daf4d6c0" Key="Ref.By.Dr" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Reference">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+							</SecurityKeys>
+						</Screen>
+					</Screens>
+				</App>
+			</Apps>
+		</Group>
+		<Group Type="1" Id="c7c5648a-5399-4dd1-baac-8ca105b8253e" Name="OtherCountries" UseDefaultMask="1" Consider="1">
+			<MaskInfo Type="blur" BlurIntensity="30"/>
+			<Apps>
+				<App Id="4ae10978-684f-4d9d-8e34-2a0f6cf936c2" Name="" Consider="1">
+					<Screens>
+						<Screen Id="25eb131a-6006-4d1f-9606-a99bbe4f3c04" Name="">
+							<SecurityKeys>
+								<SecurityKey Id="8eac8e4c-ef8b-4fc8-a224-8d2e5c2889eb" Key="SWIFT BIC|SWIFT Bussiness Identifier Code|SWIFT Code" Consider="1" RuleType="image" JumpToField="1" AlternateText="AAAA-BB-CC-XXXX">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="3740fe62-ad18-4518-89fb-adfebb9b0561" Key="IBAN|International Bank Account Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="AB-01-123-0001234567890123">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="3d73303b-9b6c-442b-9699-6fdbaf281627" Key="TFN|TAX file Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="123 456 789">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="aaa7e235-2cff-4c73-85d1-d60bff831dd2" Key="National Registry Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="0123456789">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="9e61ea46-6017-45df-91fd-5bbdc18190f6" Key="JMBG|Unique Master Citizen Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="DDMMYYYRRBBBK">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="423e605a-4678-43e3-bd15-85225d904ba2" Key="CPF|CNPJ|National Registry of Legal Entities" Consider="1" RuleType="image" JumpToField="1" AlternateText="00.000.000/0001-00">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="b3fcfff8-c515-4200-a5a0-5dfca8d87de7" Key="Natuaral Persons Register" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXNPR">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="a3221e10-523d-40d9-8c8c-f62ff88953b6" Key="EGN|Uniform Civil Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXECN">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="b1fa6700-5d78-4fb1-8ef7-425d31270802" Key="RAMQ" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXRMQ">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="9d066197-9642-40af-b0aa-d3460ea97325" Key="Quebec Health Insurance Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXX-0000-0000">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="56d7f2c2-4efd-4b3a-9bb9-7d586ead8519" Key="SIN|Social Insurance Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="123-456-789">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="a17fd097-38c9-4e48-9ab7-08314ad683bd" Key="Bank Account Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXXXXXXX1234">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="7f76ff71-962e-4f81-8ebe-5f1aef7957dd" Key="UnionPay Card Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="8888-8888-8888-8888">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="43307d87-58d2-449d-a92d-5187a97c48cc" Key="OIB|Personal identification number|Personal Indenity Code" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXPIC">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="fde6f9a9-6713-4f00-9102-a0fafc2142f7" Key="CPR - Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="123456-7890">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="65e75fe2-e72e-47b3-95a4-4780cbcc804e" Key="CIE" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXCIE">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="eb4a9caf-73cf-4037-b69f-8122a3c93588" Key="IK" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXIK">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="8a1276fd-fedf-4b6c-ae98-5e89ff4564a5" Key="HETU" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXHETU">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="ec5be68a-677d-4a96-bb6e-117a8adaa9c1" Key="INSEE code|National Institute for Statistics and Economics Studies" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXINSE">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="11afed61-535f-4347-afe5-a85723022064" Key="National Registration Number|NIR" Consider="1" RuleType="image" JumpToField="1" AlternateText="1234-1234-1234-1234">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="c492cae6-fd20-407d-b32c-a600daa62b9a" Key="Serial Number|SN" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXSN">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="d2d3f991-3faf-4f6f-8a90-624a3010332a" Key="Identity Card Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXXICN">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="1a04254a-1855-430f-acfe-04edcbb8ad6f" Key="Szemelyi Szam" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXX12345">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="174f7a24-1aa5-4d26-a000-0efa4e13a63b" Key="Vehicle Registration Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="XX 01-XX 1234">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="94941f13-ec0f-4ecf-ad3a-7f26964ece36" Key="Personal Public Service number|PPSN" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXX1234">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="69681bc3-a5ae-48c3-bced-3d232e51c814" Key="My Number|Corporate Number|CF" Consider="1" RuleType="image" JumpToField="1" AlternateText="(123) 456-789">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="778dbce9-9532-4c13-9015-b3885f76bddd" Key="Individual Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="1234 5678 9012">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="b10e3b22-a72c-47c8-9768-101f6880fff7" Key="Personal code|PK" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXX0123">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="3c319b36-2192-4b67-8e28-735ced579baa" Key="Alaska ID|AK" Consider="1" RuleType="image" JumpToField="1" AlternateText="DL1234567">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="bfad095b-fd68-4d68-b3c5-d15a7e2cf111" Key="National ID Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="1234 1234 1234 1234">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="52347756-067a-45c7-8318-f6ab57f22095" Key="Emergency Medical Care Technician|EMCT" Consider="1" RuleType="image" JumpToField="1" AlternateText="Sample Technician name">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="9bbd2458-6b1e-4df7-8bed-16dc28671f3a" Key="National registration Identity card Number|NRIC" Consider="1" RuleType="image" JumpToField="1" AlternateText="S1234567A">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="cc0c1a90-44af-4886-8001-a3a4403c6779" Key="RFC" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXRFC">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="df943b5b-f507-4494-ac56-8935e18ec4f9" Key="Unique Master Citizen Number|JMBG" Consider="1" RuleType="image" JumpToField="1" AlternateText="DD MM YYY RR BBB K">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="23997865-7712-4149-bef5-05a26afc26ff" Key="IRD Number|Inland Revenue" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXIRD Number">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="a3a503b0-19a6-496f-8281-4b80373d7e0b" Key="National Health Index Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXNHIN">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="91ef1003-e692-4a6f-833b-2acde8dfda40" Key="DOWOD OSOBISTY|National Identity Card Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXNICD">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="229af685-7650-4bab-b257-204167a31254" Key="Personal Number|PESEL" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXPN">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="80f12d18-62df-4c2e-b5ae-13edaa5d3987" Key="NIF|Numero de Identificacion Fiscal|Personal Tax ID" Consider="1" RuleType="image" JumpToField="1" AlternateText="A01234567B">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="857dd99e-f75a-4fd8-9d97-17bd3ae0abac" Key="CNP|Cod Numeric personal" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXCNP">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="50eaf0e2-d9f2-43ae-852c-57b0f6eaa78d" Key="RC-Rodne Cislo|Birth Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="YYMMDD/XXXX">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="e1298818-603d-46dd-90bd-538667eb2434" Key="EMSO|Enotna maticna Stevika obcana" Consider="1" RuleType="image" JumpToField="1" AlternateText="DDMMLLLRRZZZK">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="da56282c-42fc-4df6-906e-65a775ce4d32" Key="Resident Registration Number|RRN" Consider="1" RuleType="image" JumpToField="1" AlternateText="123456-7891012">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="5437f5ae-ea65-4795-b2a5-2cf01deea128" Key="DNI|DocumentoNacional deldentidad" Consider="1" RuleType="image" JumpToField="1" AlternateText="012345678A">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="a8b1460f-57e7-4590-9093-a0b18a942cd4" Key="NAF|Numero deAfiliacion a laSeguridadSocial" Consider="1" RuleType="image" JumpToField="1" AlternateText="111234567890">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="20a188bc-3d77-463b-a8d7-8bf886e8eb9c" Key="Person number" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXXPN">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="3e29b30d-b3cc-4f87-be17-71e6f3644f04" Key="IMSI|International Mobile Subscriber identity" Consider="1" RuleType="image" JumpToField="1" AlternateText="262 01 1234567">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="956a5c04-4dbf-48cb-8263-a8e469ac7e3e" Key="National HealthInsurance (NHI)Drug Codes" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXCODE">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="70e7ab67-cd91-4f05-adac-7149e0845e2e" Key="SKH" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXSKH">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="7942dcc3-df36-4e00-9fcb-d50517c92cb7" Key="VGH" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXVGH">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="4b8dc239-67f9-4eb1-b3f6-8192f6c8321d" Key="Medical Record Number|MRN" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXMRN">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="ca9d4589-8a5f-4bf6-9a18-387a4fb2c923" Key="T.C.Kimlik No|TiirkiyeCumhuriyetiKimlikNumarasi|Turkish Public Identification Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXTPIN">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="079ef409-c1dd-479a-b160-ad6d87526aec" Key="NHS|National health Service Number" Consider="1" RuleType="image" JumpToField="1" AlternateText=" 123 123 1234">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="8c4f90d8-ce46-46db-8567-dd9dc7052b30" Key="NIN|National Insurance Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="AA 11 11 11 A">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="2d94cff9-8ac6-49a0-8ede-3348461cf72f" Key="ABA Routing Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXABA">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="845a98d8-157d-4f9b-a808-8a434408856e" Key="HICN|Health Insurance Claim Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="1800 000 0000 / 1800 111 1111">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="ffdf8805-5e16-4e50-a1a8-dc1bc7e67621" Key="Dollar Amount" Consider="1" RuleType="image" JumpToField="1" AlternateText="00.0">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="43563914-c7ee-4b68-aec2-bbd9256ebce4" Key="California ID" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXID">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="a60526d1-2aae-44c8-9715-3f94e1721811" Key="Home Address" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXAddress">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="6eac88be-6eb3-4366-9c1b-e640ca99d175" Key="National Procided Identity|NPI" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXNPI">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="ea713ab8-356c-4763-b22d-8ce29826a48f" Key="HCFA|Health care Financing Agency" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXHCFA">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="3a7b45b2-d103-4f2b-869a-b355858603ae" Key="CMA|Centers for Medicare and Medicaid Services" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXCMA">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="12f70f10-43d9-4dd7-8ae3-634d5602260c" Key="SOX|Sarbanes Oxley" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXSOX">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="4f7714c7-f4be-48c4-89fb-d79e4aba574c" Key="PCI-DSS|Payment Card Industry Data Security Standard" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXXPCI-DSS">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="f3678baa-6558-44cd-adf7-3d18cf328e07" Key="Issuer Identification Number|IIN" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXIIN">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="dc7927ae-d608-4deb-9af9-77547105fcbd" Key="BIN Number|Bank Identification Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="XXXXBIN">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="d94d3a98-5947-43da-a9f6-bbc176156bb3" Key="American Bankers Association CUSIP" Consider="1" RuleType="image" JumpToField="1" AlternateText="012345678">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+								<SecurityKey Id="15191a95-f827-4baf-b153-f75409285b9e" Key="National Identification Number" Consider="1" RuleType="image" JumpToField="1" AlternateText="012345678">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+								</SecurityKey>
+							</SecurityKeys>
+						</Screen>
+					</Screens>
+				</App>
+			</Apps>
+		</Group>
+		<Group Type="2" Id="c1c48205-47ce-44cd-8ed0-bcfc50e8166d" Name="OEMGroup" UseDefaultMask="1" Consider="1">
+			<MaskInfo Type="blur" BlurIntensity="30"/>
+			<Apps>
+				<App Id="1c1e694e-830f-4074-b019-4603d20c7b73" Name="" Consider="1">
+					<Screens>
+						<Screen Id="60193a03-b37c-416a-8cf2-8d4ac42833e8" Name="">
+							<Categorys>
+								<!-- Category Type 1 for NLP 2 for RegEx 
+						  AlternateText is for masking text in sentence and control data-->
+								<Category Enable="1" Name="Person" Type="1" oem="1" TagName="PERSON" AlternateText="Sample Person Name">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+									<RegExs>
+										<RegEx>&lt;[PERSON]+&gt;.*?&lt;/[PERSON]+&gt;</RegEx>
+									</RegExs>
+								</Category>
+								<Category Enable="1" Name="Organisation" Type="1" oem="1" TagName="ORGANIZATION" AlternateText="Sample Organisation Name">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+									<RegExs>
+										<RegEx>&lt;[ORGANIZATION]+&gt;.*?&lt;/[ORGANIZATION]+&gt;</RegEx>
+									</RegExs>
+								</Category>
+								<Category Enable="1" Name="Location" Type="1" oem="1" TagName="LOCATION" AlternateText="Sample Location Name">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+									<RegExs>
+										<RegEx>&lt;[LOCATION]+&gt;.*?&lt;/[LOCATION]+&gt;</RegEx>
+									</RegExs>
+								</Category>
+								<Category Enable="1" Name="Email" Type="2" oem="1" AlternateText="xyz@sample.com">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+									<RegExs>
+										<RegEx>\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*</RegEx>
+									</RegExs>
+								</Category>
+								<Category Enable="1" Name="Phone Number" Type="2" oem="1" AlternateText="XXXXXXX1234">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+									<RegExs>
+										<RegEx>\+?\d[\d -]{8,12}\d</RegEx>
+									</RegExs>
+								</Category>
+								<Category Enable="1" Name="Aadhar" Type="2" oem="1" AlternateText="XXXX XXXX 3333">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+									<RegExs>
+										<RegEx>\d{4}[\s,-]\d{4}[\s,-]\d{4}</RegEx>
+									</RegExs>
+								</Category>
+								<Category Enable="1" Name="Date" Type="2" oem="1" AlternateText="DD/MM/YYYY">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+									<RegExs>
+										<RegEx>(\d{1,4})[-\/][A-Za-z0-9]{1,10}[-\/](\d{1,4})</RegEx>
+									</RegExs>
+								</Category>
+								<Category Enable="1" Name="TimeStamp" Type="2" oem="1" AlternateText="hh:mm:ss">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+									<RegExs>
+										<RegEx>[0-9]{1,2}:[0-9]{1,2}:[0-9]{1,2}</RegEx>
+									</RegExs>
+								</Category>
+								<Category Enable="1" Name="Social Security Number" Type="2" oem="1" AlternateText="000-00-0000">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+									<RegExs>
+										<RegEx>(?!(000|666|9))\d{3}-(?!00)\d{2}-(?!0000)\d{4}</RegEx>
+									</RegExs>
+								</Category>
+								<Category Enable="1" Name="MB ID Number" Type="2" oem="1" AlternateText="1EE4-TT5-MM73">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+									<RegExs>
+										<RegEx>\b\d[A-Z]{2}\d-[A-Z]{2}\d-[A-Z]{2}\d{2}\b</RegEx>
+									</RegExs>
+								</Category>
+								<Category Enable="1" Name="IFSC Code" Type="2" oem="1" AlternateText="SBIN0000123">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+									<RegExs>
+										<RegEx>[A-Z]{4}0[A-Z0-9]{6}</RegEx>
+									</RegExs>
+								</Category>
+								<Category Enable="1" Name="India Bank Account Number 1" Type="2" oem="1" AlternateText="0000123456789">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+									<RegExs>
+										<RegEx>[0-9]{9,18}</RegEx>
+										<RegEx>\d{9,18}</RegEx>
+										<RegEx>\d(234)\d{2}\w{3}\d{2}\w</RegEx>
+									</RegExs>
+								</Category>
+								<Category Enable="1" Name="PAN Number" Type="2" oem="1" AlternateText="ABCDE0123A">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+									<RegExs>
+										<RegEx>[A-Z]{5}[0-9]{4}[A-Z]{1}</RegEx>
+									</RegExs>
+								</Category>
+								<Category Enable="1" Name="Indian Passport Number" Type="2" oem="1" AlternateText="A1234567">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+									<RegExs>
+										<RegEx>[A-Z]{1}[0-9]{7}</RegEx>
+									</RegExs>
+								</Category>
+								<Category Enable="1" Name="TAN Number" Type="2" oem="1" AlternateText="BLRT11234A">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+									<RegExs>
+										<RegEx>[A-Z]{4}[0-9]{5}[A-Z]{1}</RegEx>
+									</RegExs>
+								</Category>
+								<Category Enable="1" Name="GST Number India" Type="2" oem="1" AlternateText="22AAAAA0000A1Z5">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+									<RegExs>
+										<RegEx>[0-9]{2}[A-Z]{5}[0-9]{4}[A-Z]{1}[1-9A-Z]{1}Z[0-9A-Z]{1}</RegEx>
+									</RegExs>
+								</Category>
+								<Category Enable="1" Name="CIN Number" Type="2" oem="1" AlternateText="U12345AA1234AAA123456">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+									<RegExs>
+										<RegEx>([L|U]{1})([0-9]{5})([A-Za-z]{2})([0-9]{4})([A-Za-z]{3})([0-9]{6})</RegEx>
+									</RegExs>
+								</Category>
+								<Category Enable="1" Name="US Currency" Type="2" oem="1" AlternateText="$0000">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+									<RegExs>
+                    <RegEx>\$[ ]?[0-9]+[\.\,]?[0-9]*</RegEx>
+									</RegExs>
+								</Category>
+								<Category Enable="1" Name="Indian Currency" Type="2" oem="1" AlternateText="₹0000">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+									<RegExs>
+                    <RegEx>\₹ [ ]?[0-9]+[\.\,]?[0-9]*</RegEx>
+									</RegExs>
+								</Category>
+								<Category Enable="1" Name="ISBN-10" Type="2" oem="1" AlternateText="ISBN 0 00000 000 0">
+									<MaskInfo Type="blur" BlurIntensity="30"/>
+									<RegExs>
+										<RegEx>ISBN\x20(?=.{13})\d{1,5}([- ])\d{1,7}\1\d{1,6}\1(\d|X)</RegEx>
+									</RegExs>
+								</Category>
+							</Categorys>
+						</Screen>
+					</Screens>
+				</App>
+			</Apps>
+		</Group>
+	</Groups>
+</Epiplex500>

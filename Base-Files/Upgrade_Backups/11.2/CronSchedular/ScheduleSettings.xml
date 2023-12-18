@@ -1,0 +1,6 @@
+<ScheduleSettings>
+	<ProcessBasedSchedules Enabled="false">
+		<Process Name="Test Proces" Enabled="true"/>	
+		<Process Name="abcd" Enabled="true"/>	
+	</ProcessBasedSchedules>
+</ScheduleSettings>

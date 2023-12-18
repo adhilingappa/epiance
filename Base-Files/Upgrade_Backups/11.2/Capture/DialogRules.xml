@@ -1,0 +1,83 @@
+<Rules>
+ <ExcludeFilter ExcludedExeList="" ExcludedDomainList="">
+  <PartialUriMatchRegex>
+	<![CDATA[^(?<prefix>(?<scheme>[a-z][a-z0-9+.-]+):\/\/\/?)?(?<host>[a-zA-Z0-9.\-_~]+)(?<port>:\d+)?(?<path>(?:[a-zA-Z0-9-._~]|%[a-f0-9]|[!$&'()*+,;=:@])+(?:\/(?:[a-zA-Z0-9-._~]|%[a-f0-9]|[!$&'()*+,;=:@])*)*|(?:\/(?:[a-zA-Z0-9-._~]|%[a-f0-9]|[!$&'()*+,;=:@])+)*)?(?<query>\?(?:[a-zA-Z0-9-._~]|%[a-f0-9]|[!$&'()*+,;=:@]|[\/?])+)?(?<fragment>\#(?:[a-zA-Z0-9-._~]|%[a-f0-9]|[!$&'()*+,;=:@]|[\/?])+)?$]]>
+  </PartialUriMatchRegex>
+ </ExcludeFilter>
+ <Encryption Enable = "1" />
+ <PersonNameIdentification Enable = "0" MaxWordCount = "10" /> 
+ <Application AppName="notepad.exe" Person="1" Org="1" Loc="1" Misc="1">
+  <Rule RuleNo="1" Name="Date" RegEx="(\d{1,4})[-\/][A-Za-z0-9]{1,10}[-\/](\d{1,4})" Enable="1" ReplaceWith="[Date]"/>
+  <Rule RuleNo="2" Name="TimeStamp" RegEx="[0-9]{1,2}:[0-9]{1,2}:[0-9]{1,2}" Enable="0" ReplaceWith="[TimeStamp]"/>
+  <Rule RuleNo="3" Name="Email" RegEx="[a-z0-9!#$%'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" Enable="1" ReplaceWith="[Email]"/>
+  <Rule RuleNo="4" Name="FileName" RegEx=".+[.][a-zA-Z]{1,4}" Enable="1" ReplaceWith="[FileName]"/>
+  <Rule RuleNo="5" Name="WordEndsWithNum" RegEx="[\w]+[\d]+[\w]+|[\w]+[\d]+" Enable="0" ReplaceWith="[WordEndsWithNum]"/>
+  <Rule RuleNo="6" Name="Decimal" RegEx="(\s+(\.\d+)+) |(\d+(\.\d+)+)" Enable="0" ReplaceWith="[Decimal]"/>
+  <Rule RuleNo="7" Name="Number" RegEx="\d+" Enable="0" ReplaceWith="[Number]"/>
+  <Rule RuleNo="8" Name="Brackets" RegEx="\(.*?\)|\{.*?\}|\[.*?\]" Enable="0" ReplaceWith="[Brackets]"/>
+  <Rule RuleNo="9" Name="SpecialCharactersStartandEnd" RegEx="\W*$|^\W*" Enable="0" ReplaceWith="[SpecialCharactersStartandEnd]"/>
+  <NLPXPaths>
+    <Group Desc="Common" Enable="1">
+      <NLPXPath Name="WindowCaption" ChannelList="|*|" EventList="|*|" RoleList="|*|" Enable="1" />
+    </Group>
+    <Group Desc="Advanced" Enable="1">
+      <NLPXPath Name="StandardDialogName" ChannelList="|*|" EventList="|*|" RoleList="|*|" Enable="1" />
+      <NLPXPath Name="MSAADialogName" ChannelList="|*|" EventList="|*|" RoleList="|*|" Enable="1" />
+      <NLPXPath Name="AliasName" ChannelList="|*|" EventList="|*|" RoleList="|*|" Enable="0" />
+      <NLPXPath Name="ControlName" ChannelList="|*|" EventList="|*|" RoleList="|*|" Enable="0" />
+      <NLPXPath Name="ControlData" ChannelList="|*|" EventList="|*|" RoleList="|*|" Enable="0" />
+      <NLPXPath Name="ControlValue" ChannelList="|*|" EventList="|*|" RoleList="|*|" Enable="0" />
+    </Group>
+    <Group Desc="Playback" Enable="0">
+      <NLPXPath Name="PlayBackControlData" ChannelList="|*|" EventList="|*|" RoleList="|*|" Enable="1" />
+      <NLPXPath Name="PlayBackControlName" ChannelList="|*|" EventList="|*|" RoleList="|*|" Enable="1" />
+    </Group>
+  </NLPXPaths>
+ </Application>
+ <Application AppName="*" Person="1" Org="1" Loc="1" Misc="1"> 
+  <Rule RuleNo="1" Name="Date" RegEx="(\d{1,4})[-\/][A-Za-z0-9]{1,10}[-\/](\d{1,4})" Enable="1" ReplaceWith="[Date]"/>
+  <Rule RuleNo="2" Name="TimeStamp" RegEx="[0-9]{1,2}:[0-9]{1,2}:[0-9]{1,2}" Enable="0" ReplaceWith="[TimeStamp]"/>
+  <Rule RuleNo="3" Name="Email" RegEx="[a-z0-9!#$%'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" Enable="1" ReplaceWith="[Email]"/>
+  <Rule RuleNo="4" Name="FileName" RegEx=".+[.][a-zA-Z]{1,4}" Enable="1" ReplaceWith="[FileName]"/>
+  <Rule RuleNo="5" Name="WordEndsWithNum" RegEx="[\w]+[\d]+[\w]+|[\w]+[\d]+" Enable="0" ReplaceWith="[WordEndsWithNum]"/>
+  <Rule RuleNo="6" Name="Decimal" RegEx="(\s+(\.\d+)+) |(\d+(\.\d+)+)" Enable="0" ReplaceWith="[Decimal]"/>
+  <Rule RuleNo="7" Name="Number" RegEx="\d+" Enable="0" ReplaceWith="[Number]"/>
+  <Rule RuleNo="8" Name="Brackets" RegEx="\(.*?\)|\{.*?\}|\[.*?\]" Enable="0" ReplaceWith="[Brackets]"/>
+  <Rule RuleNo="9" Name="IEandWIE" RegEx="([^\w]*Windows Internet Explorer[^\w]*)+|[|\\^\r\n]+|([^\w]*Internet Explorer[^\w]*)+|[|\\^\r\n]+" Enable="0" ReplaceWith="[IEandWIE]"/>
+  <Rule RuleNo="10" Name="MFFandMTB" RegEx="([^\w]*Mozilla Firefox[^\w]*)+|[|\\^\r\n]+|([^\w]*Mozilla Thunderbird[^\w]*)+|[|\\^\r\n]+" Enable="0" ReplaceWith="[MFFandMTB]"/>
+  <Rule RuleNo="11" Name="SpecialCharactersStartandEnd" RegEx="\W*$|^\W*" Enable="0" ReplaceWith="[SpecialCharactersStartandEnd]"/>
+  <Rule RuleNo="12" Name="Chrome" RegEx="([^\w]*Google Chrome[^\w]*)+|[|\\^\r\n]+" Enable="0" ReplaceWith="[Chrome]"/>
+  <NLPXPaths>
+    <Group Desc="Common" Enable="1">
+      <NLPXPath Name="WindowCaption" ChannelList="|*|" EventList="|*|" RoleList="|*|" Enable="1" />
+    </Group>
+    <Group Desc="Advanced" Enable="1">
+      <NLPXPath Name="StandardDialogName" ChannelList="|*|" EventList="|*|" RoleList="|*|" Enable="1" />
+      <NLPXPath Name="MSAADialogName" ChannelList="|*|" EventList="|*|" RoleList="|*|" Enable="1" />
+      <NLPXPath Name="AliasName" ChannelList="|*|" EventList="|*|" RoleList="|*|" Enable="0" />
+      <NLPXPath Name="ControlName" ChannelList="|*|" EventList="|*|" RoleList="|*|" Enable="0" />
+      <NLPXPath Name="ControlData" ChannelList="|*|" EventList="|*|" RoleList="|*|" Enable="0" />
+      <NLPXPath Name="ControlValue" ChannelList="|*|" EventList="|*|" RoleList="|*|" Enable="0" />
+    </Group>
+    <Group Desc="Playback" Enable="0">
+      <NLPXPath Name="PlayBackControlData" ChannelList="|*|" EventList="|*|" RoleList="|*|" Enable="1" />
+      <NLPXPath Name="PlayBackControlName" ChannelList="|*|" EventList="|*|" RoleList="|*|" Enable="1" />
+    </Group>
+  </NLPXPaths>
+ </Application>
+ <NlpRules>
+  <Rule Name="PERSON" ReplaceWith="[PERSON]">
+   <RegEx><![CDATA[<[PERSON]+>.*?</[PERSON]+>]]></RegEx>
+  </Rule>
+  <Rule Name="LOCATION" ReplaceWith="[LOCATION]">
+   <RegEx><![CDATA[<[LOCATION]+>.*?</[LOCATION]+>]]></RegEx>
+  </Rule>
+  <Rule Name="ORGANIZATION" ReplaceWith="[ORGANIZATION]">
+   <RegEx><![CDATA[<[ORGANIZATION]+>.*?</[ORGANIZATION]+>]]></RegEx>
+  </Rule>
+  <Rule Name="MISC" ReplaceWith="[MISC]">
+   <RegEx><![CDATA[<[MISC]+>.*?</[MISC]+>]]></RegEx>
+  </Rule>
+ </NlpRules>
+</Rules>
+ 

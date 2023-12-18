@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HashCodeRules>
+  <DefaultRules>
+    <Rule>
+      <Condition Id="0"></Condition>
+      <Parameters _41="1" _40="1" />
+    </Rule>
+    <Rule>
+      <Condition Id="1"></Condition>
+      <Parameters _40="1" _41="1" />
+    </Rule>
+    <Rule>
+      <Condition Id="2"></Condition>
+      <Parameters _41="1" _40="1" />
+    </Rule>
+    <Rule>
+      <Condition Id="3"></Condition>
+      <Parameters _41="1" _40="1" />
+    </Rule>
+    <Rule>
+      <Condition Id="4"></Condition>
+      <Parameters _41="1" _40="1" />
+    </Rule>
+    <Rule>
+      <Condition Id="5"></Condition>
+      <Parameters _41="1" _40="1" />
+    </Rule>
+    <Rule>
+      <Condition Id="6"></Condition>
+      <Parameters _41="1" _40="1" />
+    </Rule>
+    <Rule>
+      <Condition Id="7"></Condition>
+      <Parameters _41="1" _40="1" />
+    </Rule>
+    <Rule>
+      <Condition Id="8"></Condition>
+      <Parameters _41="1" _40="1" />
+    </Rule>
+    <Rule>
+      <Condition Id="9"></Condition>
+      <Parameters _41="1" _40="1" />
+    </Rule>
+    <Rule>
+      <Condition Id="10"></Condition>
+      <Parameters _41="1" _40="1" />
+    </Rule>
+    <Rule>
+      <Condition Id="11"></Condition>
+      <Parameters _41="1" _40="1" />
+    </Rule>
+    <Rule>
+      <Condition Id="12"></Condition>
+      <Parameters _41="1" _40="1" />
+    </Rule>
+  </DefaultRules>
+  <CustomRules>
+    <!--Id - ActiveChannelId-->
+    <!--adaptorIndex = 2000 * ActiveChannelId-->
+    <!--AppName - adaptorIndex + 262-->
+    <!--WindowCaption - adaptorIndex + 263-->
+    <!--URL - adaptorIndex + 114-->
+    <!--ControlType - adaptorIndex + 41-->
+    <!--ControlName - adaptorIndex + 40-->
+    <!--Event - 6-->
+    <!--ControlData - adaptorIndex + 74-->
+    <Rule Enable="0">
+      <Condition Id="1" AppName="Test.exe" WindowCaption="*" URL="*" ControlType="*" ControlName="*" Event="*" ControlData="*"></Condition>
+      <Parameters _41="1" _40="1">
+        <!--You can add any constant of standard channel, It will look for channel specific value,if not found takes values of standard adaptor.-->
+      </Parameters>
+    </Rule>
+  </CustomRules>
+</HashCodeRules>

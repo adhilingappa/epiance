@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CNNSettings>
+  <Model Name="AI\Control.pb" />
+  <StartJunkCharList><![CDATA[[|V|,¢/s|,|V|,|v|,|_|,\v|,[V |,V|,V!,V],o ,[ ],[v,[V,W],V|,IV,¥4,vV,™,||,=),“ ),“|,—_,o (,(=,' |,_|,(0,(O,[~,|~,~|,~1,I~,[~,[T,vV,[v,|],),),1,B ,+,7,4,T,l,»,¥,D ,*,&,£,=,%,I ,O ,v,(,@,4,7,©,[,v,| |,|,],),v]]></StartJunkCharList>
+  <EndJunkCharList><![CDATA[ VvV, | =¥, Vv,| ¥, V, v,v , I, ¥, -, |,—,],],1]]></EndJunkCharList>
+  <MeanValue V0="239.519" V1="241.047" V2="242.041" />
+  <AppSettings>
+    <AppSetting AppName="citrixlauncher.exe" LabelHeight="18" DistanceBetweenTwoRect="10" DifferenceInHeight="8" DifferencenInLeft="15" DifferencenInTop="10" Srec="20" Lrect="20" />
+    <AppSetting AppName="ifs.fnd.explorer.exe" LabelHeight="18" DistanceBetweenTwoRect="8" DifferenceInHeight="20" DifferencenInLeft="15" DifferencenInTop="10" Srec="18" Lrect="18" />
+    <AppSetting AppName="jp2launcher.exe" LabelHeight="18" DistanceBetweenTwoRect="8" DifferenceInHeight="20" DifferencenInLeft="15" DifferencenInTop="10" Srec="30" Lrect="30" />
+    <AppSetting AppName="mstsc.exe" LabelHeight="18" DistanceBetweenTwoRect="8" DifferenceInHeight="20" DifferencenInLeft="15" DifferencenInTop="10" Srec="30" Lrect="30" />
+    <AppSetting AppName="*" LabelHeight="18" DistanceBetweenTwoRect="10" DifferenceInHeight="20" DifferencenInLeft="15" DifferencenInTop="10" Srec="30" Lrect="30" />
+  </AppSettings>
+  <RoleIDMappings>
+    <RoleIDMapping Key="0" Name="SelectItem" />
+    <RoleIDMapping Key="1" Name="Unselectitem" />
+    <RoleIDMapping Key="2" Name="ListItem" />
+    <RoleIDMapping Key="3" Name="OptionItem" />
+    <RoleIDMapping Key="4" Name="EditableText" />
+    <RoleIDMapping Key="5" Name="Menu" />
+    <RoleIDMapping Key="6" Name="Scroll" />
+    <RoleIDMapping Key="7" Name="Title" />
+    <RoleIDMapping Key="8" Name="Client" />
+    <RoleIDMapping Key="9" Name="Grid" />
+    <RoleIDMapping Key="10" Name="ClickItem" />
+  </RoleIDMappings>
+  <PredictionRules>
+    <Application AppName="*">
+      <Rule Rect1="ClickItem" Rect2="*" RR="1" />
+      <Rule Rect1="EditableText" Rect2="*" RR="1" />
+      <Rule Rect1="Grid" Rect2="*" RR="1" />
+      <Rule Rect1="ListItem" Rect2="*" RR="1" />
+      <Rule Rect1="Menu" Rect2="*" RR="1" />
+      <Rule Rect1="OptionItem" Rect2="*" RR="1" />
+      <Rule Rect1="Scroll" Rect2="*" RR="1" />
+      <Rule Rect1="SelectItem" Rect2="*" RR="1" />
+      <Rule Rect1="Unselectitem" Rect2="*" RR="1" />
+      <Rule Rect1="ClickItem" Rect2="ListItem" RR="2" />
+      <Rule Rect1="ClickItem" Rect2="Grid" RR="1" />
+    </Application>
+  </PredictionRules>
+</CNNSettings>

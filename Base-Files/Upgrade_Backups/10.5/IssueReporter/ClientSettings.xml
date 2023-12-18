@@ -1,0 +1,12 @@
+<ClientSettings xmlns="http://schemas.datacontract.org/2004/07/IssueReportLibrary" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<Category>Capture Team</Category>
+<CategoryID>2</CategoryID>
+<Description>Issue Reported to Tech Support</Description>
+<Email i:nil="true"/>
+<Priority>High</Priority>
+<PriorityID>3</PriorityID>
+<Project i:nil="true"/>
+<ProjectID>0</ProjectID>
+<Subject>New Issue</Subject>
+<UserName i:nil="true"/>
+</ClientSettings>

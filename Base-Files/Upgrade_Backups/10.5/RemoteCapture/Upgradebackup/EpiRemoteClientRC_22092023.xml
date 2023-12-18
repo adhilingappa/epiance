@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+	<Main ECPFolder="erpreferences"
+		CaptureFolder="Capture"
+		RulesFolder="Rules"
+		Server="1"
+		ManualCaptureScheduledUpload="1"
+		VerifyLicenseOnStart="0"
+		DeleteOnUpload="1"
+		TimeOutForRefresh="1200000"
+		Delimeter="_"
+		ORUploadmode="0"
+		FileMode="0"
+		RecoverAfterLogOff="1"
+		RulesForFileName="5"
+		UseGUIDForCaptureFileName="0"
+		ImageProcessing="0"
+		MiddleWareServerLoc=""
+		MiddleWareRepoLoc=""
+		ScheduleFireInterval="1"
+		AutoImageMode="2"
+		MaxCabFileSize="2">
+		<ServerMode>1</ServerMode>
+		<!--ServerMode - Analyzer(0) and Process Discovery(1)  -->
+		<!--FileMode - GWZ(0) and GPS (1)  -->
+		<!-- ScheduleFireInterval in minutes -->
+		<!--RulesForFileName - USER_NAME 0 ,COMP_NAME_ONLY 1,LOGIN_NAME_ONLY 2,COMP_LOGIN_NAME 3,LOGIN_COMP_NAME 4,USERNAME_AT_DOMAIN 5-->
+		<!--If ImgProcessing=1 then capture files will goto Intermediate Server-->
+		<!--AutoImageMode is default value For using during ForceFull Image Capture-->
+		<!--MaxCabFileSize is used to pack gwz files, reaches the max size, size is in MB, default value=2MB-->
+	</Main>
+	<Default 		   
+		   UploadInterval="1"
+		   ECPDownloadInterval="1"
+		   ShowIndicator="1"
+		   DisplayWarning="0"
+		   AllowUser="1"
+		   BlockSchedule="0"
+		   BlockUserControlCapture="0"
+		   GlobalLog="0"
+		   SessionLog="0">
+		<Applications OptionForApps="1">
+			<Application>
+				<Name>epiRemoteConsole</Name> 
+				<Description>epiRemoteConsole</Description>
+				<Process>epiRemoteConsole.exe</Process>
+			</Application>
+			<Application>
+				<Name>RemoteCapture</Name> 
+				<Description>RemoteCapture</Description>
+				<Process>RemoteCaptureClient.exe</Process>
+			</Application>
+			<Application>
+				<Name>Explorer</Name> 
+				<Description>Explorer</Description>
+				<Process>Explorer.exe</Process>
+			</Application>	 
+		</Applications>	   
+	</Default>
+</Settings>

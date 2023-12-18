@@ -1,0 +1,45 @@
+﻿.headerlog
+{
+  background: #e9e9e9 url(header_bg.gif) repeat-x top;
+  height:33px;
+}
+
+.maintable
+{
+   background: #e9e9e9;
+}
+
+.WFtitletd
+{
+   background: #e9e9e9;
+}
+
+.workflowtitle
+{
+  width:100%;    
+  padding-top: 20px;
+  padding-bottom:10px;
+  padding-left:10px;
+  
+}
+
+#workflowtitlebg
+{
+    margin-left:200px;
+	height:100%;
+    margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	background: #fff url('header_bgres.gif') repeat-x 50% top;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.WFcontentdiv
+{
+    margin-left:200px;
+	background:#fff;
+	width: 100%;
+	margin: 0 auto;
+}

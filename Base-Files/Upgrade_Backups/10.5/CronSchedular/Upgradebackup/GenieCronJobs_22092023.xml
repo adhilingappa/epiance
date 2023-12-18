@@ -1,0 +1,27 @@
+<Schedules>
+  <Schedule ID="iX46hcKEsmRzx2b4i">
+    <Name>Schedule1</Name>
+    <StartTime>2019/11/11 09:00</StartTime>
+    <EndTime>2019/11/15 21:00</EndTime>
+    <Recurring>Daily</Recurring>
+    <RecurrenceType>Daily</RecurrenceType>
+    <Status>Disable</Status>
+    <DeleteDate>
+    </DeleteDate>
+    <CustomRegex></CustomRegex>
+    <CreatedOn>1571294338323</CreatedOn>
+    <ModifiedOn>1571721887660</ModifiedOn>
+    <Process ID="rdjL22bSdXW24Bxb8">
+      <DeleteDate>
+      </DeleteDate>
+      <ModifiedOn>1571721935560</ModifiedOn>
+      <CreatedOn>1527057582052</CreatedOn>
+      <Name>Project</Name>
+      <VPEScript>Sample.epz</VPEScript>
+      <VPEVersion>1.0</VPEVersion>
+      <ProductivityTarget>2</ProductivityTarget>
+      <Project>SampleProject</Project>
+      <RemoteRepositoryPath>http://localhost:3000/</RemoteRepositoryPath>
+    </Process>
+  </Schedule>
+ </Schedules>

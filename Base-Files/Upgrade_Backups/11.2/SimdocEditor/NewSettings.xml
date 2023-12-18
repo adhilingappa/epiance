@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ESDE>
+  <NewFileWizard>
+    <Audio AutoAudio="0" OverrideCaptureAudio="1">
+      <Audible>24000</Audible>
+      <ImportAudio>1</ImportAudio>
+    </Audio>
+  </NewFileWizard>
+  <AnnotateWithSentence>
+    <AutoPopulate>1</AutoPopulate>
+    <UseCallout>1</UseCallout>
+    <UseStickyNoteForWA>1</UseStickyNoteForWA>
+    <UseAnnotationForWA>1</UseAnnotationForWA>
+    <Callout Color="#FFFF94" Oval="1" Orientation="2" />
+    <StickyNote Color="#9CC3FF" />
+    <AnnInclFilter>1</AnnInclFilter>
+    <AnnInclFilters>
+      <Filter Role="client" Event="WindowActivate" />
+      <Filter Role="editable text" Event="TYPETEXT" />
+      <Filter Role="editable text" Event="KEYEVENT" />
+      <Filter Role="editable text" Event="Click" />
+      <Filter Role="menu item" Event="Select" />
+      <Filter Role="menu item" Event="DoubleClick" />
+      <Filter Role="title bar" Event="Doubleclick" />
+    </AnnInclFilters>
+  </AnnotateWithSentence>
+  <AnnotationDefaults>
+    <AnnoRectMaskColor>#12deed</AnnoRectMaskColor>
+    <AnnoRectDefaultColor>#d6cac2</AnnoRectDefaultColor>
+  </AnnotationDefaults>
+  <DocWiz>
+    <A4MaxHeight>3508</A4MaxHeight>
+    <A4MaxWidth>2480</A4MaxWidth>
+	<UseIncludeImageForXml>0</UseIncludeImageForXml>
+	<HideNew>0</HideNew>
+	<HideExtraTemplates>0</HideExtraTemplates>
+  </DocWiz>
+  <PersonalPreferences>
+    <ShowValidationColumn>1</ShowValidationColumn>
+    <AnnotationInlineEditing>1</AnnotationInlineEditing>
+    <UpdateIsStrayStep>1</UpdateIsStrayStep>
+    <NavigationExclusionRoles>combo box|listitem</NavigationExclusionRoles>
+	<IsNetworkPath>0</IsNetworkPath>
+  </PersonalPreferences>
+</ESDE>

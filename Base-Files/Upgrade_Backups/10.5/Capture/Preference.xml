@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExcludeEvents>
+  <Evt>captiondestroy</Evt>
+  <Evt>menucaptiondestroy</Evt>
+  <Evt>menu popup</Evt>
+  <Evt>collapse popup</Evt>
+  <Evt>KeyHLE</Evt>
+  <Evt>OnEntry</Evt>
+  <Evt>OnExit</Evt>
+  <Evt>AppClose</Evt>
+  <Evt>ChildActivate</Evt>
+  <Evt>AppSwitch</Evt>
+  <Evt>LoseFocus</Evt>
+  <Evt>OnHover</Evt>
+  <Evt>START TRANSACTION</Evt>
+  <Evt>END TRANSACTION</Evt>
+  <Evt>MESSAGE</Evt>
+  <Evt>CaptionCreate</Evt>
+  <Evt>Start Capture</Evt>
+  <Evt>Stop Capture</Evt>
+  <Evt>Refresh</Evt>
+  <Evt>Disk Full</Evt>
+  <Evt>Idle Mode - Start</Evt>
+  <Evt>Idle Mode - End</Evt>
+  <Evt>Cancel Capture</Evt>
+  <Evt>Black Listed App - Entry</Evt>
+  <Evt>White Listed App - Entry</Evt>
+</ExcludeEvents>

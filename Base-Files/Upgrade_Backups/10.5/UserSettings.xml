@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Epiplex stamp="77277DA2-93F4-4E07-A2FC-EAEB12B87A66">
+  <EpiplexRepositories>
+    <Path id="1" ISDefault="1" Name="Default Repository" Value="C:\Users\Public\Documents\Epiplex500\Repository" MyDocs="">
+    </Path>
+  </EpiplexRepositories>
+  <HKEY_LOCAL_MACHINE>
+    <SOFTWARE>
+      <GuruInc>
+        <GPS>
+          <key name="Identity" value="MERA">
+          </key>
+          <key name="ExpiryNotice" value="15">
+          </key>
+          <key name="ForceLowerCase" value="False">
+          </key>
+          <key name="DebugEnabled" value="False">
+          </key>
+          <key name="DebugLevel" value="0">
+          </key>
+          <key name="ImgThresholdSize" value="150,50">
+          </key>
+          <key name="RTLMode" value="1">
+          </key>
+          <key name="ResLang" value="ENG">
+          </key>
+          <key name="Selected" value="1">
+          </key>
+          <key name="1" value="epi_win7.cjstyles">
+          </key>
+          <key name="Source" value="">
+          </key>
+          <key name="AllowResourceSelection" value="1">
+          </key>
+          <key name="C104" value="6858">
+          </key>
+          <key name="LaunchIDT" value="False">
+          </key>
+          <key name="AutoDeactivate" value="0">
+          </key>
+          <key name="tera" value="paanch">
+          </key>
+          <key name="SingleSignOn" value="false">
+          </key>
+          <key name="AutoLogin" value="False">
+          </key>
+          <key name="UserName" value="">
+          </key>
+          <key name="Password" value="">
+          </key>
+          <key name="Location" value="">
+          </key>
+          <key name="ShowIE" value="">
+          </key>
+          <key name="DefaultERMSProjectId" value="">
+          </key>
+          <key name="ANALYZER_Path" value="">
+          </key>
+          <key name="IDT_Path" value="">
+          </key>
+          <key name="ERMSREPOSITORY_Path" value="">
+          </key>
+          <key name="SourceRunTime" value="">
+          </key>
+          <key name="DefaultProjectId" value="">
+          </key>
+          <key name="ServerVersion" value="">
+          </key>
+          <key name="ERMS_Path" value="">
+          </key>
+          <key name="DefaultSentence" value="1">
+          </key>
+          <key name="ResourceLanguage" value="English">
+          </key>
+          <key name="SentenceGenHelpFile" value="Sentence Generation Help.chm">
+          </key>
+          <key name="SentenceResourceDatabase" value="SentenceResource.ini">
+          </key>
+          <key name="SentenceDatabase" value="epiplex Sentence.mdb">
+          </key>
+          <key name="IDTDevResourceFile" value="IDTDeveloper.ini">
+          </key>
+          <!--<key value="8.0.751"/>-->
+          <!--<key name="LastOpenedProcessFile" value=""/>-->
+          <!--<key name="IDTDevDB" value="IDTDeveloper.mdb"/>-->
+          <!--<key name="SetupType" value="epiplexClient"/>-->
+          <!--<key name="InstalledComponents" value="Desktop Capture,Content Developer,EPSS Author,"/>-->
+          <!--<key name="Patch" value="8.0.751"/>-->
+          <!--<key name="HotFix" value=""/>-->
+          <!--<key name="HotFix" value="7.7.714IFSSP04"/>-->
+          <!--<key name="SM" value="1"/>
+					<key name="GM" value="1"/>
+					<key name="Doc" value="1"/>
+					<key name="Test" value="1"/>
+					<key name="Patch" value=""/>-->
+          <!--<key name="SiteOrgList" value=""/>-->
+          <!--<key name="IDTDevResourceFile" value="IDTDeveloper.ini"/>
+					<key name="IDTDevDB" value="IDTDeveloper.mdb"/>-->
+          <key name="RC_GUID" value="">
+          </key>
+          <key name="RC_ProjectId" value="">
+          </key>
+          <key name="RC_UserName" value="">
+          </key>
+          <key name="RC_Repository" value="">
+          </key>
+          <key name="RC_Password" value="">
+          </key>
+          <key name="RC_Location" value="">
+          </key>
+          <key name="RC_GroupName" value="">
+          </key>
+          <key name="RC_ERMS_Mode" value="">
+          </key>
+          <key name="RemoteSettings" value="">
+          </key>
+          <key name="OverWriteLogs" value="1">
+          </key>
+          <key value="1" name="LoggerType">
+          </key>
+        </GPS>
+      </GuruInc>
+    </SOFTWARE>
+  </HKEY_LOCAL_MACHINE>
+  <Home>
+    <preferences>
+      <General version="10.5.167" modified_date="9/22/2023 4:39:37 PM">
+        <prf name="capture_pane_show_groups" value="1" />
+        <prf name="automation_info_dialog" value="0" />
+        <prf name="contextual_info_dialog" value="0" />
+        <prf name="capture_pane_view_type" value="1" />
+        <prf name="workflow_info_dialog" value="0" />
+        <prf name="assessment_info_dialog" value="0" />
+        <prf name="unicode_prompt_msgbox" value="1" />
+        <prf name="presentation_info_dialog" value="0" />
+        <prf name="capture_pane_listview_filetype" value="1|3|4|6" />
+        <prf name="capture_curtom_region_bounds" value="" />
+      </General>
+    </preferences>
+  </Home>
+</Epiplex>

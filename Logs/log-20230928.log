@@ -1,0 +1,254 @@
+2023-09-28 12:58:12.186 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-09-28 12:58:12.186 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-09-28 12:58:12.186 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-09-28 12:58:12.202 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-09-28 12:58:12.202 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-09-28 12:58:12.202 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-09-28 12:58:12.202 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-09-28 12:58:12.202 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-09-28 12:58:12.202 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-09-28 12:58:12.202 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-09-28 12:58:12.202 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-09-28 12:58:12.202 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-09-28 12:58:12.202 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-09-28 12:58:12.202 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-09-28 12:58:12.202 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-09-28 12:58:12.202 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-09-28 12:58:12.217 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-09-28 12:58:13.771 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-09-28 12:58:13.771 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-09-28 12:58:13.771 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-09-28 12:58:13.771 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-09-28 12:58:13.771 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-09-28 12:58:13.771 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-09-28 12:58:13.771 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-09-28 12:58:13.771 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-09-28 12:58:13.771 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-09-28 12:58:13.771 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-09-28 12:58:13.771 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-09-28 12:58:13.771 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-09-28 12:58:13.771 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-09-28 12:58:13.771 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-09-28 12:58:13.771 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-09-28 12:58:13.771 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-09-28 12:58:13.771 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-09-28 12:58:13.912 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-09-28 12:58:13.912 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-09-28 12:58:13.959 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-09-28 12:58:14.022 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-09-28 12:58:14.022 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-09-28 12:58:14.022 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\performanceTestcase500.xls Excel File check started...
+2023-09-28 12:58:14.163 [main] INFO  utils.ExecutionUtils - DocPerformance Sheet Step validation started...
+2023-09-28 12:58:14.195 [main] INFO  utils.ExecutionUtils - DocPerformance Sheet Step validation Ended
+2023-09-28 12:58:14.195 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\performanceTestcase500.xls Excel File Check ended
+2023-09-28 12:58:14.195 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-09-28 12:58:14.195 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-09-28 12:58:14.524 [main] INFO  epiplex.PerformanceUtils - PerformanceTest started on PerformanceTest1000_edited
+2023-09-28 12:58:14.524 [main] INFO  epiplex.PerformanceUtils - Generate Word_BRD started
+2023-09-28 13:01:09.979 [main] ERROR actions.ElementFinder - Do you want to launch the generated document? not displyed within 30 s
+2023-09-28 13:08:18.522 [main] ERROR actions.ElementFinder - Button - No not found within 130 s
+2023-09-28 13:08:18.993 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-09-28 13:08:18.993 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-09-28 13:08:18.993 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-09-28 13:08:18.993 [main] INFO  core.Application - closeAllApps is started...
+2023-09-28 13:08:18.993 [main] INFO  core.Application - closeAllApps is completed...
+2023-09-28 13:08:18.993 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-09-28 14:57:06.013 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-09-28 14:57:06.013 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-09-28 14:57:06.013 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-09-28 14:57:06.029 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-09-28 14:57:06.029 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-09-28 14:57:06.029 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-09-28 14:57:06.029 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-09-28 14:57:06.029 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-09-28 14:57:06.029 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-09-28 14:57:06.029 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-09-28 14:57:06.029 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-09-28 14:57:06.029 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-09-28 14:57:06.029 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-09-28 14:57:06.029 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-09-28 14:57:06.029 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-09-28 14:57:06.029 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-09-28 14:57:06.029 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-09-28 14:57:07.463 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-09-28 14:57:07.463 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-09-28 14:57:07.463 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-09-28 14:57:07.465 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-09-28 14:57:07.465 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-09-28 14:57:07.465 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-09-28 14:57:07.465 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-09-28 14:57:07.465 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-09-28 14:57:07.465 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-09-28 14:57:07.465 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-09-28 14:57:07.465 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-09-28 14:57:07.465 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-09-28 14:57:07.465 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-09-28 14:57:07.465 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-09-28 14:57:07.465 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-09-28 14:57:07.465 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-09-28 14:57:07.465 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-09-28 14:57:07.566 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-09-28 14:57:07.566 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-09-28 14:57:07.605 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-09-28 14:57:07.636 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-09-28 14:57:07.636 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-09-28 14:57:07.636 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\performanceTestcase500.xls Excel File check started...
+2023-09-28 14:57:07.766 [main] INFO  utils.ExecutionUtils - DocPerformance Sheet Step validation started...
+2023-09-28 14:57:07.793 [main] INFO  utils.ExecutionUtils - DocPerformance Sheet Step validation Ended
+2023-09-28 14:57:07.793 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\TEST\Automation-Framework\NewTestcases\performanceTestcase500.xls Excel File Check ended
+2023-09-28 14:57:07.793 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-09-28 14:57:07.793 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-09-28 14:57:08.123 [main] INFO  epiplex.PerformanceUtils - PerformanceTest started on PerformanceTest1000_edited
+2023-09-28 14:57:08.123 [main] INFO  epiplex.PerformanceUtils - Generate Word_BRD started
+2023-09-28 15:05:13.066 [main] ERROR actions.ElementFinder - Do you want to launch the generated document? not displyed within 30 s
+2023-09-28 15:05:43.078 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:06:13.188 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:06:43.273 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:07:13.333 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:07:43.347 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:08:13.405 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:08:43.498 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:09:13.571 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:09:43.664 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:10:13.721 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:10:43.748 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:11:13.791 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:11:43.865 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:12:13.894 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:12:43.922 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:13:13.948 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:13:44.035 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:14:14.070 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:14:44.078 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:15:14.180 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:15:44.266 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:16:14.327 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:16:44.368 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:17:14.396 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:17:44.411 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:18:14.517 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:18:44.579 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:19:14.593 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:19:44.653 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:20:14.745 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:20:44.773 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:21:14.801 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:21:44.909 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:22:14.984 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:22:45.055 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:23:15.188 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:23:45.253 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:24:15.340 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:24:45.402 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:25:15.486 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:25:45.494 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:26:11.316 [main] INFO  epiplex.PerformanceUtils - Generate Word_BRD completed
+2023-09-28 15:26:11.316 [main] INFO  epiplex.PerformanceUtils - Generate Word_BRD started
+2023-09-28 15:34:23.546 [main] ERROR actions.ElementFinder - Do you want to launch the generated document? not displyed within 30 s
+2023-09-28 15:34:53.668 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:35:23.758 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:35:53.786 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:36:23.849 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:36:53.894 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:37:24.004 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:37:54.047 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:38:24.061 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:38:54.119 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:39:24.226 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:39:54.280 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:40:24.357 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:40:54.385 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:41:24.506 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:41:54.553 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:42:24.631 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:42:54.737 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:43:24.800 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:43:54.847 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:44:24.905 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:44:54.977 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:45:25.069 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:45:55.114 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:46:25.172 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:46:55.232 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:47:25.336 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:47:55.459 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:48:25.533 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:48:55.546 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:49:25.620 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:49:55.680 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:50:25.696 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:50:55.817 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:51:25.926 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:51:55.982 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:52:26.004 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:52:56.090 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:53:26.147 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:53:56.234 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:54:26.370 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:54:56.493 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 15:55:17.703 [main] INFO  epiplex.PerformanceUtils - Generate Word_BRD completed
+2023-09-28 15:55:17.703 [main] INFO  epiplex.PerformanceUtils - Generate Word_4img started
+2023-09-28 16:10:17.362 [main] ERROR actions.ElementFinder - Do you want to launch the generated document? not displyed within 30 s
+2023-09-28 16:10:47.404 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:11:17.494 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:11:47.599 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:12:17.627 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:12:47.700 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:13:17.792 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:13:47.853 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:14:17.945 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:14:48.039 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:15:18.115 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:15:48.221 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:16:18.310 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:16:48.366 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:17:18.410 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:17:48.484 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:18:18.557 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:18:48.660 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:19:18.688 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:19:48.775 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:20:18.900 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:20:48.989 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:21:19.062 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:21:49.088 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:22:19.132 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:22:49.222 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:23:19.324 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:23:43.595 [main] INFO  epiplex.PerformanceUtils - Generate Word_4img completed
+2023-09-28 16:23:43.595 [main] INFO  epiplex.PerformanceUtils - Generate Word_4img started
+2023-09-28 16:38:41.850 [main] ERROR actions.ElementFinder - Do you want to launch the generated document? not displyed within 30 s
+2023-09-28 16:39:11.909 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:39:41.924 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:40:11.997 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:40:42.073 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:41:12.099 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:41:42.187 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:42:12.246 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:42:42.367 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:43:12.410 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:43:42.500 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:44:12.558 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:44:42.599 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:45:12.721 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:45:42.779 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:46:12.800 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:46:42.852 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:47:12.930 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:47:43.055 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:48:13.136 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:48:43.218 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:49:13.231 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:49:43.304 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:50:13.411 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:50:43.516 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:51:13.573 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:51:43.709 [main] ERROR actions.ElementFinder - launchDocument not displyed within 30 s
+2023-09-28 16:51:54.660 [main] INFO  epiplex.PerformanceUtils - Generate Word_4img completed
+2023-09-28 16:51:54.723 [main] INFO  core.Application - D:\MSI\epiplex\BIN\epiSimDoc_Editor.exe is closing...
+2023-09-28 16:51:55.350 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-09-28 16:51:55.350 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-09-28 16:51:55.350 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-09-28 16:51:55.350 [main] INFO  core.Application - closeAllApps is started...
+2023-09-28 16:51:55.350 [main] INFO  core.Application - closeAllApps is completed...
+2023-09-28 16:51:55.350 [main] INFO  actions.TestcaseExecutor - Close all Application completed.

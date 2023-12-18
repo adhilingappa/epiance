@@ -1,0 +1,1711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkFlow Version="11.2" OldVersion="11.2" Author="dhanush" Organization="" Description="" Copyright="" Generator="Perpetual" Title="" UserName="dhanush" MachineName="EPNCD025C" KeyWords="" isEncryptionEnabled="false" Secured="0" Reviewed="0">
+  <Header IsNoiseFilterApplied="1" IsTobeReviewedApplied="1" IsAudioCorrected="1">
+    <Summary CICSeqID="0" AVSeqID="0" ImgSeqID="1" ImgConverted="0" ImgFilePath="C:\Users\dhanush\Desktop\Automation Utils\05-07-2023\Epiplex500\Epiplex500\epiplex\Repository\Capture\Reflection_Test_files\Images" CICFilePath="C:\Users\dhanush\Desktop\Automation Utils\05-07-2023\Epiplex500\Epiplex500\epiplex\Repository\Capture\Reflection_Test_files\AudioVideo" GPSID="bbb67cb0-a2c3-4666-89ba-9a30e1c64417" UniqueID="12">
+      <ProcessName>Reflection_Test.gps</ProcessName>
+      <CapDepFolder>Reflection_Test_files</CapDepFolder>
+      <ProcessList>
+      </ProcessList>
+      <BookMark>0</BookMark>
+      <Version Processor="Processor11.2" PBD="11.2" />
+      <TimeStamp Date="2023-07-07" CaptureStart="2023-07-07 T 12:04:50.3672165" CaptureEnd="2023-07-07 T 12:05:16.4106652" Duration="26.043" />
+      <License CountryID="66" OrgID="123" SiteID="6" />
+    </Summary>
+    <Sentence Structure="1" Format="1" />
+    <OSSettings>
+      <OSVersionInfo InfoSize="148" MajorVersion="10" MinorVersion="0" BuildNumber="22621" PlatformID="2" CSDVersion="" SystemType="64" ProductType="1" OS="OSName" Platform="Platform">
+        <!--
+					ProductType 1=WORKSTATION,2=DOMAIN_CONTROLLER,3=SERVER
+				-->
+      </OSVersionInfo>
+      <Resolution Horz="1366" Vert="768" />
+      <Image Height="768" Width="1366" />
+      <ScreenSettings BitsPerPixel="32" Color="0" Orientation="0" />
+      <MetricsInfo HorzSpacing="75" VertSpacing="75" TitleWrap="1" />
+    </OSSettings>
+    <TAPS>
+      <TAP Name="attachmate.emulation.frame.exe" ApplicationName="Attachmate.Emulation.Frame" Version="18.0.607.0" Path="C:\PROGRAM FILES (X86)\MICRO FOCUS\REFLECTION" EXEName="attachmate.emulation.frame.exe" />
+      <TAP Name="r8win.exe" ApplicationName="Reflection for IBM" Version="18.0.330.0" Path="C:\PROGRAM FILES (X86)\MICRO FOCUS\REFLECTION" EXEName="r8win.exe" />
+    </TAPS>
+    <IdleTimeInfo CaptureDuration="26.043">
+      <ExcludedAppInfo />
+      <TacitInfo Duration="0.000" />
+      <ThinkTimeInfo Duration="0.000" />
+      <SystemIdleInfo Duration="0.000" />
+      <ProcessIdleInfo Duration="0.000" />
+    </IdleTimeInfo>
+    <NoiseInfo Steps="0" Duration="0.000" />
+    <KPPList>
+      <KPP id="kpp_cmp" value="" />
+      <KPP id="kpp_aht" value="" />
+      <KPP id="kpp_bct" value="" />
+      <KPP id="kpp_err" value="" />
+      <KPP id="kpp_ttc" value="" />
+    </KPPList>
+    <AutomatibilityReport>
+      <AutomationRate>59.96</AutomationRate>
+      <DataPointAutomationRate>0</DataPointAutomationRate>
+      <ValidationAutomationRate>99.56</ValidationAutomationRate>
+      <NavigationAutomationRate>100</NavigationAutomationRate>
+    </AutomatibilityReport>
+  </Header>
+  <GroupStep ID="1" Caption="Reflection_Test.gps" ParentID="1" Level="1" ProcessID="0" />
+  <GroupStep ID="2" Caption="------------------------------- TSO/E LOGON -----------------------------------" ParentID="1" Level="2" ProcessID="14672" Guid="00cecd49-4d90-42e3-9d8b-8695f7951e41">
+    <DrawMarkRegion />
+    <Tacit />
+  </GroupStep>
+  <Step ID="3" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="0" PacketID="1" ProcessID="14672" SessionID="14672" UID="1" EventType="" Validator="" AliasName="------------------------------- TSO/E LOGON -----------------------------------" BookMark="Start" HookMessage="6" ThreadID="9000" AudioFile="" Guid="6a79c49d-1f53-49bd-951f-5daf13effc70" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="0.000" DocArea="0" SecDefHashCode="2_5_7_8~z1ff2QiiQFc7UnROicrjvw==" HashCodeRuleId="9" ScreenHashCode="5~MTVrAMJ+f+U6FJntMI43dQ==" ScreenHashCodeRuleId="16" IsStrayStep="2" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="attachmate.emulation.frame.exe" ApplicationName="Attachmate.Emulation.Frame" Version="18.0.607.0" Path="C:\PROGRAM FILES (X86)\MICRO FOCUS\REFLECTION" EXEName="attachmate.emulation.frame.exe" />
+      <Window Name="------------------------------- TSO/E LOGON -----------------------------------" Value="------------------------------- TSO/E LOGON -----------------------------------" Type="" Old_Name="------------------------------- TSO/E LOGON -----------------------------------" />
+      <TimeStamp StartTime="07/07/2023 T 12:04:54.898" EndTime="07/07/2023 T 12:04:54.898" InternetTime="" LocalStartTime="07/07/2023 T 17:34:54.898" LocalEndTime="07/07/2023 T 17:34:54.898" StepDuration="4.531">
+        <IdleTimeInfo ActionDuration="4.531" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption="------------------------------- TSO/E LOGON -----------------------------------" Class="WindowsForms10.Window.8.app.0.116cb88_r7_ad1" DialogName="------------------------------- TSO/E LOGON -----------------------------------" AliasName="" WPARAM="1" LPARAM="0" Style="399441920" TypedKey_En="" TypedKey_Locale="" ExtStyle="327936" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <HighLevelEvent>
+        </HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ClientRegion Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="" Style="" Size="" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="192174250" UserAction="" ClipData="" KeyCount="" IsDummyEvent="0" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name="------------------------------- TSO/E LOGON -----------------------------------" Type="" Value="" Role="" RoleID="WindowsForms10.Window.8.app.0.116cb88_r7_ad1" State="1" DialogName="------------------------------- TSO/E LOGON -----------------------------------" DialogPartialMatch="" Event="WindowActivate" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="0" SPKeyWithData="" DefaultAction="" ClassIndex="19" Help="" RoleInCurrentLanguage="" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="5509266" ParentHandle="5509266" Index="0" InfoFilledFromOMNI="0" IsDummyWindowActivate="0" DummyWindowName="" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>
+          </Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>0,0</CaretPos>
+        <StateComplete>399441920</StateComplete>
+        <Location Left="-8" Top="-8" Right="1362" Bottom="716" />
+        <ClientLocation Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="Reflection Workspace - [untitled0.rd3x]" Value="" Role="" RoleID="WindowsForms10.Window.8.app.0.116cb88_r7_ad1" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="">
+        <Location Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ClientLocation>-8,-8,1374,728</ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="0" />
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="Reflection Workspace - [untitled0.rd3x]_6Img" FileName="Reflection_Test_TW_6_1.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="Reflection Workspace - [untitled0.rd3x]_6Img" FileName="Reflection_Test_TW_6_1.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="Reflection Workspace - [untitled0.rd3x]_6Img" FileName="Reflection_Test_TW_6_1.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="Reflection Workspace - [untitled0.rd3x]_6Img" FileName="Reflection_Test_TW_6_1.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+    </ImageStore>
+    <Sentence Plain="WindowActivate ------------------------------- TSO/E LOGON  ." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;WindowActivate&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;------------------------------- TSO/E LOGON &lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;.&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="attachmate.emulation.frame.exe" Path="" DialogName="------------------------------- TSO/E LOGON -----------------------------------" IEDocURL="" />
+      <GeneralInfo Event="WindowActivate" AdaptorID="0" IsCitrix="" IsAI="" ProcessID="14672" MouseButton="" SPKeyStatus="16" StepDelay="0" />
+      <ControlInfo ControlName="" RoleId="" Role="" UniqueID="" AutomationID="" ControlRectSC="" ControlRectCL="" ControlData="" ControlMouseCL="" LabelImage="" ControlImage="" ControlRect="" LabelRect="" IEActiveTabCaption="" />
+      <ParentInfo ParentName="" ParentRoleId="WindowsForms10.Window.8.app.0.116cb88_r7_ad1" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="" UIA_REQUIRED="" UIA_PROCESSID="" UIA_PASSWORD="" UIA_ORIENTATION="" UIA_OFFSCREEN="" UIA_LOCALIZED_CONTROL_TYPE="" UIA_HELPTEXT="" UIA_HEIGHT="" UIA_HAS_KEYBOARD_FOCUS="" UIA_ENABLED="" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="" UIA_PARENT_CONTROL_TYPE="" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="" UIA_PARENT_AUTOMATIONID="" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="" UIA_FOREGROUND_WINDOW_TYPE="WindowsForms10.Window.8.app.0.116cb88_r7_ad1" UIA_NAME="" UIA_CONTROL_TYPE="" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="" WHLL_STARTY="" WHLL_ENDX="" WHLL_ENDY="" WHLL_NEXT_CONTROL_NAME="" WHLL_CURRENT_LABLE="" CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="" CONTROL_INDEX_PATH="" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+  <Step ID="4" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="4" PacketID="2" ProcessID="12292" SessionID="12292" UID="2" EventType="" Validator="" AliasName="*Userid    ===&gt;" BookMark="" HookMessage="1284" ThreadID="9852" AudioFile="" Guid="a80c8d57-b4dc-411f-a2ef-911d83731ad3" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="0.000" DocArea="0" SecDefHashCode="5_1_2_7_8~32kxDzryb/qUWe1I0e7+0A==" HashCodeRuleId="7" ScreenHashCode="5~1B2M2Y8AsgTpgAmY7PhCfg==" ScreenHashCodeRuleId="16" IsStrayStep="2" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="r8win.exe" ApplicationName="Reflection for IBM" Version="18.0.330.0" Path="C:\PROGRAM FILES (X86)\MICRO FOCUS\REFLECTION" EXEName="r8win.exe" />
+      <Window Name="" Value="" Type="" />
+      <TimeStamp StartTime="07/07/2023 T 12:04:58.840" EndTime="07/07/2023 T 12:04:58.840" InternetTime="" LocalStartTime="07/07/2023 T 17:34:58.840" LocalEndTime="07/07/2023 T 17:34:58.840" StepDuration="3.942">
+        <IdleTimeInfo ActionDuration="3.942" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption="*Userid    ===&gt;" Class="*Userid    ===&gt;" DialogName="------------------------------- TSO/E LOGON -----------------------------------" AliasName="" WPARAM="9" LPARAM="983041" Style="1459617792" TypedKey_En="Tab" TypedKey_Locale="Tab" ExtStyle="0" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <HighLevelEvent>
+        </HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="325" Top="291" Right="478" Bottom="312" />
+        <ClientRegion Left="325" Top="291" Right="478" Bottom="312" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ContainerSC Left="2" Top="186" Right="1365" Bottom="694" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="192178125" UserAction="KeyDown" ClipData="" KeyCount="" IsDummyEvent="" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name="*Userid    ===&gt;" Type="KEYBOARD" Value="" Role="editable text" RoleID="42" State="1" DialogName="------------------------------- TSO/E LOGON -----------------------------------" DialogPartialMatch="" Event="KEYEVENT" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="16" SPKeyWithData="" DefaultAction="" ClassIndex="0" Help="" RoleInCurrentLanguage="" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="4066680" ParentHandle="" Index="0" InfoFilledFromOMNI="0" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>Tab</Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>0,0</CaretPos>
+        <StateComplete>
+        </StateComplete>
+        <Location Left="325" Top="291" Right="478" Bottom="312" />
+        <ClientLocation Left="325" Top="291" Right="478" Bottom="312" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="" RoleID="" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="">
+        <Location Left="" Top="" Right="" Bottom="" />
+        <ClientLocation>
+        </ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="0" />
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_TW_1284_2.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_TW_1284_2.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_TW_1284_2.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_TW_1280_3.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+      <ControlImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_CI_1284_1.PNG" LocWithTolerance="" />
+      </ControlImage>
+    </ImageStore>
+    <Sentence Plain="Press Tab key." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;Press &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Tab&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; key.&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="------------------------------- TSO/E LOGON -----------------------------------" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="r8win.exe" Path="" DialogName="------------------------------- TSO/E LOGON -----------------------------------" IEDocURL="" />
+      <GeneralInfo Event="KEYEVENT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="12292" MouseButton="" SPKeyStatus="16" StepDelay="3942" />
+      <ControlInfo ControlName="" RoleId="10" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="2,186,1365,694," ControlRectCL="5,190,1368,698," ControlData="Tab" ControlMouseCL="" LabelImage="" ControlImage="Reflection_Test_CI_1284_1.PNG" ControlRect="325,291,478,312," LabelRect="" IEActiveTabCaption="" ScreenName="------------------------------- TSO/E LOGON -----------------------------------" SessionID="A" CursorLoc="" />
+      <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="REFLECTION_EIGHT" UIA_REQUIRED="0" UIA_PROCESSID="12292" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="694" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="ATL:5E282078" UIA_PARENT_AUTOMATIONID="176329356" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WindowsForms10.Window.8.app.0.116cb88_r7_ad1" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="6" WHLL_STARTY="20" WHLL_ENDX="6" WHLL_ENDY="28" WHLL_NEXT_CONTROL_NAME="                      " WHLL_CURRENT_LABLE="*Userid    ===&gt;" CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="REFLECTION_EIGHT" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+  <Step ID="5" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="4" PacketID="3" ProcessID="12292" SessionID="12292" UID="3" EventType="" Validator="" AliasName="*Userid    ===&gt;" BookMark="" HookMessage="1280" ThreadID="9852" AudioFile="" Guid="0a9b42e2-b254-4c4e-847d-1cecdb894483" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="7829.000" DocArea="0" SecDefHashCode="5_1_2_7_8~32kxDzryb/qUWe1I0e7+0A==" HashCodeRuleId="7" ScreenHashCode="5~1B2M2Y8AsgTpgAmY7PhCfg==" ScreenHashCodeRuleId="16" IsStrayStep="0" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="r8win.exe" ApplicationName="Reflection for IBM" Version="18.0.330.0" Path="C:\PROGRAM FILES (X86)\MICRO FOCUS\REFLECTION" EXEName="r8win.exe" />
+      <Window Name="" Value="" Type="" />
+      <TimeStamp StartTime="07/07/2023 T 12:04:59.668" EndTime="07/07/2023 T 12:05:00.246" InternetTime="" LocalStartTime="07/07/2023 T 17:34:59.668" LocalEndTime="07/07/2023 T 17:35:00.246" StepDuration="1.406" keystrokes="5">
+        <IdleTimeInfo ActionDuration="1.406" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption="" Class="REFLECTION_EIGHT" DialogName="" AliasName="" WPARAM="80" LPARAM="1" Style="1459617792" TypedKey_En="" TypedKey_Locale="pd123" ExtStyle="0">
+        <HighLevelEvent>
+        </HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="325" Top="291" Right="478" Bottom="312" />
+        <ClientRegion Left="2" Top="186" Right="1365" Bottom="694" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ContainerSC Left="2" Top="186" Right="1365" Bottom="694" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="192178812" UserAction="KeyDown" ClipData="" KeyCount="" IsDummyEvent="" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name="*Userid    ===&gt;" Type="KEYBOARD" Value="" Role="" RoleID="42" State="1" DialogName="" DialogPartialMatch="" Event="TYPETEXT" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="16" SPKeyWithData="" DefaultAction="" ClassIndex="0" Help="" RoleInCurrentLanguage="" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="4066680" ParentHandle="" Index="0" InfoFilledFromOMNI="0">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>pd123</Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>0,0</CaretPos>
+        <StateComplete>
+        </StateComplete>
+        <Location Left="325" Top="291" Right="478" Bottom="312" />
+        <ClientLocation Left="325" Top="291" Right="478" Bottom="312" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="" RoleID="" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="">
+        <Location Left="" Top="" Right="" Bottom="" />
+        <ClientLocation>
+        </ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="0" />
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="_1280Img" FileName="Reflection_Test_TW_1280_3.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="_1280Img" FileName="Reflection_Test_TW_1280_3.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="_1280Img" FileName="Reflection_Test_TW_1280_3.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="_1280Img" FileName="Reflection_Test_TW_1284_4.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+      <ControlImage>
+        <ImageData ID="1" Name="_1280Img" FileName="Reflection_Test_CI_1280_2.PNG" LocWithTolerance="" />
+      </ControlImage>
+    </ImageStore>
+    <Sentence Plain="TYPETEXT *Userid    ===&gt; ." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;TYPETEXT&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;*Userid    ===&gt;&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;.&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="r8win.exe" Path="" DialogName="" IEDocURL="" />
+      <GeneralInfo Event="TYPETEXT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="12292" MouseButton="" SPKeyStatus="16" StepDelay="828">
+        <Model Enabled="True">
+          <Properties Name="*Userid" />
+        </Model>
+      </GeneralInfo>
+      <ControlInfo ControlName="" RoleId="10" Role="" UniqueID="" AutomationID="" ControlRectSC="2,186,1365,694," ControlRectCL="5,190,1368,698," ControlData="pd123" ControlMouseCL="" LabelImage="" ControlImage="Reflection_Test_CI_1280_2.PNG" ControlRect="325,291,478,312," LabelRect="" IEActiveTabCaption="" ScreenName="" SessionID="A" CursorLoc="" />
+      <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="REFLECTION_EIGHT" UIA_REQUIRED="0" UIA_PROCESSID="12292" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="694" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="ATL:5E282078" UIA_PARENT_AUTOMATIONID="176329356" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WindowsForms10.Window.8.app.0.116cb88_r7_ad1" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="" WHLL_STARTY="" WHLL_ENDX="" WHLL_ENDY="" WHLL_NEXT_CONTROL_NAME="" WHLL_CURRENT_LABLE="*Userid    ===&gt;" CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="REFLECTION_EIGHT" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <DrawMarkRegion />
+    <Tacit />
+  </Step>
+  <Step ID="6" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="4" PacketID="4" ProcessID="12292" SessionID="12292" UID="4" EventType="" Validator="" AliasName=" Procedure ===&gt;" BookMark="" HookMessage="1284" ThreadID="9852" AudioFile="" Guid="91e4660e-617c-4f84-ac59-57536d9ca75d" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="0.000" DocArea="0" SecDefHashCode="5_1_2_7_8~pH0oIpv6iYQ6bLDigAMAIw==" HashCodeRuleId="7" ScreenHashCode="5~MTVrAMJ+f+U6FJntMI43dQ==" ScreenHashCodeRuleId="16" IsStrayStep="2" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="r8win.exe" ApplicationName="Reflection for IBM" Version="18.0.330.0" Path="C:\PROGRAM FILES (X86)\MICRO FOCUS\REFLECTION" EXEName="r8win.exe" />
+      <Window Name="------------------------------- TSO/E LOGON -----------------------------------" Value="------------------------------- TSO/E LOGON -----------------------------------" Type="" Old_Name="------------------------------- TSO/E LOGON -----------------------------------" />
+      <TimeStamp StartTime="07/07/2023 T 12:05:01.074" EndTime="07/07/2023 T 12:05:01.074" InternetTime="" LocalStartTime="07/07/2023 T 17:35:01.074" LocalEndTime="07/07/2023 T 17:35:01.074" StepDuration="0.828">
+        <IdleTimeInfo ActionDuration="0.828" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption=" Procedure ===&gt;" Class=" Procedure ===&gt;" DialogName="------------------------------- TSO/E LOGON -----------------------------------" AliasName="" WPARAM="9" LPARAM="3222208513" Style="1459617792" TypedKey_En="Tab" TypedKey_Locale="Tab" ExtStyle="0" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <HighLevelEvent>
+        </HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="325" Top="375" Right="478" Bottom="396" />
+        <ClientRegion Left="325" Top="375" Right="478" Bottom="396" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ContainerSC Left="2" Top="186" Right="1365" Bottom="694" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="192180312" UserAction="KeyDown" ClipData="" KeyCount="" IsDummyEvent="" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name=" Procedure ===&gt;" Type="KEYBOARD" Value="" Role="editable text" RoleID="42" State="1" DialogName="------------------------------- TSO/E LOGON -----------------------------------" DialogPartialMatch="" Event="KEYEVENT" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="16" SPKeyWithData="" DefaultAction="" ClassIndex="0" Help="" RoleInCurrentLanguage="" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="4066680" ParentHandle="" Index="0" InfoFilledFromOMNI="0" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>Tab</Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>0,0</CaretPos>
+        <StateComplete>
+        </StateComplete>
+        <Location Left="325" Top="375" Right="478" Bottom="396" />
+        <ClientLocation Left="325" Top="375" Right="478" Bottom="396" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="" RoleID="" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="">
+        <Location Left="" Top="" Right="" Bottom="" />
+        <ClientLocation>
+        </ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="0" />
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_TW_1284_4.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_TW_1284_4.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_TW_1284_4.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_TW_1280_5.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+      <ControlImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_CI_1284_3.PNG" LocWithTolerance="" />
+      </ControlImage>
+    </ImageStore>
+    <Sentence Plain="Press Tab key." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;Press &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Tab&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; key.&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="------------------------------- TSO/E LOGON -----------------------------------" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="r8win.exe" Path="" DialogName="------------------------------- TSO/E LOGON -----------------------------------" IEDocURL="" />
+      <GeneralInfo Event="KEYEVENT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="12292" MouseButton="" SPKeyStatus="16" StepDelay="828" />
+      <ControlInfo ControlName="" RoleId="10" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="2,186,1365,694," ControlRectCL="5,190,1368,698," ControlData="Tab" ControlMouseCL="" LabelImage="" ControlImage="Reflection_Test_CI_1284_3.PNG" ControlRect="325,375,478,396," LabelRect="" IEActiveTabCaption="" ScreenName="------------------------------- TSO/E LOGON -----------------------------------" SessionID="A" CursorLoc="" />
+      <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="REFLECTION_EIGHT" UIA_REQUIRED="0" UIA_PROCESSID="12292" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="694" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="ATL:5E282078" UIA_PARENT_AUTOMATIONID="176329356" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WindowsForms10.Window.8.app.0.116cb88_r7_ad1" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="10" WHLL_STARTY="20" WHLL_ENDX="10" WHLL_ENDY="28" WHLL_NEXT_CONTROL_NAME="                      " WHLL_CURRENT_LABLE=" Procedure ===&gt;" CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="REFLECTION_EIGHT" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+  <Step ID="7" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="4" PacketID="5" ProcessID="12292" SessionID="12292" UID="5" EventType="" Validator="" AliasName="Procedure ===&gt;" BookMark="" HookMessage="1280" ThreadID="9852" AudioFile="" Guid="42c4f72e-b7dd-4b13-9876-6655f61599b1" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="578.000" DocArea="0" SecDefHashCode="5_1_2_7_8~an/+WK8vEd8FaGbV++1P5g==" HashCodeRuleId="7" ScreenHashCode="5~MTVrAMJ+f+U6FJntMI43dQ==" ScreenHashCodeRuleId="16" IsStrayStep="0" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="r8win.exe" ApplicationName="Reflection for IBM" Version="18.0.330.0" Path="C:\PROGRAM FILES (X86)\MICRO FOCUS\REFLECTION" EXEName="r8win.exe" />
+      <Window Name="------------------------------- TSO/E LOGON -----------------------------------" Value="------------------------------- TSO/E LOGON -----------------------------------" Type="" Old_Name="------------------------------- TSO/E LOGON -----------------------------------" />
+      <TimeStamp StartTime="07/07/2023 T 12:05:01.590" EndTime="07/07/2023 T 12:05:02.543" InternetTime="" LocalStartTime="07/07/2023 T 17:35:01.590" LocalEndTime="07/07/2023 T 17:35:02.543" StepDuration="1.469" keystrokes="7">
+        <IdleTimeInfo ActionDuration="1.469" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption="Procedure ===&gt;" Class=" Procedure ===&gt;" DialogName="------------------------------- TSO/E LOGON -----------------------------------" AliasName="" WPARAM="80" LPARAM="1" Style="1459617792" TypedKey_En="" TypedKey_Locale="Process" ExtStyle="0" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <HighLevelEvent>
+        </HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="325" Top="375" Right="478" Bottom="396" />
+        <ClientRegion Left="325" Top="375" Right="478" Bottom="396" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ContainerSC Left="2" Top="186" Right="1365" Bottom="694" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="192180937" UserAction="KeyDown" ClipData="" KeyCount="" IsDummyEvent="" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name="Procedure ===&gt;" Type="KEYBOARD" Value="" Role="editable text" RoleID="42" State="1" DialogName="------------------------------- TSO/E LOGON -----------------------------------" DialogPartialMatch="" Event="TYPETEXT" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="18" SPKeyWithData="" DefaultAction="" ClassIndex="0" Help="" RoleInCurrentLanguage="" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="4066680" ParentHandle="" Index="0" InfoFilledFromOMNI="0" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>Process</Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>0,0</CaretPos>
+        <StateComplete>
+        </StateComplete>
+        <Location Left="325" Top="375" Right="478" Bottom="396" />
+        <ClientLocation Left="325" Top="375" Right="478" Bottom="396" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="" RoleID="" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="">
+        <Location Left="" Top="" Right="" Bottom="" />
+        <ClientLocation>
+        </ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="0" />
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_TW_1280_5.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_TW_1280_5.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_TW_1280_5.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_TW_1284_6.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+      <ControlImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_CI_1280_4.PNG" LocWithTolerance="" />
+      </ControlImage>
+    </ImageStore>
+    <Sentence Plain="In the Procedure ===&gt; box, enter &quot;Process&quot;." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;In the &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Procedure ===&gt;&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; box, enter "&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Process&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;".&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="------------------------------- TSO/E LOGON -----------------------------------" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="r8win.exe" Path="" DialogName="------------------------------- TSO/E LOGON -----------------------------------" IEDocURL="" />
+      <GeneralInfo Event="TYPETEXT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="12292" MouseButton="" SPKeyStatus="18" StepDelay="516">
+        <Model Enabled="True">
+          <Properties Name="Procedure" />
+        </Model>
+      </GeneralInfo>
+      <ControlInfo ControlName="" RoleId="10" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="2,186,1365,694," ControlRectCL="5,190,1368,698," ControlData="Process" ControlMouseCL="" LabelImage="" ControlImage="Reflection_Test_CI_1280_4.PNG" ControlRect="325,375,478,396," LabelRect="" IEActiveTabCaption="" ScreenName="------------------------------- TSO/E LOGON -----------------------------------" SessionID="A" CursorLoc="" />
+      <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="REFLECTION_EIGHT" UIA_REQUIRED="0" UIA_PROCESSID="12292" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="694" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="ATL:5E282078" UIA_PARENT_AUTOMATIONID="176329356" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WindowsForms10.Window.8.app.0.116cb88_r7_ad1" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="10" WHLL_STARTY="20" WHLL_ENDX="10" WHLL_ENDY="28" WHLL_NEXT_CONTROL_NAME="                      " WHLL_CURRENT_LABLE=" Procedure ===&gt;" CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="REFLECTION_EIGHT" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+  <Step ID="8" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="4" PacketID="6" ProcessID="12292" SessionID="12292" UID="6" EventType="" Validator="" AliasName=" Acct Nmbr ===&gt;" BookMark="" HookMessage="1284" ThreadID="9852" AudioFile="" Guid="8ce59d2f-b019-4e4b-a7b6-48f4f3b72288" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="547.000" DocArea="0" SecDefHashCode="5_1_2_7_8~2uQ+KHnaxvLFbVEvjz1Qdg==" HashCodeRuleId="7" ScreenHashCode="5~MTVrAMJ+f+U6FJntMI43dQ==" ScreenHashCodeRuleId="16" IsStrayStep="2" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="r8win.exe" ApplicationName="Reflection for IBM" Version="18.0.330.0" Path="C:\PROGRAM FILES (X86)\MICRO FOCUS\REFLECTION" EXEName="r8win.exe" />
+      <Window Name="------------------------------- TSO/E LOGON -----------------------------------" Value="------------------------------- TSO/E LOGON -----------------------------------" Type="" Old_Name="------------------------------- TSO/E LOGON -----------------------------------" />
+      <TimeStamp StartTime="07/07/2023 T 12:05:03.358" EndTime="07/07/2023 T 12:05:03.358" InternetTime="" LocalStartTime="07/07/2023 T 17:35:03.358" LocalEndTime="07/07/2023 T 17:35:03.358" StepDuration="0.815">
+        <IdleTimeInfo ActionDuration="0.815" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption=" Acct Nmbr ===&gt;" Class=" Acct Nmbr ===&gt;" DialogName="------------------------------- TSO/E LOGON -----------------------------------" AliasName="" WPARAM="9" LPARAM="3222208513" Style="1459617792" TypedKey_En="Tab" TypedKey_Locale="Tab" ExtStyle="0" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <HighLevelEvent>
+        </HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="325" Top="417" Right="1022" Bottom="438" />
+        <ClientRegion Left="325" Top="417" Right="1022" Bottom="438" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ContainerSC Left="2" Top="186" Right="1365" Bottom="694" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="192182609" UserAction="KeyDown" ClipData="" KeyCount="" IsDummyEvent="" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name=" Acct Nmbr ===&gt;" Type="KEYBOARD" Value="" Role="editable text" RoleID="42" State="1" DialogName="------------------------------- TSO/E LOGON -----------------------------------" DialogPartialMatch="" Event="KEYEVENT" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="16" SPKeyWithData="" DefaultAction="" ClassIndex="0" Help="" RoleInCurrentLanguage="" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="4066680" ParentHandle="" Index="0" InfoFilledFromOMNI="0" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>Tab</Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>0,0</CaretPos>
+        <StateComplete>
+        </StateComplete>
+        <Location Left="325" Top="417" Right="1022" Bottom="438" />
+        <ClientLocation Left="325" Top="417" Right="1022" Bottom="438" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="" RoleID="" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="">
+        <Location Left="" Top="" Right="" Bottom="" />
+        <ClientLocation>
+        </ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="0" />
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_TW_1284_6.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_TW_1284_6.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_TW_1284_6.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_TW_1280_7.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+      <ControlImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_CI_1284_5.PNG" LocWithTolerance="" />
+      </ControlImage>
+    </ImageStore>
+    <Sentence Plain="Press Tab key." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;Press &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Tab&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; key.&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="------------------------------- TSO/E LOGON -----------------------------------" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="r8win.exe" Path="" DialogName="------------------------------- TSO/E LOGON -----------------------------------" IEDocURL="" />
+      <GeneralInfo Event="KEYEVENT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="12292" MouseButton="" SPKeyStatus="16" StepDelay="815" />
+      <ControlInfo ControlName="" RoleId="10" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="2,186,1365,694," ControlRectCL="5,190,1368,698," ControlData="Tab" ControlMouseCL="" LabelImage="" ControlImage="Reflection_Test_CI_1284_5.PNG" ControlRect="325,417,1022,438," LabelRect="" IEActiveTabCaption="" ScreenName="------------------------------- TSO/E LOGON -----------------------------------" SessionID="A" CursorLoc="" />
+      <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="REFLECTION_EIGHT" UIA_REQUIRED="0" UIA_PROCESSID="12292" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="694" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="ATL:5E282078" UIA_PARENT_AUTOMATIONID="176329356" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WindowsForms10.Window.8.app.0.116cb88_r7_ad1" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="12" WHLL_STARTY="20" WHLL_ENDX="12" WHLL_ENDY="60" WHLL_NEXT_CONTROL_NAME="                                                                                                      " WHLL_CURRENT_LABLE=" Acct Nmbr ===&gt;" CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="REFLECTION_EIGHT" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+  <Step ID="9" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="4" PacketID="7" ProcessID="12292" SessionID="12292" UID="7" EventType="" Validator="" AliasName="Acct Nmbr ===&gt;" BookMark="" HookMessage="1280" ThreadID="9852" AudioFile="" Guid="85c0eb1b-ed22-40f2-b33c-6f0755ee9475" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="328.000" DocArea="0" SecDefHashCode="5_1_2_7_8~MR2U9OAwZCZ5dDhNSVCndw==" HashCodeRuleId="7" ScreenHashCode="5~MTVrAMJ+f+U6FJntMI43dQ==" ScreenHashCodeRuleId="16" IsStrayStep="0" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="r8win.exe" ApplicationName="Reflection for IBM" Version="18.0.330.0" Path="C:\PROGRAM FILES (X86)\MICRO FOCUS\REFLECTION" EXEName="r8win.exe" />
+      <Window Name="------------------------------- TSO/E LOGON -----------------------------------" Value="------------------------------- TSO/E LOGON -----------------------------------" Type="" Old_Name="------------------------------- TSO/E LOGON -----------------------------------" />
+      <TimeStamp StartTime="07/07/2023 T 12:05:03.890" EndTime="07/07/2023 T 12:05:05.186" InternetTime="" LocalStartTime="07/07/2023 T 17:35:03.890" LocalEndTime="07/07/2023 T 17:35:05.186" StepDuration="1.828" keystrokes="9">
+        <IdleTimeInfo ActionDuration="1.828" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption="Acct Nmbr ===&gt;" Class=" Acct Nmbr ===&gt;" DialogName="------------------------------- TSO/E LOGON -----------------------------------" AliasName="" WPARAM="65" LPARAM="1" Style="1459617792" TypedKey_En="" TypedKey_Locale="AccNumber" ExtStyle="0" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <HighLevelEvent>
+        </HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="325" Top="417" Right="1022" Bottom="438" />
+        <ClientRegion Left="325" Top="417" Right="1022" Bottom="438" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ContainerSC Left="2" Top="186" Right="1365" Bottom="694" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="192183234" UserAction="KeyDown" ClipData="" KeyCount="" IsDummyEvent="" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name="Acct Nmbr ===&gt;" Type="KEYBOARD" Value="" Role="editable text" RoleID="42" State="1" DialogName="------------------------------- TSO/E LOGON -----------------------------------" DialogPartialMatch="" Event="TYPETEXT" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="18" SPKeyWithData="" DefaultAction="" ClassIndex="0" Help="" RoleInCurrentLanguage="" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="4066680" ParentHandle="" Index="0" InfoFilledFromOMNI="0" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>AccNumber</Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>0,0</CaretPos>
+        <StateComplete>
+        </StateComplete>
+        <Location Left="325" Top="417" Right="1022" Bottom="438" />
+        <ClientLocation Left="325" Top="417" Right="1022" Bottom="438" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="" RoleID="" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="">
+        <Location Left="" Top="" Right="" Bottom="" />
+        <ClientLocation>
+        </ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="0" />
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_TW_1280_7.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_TW_1280_7.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_TW_1280_7.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_TW_1284_8.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+      <ControlImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_CI_1280_6.PNG" LocWithTolerance="" />
+      </ControlImage>
+    </ImageStore>
+    <Sentence Plain="In the Acct Nmbr ===&gt; box, enter &quot;AccNumber&quot;." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;In the &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Acct Nmbr ===&gt;&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; box, enter "&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;AccNumber&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;".&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="------------------------------- TSO/E LOGON -----------------------------------" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="r8win.exe" Path="" DialogName="------------------------------- TSO/E LOGON -----------------------------------" IEDocURL="" />
+      <GeneralInfo Event="TYPETEXT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="12292" MouseButton="" SPKeyStatus="18" StepDelay="532">
+        <Model Enabled="True">
+          <Properties Name="AcctNmbr" />
+        </Model>
+      </GeneralInfo>
+      <ControlInfo ControlName="" RoleId="10" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="2,186,1365,694," ControlRectCL="5,190,1368,698," ControlData="AccNumber" ControlMouseCL="" LabelImage="" ControlImage="Reflection_Test_CI_1280_6.PNG" ControlRect="325,417,1022,438," LabelRect="" IEActiveTabCaption="" ScreenName="------------------------------- TSO/E LOGON -----------------------------------" SessionID="A" CursorLoc="" />
+      <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="REFLECTION_EIGHT" UIA_REQUIRED="0" UIA_PROCESSID="12292" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="694" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="ATL:5E282078" UIA_PARENT_AUTOMATIONID="176329356" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WindowsForms10.Window.8.app.0.116cb88_r7_ad1" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="12" WHLL_STARTY="20" WHLL_ENDX="12" WHLL_ENDY="60" WHLL_NEXT_CONTROL_NAME="                                                                                                      " WHLL_CURRENT_LABLE=" Acct Nmbr ===&gt;" CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="REFLECTION_EIGHT" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+  <Step ID="10" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="4" PacketID="8" ProcessID="12292" SessionID="12292" UID="8" EventType="" Validator="" AliasName=" Size      ===&gt;" BookMark="" HookMessage="1284" ThreadID="9852" AudioFile="" Guid="5e76c2a2-cc01-4a91-aee7-dc1e406f7f61" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="0.000" DocArea="0" SecDefHashCode="5_1_2_7_8~T9fUl2F9fEyJXVT6yHnQyg==" HashCodeRuleId="7" ScreenHashCode="5~MTVrAMJ+f+U6FJntMI43dQ==" ScreenHashCodeRuleId="16" IsStrayStep="2" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="r8win.exe" ApplicationName="Reflection for IBM" Version="18.0.330.0" Path="C:\PROGRAM FILES (X86)\MICRO FOCUS\REFLECTION" EXEName="r8win.exe" />
+      <Window Name="------------------------------- TSO/E LOGON -----------------------------------" Value="------------------------------- TSO/E LOGON -----------------------------------" Type="" Old_Name="------------------------------- TSO/E LOGON -----------------------------------" />
+      <TimeStamp StartTime="07/07/2023 T 12:05:05.983" EndTime="07/07/2023 T 12:05:05.983" InternetTime="" LocalStartTime="07/07/2023 T 17:35:05.983" LocalEndTime="07/07/2023 T 17:35:05.983" StepDuration="0.797">
+        <IdleTimeInfo ActionDuration="0.797" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption=" Size      ===&gt;" Class=" Size      ===&gt;" DialogName="------------------------------- TSO/E LOGON -----------------------------------" AliasName="" WPARAM="9" LPARAM="3222208513" Style="1459617792" TypedKey_En="Tab" TypedKey_Locale="Tab" ExtStyle="0" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <HighLevelEvent>
+        </HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="325" Top="459" Right="461" Bottom="480" />
+        <ClientRegion Left="325" Top="459" Right="461" Bottom="480" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ContainerSC Left="2" Top="186" Right="1365" Bottom="694" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="192185250" UserAction="KeyDown" ClipData="" KeyCount="" IsDummyEvent="" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name=" Size      ===&gt;" Type="KEYBOARD" Value="" Role="editable text" RoleID="42" State="1" DialogName="------------------------------- TSO/E LOGON -----------------------------------" DialogPartialMatch="" Event="KEYEVENT" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="16" SPKeyWithData="" DefaultAction="" ClassIndex="0" Help="" RoleInCurrentLanguage="" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="4066680" ParentHandle="" Index="0" InfoFilledFromOMNI="0" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>Tab</Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>0,0</CaretPos>
+        <StateComplete>
+        </StateComplete>
+        <Location Left="325" Top="459" Right="461" Bottom="480" />
+        <ClientLocation Left="325" Top="459" Right="461" Bottom="480" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="" RoleID="" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="">
+        <Location Left="" Top="" Right="" Bottom="" />
+        <ClientLocation>
+        </ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="0" />
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_TW_1284_8.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_TW_1284_8.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_TW_1284_8.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_TW_1280_9.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+      <ControlImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_CI_1284_7.PNG" LocWithTolerance="" />
+      </ControlImage>
+    </ImageStore>
+    <Sentence Plain="Press Tab key." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;Press &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Tab&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; key.&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="------------------------------- TSO/E LOGON -----------------------------------" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="r8win.exe" Path="" DialogName="------------------------------- TSO/E LOGON -----------------------------------" IEDocURL="" />
+      <GeneralInfo Event="KEYEVENT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="12292" MouseButton="" SPKeyStatus="16" StepDelay="797" />
+      <ControlInfo ControlName="" RoleId="10" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="2,186,1365,694," ControlRectCL="5,190,1368,698," ControlData="Tab" ControlMouseCL="" LabelImage="" ControlImage="Reflection_Test_CI_1284_7.PNG" ControlRect="325,459,461,480," LabelRect="" IEActiveTabCaption="" ScreenName="------------------------------- TSO/E LOGON -----------------------------------" SessionID="A" CursorLoc="" />
+      <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="REFLECTION_EIGHT" UIA_REQUIRED="0" UIA_PROCESSID="12292" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="694" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="ATL:5E282078" UIA_PARENT_AUTOMATIONID="176329356" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WindowsForms10.Window.8.app.0.116cb88_r7_ad1" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="14" WHLL_STARTY="20" WHLL_ENDX="14" WHLL_ENDY="27" WHLL_NEXT_CONTROL_NAME="                                                                                                                                       " WHLL_CURRENT_LABLE=" Size      ===&gt;" CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="REFLECTION_EIGHT" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+  <Step ID="11" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="4" PacketID="9" ProcessID="12292" SessionID="12292" UID="9" EventType="" Validator="" AliasName="Size      ===&gt;" BookMark="" HookMessage="1280" ThreadID="9852" AudioFile="" Guid="dfcf5804-e03d-41fb-af69-c0a4df1024c4" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="125.000" DocArea="0" SecDefHashCode="5_1_2_7_8~zPvOg361qu8gUFa1Ae+mzA==" HashCodeRuleId="7" ScreenHashCode="5~MTVrAMJ+f+U6FJntMI43dQ==" ScreenHashCodeRuleId="16" IsStrayStep="0" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="r8win.exe" ApplicationName="Reflection for IBM" Version="18.0.330.0" Path="C:\PROGRAM FILES (X86)\MICRO FOCUS\REFLECTION" EXEName="r8win.exe" />
+      <Window Name="------------------------------- TSO/E LOGON -----------------------------------" Value="------------------------------- TSO/E LOGON -----------------------------------" Type="" Old_Name="------------------------------- TSO/E LOGON -----------------------------------" />
+      <TimeStamp StartTime="07/07/2023 T 12:05:06.514" EndTime="07/07/2023 T 12:05:06.671" InternetTime="" LocalStartTime="07/07/2023 T 17:35:06.514" LocalEndTime="07/07/2023 T 17:35:06.671" StepDuration="0.688" keystrokes="2">
+        <IdleTimeInfo ActionDuration="0.688" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption="Size      ===&gt;" Class=" Size      ===&gt;" DialogName="------------------------------- TSO/E LOGON -----------------------------------" AliasName="" WPARAM="56" LPARAM="1" Style="1459617792" TypedKey_En="" TypedKey_Locale="86" ExtStyle="0" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <HighLevelEvent>
+        </HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="325" Top="459" Right="461" Bottom="480" />
+        <ClientRegion Left="325" Top="459" Right="461" Bottom="480" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ContainerSC Left="2" Top="186" Right="1365" Bottom="694" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="192185859" UserAction="KeyDown" ClipData="" KeyCount="" IsDummyEvent="" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name="Size      ===&gt;" Type="KEYBOARD" Value="" Role="editable text" RoleID="42" State="1" DialogName="------------------------------- TSO/E LOGON -----------------------------------" DialogPartialMatch="" Event="TYPETEXT" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="16" SPKeyWithData="" DefaultAction="" ClassIndex="0" Help="" RoleInCurrentLanguage="" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="4066680" ParentHandle="" Index="0" InfoFilledFromOMNI="0" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>86</Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>0,0</CaretPos>
+        <StateComplete>
+        </StateComplete>
+        <Location Left="325" Top="459" Right="461" Bottom="480" />
+        <ClientLocation Left="325" Top="459" Right="461" Bottom="480" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="" RoleID="" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="">
+        <Location Left="" Top="" Right="" Bottom="" />
+        <ClientLocation>
+        </ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="1">
+      <vp type="V" id="5e0ba841-3159-471a-a6c9-c84746afacf1" seq="1">
+        <item op="" stype="C">
+          <name> Size      ===&gt;_Rule_1</name>
+          <meta>
+            <control> Size      ===&gt;</control>
+            <role>42</role>
+            <app>r8win.exe</app>
+            <url>
+            </url>
+            <screen>------------------------------- TSO/E LOGON -----------------------------------</screen>
+            <region left="" top="" width="" height="" />
+          </meta>
+          <rpa>
+            <AppInfo ExeName="r8win.exe" Path="" DialogName="------------------------------- TSO/E LOGON -----------------------------------" IEDocURL="" />
+            <GeneralInfo Event="TYPETEXT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="12292" MouseButton="" SPKeyStatus="16" />
+            <ControlInfo ControlName=" Size      ===&gt;" RoleId="42" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="325,459,461,480," ControlRectCL="325,459,461,480," ControlData="86" ControlMouseCL="" LabelImage="" ControlImage="Reflection_Test_CI_1280_8.PNG" ControlRect="325,459,461,480," LabelRect="" IEActiveTabCaption="" ScreenName="------------------------------- TSO/E LOGON -----------------------------------" SessionID="A" CursorLoc="" />
+            <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+            <AdditionalInfo UIA_CLASSNAME="REFLECTION_EIGHT" UIA_REQUIRED="0" UIA_PROCESSID="12292" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="694" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="ATL:5E282078" UIA_PARENT_AUTOMATIONID="176329356" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WindowsForms10.Window.8.app.0.116cb88_r7_ad1" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="14" WHLL_STARTY="20" WHLL_ENDX="14" WHLL_ENDY="27" WHLL_NEXT_CONTROL_NAME="                                                                                                                                       " WHLL_CURRENT_LABLE=" Size      ===&gt;" CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="REFLECTION_EIGHT" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+          </rpa>
+          <rule id="12" value1="" value2="" regex="^-?[0-9 ][0-9,\. ]+$" desc="" />
+          <atchs>
+            <atch type="audio" src="" />
+            <atch type="video" src="" />
+            <atch type="file" src="" />
+            <atch type="image" src="" />
+          </atchs>
+          <desc />
+          <actiononfailure type="0">
+            <message />
+          </actiononfailure>
+          <group />
+        </item>
+      </vp>
+    </vpeds>
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_TW_1280_9.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_TW_1280_9.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_TW_1280_9.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_TW_1284_10.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+      <ControlImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_CI_1280_8.PNG" LocWithTolerance="" />
+      </ControlImage>
+    </ImageStore>
+    <Sentence Plain="In the Size      ===&gt; box, enter &quot;86&quot;." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;In the &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Size      ===&gt;&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; box, enter "&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;86&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;".&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="------------------------------- TSO/E LOGON -----------------------------------" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="r8win.exe" Path="" DialogName="------------------------------- TSO/E LOGON -----------------------------------" IEDocURL="" />
+      <GeneralInfo Event="TYPETEXT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="12292" MouseButton="" SPKeyStatus="16" StepDelay="531">
+        <Model Enabled="True">
+          <Properties Name="Size" />
+        </Model>
+      </GeneralInfo>
+      <ControlInfo ControlName=" Size      ===&gt;" RoleId="42" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="325,459,461,480," ControlRectCL="325,459,461,480," ControlData="86" ControlMouseCL="" LabelImage="" ControlImage="Reflection_Test_CI_1280_8.PNG" ControlRect="325,459,461,480," LabelRect="" IEActiveTabCaption="" ScreenName="------------------------------- TSO/E LOGON -----------------------------------" SessionID="A" CursorLoc="" />
+      <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="REFLECTION_EIGHT" UIA_REQUIRED="0" UIA_PROCESSID="12292" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="694" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="ATL:5E282078" UIA_PARENT_AUTOMATIONID="176329356" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WindowsForms10.Window.8.app.0.116cb88_r7_ad1" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="14" WHLL_STARTY="20" WHLL_ENDX="14" WHLL_ENDY="27" WHLL_NEXT_CONTROL_NAME="                                                                                                                                       " WHLL_CURRENT_LABLE=" Size      ===&gt;" CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="REFLECTION_EIGHT" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+  <Step ID="12" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="4" PacketID="10" ProcessID="12292" SessionID="12292" UID="10" EventType="" Validator="" AliasName=" Perform   ===&gt;" BookMark="" HookMessage="1284" ThreadID="9852" AudioFile="" Guid="e4cf7149-a3bd-487c-a384-be47a25b912a" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="422.000" DocArea="0" SecDefHashCode="5_1_2_7_8~GGe5yXPX5jSlprVi3Mmf0Q==" HashCodeRuleId="7" ScreenHashCode="5~MTVrAMJ+f+U6FJntMI43dQ==" ScreenHashCodeRuleId="16" IsStrayStep="2" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="r8win.exe" ApplicationName="Reflection for IBM" Version="18.0.330.0" Path="C:\PROGRAM FILES (X86)\MICRO FOCUS\REFLECTION" EXEName="r8win.exe" />
+      <Window Name="------------------------------- TSO/E LOGON -----------------------------------" Value="------------------------------- TSO/E LOGON -----------------------------------" Type="" Old_Name="------------------------------- TSO/E LOGON -----------------------------------" />
+      <TimeStamp StartTime="07/07/2023 T 12:05:07.468" EndTime="07/07/2023 T 12:05:07.468" InternetTime="" LocalStartTime="07/07/2023 T 17:35:07.468" LocalEndTime="07/07/2023 T 17:35:07.468" StepDuration="0.797">
+        <IdleTimeInfo ActionDuration="0.797" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption=" Perform   ===&gt;" Class=" Perform   ===&gt;" DialogName="------------------------------- TSO/E LOGON -----------------------------------" AliasName="" WPARAM="9" LPARAM="3222208513" Style="1459617792" TypedKey_En="Tab" TypedKey_Locale="Tab" ExtStyle="0" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <HighLevelEvent>
+        </HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="325" Top="501" Right="393" Bottom="522" />
+        <ClientRegion Left="325" Top="501" Right="393" Bottom="522" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ContainerSC Left="2" Top="186" Right="1365" Bottom="694" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="192186734" UserAction="KeyDown" ClipData="" KeyCount="" IsDummyEvent="" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name=" Perform   ===&gt;" Type="KEYBOARD" Value="" Role="editable text" RoleID="42" State="1" DialogName="------------------------------- TSO/E LOGON -----------------------------------" DialogPartialMatch="" Event="KEYEVENT" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="16" SPKeyWithData="" DefaultAction="" ClassIndex="0" Help="" RoleInCurrentLanguage="" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="4066680" ParentHandle="" Index="0" InfoFilledFromOMNI="0" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>Tab</Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>0,0</CaretPos>
+        <StateComplete>
+        </StateComplete>
+        <Location Left="325" Top="501" Right="393" Bottom="522" />
+        <ClientLocation Left="325" Top="501" Right="393" Bottom="522" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="" RoleID="" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="">
+        <Location Left="" Top="" Right="" Bottom="" />
+        <ClientLocation>
+        </ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="0" />
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_TW_1284_10.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_TW_1284_10.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_TW_1284_10.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_TW_1280_11.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+      <ControlImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1284Img" FileName="Reflection_Test_CI_1284_9.PNG" LocWithTolerance="" />
+      </ControlImage>
+    </ImageStore>
+    <Sentence Plain="Press Tab key." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;Press &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Tab&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; key.&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="------------------------------- TSO/E LOGON -----------------------------------" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="r8win.exe" Path="" DialogName="------------------------------- TSO/E LOGON -----------------------------------" IEDocURL="" />
+      <GeneralInfo Event="KEYEVENT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="12292" MouseButton="" SPKeyStatus="16" StepDelay="797" />
+      <ControlInfo ControlName="" RoleId="10" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="2,186,1365,694," ControlRectCL="5,190,1368,698," ControlData="Tab" ControlMouseCL="" LabelImage="" ControlImage="Reflection_Test_CI_1284_9.PNG" ControlRect="325,501,393,522," LabelRect="" IEActiveTabCaption="" ScreenName="------------------------------- TSO/E LOGON -----------------------------------" SessionID="A" CursorLoc="" />
+      <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="REFLECTION_EIGHT" UIA_REQUIRED="0" UIA_PROCESSID="12292" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="694" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="ATL:5E282078" UIA_PARENT_AUTOMATIONID="176329356" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="4" UIA_FOREGROUND_WINDOW_TYPE="WindowsForms10.Window.8.app.0.116cb88_r7_ad1" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="16" WHLL_STARTY="20" WHLL_ENDX="16" WHLL_ENDY="23" WHLL_NEXT_CONTROL_NAME="                                                                                                                                           " WHLL_CURRENT_LABLE=" Perform   ===&gt;" CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="REFLECTION_EIGHT" CONTROL_INDEX_PATH="4|" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+  <Step ID="13" Version="11." ParentID="2" Level="3" ActiveChannelID="0" AdaptorID="4" PacketID="11" ProcessID="12292" SessionID="12292" UID="11" EventType="" Validator="" AliasName="Perform   ===&gt;" BookMark="" HookMessage="1280" ThreadID="9852" AudioFile="" Guid="29234205-7a67-4a8e-b70f-cc4e4a917916" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="6046.000" DocArea="0" SecDefHashCode="5_1_2_7_8~nzsE10vBVBFhIuXNxJ7emw==" HashCodeRuleId="7" ScreenHashCode="5~MTVrAMJ+f+U6FJntMI43dQ==" ScreenHashCodeRuleId="16" IsStrayStep="0" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="r8win.exe" ApplicationName="Reflection for IBM" Version="18.0.330.0" Path="C:\PROGRAM FILES (X86)\MICRO FOCUS\REFLECTION" EXEName="r8win.exe" />
+      <Window Name="------------------------------- TSO/E LOGON -----------------------------------" Value="------------------------------- TSO/E LOGON -----------------------------------" Type="" Old_Name="------------------------------- TSO/E LOGON -----------------------------------" />
+      <TimeStamp StartTime="07/07/2023 T 12:05:08.015" EndTime="07/07/2023 T 12:05:08.344" InternetTime="" LocalStartTime="07/07/2023 T 17:35:08.015" LocalEndTime="07/07/2023 T 17:35:08.344" StepDuration="0.876" keystrokes="3">
+        <IdleTimeInfo ActionDuration="0.876" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption="Perform   ===&gt;" Class=" Perform   ===&gt;" DialogName="------------------------------- TSO/E LOGON -----------------------------------" AliasName="" WPARAM="80" LPARAM="1" Style="1459617792" TypedKey_En="" TypedKey_Locale="Per" ExtStyle="0" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <HighLevelEvent>
+        </HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="325" Top="501" Right="393" Bottom="522" />
+        <ClientRegion Left="325" Top="501" Right="393" Bottom="522" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ContainerSC Left="2" Top="186" Right="1365" Bottom="694" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="192187359" UserAction="KeyDown" ClipData="" KeyCount="" IsDummyEvent="" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name="Perform   ===&gt;" Type="KEYBOARD" Value="" Role="editable text" RoleID="42" State="1" DialogName="------------------------------- TSO/E LOGON -----------------------------------" DialogPartialMatch="" Event="TYPETEXT" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="18" SPKeyWithData="" DefaultAction="" ClassIndex="0" Help="" RoleInCurrentLanguage="" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="4066680" ParentHandle="" Index="0" InfoFilledFromOMNI="0" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>Per</Value>
+        </ControlData>
+        <Hierarchy>
+        </Hierarchy>
+        <CaretPos>0,0</CaretPos>
+        <StateComplete>
+        </StateComplete>
+        <Location Left="325" Top="501" Right="393" Bottom="522" />
+        <ClientLocation Left="325" Top="501" Right="393" Bottom="522" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="" RoleID="" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="">
+        <Location Left="" Top="" Right="" Bottom="" />
+        <ClientLocation>
+        </ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="0" />
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_TW_1280_11.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_TW_1280_11.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_TW_1280_11.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_TW_2713_12.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+      <ControlImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_CI_1280_10.PNG" LocWithTolerance="" />
+      </ControlImage>
+    </ImageStore>
+    <Sentence Plain="In the Perform   ===&gt; box, enter &quot;Per&quot;." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;In the &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Perform   ===&gt;&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; box, enter "&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;Per&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;".&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="------------------------------- TSO/E LOGON -----------------------------------" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="r8win.exe" Path="" DialogName="------------------------------- TSO/E LOGON -----------------------------------" IEDocURL="" />
+      <GeneralInfo Event="TYPETEXT" AdaptorID="4" IsCitrix="" IsAI="" ProcessID="12292" MouseButton="" SPKeyStatus="18" StepDelay="547">
+        <Model Enabled="True">
+          <Properties Name="Perform" />
+        </Model>
+      </GeneralInfo>
+      <ControlInfo ControlName="" RoleId="10" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="2,186,1365,694," ControlRectCL="5,190,1368,698," ControlData="Per" ControlMouseCL="" LabelImage="" ControlImage="Reflection_Test_CI_1280_10.PNG" ControlRect="325,501,393,522," LabelRect="" IEActiveTabCaption="" ScreenName="------------------------------- TSO/E LOGON -----------------------------------" SessionID="A" CursorLoc="" />
+      <ParentInfo ParentName="" ParentRoleId="10" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="REFLECTION_EIGHT" UIA_REQUIRED="0" UIA_PROCESSID="12292" UIA_PASSWORD="0" UIA_ORIENTATION="None" UIA_OFFSCREEN="0" UIA_LOCALIZED_CONTROL_TYPE="pane" UIA_HELPTEXT="" UIA_HEIGHT="694" UIA_HAS_KEYBOARD_FOCUS="1" UIA_ENABLED="1" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="pane" UIA_PARENT_CONTROL_TYPE="50033" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="ATL:5E282078" UIA_PARENT_AUTOMATIONID="176329356" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="" UIA_FOREGROUND_WINDOW_TYPE="WindowsForms10.Window.8.app.0.116cb88_r7_ad1" UIA_NAME="" UIA_CONTROL_TYPE="50033" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="0" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="16" WHLL_STARTY="20" WHLL_ENDX="16" WHLL_ENDY="23" WHLL_NEXT_CONTROL_NAME="                                                                                                                                           " WHLL_CURRENT_LABLE=" Perform   ===&gt;" CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="REFLECTION_EIGHT" CONTROL_INDEX_PATH="" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+  <GroupStep ID="14" Caption="------------------------------- TSO/E LOGON -----------------------------------" ParentID="1" Level="2" ProcessID="12292" Guid="e830f8db-779b-4c7d-a7be-ffc242818465">
+    <Tacit />
+    <DrawMarkRegion />
+  </GroupStep>
+  <Step ID="15" Version="11." ParentID="14" Level="3" ActiveChannelID="0" AdaptorID="0" PacketID="12" ProcessID="12292" SessionID="12292" UID="12" EventType="" Validator="" AliasName="------------------------------- TSO/E LOGON -----------------------------------" BookMark="End" HookMessage="6" ThreadID="9852" AudioFile="" Guid="6bffc6eb-5352-4b19-b9ff-d936d7cb2eb7" isKeyStep="False" KeyInformation="" ZoomLevel="" ADPI="" SystemDPI="1" InputIdleDuration="6046.000" DocArea="0" SecDefHashCode="2_5_7_8~e34twPaICw6ioLapP1rFGg==" HashCodeRuleId="9" ScreenHashCode="5~MTVrAMJ+f+U6FJntMI43dQ==" ScreenHashCodeRuleId="16" IsStrayStep="2" ToBeReviewed="0" ReviewInfo2="">
+    <AudioToText />
+    <Info>
+      <TAP Name="r8win.exe" ApplicationName="Reflection for IBM" Version="18.0.330.0" Path="C:\PROGRAM FILES (X86)\MICRO FOCUS\REFLECTION" EXEName="r8win.exe" />
+      <Window Name="------------------------------- TSO/E LOGON -----------------------------------" Value="------------------------------- TSO/E LOGON -----------------------------------" Type="" Old_Name="------------------------------- TSO/E LOGON -----------------------------------" />
+      <TimeStamp StartTime="07/07/2023 T 12:05:16.410" EndTime="07/07/2023 T 12:05:16.410" InternetTime="" LocalStartTime="07/07/2023 T 17:35:16.410" LocalEndTime="" StepDuration="8.066">
+        <IdleTimeInfo ActionDuration="8.066" TacitDuration="0.000" ThinkDuration="0" IdleDuration="0.000" />
+      </TimeStamp>
+    </Info>
+    <Standard>
+      <Control ControlID="0" Name="" Caption="------------------------------- TSO/E LOGON -----------------------------------" Class=" Perform   ===&gt;" DialogName="------------------------------- TSO/E LOGON -----------------------------------" AliasName="" WPARAM="80" LPARAM="1" Style="1459617792" TypedKey_En="" TypedKey_Locale="Per" ExtStyle="0" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <HighLevelEvent>
+        </HighLevelEvent>
+        <ExtraInfo>0</ExtraInfo>
+      </Control>
+      <Regions>
+        <ControlRegion Left="325" Top="501" Right="393" Bottom="522" />
+        <ClientRegion Left="325" Top="501" Right="393" Bottom="522" />
+        <AppWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+        <ActiveWindow Left="-8" Top="-8" Right="1374" Bottom="728" />
+      </Regions>
+      <Cursor>
+        <Down ID="" Name="" FileName="" ExtraInfo="" />
+        <Up ID="" Name="" FileName="" ExtraInfo="" />
+      </Cursor>
+      <ClickPoints>
+        <Screen>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Screen>
+        <Client>
+          <Down X="0" Y="0" />
+          <Up X="0" Y="0" />
+        </Client>
+      </ClickPoints>
+      <Font Name="System" Style="700~0~0~0" Size="12" Color="" Backcolor="" ExtraInfo="" />
+      <CheckWhat DialogNew="0" DialogClose="0" MsgBoxAppears="0" ControlDisabled="0" />
+      <Info EventTime="192187359" UserAction="" ClipData="" KeyCount="" IsDummyEvent="0" />
+    </Standard>
+    <MSAA EventThread="">
+      <Control Name="------------------------------- TSO/E LOGON -----------------------------------" Type="editable text" Value="" Role="editable text" RoleID=" Perform   ===&gt;" State="1" DialogName="------------------------------- TSO/E LOGON -----------------------------------" DialogPartialMatch="" Event="WindowActivate" KBShortcut="" Desc="" MouseButton="" MouseStatus="0" SPKeyStatus="0" SPKeyWithData="" DefaultAction="" ClassIndex="0" Help="" RoleInCurrentLanguage="" UniqueControlID="" UIAControlID="" UIParentID="" UIControlType="" RumbaHidden="" IsAlien="0" ObjectID="" ChildID="" Handle="4066680" ParentHandle="3347274" Index="0" InfoFilledFromOMNI="0" IsDummyWindowActivate="0" DummyWindowName="" Old_DialogName="------------------------------- TSO/E LOGON -----------------------------------">
+        <Composite Index="0" ParentIndex="" OwnerDraw="" ChildState="" />
+        <Buddy BuddyThere="0" />
+        <ControlData>
+          <Value>P</Value>
+        </ControlData>
+        <Hierarchy>4066680</Hierarchy>
+        <CaretPos>0,0</CaretPos>
+        <StateComplete>1459617792</StateComplete>
+        <Location Left="325" Top="501" Right="393" Bottom="522" />
+        <ClientLocation Left="325" Top="501" Right="393" Bottom="522" />
+        <HighLevelSource />
+        <ActiveTab>
+        </ActiveTab>
+      </Control>
+      <ParentControl Name="" Value="" Role="" RoleID="ATL:5E282078" KBShortcut="" Help="" State="1" Desc="" RoleInCurrentLanguage="">
+        <Location Left="2" Top="186" Right="1365" Bottom="694" />
+        <ClientLocation>2,186,1365,694</ClientLocation>
+      </ParentControl>
+      <DropInfo>
+        <Control Name="" Value="" Handle="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </Control>
+        <ParentControl Name="" Value="" Role="" Desc="" KBShortcut="" DefaultAction="" State="" Help="">
+          <Location Left="0" Top="0" Right="0" Bottom="0" />
+        </ParentControl>
+        <Locations>
+          <Client Left="0" Top="0" Right="0" Bottom="0" />
+          <ParentClient Left="0" Top="0" Right="0" Bottom="0" />
+          <Drag Left="0" Top="0" Right="0" Bottom="0" />
+        </Locations>
+      </DropInfo>
+      <Specifics JAVAPacketID="" ChannelControlHandle="" StatusBarInfo="">
+        <SPData />
+      </Specifics>
+      <Info KeyWithMenu="" EventTime="" StatusBarData="" ChannelTAPName="">
+        <LocaleInfo LocaleID="" KBLayout="" InputLocaleID="" />
+      </Info>
+    </MSAA>
+    <vpeds isautovpadded="0" />
+    <IE DocURL="" Domain="" FramesURL="" WaitInfo="">
+      <Element Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" ElemType="" CascadedText="">
+        <Event Name="" DispID="" />
+        <Mouse Button="" />
+        <Frame No="" Name="" />
+      </Element>
+      <ParentElement Caption="" Class="" InnerText="" SrcIndex="" Label="" KBShortcut="" InnerHTML="" Select="" Title="" HREF="" ObjectID="" AlternateText="" SRC="" OffsetSize="" TabOrder="" SelectedItemIndex="" Type="" />
+      <Playback>
+        <Element Name="" Role="" Location="" Value="" KBShortcut="" Select="" State="" ControlData="" Class="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" ObjectID="" ElemType="" HREF="" SelectedItemIndex="" CascadedText="" InnerHTML="" />
+        <ParentElement Name="" Role="" Location="" Value="" KBShortcut="" Class="" State="" InnerText="" SrcIndex="" TabOrder="" OffsetSize="" SRC="" AlternateText="" Title="" Type="" HREF="" SelectedItemIndex="" CascadedText="" Select="" InnerHTML="" ObjectID="" />
+      </Playback>
+      <FindControl Name="" Role="" ID="" HREF="" LevelAboveElement="" SrcIndex="" ElemQuery="" ParentQuery="" />
+    </IE>
+    <ImageStore>
+      <epiLearnImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_TW_2713_12.PNG" LocWithTolerance="0,0,1366,720," />
+      </epiLearnImage>
+      <FullImage>
+        <ImageData ID="1" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_TW_2713_12.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="2" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_TW_2713_12.PNG" LocWithTolerance="0,0,1366,720," />
+        <ImageData ID="3" Name="------------------------------- TSO/E LOGON -----------------------------------_1280Img" FileName="Reflection_Test_TW_2713_12.PNG" LocWithTolerance="0,0,1366,720," />
+      </FullImage>
+    </ImageStore>
+    <Sentence Plain="WindowActivate ------------------------------- TSO/E LOGON  editable text." Modified="False">
+      <HTML>&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;WindowActivate&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;&lt;STRONG&gt;------------------------------- TSO/E LOGON &lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt; &lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;editable text&lt;/FONT&gt;&lt;FONT FACE = "Arial"  SIZE = "2"&gt;.&lt;/FONT&gt;</HTML>
+    </Sentence>
+    <AddIn>
+      <SAP>
+        <Dialog Feedback="" />
+        <Control>
+          <ID />
+        </Control>
+        <Info MessageID="" MessageType="" MessageText="" TransactionCode="" ScreenNumber="" ClientNumber="0" />
+      </SAP>
+    </AddIn>
+    <SecurityInfo IsSecure="0" EncryptedDataInfo="" EncryptedControlData="" MaskData="" IsPassword="0" />
+    <CDTData />
+    <PlayBack>
+      <AppInfo ExeName="r8win.exe" Path="" DialogName="------------------------------- TSO/E LOGON -----------------------------------" IEDocURL="" />
+      <GeneralInfo Event="WindowActivate" AdaptorID="0" IsCitrix="" IsAI="" ProcessID="12292" MouseButton="" SPKeyStatus="" StepDelay="8066" />
+      <ControlInfo ControlName="" RoleId="" Role="editable text" UniqueID="" AutomationID="" ControlRectSC="" ControlRectCL="" ControlData="P" ControlMouseCL="" LabelImage="" ControlImage="" ControlRect="" LabelRect="" IEActiveTabCaption="" />
+      <ParentInfo ParentName="" ParentRoleId="ATL:5E282078" ParentRole="" ParentHeirarchy="" />
+      <AdditionalInfo UIA_CLASSNAME="" UIA_REQUIRED="" UIA_PROCESSID="" UIA_PASSWORD="" UIA_ORIENTATION="" UIA_OFFSCREEN="" UIA_LOCALIZED_CONTROL_TYPE="" UIA_HELPTEXT="" UIA_HEIGHT="" UIA_HAS_KEYBOARD_FOCUS="" UIA_ENABLED="" UIA_ACCESSKEY="" UIA_PARENT_LOCALIZED_CONTROL_TYPE="" UIA_PARENT_CONTROL_TYPE="" UIA_PARENT_NAME="" UIA_PARENT_CLASSNAME="" UIA_PARENT_AUTOMATIONID="" UIA_AUTOMATIONID="" UIA_Default_Action="" UIA_Match_Index="" UIA_FOREGROUND_WINDOW_TYPE="WindowsForms10.Window.8.app.0.116cb88_r7_ad1" UIA_NAME="" UIA_CONTROL_TYPE="" CONTROL_ABSOLUTE_UNIQUE_ID_FOR_BOT_SCRIPT="" UIA_SCROLLITEMPATTREN="" TREE_ABSOLUTE_PATH_FOR_BOT_SCRIPT="" WHLL_STARTX="" WHLL_STARTY="" WHLL_ENDX="" WHLL_ENDY="" WHLL_NEXT_CONTROL_NAME="" WHLL_CURRENT_LABLE="" CONTROL_WINDOW_TEXT="" CONTROL_WINDOW_CLASS="" CONTROL_INDEX_PATH="" JAVA_INDEXINPARENT="" JAVA_CHILDCOUNT="" EXCEL_SHEET_NAME="" ACTUAL_CONTROL_TYPE="" ACTUAL_PARENT_CONTROL_TYPE="" CONTROL_KBSHORTCUT="" CONTROL_DESCRIPTION="" Web_Name="" Web_Type="" Web_ScrollX="" Web_ScrollY="" Web_ScrollWidth="" Web_ScrollHeight="" Web_OffsetX="" Web_OffsetY="" Web_OffsetWidth="" Web_OffsetHeight="" Web_ClientX="" Web_ClientY="" Web_ClientWidth="" Web_ClientHeight="" Web_ChildCount="" Web_TabIndex="" Web_IsEditable="" Web_ParentId="" Web_Source="" Web_Action="" Web_AncestorCount="" Web_Value="" Web_ID="" Web_TagName="" Web_ClassName="" Web_Placeholder="" Web_Alt="" Web_Title="" Web_IDX="" Web_IFrameFullCssPath="" Web_IFrameFullXPath="" Web_FormID="" Web_FormAction="" Web_AncestorID="" TabID="" />
+    </PlayBack>
+    <Tacit />
+    <DrawMarkRegion />
+  </Step>
+</WorkFlow>

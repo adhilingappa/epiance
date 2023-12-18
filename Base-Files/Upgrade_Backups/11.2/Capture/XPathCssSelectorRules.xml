@@ -1,0 +1,6 @@
+<XPathCSSSelectorRules>
+  <XPathCSSSelectorRule Match="URL" Value="^https:\/\/www.google.com" IsRegex="True" FindBy="id" IsRelativePath="False" />
+  <XPathCSSSelectorRule Match="URL" Value="^https:\/\/login.salesforce.com" IsRegex="True" FindBy="name" IsRelativePath="False" />
+  <XPathCSSSelectorRule Match="Caption" Value="^Google" IsRegex="True" FindBy="id" IsRelativePath="True" />
+  <XPathEscapeCharRegex><![CDATA[[^0-9a-zA-Z]+_]]></XPathEscapeCharRegex>
+</XPathCSSSelectorRules>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<epiplex500>
+	<mailConfiguration>
+	    <userID>Email ID</userID>
+		<password>Password</password>
+		<smtpAddress>smtp.gmail.com</smtpAddress>		
+		<portNumber>587</portNumber>
+		<enableSSL>true</enableSSL>
+		<IsBodyHtml>true</IsBodyHtml>
+		<SecurityProtocolType>768</SecurityProtocolType>
+		<UseDefaultCredentials>true</UseDefaultCredentials>
+	</mailConfiguration>
+</epiplex500>
+<!--
+Ssl3	48	
+Tls	    192	
+Tls11	768	
+Tls12	3072
+-->

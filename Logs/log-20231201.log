@@ -1,0 +1,1769 @@
+2023-12-01 11:04:46.817 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 11:04:46.823 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 11:04:46.824 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 11:04:46.831 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 11:04:46.832 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 11:04:46.832 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 11:04:46.833 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 11:04:46.833 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 11:04:46.833 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 11:04:46.833 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 11:04:46.834 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 11:04:46.834 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 11:04:46.834 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 11:04:46.835 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 11:04:46.835 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 11:04:46.835 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 11:04:46.835 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 11:04:48.454 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 11:04:48.455 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 11:04:48.455 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 11:04:48.456 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 11:04:48.456 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 11:04:48.456 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 11:04:48.457 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 11:04:48.457 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 11:04:48.458 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 11:04:48.458 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 11:04:48.458 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 11:04:48.458 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 11:04:48.458 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 11:04:48.458 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 11:04:48.459 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 11:04:48.459 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 11:04:48.459 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 11:04:48.625 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 11:04:48.625 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 11:04:48.688 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 11:04:48.767 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 11:04:48.767 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 11:04:48.770 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\Finalized\2_Capture Test.xls Excel File check started...
+2023-12-01 11:04:48.945 [main] INFO  utils.ExecutionUtils - Chrome Test_with narration Sheet Step validation started...
+2023-12-01 11:04:49.009 [main] INFO  utils.ExecutionUtils - Chrome Test_with narration Sheet Step validation Ended
+2023-12-01 11:04:49.009 [main] INFO  utils.ExecutionUtils - Edge Test_with audio Sheet Step validation started...
+2023-12-01 11:04:49.030 [main] INFO  utils.ExecutionUtils - Edge Test_with audio Sheet Step validation Ended
+2023-12-01 11:04:49.030 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\Finalized\2_Capture Test.xls Excel File Check ended
+2023-12-01 11:04:49.030 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 11:04:49.031 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 11:04:49.351 [main] INFO  utils.XML_Library - Automation settings updation started
+2023-12-01 11:04:49.707 [main] INFO  utils.XML_Library - Automation settings updation completed
+2023-12-01 11:04:50.012 [main] INFO  core.Application - chrome is closing...
+2023-12-01 11:04:50.150 [main] INFO  core.Application - C:\Program Files\Google\Chrome\Application\chrome.exe is closed.
+2023-12-01 11:04:50.455 [main] INFO  core.Application - C:\Program Files\Google\Chrome\Application\chrome.exe is launching...
+2023-12-01 11:04:57.083 [main] INFO  core.Application - C:\Program Files\Google\Chrome\Application\chrome.exe is launched
+2023-12-01 11:05:14.418 [main] INFO  utils.XML_Library - Automation settings updation started
+2023-12-01 11:05:14.669 [main] INFO  utils.XML_Library - Automation settings updation completed
+2023-12-01 11:05:14.670 [main] INFO  core.Application - D:\MSI\PNP\R11.2.345\Epiplex500\epiplex\BIN\epiplex.exe is launching...
+2023-12-01 11:05:45.593 [main] INFO  core.Application - D:\MSI\PNP\R11.2.345\Epiplex500\epiplex\BIN\epiplex.exe is launched
+2023-12-01 11:09:31.720 [main] ERROR actions.ElementFinder - Epiplex500 not displyed within 30 s
+2023-12-01 11:09:43.546 [main] INFO  core.Application - Epiplex is closing...
+2023-12-01 11:09:44.693 [main] INFO  core.Application - D:\MSI\PNP\R11.2.345\Epiplex500\epiplex\BIN\epiplex.exe is closed.
+2023-12-01 11:09:44.997 [main] INFO  utils.XML_Library - transformGPS started
+2023-12-01 11:09:45.482 [main] INFO  utils.XML_Library - transform-GPS completed
+2023-12-01 11:09:45.483 [main] INFO  utils.XML_Library - transformGPS started
+2023-12-01 11:09:45.613 [main] INFO  utils.XML_Library - transform-GPS completed
+2023-12-01 11:09:46.203 [main] INFO  core.Application - chrome is closing...
+2023-12-01 11:09:47.388 [main] INFO  core.Application - C:\Program Files\Google\Chrome\Application\chrome.exe is closed.
+2023-12-01 11:09:50.553 [main] INFO  core.Application - msedge is closing...
+2023-12-01 11:09:55.886 [main] INFO  core.Application - C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe is closed.
+2023-12-01 11:09:56.562 [main] INFO  core.Application - C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe is launching...
+2023-12-01 11:09:59.319 [main] INFO  core.Application - C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe is launched
+2023-12-01 11:10:29.870 [main] ERROR actions.ElementFinder - New not found within 30 s
+2023-12-01 11:10:36.264 [main] ERROR actions.ElementFinder - New not displyed within 5 s
+2023-12-01 11:10:36.757 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 11:10:36.758 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 11:10:36.758 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 11:10:36.758 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 11:10:38.900 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 11:10:38.900 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 11:11:13.139 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 11:11:13.147 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 11:11:13.148 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 11:11:13.158 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 11:11:13.162 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 11:11:13.163 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 11:11:13.163 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 11:11:13.163 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 11:11:13.163 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 11:11:13.163 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 11:11:13.164 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 11:11:13.164 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 11:11:13.164 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 11:11:13.164 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 11:11:13.164 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 11:11:13.164 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 11:11:13.164 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 11:11:17.225 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 11:11:17.226 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 11:11:17.226 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 11:11:17.226 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 11:11:17.227 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 11:11:17.227 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 11:11:17.227 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 11:11:17.227 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 11:11:17.227 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 11:11:17.228 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 11:11:17.228 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 11:11:17.228 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 11:11:17.233 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 11:11:17.234 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 11:11:17.234 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 11:11:17.234 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 11:11:17.234 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 11:11:17.375 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 11:11:17.376 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 11:11:17.420 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 11:11:17.469 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 11:11:17.470 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 11:11:17.471 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\Finalized\2_Capture Test.xls Excel File check started...
+2023-12-01 11:11:17.631 [main] INFO  utils.ExecutionUtils - Chrome Test_with narration Sheet Step validation started...
+2023-12-01 11:11:17.689 [main] INFO  utils.ExecutionUtils - Chrome Test_with narration Sheet Step validation Ended
+2023-12-01 11:11:17.690 [main] INFO  utils.ExecutionUtils - Edge Test_with audio Sheet Step validation started...
+2023-12-01 11:11:17.716 [main] INFO  utils.ExecutionUtils - Edge Test_with audio Sheet Step validation Ended
+2023-12-01 11:11:17.716 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\Finalized\2_Capture Test.xls Excel File Check ended
+2023-12-01 11:11:17.716 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 11:11:17.717 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 11:11:18.029 [main] INFO  utils.XML_Library - Automation settings updation started
+2023-12-01 11:11:18.381 [main] INFO  utils.XML_Library - Automation settings updation completed
+2023-12-01 11:11:18.684 [main] INFO  core.Application - chrome is closing...
+2023-12-01 11:11:18.837 [main] INFO  core.Application - C:\Program Files\Google\Chrome\Application\chrome.exe is closed.
+2023-12-01 11:11:19.142 [main] INFO  core.Application - C:\Program Files\Google\Chrome\Application\chrome.exe is launching...
+2023-12-01 11:11:25.922 [main] INFO  core.Application - C:\Program Files\Google\Chrome\Application\chrome.exe is launched
+2023-12-01 11:11:35.492 [main] INFO  utils.XML_Library - Automation settings updation started
+2023-12-01 11:11:35.775 [main] INFO  utils.XML_Library - Automation settings updation completed
+2023-12-01 11:11:35.775 [main] INFO  core.Application - D:\MSI\PNP\R11.2.345\Epiplex500\epiplex\BIN\epiplex.exe is launching...
+2023-12-01 11:11:49.789 [main] INFO  core.Application - D:\MSI\PNP\R11.2.345\Epiplex500\epiplex\BIN\epiplex.exe is launched
+2023-12-01 11:15:42.107 [main] ERROR actions.ElementFinder - Epiplex500 not displyed within 30 s
+2023-12-01 11:15:43.896 [main] INFO  core.Application - Epiplex is closing...
+2023-12-01 11:15:45.044 [main] INFO  core.Application - D:\MSI\PNP\R11.2.345\Epiplex500\epiplex\BIN\epiplex.exe is closed.
+2023-12-01 11:15:45.346 [main] INFO  utils.XML_Library - transformGPS started
+2023-12-01 11:15:45.813 [main] INFO  utils.XML_Library - transform-GPS completed
+2023-12-01 11:15:45.814 [main] INFO  utils.XML_Library - transformGPS started
+2023-12-01 11:15:45.947 [main] INFO  utils.XML_Library - transform-GPS completed
+2023-12-01 11:15:46.308 [main] INFO  core.Application - chrome is closing...
+2023-12-01 11:15:47.512 [main] INFO  core.Application - C:\Program Files\Google\Chrome\Application\chrome.exe is closed.
+2023-12-01 11:15:50.682 [main] INFO  core.Application - msedge is closing...
+2023-12-01 11:15:55.987 [main] INFO  core.Application - C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe is closed.
+2023-12-01 11:15:56.646 [main] INFO  core.Application - C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe is launching...
+2023-12-01 11:15:59.120 [main] INFO  core.Application - C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe is launched
+2023-12-01 11:16:04.561 [main] INFO  utils.XML_Library - Automation settings updation started
+2023-12-01 11:16:04.819 [main] INFO  utils.XML_Library - Automation settings updation completed
+2023-12-01 11:16:04.819 [main] INFO  core.Application - D:\MSI\PNP\R11.2.345\Epiplex500\epiplex\BIN\epiplex.exe is launching...
+2023-12-01 11:16:18.109 [main] INFO  core.Application - D:\MSI\PNP\R11.2.345\Epiplex500\epiplex\BIN\epiplex.exe is launched
+2023-12-01 11:19:13.034 [main] ERROR actions.ElementFinder - Epiplex500 not displyed within 30 s
+2023-12-01 11:19:14.757 [main] INFO  core.Application - Epiplex is closing...
+2023-12-01 11:19:15.891 [main] INFO  core.Application - D:\MSI\PNP\R11.2.345\Epiplex500\epiplex\BIN\epiplex.exe is closed.
+2023-12-01 11:19:16.200 [main] INFO  core.Application - msedge is closing...
+2023-12-01 11:19:18.417 [main] INFO  core.Application - C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe is closed.
+2023-12-01 11:19:18.728 [main] INFO  utils.XML_Library - transformGPS started
+2023-12-01 11:19:18.806 [main] INFO  utils.XML_Library - transform-GPS completed
+2023-12-01 11:19:18.807 [main] INFO  utils.XML_Library - transformGPS started
+2023-12-01 11:19:18.876 [main] INFO  utils.XML_Library - transform-GPS completed
+2023-12-01 11:19:20.351 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 11:19:20.352 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 11:19:20.352 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 11:19:20.352 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 11:19:25.818 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 11:19:25.818 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 14:45:38.585 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 14:45:38.588 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 14:45:38.589 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 14:45:38.595 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 14:45:38.603 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 14:45:38.603 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 14:45:38.603 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 14:45:38.603 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 14:45:38.604 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 14:45:38.604 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 14:45:38.604 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 14:45:38.604 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 14:45:38.604 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 14:45:38.604 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 14:45:38.605 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 14:45:38.605 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 14:45:38.605 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 14:45:41.283 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 14:45:41.283 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 14:45:41.284 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 14:45:41.284 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 14:45:41.284 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 14:45:41.284 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 14:45:41.284 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 14:45:41.284 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 14:45:41.284 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 14:45:41.285 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 14:45:41.285 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 14:45:41.285 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 14:45:41.285 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 14:45:41.285 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 14:45:41.285 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 14:45:41.286 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 14:45:41.286 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 14:45:41.481 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 14:45:41.482 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 14:45:41.524 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 14:45:41.614 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 14:45:41.614 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 14:45:41.616 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 14:45:42.234 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation started...
+2023-12-01 14:45:42.236 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 14:45:42.237 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation Ended
+2023-12-01 14:45:42.237 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 14:45:42.237 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 14:45:42.238 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 14:45:42.560 [main] INFO  utils.ExecutionUtils - Load backup setting xml paths started
+2023-12-01 14:45:42.561 [main] INFO  utils.ExecutionUtils - Load backup settings paths completed
+2023-12-01 14:45:42.873 [main] INFO  utils.ExecutionUtils - Load XML paths started..
+2023-12-01 14:45:42.927 [main] INFO  utils.ExecutionUtils - Load XML paths Completed..
+2023-12-01 14:45:43.236 [main] INFO  utils.XML_Library - Upgrade check started...
+2023-12-01 14:45:43.236 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check started...
+2023-12-01 14:45:43.236 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 14:45:43.493 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 14:45:43.493 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 14:45:43.540 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 14:45:43.568 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check completed...
+2023-12-01 14:45:43.568 [main] INFO  utils.XML_Library - Upgrade check completed...
+2023-12-01 14:45:44.145 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 14:45:44.145 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 14:45:44.145 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 14:45:44.145 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 14:45:44.146 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 14:45:44.146 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 15:08:51.353 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 15:08:51.356 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 15:08:51.356 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 15:08:51.363 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 15:08:51.367 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 15:08:51.367 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 15:08:51.367 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 15:08:51.368 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 15:08:51.368 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 15:08:51.368 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 15:08:51.368 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 15:08:51.368 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 15:08:51.368 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 15:08:51.368 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 15:08:51.368 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 15:08:51.369 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 15:08:51.369 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 15:08:53.063 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 15:08:53.063 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 15:08:53.063 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 15:08:53.064 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 15:08:53.064 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 15:08:53.064 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 15:08:53.064 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 15:08:53.065 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 15:08:53.065 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 15:08:53.065 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 15:08:53.065 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 15:08:53.065 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 15:08:53.066 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 15:08:53.066 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 15:08:53.066 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 15:08:53.066 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 15:08:53.066 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 15:08:53.267 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 15:08:53.268 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 15:08:53.330 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 15:08:53.386 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 15:08:53.387 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 15:08:53.388 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 15:08:54.048 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation started...
+2023-12-01 15:08:54.050 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 15:08:54.051 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation Ended
+2023-12-01 15:08:54.051 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 15:08:54.051 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 15:08:54.052 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 15:08:54.367 [main] INFO  utils.ExecutionUtils - Load backup setting xml paths started
+2023-12-01 15:08:54.368 [main] INFO  utils.ExecutionUtils - Load backup settings paths completed
+2023-12-01 15:08:54.684 [main] INFO  utils.ExecutionUtils - Load XML paths started..
+2023-12-01 15:08:54.720 [main] INFO  utils.ExecutionUtils - Load XML paths Completed..
+2023-12-01 15:08:55.029 [main] INFO  utils.XML_Library - Offline Upgrade check started...
+2023-12-01 15:08:55.029 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check started...
+2023-12-01 15:08:55.030 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 15:08:55.255 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 15:08:55.255 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 15:08:55.282 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 15:08:55.303 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check completed...
+2023-12-01 15:08:55.303 [main] INFO  utils.XML_Library - Offline Upgrade check completed...
+2023-12-01 15:08:55.893 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 15:08:55.893 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 15:08:55.894 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 15:08:55.894 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 15:08:55.894 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 15:08:55.894 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 15:21:04.572 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 15:21:04.575 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 15:21:04.575 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 15:21:04.578 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 15:21:04.582 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 15:21:04.582 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 15:21:04.583 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 15:21:04.583 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 15:21:04.583 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 15:21:04.583 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 15:21:04.583 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 15:21:04.583 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 15:21:04.584 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 15:21:04.584 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 15:21:04.584 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 15:21:04.584 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 15:21:04.584 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 15:21:06.017 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 15:21:06.017 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 15:21:06.017 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 15:21:06.018 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 15:21:06.018 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 15:21:06.018 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 15:21:06.018 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 15:21:06.018 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 15:21:06.018 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 15:21:06.018 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 15:21:06.019 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 15:21:06.019 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 15:21:06.019 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 15:21:06.019 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 15:21:06.019 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 15:21:06.019 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 15:21:06.019 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 15:21:06.142 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 15:21:06.143 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 15:21:06.187 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 15:21:06.227 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 15:21:06.227 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 15:21:06.228 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 15:21:06.352 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation started...
+2023-12-01 15:21:06.354 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 15:21:06.354 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation Ended
+2023-12-01 15:21:06.354 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 15:21:06.354 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 15:21:06.355 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 15:21:06.676 [main] INFO  utils.ExecutionUtils - Load backup setting xml paths started
+2023-12-01 15:21:06.677 [main] INFO  utils.ExecutionUtils - Load backup settings paths completed
+2023-12-01 15:21:06.993 [main] INFO  utils.ExecutionUtils - Load XML paths started..
+2023-12-01 15:21:07.031 [main] INFO  utils.ExecutionUtils - Load XML paths Completed..
+2023-12-01 15:21:07.339 [main] INFO  utils.XML_Library - Offline Upgrade check started...
+2023-12-01 15:21:07.339 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check started...
+2023-12-01 15:21:07.341 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 15:21:07.557 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 15:21:07.557 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 15:21:07.593 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 15:21:07.616 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check completed...
+2023-12-01 15:21:07.617 [main] INFO  utils.XML_Library - Offline Upgrade check completed...
+2023-12-01 15:21:08.143 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 15:21:08.143 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 15:21:08.143 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 15:21:08.143 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 15:21:08.143 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 15:21:08.144 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 15:24:56.643 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 15:24:56.645 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 15:24:56.645 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 15:24:56.649 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 15:24:56.655 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 15:24:56.655 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 15:24:56.655 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 15:24:56.655 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 15:24:56.655 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 15:24:56.656 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 15:24:56.656 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 15:24:56.656 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 15:24:56.656 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 15:24:56.656 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 15:24:56.656 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 15:24:56.656 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 15:24:56.657 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 15:24:58.067 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 15:24:58.067 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 15:24:58.067 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 15:24:58.068 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 15:24:58.068 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 15:24:58.068 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 15:24:58.068 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 15:24:58.068 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 15:24:58.068 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 15:24:58.068 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 15:24:58.068 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 15:24:58.068 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 15:24:58.069 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 15:24:58.069 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 15:24:58.069 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 15:24:58.069 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 15:24:58.069 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 15:24:58.173 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 15:24:58.173 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 15:24:58.218 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 15:24:58.264 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 15:24:58.264 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 15:24:58.266 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 15:24:58.383 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation started...
+2023-12-01 15:24:58.386 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 15:24:58.386 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation Ended
+2023-12-01 15:24:58.386 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 15:24:58.386 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 15:24:58.387 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 15:24:58.696 [main] INFO  utils.ExecutionUtils - Load backup setting xml paths started
+2023-12-01 15:24:58.697 [main] INFO  utils.ExecutionUtils - Load backup settings paths completed
+2023-12-01 15:24:59.011 [main] INFO  utils.ExecutionUtils - Load XML paths started..
+2023-12-01 15:24:59.046 [main] INFO  utils.ExecutionUtils - Load XML paths Completed..
+2023-12-01 15:24:59.357 [main] INFO  utils.XML_Library - Offline Upgrade check started...
+2023-12-01 15:24:59.358 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check started...
+2023-12-01 15:24:59.358 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 15:24:59.526 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 15:24:59.526 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 15:24:59.559 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 15:24:59.576 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check completed...
+2023-12-01 15:24:59.576 [main] INFO  utils.XML_Library - Offline Upgrade check completed...
+2023-12-01 15:25:00.109 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 15:25:00.110 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 15:25:00.110 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 15:25:00.110 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 15:25:00.110 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 15:25:00.110 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 15:36:20.893 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 15:36:20.895 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 15:36:20.895 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 15:36:20.898 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 15:36:20.902 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 15:36:20.903 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 15:36:20.903 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 15:36:20.903 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 15:36:20.903 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 15:36:20.903 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 15:36:20.903 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 15:36:20.903 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 15:36:20.903 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 15:36:20.904 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 15:36:20.904 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 15:36:20.904 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 15:36:20.904 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 15:36:22.324 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 15:36:22.325 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 15:36:22.325 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 15:36:22.325 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 15:36:22.325 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 15:36:22.326 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 15:36:22.326 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 15:36:22.326 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 15:36:22.326 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 15:36:22.326 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 15:36:22.326 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 15:36:22.326 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 15:36:22.327 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 15:36:22.327 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 15:36:22.327 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 15:36:22.327 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 15:36:22.327 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 15:36:22.448 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 15:36:22.448 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 15:36:22.494 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 15:36:22.537 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 15:36:22.538 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 15:36:22.539 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 15:36:22.653 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation started...
+2023-12-01 15:36:22.655 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 15:36:22.655 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation Ended
+2023-12-01 15:36:22.655 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 15:36:22.655 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 15:36:22.656 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 15:36:22.974 [main] INFO  utils.ExecutionUtils - Load backup setting xml paths started
+2023-12-01 15:36:22.975 [main] INFO  utils.ExecutionUtils - Load backup settings paths completed
+2023-12-01 15:36:23.288 [main] INFO  utils.ExecutionUtils - Load XML paths started..
+2023-12-01 15:36:23.324 [main] INFO  utils.ExecutionUtils - Load XML paths Completed..
+2023-12-01 15:36:23.632 [main] INFO  utils.XML_Library - Offline Upgrade check started...
+2023-12-01 15:36:23.634 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check started...
+2023-12-01 15:36:23.634 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 15:36:23.800 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 15:36:23.800 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 15:36:23.825 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 15:36:23.849 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check completed...
+2023-12-01 15:36:23.849 [main] INFO  utils.XML_Library - Offline Upgrade check completed...
+2023-12-01 15:36:24.352 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 15:36:24.352 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 15:36:24.352 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 15:36:24.352 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 15:36:24.352 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 15:36:24.352 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 15:49:12.533 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 15:49:12.536 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 15:49:12.536 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 15:49:12.540 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 15:49:12.546 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 15:49:12.546 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 15:49:12.546 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 15:49:12.546 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 15:49:12.546 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 15:49:12.547 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 15:49:12.547 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 15:49:12.547 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 15:49:12.547 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 15:49:12.547 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 15:49:12.547 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 15:49:12.547 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 15:49:12.547 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 15:49:13.967 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 15:49:13.967 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 15:49:13.967 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 15:49:13.967 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 15:49:13.967 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 15:49:13.967 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 15:49:13.968 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 15:49:13.968 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 15:49:13.968 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 15:49:13.968 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 15:49:13.968 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 15:49:13.968 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 15:49:13.968 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 15:49:13.968 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 15:49:13.968 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 15:49:13.969 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 15:49:13.969 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 15:49:14.084 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 15:49:14.084 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 15:49:14.125 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 15:49:14.167 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 15:49:14.168 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 15:49:14.169 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 15:49:14.278 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation started...
+2023-12-01 15:49:14.280 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 15:49:14.280 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation Ended
+2023-12-01 15:49:14.280 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 15:49:14.280 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 15:49:14.280 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 15:49:14.597 [main] INFO  utils.ExecutionUtils - Load backup setting xml paths started
+2023-12-01 15:49:14.598 [main] INFO  utils.ExecutionUtils - Load backup settings paths completed
+2023-12-01 15:49:14.909 [main] INFO  utils.ExecutionUtils - Load XML paths started..
+2023-12-01 15:49:14.957 [main] INFO  utils.ExecutionUtils - Load XML paths Completed..
+2023-12-01 15:49:15.270 [main] INFO  utils.XML_Library - Offline Upgrade check started...
+2023-12-01 15:49:15.270 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check started...
+2023-12-01 15:49:15.270 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 15:49:15.468 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 15:49:15.468 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 15:49:15.510 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 15:49:15.528 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check completed...
+2023-12-01 15:49:15.528 [main] INFO  utils.XML_Library - Offline Upgrade check completed...
+2023-12-01 15:49:16.058 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 15:49:16.058 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 15:49:16.058 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 15:49:16.058 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 15:49:16.058 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 15:49:16.058 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 15:56:11.055 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 15:56:11.058 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 15:56:11.059 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 15:56:11.063 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 15:56:11.069 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 15:56:11.069 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 15:56:11.069 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 15:56:11.069 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 15:56:11.069 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 15:56:11.069 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 15:56:11.070 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 15:56:11.070 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 15:56:11.070 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 15:56:11.070 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 15:56:11.070 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 15:56:11.071 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 15:56:11.071 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 15:56:12.479 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 15:56:12.479 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 15:56:12.479 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 15:56:12.480 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 15:56:12.480 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 15:56:12.480 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 15:56:12.480 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 15:56:12.481 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 15:56:12.481 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 15:56:12.481 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 15:56:12.481 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 15:56:12.481 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 15:56:12.481 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 15:56:12.482 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 15:56:12.482 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 15:56:12.482 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 15:56:12.482 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 15:56:12.614 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 15:56:12.614 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 15:56:12.657 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 15:56:12.699 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 15:56:12.699 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 15:56:12.700 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 15:56:12.814 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation started...
+2023-12-01 15:56:12.816 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 15:56:12.816 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation Ended
+2023-12-01 15:56:12.816 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 15:56:12.816 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 15:56:12.817 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 15:56:13.133 [main] INFO  utils.ExecutionUtils - Load backup setting xml paths started
+2023-12-01 15:56:13.134 [main] INFO  utils.ExecutionUtils - Load backup settings paths completed
+2023-12-01 15:56:13.446 [main] INFO  utils.ExecutionUtils - Load XML paths started..
+2023-12-01 15:56:13.483 [main] INFO  utils.ExecutionUtils - Load XML paths Completed..
+2023-12-01 15:56:13.793 [main] INFO  utils.XML_Library - Offline Upgrade check started...
+2023-12-01 15:56:13.793 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check started...
+2023-12-01 15:56:13.794 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 15:56:13.993 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 15:56:13.994 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 15:56:14.026 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 15:56:14.047 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check completed...
+2023-12-01 15:56:14.047 [main] INFO  utils.XML_Library - Offline Upgrade check completed...
+2023-12-01 15:56:14.562 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 15:56:14.562 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 15:56:14.562 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 15:56:14.563 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 15:56:14.563 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 15:56:14.563 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 15:58:29.978 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 15:58:29.980 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 15:58:29.981 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 15:58:29.983 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 15:58:29.988 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 15:58:29.988 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 15:58:29.988 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 15:58:29.988 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 15:58:29.989 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 15:58:29.989 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 15:58:29.989 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 15:58:29.989 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 15:58:29.989 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 15:58:29.989 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 15:58:29.989 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 15:58:29.989 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 15:58:29.989 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 15:58:31.403 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 15:58:31.403 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 15:58:31.403 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 15:58:31.404 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 15:58:31.404 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 15:58:31.404 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 15:58:31.404 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 15:58:31.404 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 15:58:31.404 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 15:58:31.404 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 15:58:31.405 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 15:58:31.405 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 15:58:31.405 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 15:58:31.405 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 15:58:31.405 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 15:58:31.405 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 15:58:31.405 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 15:58:31.521 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 15:58:31.521 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 15:58:31.554 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 15:58:31.600 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 15:58:31.600 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 15:58:31.601 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 15:58:31.712 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation started...
+2023-12-01 15:58:31.714 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 15:58:31.714 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation Ended
+2023-12-01 15:58:31.714 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 15:58:31.714 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 15:58:31.715 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 15:58:32.023 [main] INFO  utils.ExecutionUtils - Load backup setting xml paths started
+2023-12-01 15:58:32.024 [main] INFO  utils.ExecutionUtils - Load backup settings paths completed
+2023-12-01 15:58:32.339 [main] INFO  utils.ExecutionUtils - Load XML paths started..
+2023-12-01 15:58:32.380 [main] INFO  utils.ExecutionUtils - Load XML paths Completed..
+2023-12-01 15:58:32.683 [main] INFO  utils.XML_Library - Offline Upgrade check started...
+2023-12-01 15:58:32.683 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check started...
+2023-12-01 15:58:32.684 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 15:58:32.883 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 15:58:32.883 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 15:58:32.911 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 15:58:32.929 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check completed...
+2023-12-01 15:58:32.929 [main] INFO  utils.XML_Library - NewCapturePreference -upgrade check started...
+2023-12-01 15:58:32.929 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 15:58:32.951 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 15:58:32.951 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 15:58:32.975 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 15:58:32.984 [main] INFO  utils.XML_Library - NewCapturePreference -upgrade check completed...
+2023-12-01 15:58:32.984 [main] INFO  utils.XML_Library - Offline Upgrade check completed...
+2023-12-01 15:58:33.504 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 15:58:33.505 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 15:58:33.505 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 15:58:33.505 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 15:58:33.505 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 15:58:33.505 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 16:57:00.619 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 16:57:00.626 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 16:57:00.626 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 16:57:00.634 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 16:57:00.647 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 16:57:00.647 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 16:57:00.647 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 16:57:00.648 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 16:57:00.648 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 16:57:00.648 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 16:57:00.648 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 16:57:00.649 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 16:57:00.649 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 16:57:00.649 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 16:57:00.649 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 16:57:00.650 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 16:57:00.650 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 16:57:02.227 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 16:57:02.227 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 16:57:02.227 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 16:57:02.228 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 16:57:02.228 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 16:57:02.228 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 16:57:02.229 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 16:57:02.229 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 16:57:02.229 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 16:57:02.229 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 16:57:02.229 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 16:57:02.229 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 16:57:02.229 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 16:57:02.229 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 16:57:02.230 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 16:57:02.230 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 16:57:02.230 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 16:57:02.382 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 16:57:02.383 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 16:57:02.430 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 16:57:02.504 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 16:57:02.505 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 16:57:02.506 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 16:57:02.657 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation started...
+2023-12-01 16:57:02.660 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 16:57:02.660 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation Ended
+2023-12-01 16:57:02.661 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 16:57:02.661 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 16:57:02.661 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 16:57:02.972 [main] INFO  utils.ExecutionUtils - Load backup setting xml paths started
+2023-12-01 16:57:02.974 [main] INFO  utils.ExecutionUtils - Load backup settings paths completed
+2023-12-01 16:57:03.290 [main] INFO  utils.ExecutionUtils - Load XML paths started..
+2023-12-01 16:57:03.337 [main] INFO  utils.ExecutionUtils - Load XML paths Completed..
+2023-12-01 16:57:03.651 [main] INFO  utils.XML_Library - Offline Upgrade check started...
+2023-12-01 16:57:03.652 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check started...
+2023-12-01 16:57:03.652 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 16:57:03.900 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 16:57:03.900 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 16:57:03.958 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 16:57:03.988 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check completed...
+2023-12-01 16:57:03.988 [main] INFO  utils.XML_Library - NewCapturePreference -upgrade check started...
+2023-12-01 16:57:03.988 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 16:57:04.019 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 16:57:04.019 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 16:57:04.046 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 16:57:04.058 [main] INFO  utils.XML_Library - NewCapturePreference -upgrade check completed...
+2023-12-01 16:57:04.058 [main] INFO  utils.XML_Library - AutoSecurityKeys -upgrade check started...
+2023-12-01 16:57:04.059 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/AutoSecurityKeys.xsl
+2023-12-01 16:57:04.079 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/AutoSecurityKeys.xsl
+2023-12-01 16:57:04.079 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/AutoSecurityKeys.xsl
+2023-12-01 16:57:04.103 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/AutoSecurityKeys.xsl
+2023-12-01 16:57:04.112 [main] INFO  utils.XML_Library - AutoSecurityKeys -upgrade check completed...
+2023-12-01 16:57:04.112 [main] INFO  utils.XML_Library - epiSimDoc -upgrade check started...
+2023-12-01 16:57:04.112 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/epiSimDoc.xsl
+2023-12-01 16:57:04.177 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/epiSimDoc.xsl
+2023-12-01 16:57:04.177 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/epiSimDoc.xsl
+2023-12-01 16:57:04.220 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/epiSimDoc.xsl
+2023-12-01 16:57:04.233 [main] INFO  utils.XML_Library - epiSimDoc -upgrade check completed...
+2023-12-01 16:57:04.233 [main] INFO  utils.XML_Library - epiSimDoc -upgrade check started...
+2023-12-01 16:57:04.233 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/epiSimDoc.xsl
+2023-12-01 16:57:04.284 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/epiSimDoc.xsl
+2023-12-01 16:57:04.284 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/epiSimDoc.xsl
+2023-12-01 16:57:04.313 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/epiSimDoc.xsl
+2023-12-01 16:57:04.318 [main] INFO  utils.XML_Library - epiSimDoc -upgrade check completed...
+2023-12-01 16:57:04.319 [main] INFO  utils.XML_Library - Offline Upgrade check completed...
+2023-12-01 16:57:04.960 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 16:57:04.960 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 16:57:04.960 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 16:57:04.961 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 16:57:04.961 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 16:57:04.961 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 16:58:31.265 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 16:58:31.271 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 16:58:31.271 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 16:58:31.279 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 16:58:31.310 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 16:58:31.310 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 16:58:31.311 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 16:58:31.311 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 16:58:31.311 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 16:58:31.312 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 16:58:31.312 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 16:58:31.313 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 16:58:31.313 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 16:58:31.313 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 16:58:31.313 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 16:58:31.314 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 16:58:31.314 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 16:58:32.834 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 16:58:32.834 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 16:58:32.835 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 16:58:32.835 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 16:58:32.835 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 16:58:32.835 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 16:58:32.835 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 16:58:32.836 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 16:58:32.836 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 16:58:32.836 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 16:58:32.836 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 16:58:32.836 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 16:58:32.836 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 16:58:32.836 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 16:58:32.836 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 16:58:32.837 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 16:58:32.837 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 16:58:33.013 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 16:58:33.014 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 16:58:33.055 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 16:58:33.106 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 16:58:33.106 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 16:58:33.108 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 16:58:33.246 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation started...
+2023-12-01 16:58:33.248 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 16:58:33.248 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation Ended
+2023-12-01 16:58:33.249 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 16:58:33.249 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 16:58:33.249 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 16:58:33.573 [main] INFO  utils.ExecutionUtils - Load backup setting xml paths started
+2023-12-01 16:58:33.577 [main] INFO  utils.ExecutionUtils - Load backup settings paths completed
+2023-12-01 16:58:33.885 [main] INFO  utils.ExecutionUtils - Load XML paths started..
+2023-12-01 16:58:33.969 [main] INFO  utils.ExecutionUtils - Load XML paths Completed..
+2023-12-01 16:58:34.279 [main] INFO  utils.XML_Library - Offline Upgrade check started...
+2023-12-01 16:58:34.280 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check started...
+2023-12-01 16:58:34.280 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 16:58:34.504 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 16:58:34.504 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 16:58:34.541 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 16:58:34.566 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check completed...
+2023-12-01 16:58:34.566 [main] INFO  utils.XML_Library - NewCapturePreference -upgrade check started...
+2023-12-01 16:58:34.566 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 16:58:34.595 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 16:58:34.595 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 16:58:34.640 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 16:58:34.660 [main] INFO  utils.XML_Library - NewCapturePreference -upgrade check completed...
+2023-12-01 16:58:34.660 [main] INFO  utils.XML_Library - AutoSecurityKeys -upgrade check started...
+2023-12-01 16:58:34.661 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/AutoSecurityKeys.xsl
+2023-12-01 16:58:34.686 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/AutoSecurityKeys.xsl
+2023-12-01 16:58:34.686 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/AutoSecurityKeys.xsl
+2023-12-01 16:58:34.721 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/AutoSecurityKeys.xsl
+2023-12-01 16:58:34.734 [main] INFO  utils.XML_Library - AutoSecurityKeys -upgrade check completed...
+2023-12-01 16:58:34.735 [main] INFO  utils.XML_Library - epiSimDoc -upgrade check started...
+2023-12-01 16:58:34.735 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/epiSimDoc.xsl
+2023-12-01 16:58:34.769 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/epiSimDoc.xsl
+2023-12-01 16:58:34.769 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/epiSimDoc.xsl
+2023-12-01 16:58:34.817 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/epiSimDoc.xsl
+2023-12-01 16:58:34.830 [main] INFO  utils.XML_Library - epiSimDoc -upgrade check completed...
+2023-12-01 16:58:34.830 [main] INFO  utils.XML_Library - epiSimDoc -upgrade check started...
+2023-12-01 16:58:34.830 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/epiSimDoc.xsl
+2023-12-01 16:58:34.858 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/epiSimDoc.xsl
+2023-12-01 16:58:34.858 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/epiSimDoc.xsl
+2023-12-01 16:58:34.889 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/epiSimDoc.xsl
+2023-12-01 16:58:34.895 [main] INFO  utils.XML_Library - epiSimDoc -upgrade check completed...
+2023-12-01 16:58:34.896 [main] INFO  utils.XML_Library - Offline Upgrade check completed...
+2023-12-01 16:58:35.519 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 16:58:35.519 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 16:58:35.519 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 16:58:35.519 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 16:58:35.520 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 16:58:35.520 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 16:59:55.160 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 16:59:55.170 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 16:59:55.170 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 16:59:55.180 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 16:59:55.210 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 16:59:55.211 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 16:59:55.211 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 16:59:55.212 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 16:59:55.213 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 16:59:55.213 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 16:59:55.213 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 16:59:55.213 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 16:59:55.214 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 16:59:55.214 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 16:59:55.214 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 16:59:55.214 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 16:59:55.214 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 16:59:56.811 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 16:59:56.811 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 16:59:56.811 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 16:59:56.811 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 16:59:56.812 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 16:59:56.812 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 16:59:56.812 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 16:59:56.812 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 16:59:56.812 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 16:59:56.812 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 16:59:56.813 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 16:59:56.813 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 16:59:56.813 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 16:59:56.813 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 16:59:56.813 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 16:59:56.814 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 16:59:56.814 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 16:59:56.965 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 16:59:56.965 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 16:59:57.011 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 16:59:57.086 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 16:59:57.086 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 16:59:57.087 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 16:59:57.238 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation started...
+2023-12-01 16:59:57.241 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 16:59:57.241 [main] INFO  utils.ExecutionUtils - newNode Sheet Step validation Ended
+2023-12-01 16:59:57.241 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 16:59:57.242 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 16:59:57.242 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 16:59:57.559 [main] INFO  utils.ExecutionUtils - Load backup setting xml paths started
+2023-12-01 16:59:57.563 [main] INFO  utils.ExecutionUtils - Load backup settings paths completed
+2023-12-01 16:59:57.873 [main] INFO  utils.ExecutionUtils - Load XML paths started..
+2023-12-01 16:59:57.915 [main] INFO  utils.ExecutionUtils - Load XML paths Completed..
+2023-12-01 16:59:58.216 [main] INFO  utils.XML_Library - Offline Upgrade check started...
+2023-12-01 16:59:58.217 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check started...
+2023-12-01 16:59:58.217 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 16:59:58.450 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 16:59:58.451 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 16:59:58.491 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 16:59:58.510 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check completed...
+2023-12-01 16:59:58.510 [main] INFO  utils.XML_Library - NewCapturePreference -upgrade check started...
+2023-12-01 16:59:58.510 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 16:59:58.545 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 16:59:58.545 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 16:59:58.568 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 16:59:58.579 [main] INFO  utils.XML_Library - NewCapturePreference -upgrade check completed...
+2023-12-01 16:59:58.579 [main] INFO  utils.XML_Library - AutoSecurityKeys -upgrade check started...
+2023-12-01 16:59:58.579 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/AutoSecurityKeys.xsl
+2023-12-01 16:59:58.629 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/AutoSecurityKeys.xsl
+2023-12-01 16:59:58.629 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/AutoSecurityKeys.xsl
+2023-12-01 16:59:58.660 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/AutoSecurityKeys.xsl
+2023-12-01 16:59:58.688 [main] INFO  utils.XML_Library - AutoSecurityKeys -upgrade check completed...
+2023-12-01 16:59:58.689 [main] INFO  utils.XML_Library - epiSimDoc -upgrade check started...
+2023-12-01 16:59:58.689 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/epiSimDoc.xsl
+2023-12-01 16:59:58.784 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/epiSimDoc.xsl
+2023-12-01 16:59:58.784 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/epiSimDoc.xsl
+2023-12-01 16:59:58.825 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/epiSimDoc.xsl
+2023-12-01 16:59:58.839 [main] INFO  utils.XML_Library - epiSimDoc -upgrade check completed...
+2023-12-01 16:59:58.839 [main] INFO  utils.XML_Library - epiSimDoc -upgrade check started...
+2023-12-01 16:59:58.839 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/epiSimDoc.xsl
+2023-12-01 16:59:58.867 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/epiSimDoc.xsl
+2023-12-01 16:59:58.867 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/epiSimDoc.xsl
+2023-12-01 16:59:58.907 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/epiSimDoc.xsl
+2023-12-01 16:59:58.919 [main] INFO  utils.XML_Library - epiSimDoc -upgrade check completed...
+2023-12-01 16:59:58.920 [main] INFO  utils.XML_Library - Offline Upgrade check completed...
+2023-12-01 16:59:59.519 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 16:59:59.519 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 16:59:59.519 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 16:59:59.520 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 16:59:59.520 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 16:59:59.520 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 17:16:35.101 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 17:16:35.107 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:16:35.108 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:16:35.114 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:16:35.133 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:16:35.133 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:16:35.134 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:16:35.134 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:16:35.134 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:16:35.134 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:16:35.134 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:16:35.134 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:16:35.135 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:16:35.135 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:16:35.135 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:16:35.135 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:16:35.135 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 17:16:36.772 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 17:16:36.773 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:16:36.773 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:16:36.773 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:16:36.773 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:16:36.774 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:16:36.774 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:16:36.774 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:16:36.774 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:16:36.774 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:16:36.774 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:16:36.774 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:16:36.774 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:16:36.774 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:16:36.775 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:16:36.775 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:16:36.775 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 17:16:36.985 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 17:16:36.985 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 17:16:37.090 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 17:16:37.150 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 17:16:37.150 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 17:16:37.152 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 17:16:37.313 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation started...
+2023-12-01 17:16:37.321 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 17:16:37.321 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation Ended
+2023-12-01 17:16:37.321 [main] ERROR utils.ExecutionUtils - Excel D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls- Sheet NewNodeCheck - Has issue
+2023-12-01 17:16:37.322 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 17:16:37.322 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 17:17:03.290 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 17:17:03.301 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:17:03.301 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:17:03.310 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:17:03.311 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:17:03.311 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:17:03.311 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:17:03.312 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:17:03.312 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:17:03.312 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:17:03.313 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:17:03.313 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:17:03.313 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:17:03.313 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:17:03.314 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:17:03.314 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:17:03.314 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 17:17:04.932 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 17:17:04.932 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:17:04.932 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:17:04.933 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:17:04.933 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:17:04.933 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:17:04.933 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:17:04.933 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:17:04.933 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:17:04.934 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:17:04.934 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:17:04.934 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:17:04.934 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:17:04.934 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:17:04.934 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:17:04.935 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:17:04.935 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 17:17:05.117 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 17:17:05.117 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 17:17:05.204 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 17:17:05.271 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 17:17:05.271 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 17:17:05.272 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 17:17:05.500 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation started...
+2023-12-01 17:17:05.510 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 17:17:05.511 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation Ended
+2023-12-01 17:17:05.511 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 17:17:05.511 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 17:17:05.512 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 17:17:08.322 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 17:17:08.323 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 17:17:08.323 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 17:17:08.323 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 17:17:08.323 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 17:17:08.323 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 17:18:51.682 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 17:18:51.692 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:18:51.693 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:18:51.705 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:18:51.706 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:18:51.707 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:18:51.707 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:18:51.708 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:18:51.709 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:18:51.709 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:18:51.710 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:18:51.710 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:18:51.711 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:18:51.711 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:18:51.712 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:18:51.713 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:18:51.713 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 17:18:53.366 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 17:18:53.366 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:18:53.366 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:18:53.367 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:18:53.367 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:18:53.367 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:18:53.367 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:18:53.368 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:18:53.368 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:18:53.368 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:18:53.368 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:18:53.368 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:18:53.369 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:18:53.369 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:18:53.369 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:18:53.369 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:18:53.369 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 17:18:53.554 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 17:18:53.555 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 17:18:53.596 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 17:18:53.682 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 17:18:53.683 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 17:18:53.685 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 17:18:53.879 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation started...
+2023-12-01 17:18:53.890 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 17:18:53.890 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation Ended
+2023-12-01 17:18:53.890 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 17:18:53.891 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 17:18:53.892 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 17:18:56.387 [main] INFO  utils.XML_Library - New node check started...
+2023-12-01 17:18:57.003 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 17:18:57.005 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 17:18:57.006 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 17:18:57.007 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 17:18:57.008 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 17:18:57.008 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 17:21:33.595 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 17:21:33.598 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:21:33.598 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:21:33.601 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:21:33.603 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:21:33.603 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:21:33.603 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:21:33.603 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:21:33.603 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:21:33.603 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:21:33.603 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:21:33.604 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:21:33.604 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:21:33.604 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:21:33.604 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:21:33.604 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:21:33.604 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 17:21:35.352 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 17:21:35.352 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:21:35.353 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:21:35.353 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:21:35.354 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:21:35.354 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:21:35.354 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:21:35.354 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:21:35.354 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:21:35.355 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:21:35.355 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:21:35.355 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:21:35.355 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:21:35.355 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:21:35.355 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:21:35.356 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:21:35.356 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 17:21:35.593 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 17:21:35.593 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 17:21:35.665 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 17:21:35.743 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 17:21:35.744 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 17:21:35.747 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 17:21:35.960 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation started...
+2023-12-01 17:21:35.970 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 17:21:35.971 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation Ended
+2023-12-01 17:21:35.971 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 17:21:35.971 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 17:21:35.972 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 17:21:38.439 [main] INFO  utils.XML_Library - New node check started...
+2023-12-01 17:21:39.135 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 17:21:39.136 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 17:21:39.137 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 17:21:39.138 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 17:21:39.138 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 17:21:39.138 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 17:26:22.285 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 17:26:22.296 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:26:22.297 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:26:22.306 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:26:22.307 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:26:22.307 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:26:22.307 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:26:22.308 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:26:22.308 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:26:22.308 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:26:22.308 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:26:22.309 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:26:22.309 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:26:22.309 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:26:22.309 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:26:22.310 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:26:22.310 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 17:26:24.012 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 17:26:24.013 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:26:24.014 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:26:24.015 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:26:24.016 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:26:24.017 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:26:24.017 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:26:24.018 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:26:24.019 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:26:24.019 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:26:24.020 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:26:24.021 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:26:24.022 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:26:24.022 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:26:24.023 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:26:24.023 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:26:24.024 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 17:26:24.238 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 17:26:24.238 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 17:26:24.336 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 17:26:24.387 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 17:26:24.388 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 17:26:24.389 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 17:26:24.621 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation started...
+2023-12-01 17:26:24.626 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 17:26:24.627 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation Ended
+2023-12-01 17:26:24.628 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 17:26:24.628 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 17:26:24.628 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 17:26:25.464 [main] INFO  utils.XML_Library - New node check started...
+2023-12-01 17:26:25.465 [main] INFO  utils.XML_Library - C:\ProgramData\Settings\Common\NewCapturePreference.xml
+2023-12-01 17:26:26.153 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 17:26:26.154 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 17:26:26.154 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 17:26:26.154 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 17:26:26.155 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 17:26:26.155 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 17:30:38.360 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 17:30:38.366 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:30:38.366 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:30:38.378 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:30:38.378 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:30:38.379 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:30:38.379 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:30:38.379 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:30:38.379 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:30:38.379 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:30:38.379 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:30:38.379 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:30:38.379 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:30:38.379 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:30:38.379 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:30:38.381 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:30:38.381 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 17:30:40.118 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 17:30:40.118 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:30:40.119 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:30:40.119 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:30:40.119 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:30:40.120 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:30:40.120 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:30:40.120 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:30:40.120 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:30:40.121 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:30:40.121 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:30:40.121 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:30:40.121 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:30:40.121 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:30:40.121 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:30:40.121 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:30:40.122 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 17:30:40.370 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 17:30:40.371 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 17:30:40.491 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 17:30:40.555 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 17:30:40.555 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 17:30:40.557 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 17:30:40.765 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation started...
+2023-12-01 17:30:40.773 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 17:30:40.774 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation Ended
+2023-12-01 17:30:40.774 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 17:30:40.774 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 17:30:40.775 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 17:30:41.420 [main] INFO  utils.XML_Library - New node check started...
+2023-12-01 17:30:41.420 [main] INFO  utils.XML_Library - C:\ProgramData\Epiplex500\Settings\Common\NewCapturePreference.xml
+2023-12-01 17:30:41.452 [main] ERROR utils.XML_Library - Node is not exist
+2023-12-01 17:30:42.170 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 17:30:42.171 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 17:30:42.172 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 17:30:42.172 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 17:30:42.172 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 17:30:42.173 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 17:41:54.969 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 17:41:54.972 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:41:54.972 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:41:54.975 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:41:54.975 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:41:54.975 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:41:54.975 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:41:54.975 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:41:54.975 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:41:54.975 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:41:54.975 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:41:54.976 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:41:54.976 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:41:54.976 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:41:54.976 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:41:54.976 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:41:54.976 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 17:41:56.410 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 17:41:56.410 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:41:56.410 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:41:56.410 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:41:56.410 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:41:56.411 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:41:56.411 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:41:56.411 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:41:56.411 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:41:56.411 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:41:56.411 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:41:56.411 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:41:56.411 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:41:56.411 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:41:56.411 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:41:56.412 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:41:56.412 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 17:41:56.543 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 17:41:56.543 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 17:41:56.576 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 17:41:56.626 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 17:41:56.627 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 17:41:56.628 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 17:41:56.748 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation started...
+2023-12-01 17:41:56.752 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 17:41:56.752 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation Ended
+2023-12-01 17:41:56.752 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 17:41:56.752 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 17:41:56.753 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 17:41:57.395 [main] INFO  utils.XML_Library - New node check started...
+2023-12-01 17:41:57.395 [main] INFO  utils.XML_Library - C:\ProgramData\Epiplex500\Settings\Common\NewCapturePreference.xml
+2023-12-01 17:41:57.415 [main] ERROR utils.XML_Library - Node is not exist or node have duplicates
+2023-12-01 17:41:57.924 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 17:41:57.925 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 17:41:57.925 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 17:41:57.925 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 17:41:57.925 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 17:41:57.925 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 17:44:43.761 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 17:44:43.765 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:44:43.765 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:44:43.769 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:44:43.769 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:44:43.770 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:44:43.770 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:44:43.770 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:44:43.770 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:44:43.770 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:44:43.770 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:44:43.771 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:44:43.771 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:44:43.771 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:44:43.771 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:44:43.772 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:44:43.772 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 17:44:45.179 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 17:44:45.179 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:44:45.179 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:44:45.179 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:44:45.180 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:44:45.180 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:44:45.180 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:44:45.180 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:44:45.180 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:44:45.181 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:44:45.181 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:44:45.181 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:44:45.181 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:44:45.181 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:44:45.181 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:44:45.181 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:44:45.182 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 17:44:45.291 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 17:44:45.291 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 17:44:45.333 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 17:44:45.378 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 17:44:45.379 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 17:44:45.380 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 17:44:45.483 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation started...
+2023-12-01 17:44:45.487 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 17:44:45.488 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation Ended
+2023-12-01 17:44:45.488 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 17:44:45.488 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 17:44:45.488 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 17:44:47.886 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 17:44:47.887 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 17:44:47.887 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 17:44:47.887 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 17:44:47.887 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 17:44:47.887 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 17:47:32.675 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 17:47:32.683 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:47:32.683 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:47:32.689 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:47:32.689 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:47:32.690 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:47:32.690 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:47:32.691 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:47:32.691 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:47:32.691 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:47:32.692 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:47:32.692 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:47:32.692 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:47:32.692 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:47:32.693 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:47:32.693 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:47:32.693 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 17:47:34.082 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 17:47:34.083 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:47:34.083 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:47:34.083 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:47:34.083 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:47:34.083 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:47:34.084 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:47:34.084 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:47:34.084 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:47:34.084 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:47:34.084 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:47:34.084 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:47:34.084 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:47:34.084 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:47:34.085 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:47:34.085 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:47:34.085 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 17:47:34.205 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 17:47:34.205 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 17:47:34.234 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 17:47:34.272 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 17:47:34.272 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 17:47:34.274 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 17:47:34.392 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation started...
+2023-12-01 17:47:34.397 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 17:47:34.397 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation Ended
+2023-12-01 17:47:34.397 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 17:47:34.397 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 17:47:34.398 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 17:47:37.155 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 17:47:37.156 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 17:47:37.156 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 17:47:37.156 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 17:47:37.156 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 17:47:37.157 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 17:54:17.113 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 17:54:17.120 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:54:17.121 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:54:17.127 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:54:17.127 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:54:17.127 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:54:17.128 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:54:17.128 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:54:17.128 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:54:17.128 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:54:17.129 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:54:17.129 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:54:17.129 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:54:17.129 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:54:17.130 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:54:17.130 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:54:17.130 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 17:54:18.574 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 17:54:18.574 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:54:18.574 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:54:18.574 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:54:18.575 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:54:18.575 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:54:18.575 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:54:18.575 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:54:18.575 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:54:18.575 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:54:18.575 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:54:18.575 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:54:18.575 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:54:18.575 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:54:18.576 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:54:18.576 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:54:18.576 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 17:54:18.679 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 17:54:18.680 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 17:54:18.714 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 17:54:18.761 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 17:54:18.761 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 17:54:18.763 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 17:54:18.870 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation started...
+2023-12-01 17:54:18.876 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 17:54:18.876 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation Ended
+2023-12-01 17:54:18.876 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 17:54:18.876 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 17:54:18.877 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 17:54:23.398 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 17:54:23.398 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 17:54:23.399 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 17:54:23.399 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 17:54:23.399 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 17:54:23.399 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 17:54:57.722 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 17:54:57.729 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:54:57.730 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:54:57.738 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:54:57.740 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:54:57.740 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:54:57.740 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:54:57.740 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:54:57.740 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:54:57.740 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:54:57.740 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:54:57.741 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:54:57.741 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:54:57.741 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:54:57.741 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:54:57.741 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:54:57.741 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 17:54:59.140 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 17:54:59.140 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:54:59.141 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:54:59.141 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:54:59.141 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:54:59.141 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:54:59.141 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:54:59.141 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:54:59.142 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:54:59.142 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:54:59.142 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:54:59.142 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:54:59.143 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:54:59.143 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:54:59.143 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:54:59.143 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:54:59.143 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 17:54:59.258 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 17:54:59.258 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 17:54:59.293 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 17:54:59.331 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 17:54:59.332 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 17:54:59.333 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 17:54:59.441 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation started...
+2023-12-01 17:54:59.447 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 17:54:59.447 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation Ended
+2023-12-01 17:54:59.448 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 17:54:59.448 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 17:54:59.448 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 17:55:03.897 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 17:55:03.898 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 17:55:03.898 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 17:55:03.898 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 17:55:03.898 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 17:55:03.899 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 17:55:38.109 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 17:55:38.113 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:55:38.113 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:55:38.119 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:55:38.120 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:55:38.120 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:55:38.120 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:55:38.120 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:55:38.120 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:55:38.120 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:55:38.121 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:55:38.121 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:55:38.121 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:55:38.121 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:55:38.121 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:55:38.121 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:55:38.121 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 17:55:39.526 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 17:55:39.527 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:55:39.527 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:55:39.527 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:55:39.527 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:55:39.527 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:55:39.527 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:55:39.528 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:55:39.528 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:55:39.528 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:55:39.528 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:55:39.528 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:55:39.528 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:55:39.528 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:55:39.528 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:55:39.528 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:55:39.528 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 17:55:39.653 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 17:55:39.653 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 17:55:39.689 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 17:55:39.729 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 17:55:39.729 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 17:55:39.730 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 17:55:39.838 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation started...
+2023-12-01 17:55:39.843 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 17:55:39.843 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation Ended
+2023-12-01 17:55:39.843 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 17:55:39.844 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 17:55:39.844 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 17:55:44.256 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 17:55:44.256 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 17:55:44.256 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 17:55:44.257 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 17:55:44.257 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 17:55:44.257 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 17:57:56.498 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 17:57:56.504 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:57:56.504 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:57:56.514 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:57:56.515 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:57:56.515 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:57:56.515 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:57:56.516 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:57:56.516 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:57:56.516 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:57:56.516 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:57:56.517 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:57:56.517 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:57:56.517 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:57:56.518 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:57:56.518 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:57:56.518 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 17:57:58.037 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 17:57:58.037 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 17:57:58.037 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 17:57:58.038 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 17:57:58.038 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 17:57:58.038 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 17:57:58.038 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 17:57:58.038 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 17:57:58.038 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 17:57:58.039 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 17:57:58.039 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 17:57:58.039 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 17:57:58.039 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 17:57:58.039 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 17:57:58.039 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 17:57:58.039 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 17:57:58.039 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 17:57:58.212 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 17:57:58.212 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 17:57:58.263 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 17:57:58.314 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 17:57:58.315 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 17:57:58.316 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 17:57:58.468 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation started...
+2023-12-01 17:57:58.476 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 17:57:58.476 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation Ended
+2023-12-01 17:57:58.476 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 17:57:58.476 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 17:57:58.476 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 17:58:02.578 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 17:58:02.578 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 17:58:02.579 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 17:58:02.579 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 17:58:02.579 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 17:58:02.579 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 18:05:48.390 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 18:05:48.397 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 18:05:48.398 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 18:05:48.405 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 18:05:48.406 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 18:05:48.407 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 18:05:48.407 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 18:05:48.408 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 18:05:48.408 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 18:05:48.408 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 18:05:48.409 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 18:05:48.409 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 18:05:48.410 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 18:05:48.410 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 18:05:48.411 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 18:05:48.411 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 18:05:48.412 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 18:05:50.301 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 18:05:50.301 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 18:05:50.301 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 18:05:50.302 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 18:05:50.302 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 18:05:50.303 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 18:05:50.303 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 18:05:50.303 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 18:05:50.303 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 18:05:50.304 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 18:05:50.304 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 18:05:50.304 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 18:05:50.304 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 18:05:50.305 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 18:05:50.305 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 18:05:50.305 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 18:05:50.305 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 18:05:50.552 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 18:05:50.552 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 18:05:50.641 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 18:05:50.706 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 18:05:50.706 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 18:05:50.708 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 18:05:50.888 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation started...
+2023-12-01 18:05:50.895 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 18:05:50.895 [main] INFO  utils.ExecutionUtils - NewNodeCheck Sheet Step validation Ended
+2023-12-01 18:05:50.895 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 18:05:50.896 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 18:05:50.896 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 18:05:55.782 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 18:05:55.783 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 18:05:55.783 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 18:05:55.783 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 18:05:55.783 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 18:05:55.783 [main] INFO  actions.TestcaseExecutor - Close all Application completed.
+2023-12-01 18:07:32.316 [main] INFO  actions.TestcaseExecutor - createProjectSetup started...
+2023-12-01 18:07:32.327 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 18:07:32.328 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 18:07:32.340 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 18:07:32.340 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 18:07:32.340 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 18:07:32.341 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 18:07:32.341 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 18:07:32.341 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 18:07:32.341 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 18:07:32.342 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 18:07:32.342 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 18:07:32.342 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 18:07:32.342 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 18:07:32.343 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 18:07:32.343 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 18:07:32.343 [main] INFO  utils.ExecutionUtils - loadSettings started
+2023-12-01 18:07:34.678 [main] INFO  utils.ExecutionUtils - loadSettings completed
+2023-12-01 18:07:34.678 [main] INFO  utils.ProjectConfiguration - Logs Folder Already exists...!
+2023-12-01 18:07:34.678 [main] INFO  utils.ProjectConfiguration - CleanFolders Started
+2023-12-01 18:07:34.679 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Cleaned Successfully
+2023-12-01 18:07:34.679 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Cleaned Successfully
+2023-12-01 18:07:34.679 [main] INFO  utils.ProjectConfiguration - CleanFolders Completed
+2023-12-01 18:07:34.680 [main] INFO  utils.ProjectConfiguration - Folders Creation Started
+2023-12-01 18:07:34.680 [main] INFO  utils.ProjectConfiguration - Report Folder Already exists...!
+2023-12-01 18:07:34.680 [main] INFO  utils.ProjectConfiguration - Capture Images Folder Already exists...!
+2023-12-01 18:07:34.680 [main] INFO  utils.ProjectConfiguration - Screenshots Folder Already exists...!
+2023-12-01 18:07:34.680 [main] INFO  utils.ProjectConfiguration - Sikuli-Images Folder Already exists...!
+2023-12-01 18:07:34.709 [main] INFO  utils.ProjectConfiguration - ExcelHolder Folder Already exists...!
+2023-12-01 18:07:34.710 [main] INFO  utils.ProjectConfiguration - TransformedGPS Folder Already exists...!
+2023-12-01 18:07:34.711 [main] INFO  utils.ProjectConfiguration - Base-Files Folder Already exists...!
+2023-12-01 18:07:34.711 [main] INFO  utils.ProjectConfiguration - config Folder Already exists...!
+2023-12-01 18:07:34.712 [main] INFO  utils.ProjectConfiguration - Folders Creation Completed
+2023-12-01 18:07:34.712 [main] INFO  utils.ProjectConfiguration - Report Setup Started
+2023-12-01 18:07:35.050 [main] INFO  utils.ProjectConfiguration - Report Setup Completed
+2023-12-01 18:07:35.050 [main] INFO  utils.ExecutionUtils - Get execution sheets started
+2023-12-01 18:07:35.188 [main] INFO  utils.ExecutionUtils - Get execution sheets completed
+2023-12-01 18:07:35.438 [main] INFO  actions.TestcaseExecutor - createProjectSetup completed.
+2023-12-01 18:07:35.439 [main] INFO  actions.TestcaseExecutor - loadMethods started...
+2023-12-01 18:07:35.443 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File check started...
+2023-12-01 18:07:35.752 [main] INFO  utils.ExecutionUtils - upgrade Sheet Step validation started...
+2023-12-01 18:07:35.762 [main] ERROR utils.ExcelLibrary - Exception in writeWorkbook :- D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls (The process cannot access the file because it is being used by another process)
+2023-12-01 18:07:35.763 [main] INFO  utils.ExecutionUtils - upgrade Sheet Step validation Ended
+2023-12-01 18:07:35.763 [main] INFO  utils.ExecutionUtils - D:\Selenium Workspace\Framework\Automation-Framework\NewTestcases\Upgrade.xls Excel File Check ended
+2023-12-01 18:07:35.764 [main] INFO  actions.TestcaseExecutor - loadMethods completed.
+2023-12-01 18:07:35.766 [main] INFO  actions.TestcaseExecutor - startExecution started...
+2023-12-01 18:07:36.101 [main] INFO  utils.ExecutionUtils - Load backup setting xml paths started
+2023-12-01 18:07:36.111 [main] INFO  utils.ExecutionUtils - Load backup settings paths completed
+2023-12-01 18:07:36.414 [main] INFO  utils.ExecutionUtils - Load XML paths started..
+2023-12-01 18:07:36.591 [main] INFO  utils.ExecutionUtils - Load XML paths Completed..
+2023-12-01 18:07:36.896 [main] INFO  utils.XML_Library - Offline Upgrade check started...
+2023-12-01 18:07:36.899 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check started...
+2023-12-01 18:07:36.900 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 18:07:37.380 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 18:07:37.380 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 18:07:37.450 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 18:07:37.496 [main] INFO  utils.XML_Library - NewCapturePrefernce -upgrade check completed...
+2023-12-01 18:07:37.496 [main] INFO  utils.XML_Library - NewCapturePreference -upgrade check started...
+2023-12-01 18:07:37.496 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 18:07:37.598 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/NewCapturePreferences.xsl
+2023-12-01 18:07:37.599 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 18:07:37.653 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/NewCapturePreferences.xsl
+2023-12-01 18:07:37.672 [main] INFO  utils.XML_Library - NewCapturePreference -upgrade check completed...
+2023-12-01 18:07:37.673 [main] INFO  utils.XML_Library - AutoSecurityKeys -upgrade check started...
+2023-12-01 18:07:37.673 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/AutoSecurityKeys.xsl
+2023-12-01 18:07:37.739 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/AutoSecurityKeys.xsl
+2023-12-01 18:07:37.740 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/AutoSecurityKeys.xsl
+2023-12-01 18:07:37.790 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/AutoSecurityKeys.xsl
+2023-12-01 18:07:37.804 [main] INFO  utils.XML_Library - AutoSecurityKeys -upgrade check completed...
+2023-12-01 18:07:37.804 [main] INFO  utils.XML_Library - epiSimDoc -upgrade check started...
+2023-12-01 18:07:37.804 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/epiSimDoc.xsl
+2023-12-01 18:07:37.976 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/epiSimDoc.xsl
+2023-12-01 18:07:37.976 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/epiSimDoc.xsl
+2023-12-01 18:07:38.083 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/epiSimDoc.xsl
+2023-12-01 18:07:38.117 [main] INFO  utils.XML_Library - epiSimDoc -upgrade check completed...
+2023-12-01 18:07:38.118 [main] INFO  utils.XML_Library - epiSimDoc -upgrade check started...
+2023-12-01 18:07:38.118 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-BaseXML-config/epiSimDoc.xsl
+2023-12-01 18:07:38.175 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-BaseXML-config/epiSimDoc.xsl
+2023-12-01 18:07:38.176 [main] INFO  utils.XML_Library - transform Upgrde GPS started for-CurrentXMl-config/epiSimDoc.xsl
+2023-12-01 18:07:38.231 [main] INFO  utils.XML_Library - transform Upgrde GPS Completed-CurrentXMl-config/epiSimDoc.xsl
+2023-12-01 18:07:38.238 [main] INFO  utils.XML_Library - epiSimDoc -upgrade check completed...
+2023-12-01 18:07:38.239 [main] INFO  utils.XML_Library - Offline Upgrade check completed...
+2023-12-01 18:07:39.183 [main] INFO  utils.ProjectConfiguration - Report Logging Closed
+2023-12-01 18:07:39.183 [main] INFO  actions.TestcaseExecutor - startExecution completed.
+2023-12-01 18:07:39.184 [main] INFO  actions.TestcaseExecutor - Close all Application started...
+2023-12-01 18:07:39.184 [main] INFO  core.Application - closeAllApps is started...
+2023-12-01 18:07:39.184 [main] INFO  core.Application - closeAllApps is completed...
+2023-12-01 18:07:39.184 [main] INFO  actions.TestcaseExecutor - Close all Application completed.

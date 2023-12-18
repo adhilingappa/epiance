@@ -1,0 +1,34 @@
+<epiplex500 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dugroups>
+    <dugroup oem="1" id="b988a12a-8abf-4195-bed3-76128abd5594" name="Epiplex500" desc="">
+      <du oem="1" id="b988a12a-8acf-4995-bed3-76128abd5591" dutype="0" selected="true" mandatory="1" name="Introduction" desc="Introduction" datatype="dynamic" dataformat="html" />
+      <du oem="1" id="b988a12a-8adf-4985-bed4-76128abd5571" dutype="0" selected="true" mandatory="1" name="Objectives" desc="Objectives" datatype="dynamic" dataformat="html" />
+      <du oem="1" id="b988a12a-8aef-4985-bed5-76128abd5581" dutype="0" selected="true" mandatory="1" name="What's New" desc="Whats New" datatype="dynamic" dataformat="html" />
+      <du oem="1" id="b988a12a-8agf-4985-bed6-76128abd5341" dutype="0" selected="true" mandatory="0" name="Stake Holders" desc="StakeHolders" datatype="dynamic" dataformat="table">
+        <tableschema>
+          <fields>
+            <field id="f989c12f-8aef-4995-bed6-76128abd2451" name="SlNo" dataformat="number" desc="SlNo" width="50" />
+            <field id="f988c12f-8aef-4985-bed6-76128abd2221" name="Name*" dataformat="string" desc="Name" width="150" />
+            <field id="f987c12f-8aef-4935-bed6-76128abd9876" name="Title*" dataformat="string" desc="Title" width="200" />
+            <field id="f986c12f-8aef-4955-bed6-76128abd2345" name="Description*" dataformat="string" desc="Description" width="212" />
+          </fields>
+        </tableschema>
+      </du>
+      <du oem="1" id="b988a12a-8agf-4985-bed6-76128abd5451" dutype="0" selected="true" mandatory="0" name="File Dependencies" desc="File Dependency" datatype="dynamic" dataformat="table">
+        <tableschema>
+          <fields>
+            <field id="f989c12f-8aef-4975-bed6-76128abd5681" name="SlNo" dataformat="number" desc="SlNo" width="50" />
+            <field id="f988c12f-8aef-4985-bed6-76128abd5451" name="File Type*" dataformat="string" desc="File-Type" width="150" />
+            <field id="f986c12f-8aef-4955-bed6-76128abd5361" name="Description*" dataformat="string" desc="Description" width="200" />
+            <field id="f987c12f-8aef-4935-bed6-76128abd5271" name="File Link*" dataformat="string" desc="Link" width="212" />
+          </fields>
+        </tableschema>
+      </du>
+    </dugroup>
+  </dugroups>
+  <dulangs>
+    <dulang langid="eng" file="du_eng.xml" name="English" />
+    <dulang langid="por" file="du_por.xml" name="Portuguese" />
+  </dulangs>
+  <dudata />
+</epiplex500>

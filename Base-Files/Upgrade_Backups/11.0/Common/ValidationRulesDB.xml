@@ -1,0 +1,8 @@
+<Epiplex500 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <VPSteps HashCode="2_5_7_8~/AChN8AGZfzpwDzAwa6ahQ==">
+    <rule id="14" value1="" value2="" regex="^[a-zA-Z ]+$" desc="Please enter Alphabets only" />
+  </VPSteps>
+  <VPSteps HashCode="2_5_7_8~irYhjcxDvZY55JRSxLEOWA==">
+    <rule id="14" value1="" value2="" regex="^[a-zA-Z ]+$" desc="Please enter Alphabets only" />
+  </VPSteps>
+</Epiplex500>

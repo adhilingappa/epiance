@@ -1,0 +1,53 @@
+<template templateVersion="1.0" type="epiance.manual" language="iso-8859-1" ResFolder="Epiplex Blue_files" Direction="LTR">
+	<about>
+		<title>Epiplex Blue</title>
+		<author>Epiplex500</author>
+		<organization>Epiplex500</organization>
+		<copyrighht>Epiplex500 (C) Copyright All rights reserved.</copyrighht>
+		<description>Epiplex Blue Info Step Template</description>
+		<keywords></keywords>
+		<comments></comments>
+	</about>
+	<File_Dependencies>
+		<Primary_Dependencies>
+			<File>
+				<Relative>Templates\InfoStep\Epiplex Blue_files</Relative>
+				<Absolute>C:\Users\Public\Documents\epiplex\Repository\Templates\InfoStep\Epiplex Blue_files</Absolute>
+			</File>
+		</Primary_Dependencies>
+		<Secondary_Dependencies/>
+	</File_Dependencies>
+	<Assembly><Splitter Index="1" Horizontal="-1" Position="5.091464"><Control1><Splitter Index="2" Horizontal="0" Position="3.958028"><Control1><SplitSection Index="1"><component name="InfoStepGeneral" present="True" docked="False">
+								<background>
+									<color>#205488</color>
+									<graphic repeat="no-repeat" watermark="False">info_icon.gif</graphic>
+								</background>
+								<innerinfo>&lt;P&gt;&amp;nbsp;&lt;/P&gt;</innerinfo>
+							</component>
+						</SplitSection></Control1><Control2><SplitSection Index="3"><component name="InfoTitle" present="True" docked="False">
+								<background>
+									<color>#205488</color>
+									<graphic repeat="no-repeat" watermark="False"></graphic>
+								</background>
+							</component>
+						</SplitSection></Control2></Splitter></Control1><Control2><Splitter Index="3" Horizontal="-1" Position="93.49593"><Control1><Splitter Index="4" Horizontal="0" Position="3.953148"><Control1><SplitSection Index="2"><component name="InfoStepGeneral" present="True" docked="False">
+										<background>
+											<color>#205488</color>
+											<graphic repeat="no-repeat" watermark="False"></graphic>
+										</background>
+										<innerinfo></innerinfo>
+									</component>
+								</SplitSection></Control1><Control2><SplitSection Index="5"><component name="InfoStepDescription" present="True" docked="False">
+										<background>
+											<color>#FFFFEC</color>
+											<graphic repeat="no-repeat" watermark="False"></graphic>
+										</background>
+									</component>
+								</SplitSection></Control2></Splitter></Control1><Control2><SplitSection Index="4"><component name="InfoStepGeneral" present="True" docked="False">
+								<background>
+									<color>#205488</color>
+									<graphic repeat="no-repeat" watermark="False"></graphic>
+								</background>
+								<innerinfo></innerinfo>
+							</component>
+						</SplitSection></Control2></Splitter></Control2></Splitter></Assembly></template>

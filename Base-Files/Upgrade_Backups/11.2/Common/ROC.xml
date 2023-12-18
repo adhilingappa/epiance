@@ -1,0 +1,5 @@
+﻿<DocStepSettings default="2">
+  <ROC ID="1" Text="Required" ShortText="M"></ROC>
+  <ROC ID="2" Text="Optional" ShortText=""></ROC>
+  <ROC ID="3" Text="Conditional" ShortText=""></ROC>
+</DocStepSettings>

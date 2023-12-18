@@ -1,0 +1,11 @@
+<SentceSetting>
+  <Font FontName="Arial" FontSize="8" CharSet="0"/>
+  <RemoveSpChar>1</RemoveSpChar>
+  <IgnoreCtrlImageForSpRole Value="editable text"/>
+  <SpCharList>
+    <Char Value=","/>
+	<Char Value=";"/>
+	<Char Value="-"/>
+	<Char Value=":"/>
+  </SpCharList>
+</SentceSetting>

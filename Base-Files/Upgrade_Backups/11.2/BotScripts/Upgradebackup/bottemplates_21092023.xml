@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<epiplex500>
+	<intermediate repfolder="" filefolder="intermediate">
+		<file suffix="" extension="">GPSPlatPartialStructure.xslt|CommonIntermediateAll.xslt </file>
+	</intermediate>
+	<GroupByExe repfolder="" filefolder="intermediate">
+		<file suffix="" extension="">GetUniqueExeFiles.xslt </file>
+	</GroupByExe>
+	<botscripts>
+		<bottype name="Blue Prism" repfolder="Blue Prism" filefolder="bpm">
+			<!--<template name="Version 6.7 Single Action" repfolder="Version 6.7">
+				<description>Blue Prism BOT Script template for version 6.7 with all object in one actions</description>
+				<file MultipeFile="no" suffix="_forChrome"  exeName="chrome.exe" extension=".xml">BpIntermediateChrome.xslt | bpbot_6_7Chrome.xslt</file>
+				<file MultipeFile="no" suffix="_forIE" exeName="iexplore.exe" extension=".xml"> BpIntermediateIE.xslt |  bpbot_6_7IE.xslt </file>
+				<file MultipeFile="yes" suffix="_forMSAA" excludeexeName="iexplore.exe | chrome.exe | saplogon.exe | sap1.exe" extension=".xml"> BpIntermediateMsaa.xslt |  bpbot_6_7Msaa.xslt </file>
+				<file MultipeFile="no" suffix="_forSap" exeName="saplogon.exe|sap1.exe" extension=".xml"> BpIntermediateSap.xslt |  bpbot_6_7Sap.xslt </file>
+				<process MultipeFile="no" suffix="_Process" extension=".xml">BpProcess.xslt</process>
+			</template>-->
+			<!--<template name="Version 6.7" repfolder="Version 6.7">
+				<description>Blue Prism Bot Script template with Dynamic application wait, all Channel Support</description>
+				<file MultipeFile="no" suffix="_forChrome"  exeName="chrome.exe" extension=".xml">BpIntermediateChrome.xslt | bpbot_6_7ChromeSplit.xslt</file>
+				<file MultipeFile="no" suffix="_forIE" exeName="iexplore.exe" extension=".xml"> BpIntermediateIE.xslt |  bpbot_6_7IESplit.xslt </file>
+				<file MultipeFile="yes" suffix="_forMSAA" excludeexeName="iexplore.exe | chrome.exe | saplogon.exe | sap1.exe | javaw.exe | mstsc.exe" extension=".xml"> BpIntermediateMsaa.xslt |  bpbot_6_7MsaaSplit.xslt </file>
+				<file MultipeFile="no" suffix="_forSap" exeName="saplogon.exe|sap1.exe" extension=".xml"> BpIntermediateSap.xslt |  bpbot_6_7SapSplit.xslt </file>
+				<file MultipeFile="no" suffix="_forJava" exeName="javaw.exe" extension=".xml"> BpIntermediateJava.xslt |  Bpbot_6_7JavaSplit.xslt </file>
+				<file MultipeFile="no" suffix="_forImage" exeName="mstsc.exe" extension=".xml"> bpIntermediateImage.xslt | bpbot_6_7ImageSplit.xslt </file>
+				<file MultipeFile="no" suffix="_forGs" exeName="pcsws.exe|extra.exe|tn3270.exe" extension=".xml"> BpIntermediateGs.xslt |  Bpbot_6_7GsSplit.xslt </file>
+				<file suffix="_processSplit" extension=".xml"> bpIntermediateProcess.xslt | bpProcessSplit.xslt </file>
+			</template>-->
+			<template name="Version 6.7 to 6.9" repfolder="Version 6.7" launchDvf="False" DefaultData="true" frmInpudataChk="true">
+				<description>Blue Prism Bot Script for version 6.7 to 6.9, with Bot template support like Application attach, pre-check, post check, Launch, Dynamic application wait, for all Channels</description>
+				<file suffix="Schema" MultipeFile="no" excludeexeName="" extension=".xml">SchemaIntermediate.xslt|SchemaFinal.xslt</file>
+				<file suffix="Options" MultipeFile="no" excludeexeName="" extension=".xml">OptionsIntermediate.xslt|OptionsFinal.xslt</file>
+				<file suffix="Data" MultipeFile="no" excludeexeName="" extension=".xml">DataIntermediate.xslt|DataFinal.xslt</file>
+				<file MultipeFile="no" suffix="_forChrome" exeName="chrome.exe" extension=".xml">BpIntermediateChrome.xslt | bpbot_6_7ChromeCgi.xslt</file>
+				<file MultipeFile="yes" suffix="_forMSAA" excludeexeName="iexplore.exe | chrome.exe | saplogon.exe | sap1.exe | javaw.exe | mstsc.exe" extension=".xml">BpIntermediateMsaa.xslt | bpbot_6_7MsaaCgi.xslt </file>
+				<file MultipeFile="no" suffix="_forIE" exeName="iexplore.exe" extension=".xml"> bpbot_6_7IeCgi.xslt </file>
+				<file MultipeFile="no" suffix="_forSap" exeName="saplogon.exe|sap1.exe" extension=".xml"> BpIntermediateSap.xslt |  bpbot_6_7SapSplit.xslt </file>
+				<file MultipeFile="no" suffix="_forJava" exeName="javaw.exe" extension=".xml"> Bpbot_6_7JavaSplit.xslt </file>
+				<file MultipeFile="no" suffix="_forImage" exeName="mstsc.exe" extension=".xml"> bpIntermediateImage.xslt | bpbot_6_7ImageSplit.xslt </file>
+				<file MultipeFile="no" suffix="_forGs" exeName="pcsws.exe|extra.exe|tn3270.exe" extension=".xml"> BpIntermediateGs.xslt |  Bpbot_6_7GsSplit.xslt </file>
+				<file suffix="_processCgi" extension=".xml">bpIntermediateProcessCgi.xslt | bpProcessSplitCgi.xslt </file>
+			</template>
+			<template name="Version 7.0" repfolder="Version 7.0" launchDvf="False" DefaultData="true" wndWait="false" frmInpudataChk="true">
+				<description>Blue Prism Bot Script for version 7.0, with Bot template support like Application attach, pre-check, post check, Launch, Dynamic application wait, for all Channels.</description>
+				<file suffix="Schema" MultipeFile="no" excludeexeName="" extension=".xml">SchemaIntermediate.xslt|SchemaFinal.xslt</file>
+				<file suffix="Options" MultipeFile="no" excludeexeName="" extension=".xml">OptionsIntermediate.xslt|OptionsFinal.xslt</file>
+				<file suffix="Data" MultipeFile="no" excludeexeName="" extension=".xml">DataIntermediate.xslt|DataFinal.xslt</file>
+				<file MultipeFile="no" suffix="_forChrome" exeName="chrome.exe" extension=".xml">BpIntermediateChrome.xslt | bpbot_7_0ChromeCgi.xslt</file>
+				<file MultipeFile="yes" suffix="_forMSAA" excludeexeName="iexplore.exe | chrome.exe | saplogon.exe | sap1.exe | javaw.exe | mstsc.exe" extension=".xml">BpIntermediateMsaa.xslt | bpbot_7_0MsaaCgi.xslt </file>
+				<file MultipeFile="no" suffix="_forIE" exeName="iexplore.exe" extension=".xml"> bpbot_7_0IeCgi.xslt </file>
+				<file MultipeFile="no" suffix="_forSap" exeName="saplogon.exe|sap1.exe" extension=".xml"> BpIntermediateSap.xslt |  bpbot_6_7SapSplit.xslt </file>
+				<file MultipeFile="no" suffix="_forJava" exeName="javaw.exe" extension=".xml"> Bpbot_6_7JavaSplit.xslt </file>
+				<file MultipeFile="no" suffix="_forImage" exeName="mstsc.exe" extension=".xml"> bpIntermediateImage.xslt | bpbot_6_7ImageSplit.xslt </file>
+				<file MultipeFile="no" suffix="_forGs" exeName="pcsws.exe|extra.exe|tn3270.exe" extension=".xml"> BpIntermediateGs.xslt |  Bpbot_6_7GsSplit.xslt </file>
+				<file suffix="_processCgi" extension=".xml">bpIntermediateProcessCgi.xslt | bpProcessSplitCgi.xslt </file>
+			</template>
+		</bottype>
+		<bottype name="UI Path" repfolder="UI Path" filefolder="uip">
+			<template name="Version 20.4 to 22.4" repfolder="V20.4" launchDvf="False" DefaultData="true" splitOption="true" frmInpudataChk="true">
+				<description>UiPath Bot Script for version 20.4 to 22.4, with Bot template support like Application attach, pre-check, post check, Launch, Dynamic application wait, for all Channels.</description>
+				<file suffix="Schema" MultipeFile="no" excludeexeName="" extension=".xml">SchemaIntermediate.xslt|SchemaFinal.xslt</file>
+				<file suffix="Options" MultipeFile="no" excludeexeName="" extension=".xml">OptionsIntermediate.xslt|OptionsFinal.xslt</file>
+				<file suffix="Data" MultipeFile="no" excludeexeName="" extension=".xml">DataIntermediate.xslt|DataFinal.xslt</file>
+				<file suffix="_forAll" extension=".xaml">Ui_12_0All.xslt</file>
+				<process suffix="_forSplitAll" extension=".xaml">Ui_12_0AllSplit.xslt</process>
+				<file suffix="_forGs" extension=".xaml" exeName="pcsws.exe">UiIntermediateGs.xslt | Uibot_12_0Gs.xslt</file>
+			</template>
+		</bottype>
+		<bottype name="Pega System" repfolder="Pega System" filefolder="peg">
+			<template name="Version 19.1" repfolder="V19.1" launchDvf="False" DefaultData="true" frmInpudataChk="true">
+				<description>Pega System BOT Script for version 19.1</description>
+				<file suffix="_webapp" exeName="iexplore.exe" extension=".os">pegaIntermediateApplication.xslt | pegbot_19_1_WebAppIE.xslt</file>
+				<file suffix="_webChrome" exeName="chrome.exe" extension=".os">pegaIntermediateApplication.xslt | pegbot_19_1_webappCHROME.xslt</file>
+				<file suffix="_winapp" MultipeFile="yes" excludeexeName="iexplore.exe | chrome.exe | saplogon.exe | sap1.exe" extension=".os">pegaIntermediateApplicationWindows.xslt | pegaIntermediateApplicationWindows1.xslt | pegbot_19_1_WinAppMSAA.xslt</file>
+				<file suffix="_automation" extension=".os">pegaIntermediateAutomation.xslt | PegaMainAutomation.xslt</file>
+			</template>
+		</bottype>
+		<bottype name="Automation Anywhere" repfolder="AA" filefolder="AA">
+			<template name="Version 11" repfolder="Version 11" Option="2" DefaultData="true" frmInpudataChk="true">
+				<description>Automation Anywhere BOT Script for version 11</description>
+				<file MultipeFile="no" suffix="_forAll" extension=".atmx"> AaIntermediateAll.xslt |  Aa_11_All.xslt </file>
+				<command MultipeFile="no" suffix="_Command" extension=".xml">AaIntermediateAll.xslt | Aa_11_Title.xslt</command>
+				<ct>AaIntermediateAll.xslt | Aa_11_ContentTypes.xslt</ct>
+			</template>
+		</bottype>
+		<!--<bottype name="QMagic" repfolder="QMagic" filefolder="QMagic" >
+			<template name="Version 5.2" repfolder="V5.2">
+				<description>QMagic BOT Script template for version 5.2</description>	
+				<file suffix="" MultipeFile="no" excludeexeName=""  extension=".xml">QMIntermediate.xslt|QMFinal.xslt</file>	
+			</template>
+		</bottype>-->
+		<bottype name="Epi Genie" repfolder="Genie" filefolder="Genie">
+			<template name="Version 11.0" repfolder="V11.0" Option="3" launchDvf="False" DefaultData="true" frmInpudataChk="true">
+				<description>EpiGenie BOT Script template for version R11.0</description>
+				<file suffix="Schema" MultipeFile="no" excludeexeName="" extension=".xml">SchemaIntermediate.xslt|SchemaFinal.xslt</file>
+				<file suffix="Options" MultipeFile="no" excludeexeName="" extension=".xml">OptionsIntermediate.xslt|OptionsFinal.xslt</file>
+				<file suffix="Mapping" MultipeFile="no" excludeexeName="" extension=".xml">MappingIntermediate.xslt|MappingFinal.xslt</file>
+				<file suffix="Variable" MultipeFile="no" excludeexeName="" extension=".xml">VariableIntermediate.xslt|VariableFinal.xslt</file>
+				<file suffix="VpeFile" MultipeFile="no" excludeexeName="" extension=".xml">VPEIntermeadiate.xslt|VPEFinal.xslt</file>
+				<file suffix="Data" MultipeFile="no" excludeexeName="" extension=".xml">DataIntermediate.xslt|DataFinal.xslt</file>
+			</template>
+		</bottype>
+		<bottype name="BPMN" repfolder="BPMN" filefolder="BPMN">
+			<template name="Version 11.0" repfolder="V11.0" Option="4" launchDvf="False" DefaultData="true" frmInpudataChk="false">
+				<description>BPMN Bot Workflow with EpiGenie Script embedded against each workflow object, generated in version R11.0</description>
+				<file suffix="_Groovy" MultipeFile="no" excludeexeName="" extension=".bpmn">BpmnFinal.xslt</file>
+				<file suffix="_Java" MultipeFile="no" excludeexeName="" extension=".bpmn">BpmnFinalJ.xslt</file>
+			</template>
+		</bottype>
+	</botscripts>
+</epiplex500>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XPathConstantSettings IncludeAllSteps="1">
+    <GPS>		  
+	 <XPathConstant Name="ControlType" XPath="MSAA/Control/@Role" Enable="1"/>
+	  <XPathConstant Name="ControlTypeID" XPath="MSAA/Control/@RoleID" Enable="1"/>
+	  <XPathConstant Name="Event" XPath="MSAA/Control/@Event" Enable="1"/>
+	  <XPathConstant Name="ControlName" XPath="MSAA/Control/@Name" Enable="1"/>
+	  <XPathConstant Name="ControlValue" XPath="MSAA/Control/@Value" Enable="1"/>
+	  <XPathConstant Name="ControlDataValue" XPath="MSAA/Control/ControlData/Value" Enable="1"/>
+	  <XPathConstant Name="ControlLocation" XPath="concat(MSAA/Control/Location/@Left,'|',MSAA/Control/Location/@Top,'|',MSAA/Control/Location/@Right,'|',MSAA/Control/Location/@Bottom)" Enable="1"/>
+	  <XPathConstant Name="UniqueControlID" XPath="MSAA/Control/@UniqueControlID" Enable="1"/>
+	  <XPathConstant Name="DialogName" XPath="Standard/Control/@DialogName" Enable="1"/>
+	  <XPathConstant Name="SAPScreenNumber" XPath="AddIn/SAP/Info/@ScreenNumber" Enable="1"/>
+	  <XPathConstant Name="STDControlID" XPath="Standard/Control/@ControlID" Enable="1"/>
+	  <XPathConstant Name="ActiveChannelID" XPath="@ActiveChannelID" Enable="1"/>
+	  <XPathConstant Name="AdaptorID" XPath="@AdaptorID" Enable="1"/>
+	  <XPathConstant Name="IEDocURL" XPath="IE/@DocURL" Enable="1"/>
+	  <XPathConstant Name="IsPassword" XPath="SecurityInfo/@IsPassword" Enable="1"/>
+	  <XPathConstant Name="HashCode" XPath="@SecDefHashCode" Enable="1"/>	
+	  <XPathConstant Name="TotalCapDuaration" XPath="Header/IdleTimeInfo/@CaptureDuration" Enable="1" IsGlobalInfo="1"/>	  
+	  <XPathConstant Name="NoiseDuration" XPath="Header/NoiseInfo/@Duration" Enable="1" IsGlobalInfo="1"/>	 
+	  <XPathConstant Name="TotalSystemIdleTime" XPath="Header/IdleTimeInfo/SystemIdleInfo/@Duration" Enable="1" IsGlobalInfo="1"/>
+	  <XPathConstant Name="ProcessIdleTime" XPath="Header/IdleTimeInfo/ProcessIdleInfo/@Duration" Enable="1" IsGlobalInfo="1"/>
+	  <XPathConstant Name="UserName" XPath="@UserName" Enable="1" IsGlobalInfo="1"/>
+	  <XPathConstant Name="ExcludedAppName" XPath="Header/IdleTimeInfo/ExcludedAppInfo/ExcludedApp/@ExeName" Iterate="1" Enable="1" IsGlobalInfo="1"/>
+	  <XPathConstant Name="ExcludedAppDuration" XPath="Header/IdleTimeInfo/ExcludedAppInfo/ExcludedApp/@Duration" Iterate="1" Enable="1" IsGlobalInfo="1"/>
+   	  <XPathConstant Name="CDT_GUID" XPath="CDTData//ControlCollectionInfo/ControlInfo/@RuleId" Iterate="1" Enable="1" />
+	  <XPathConstant Name="CDTFieldType" XPath="CDTData//ControlCollectionInfo/ControlInfo/@Type" Iterate="1" Enable="1" />
+  	  <XPathConstant Name="CDTKey" XPath="CDTData//ControlCollectionInfo/ControlInfo/@UID" Iterate="1" Enable="1" />
+  	  <XPathConstant Name="CDTValue" XPath="CDTData//ControlCollectionInfo/ControlInfo/@Value" Iterate="1" Enable="1" />
+    	  <XPathConstant Name="IdleTime" XPath="Info/TimeStamp/IdleTimeInfo/@IdleDuration" Enable="1" LogEventInfo="1" FileType="GPS" />
+	  <XPathConstant Name="ThinkTime" XPath="Info/TimeStamp/IdleTimeInfo/@ThinkDuration" Enable="1" LogEventInfo="1" FileType="GPS" />
+	</GPS>	
+	<GWZ>
+	  <XPathConstant Name="ScreenName" XPath="MSAA/Control/@DialogName" Enable="1" />
+	  <XPathConstant Name="ControlName" XPath="MSAA/Control/@Name" Enable="1"/>
+	  <XPathConstant Name="ControlType" XPath="MSAA/Control/@Role" Enable="1"/>
+	  <XPathConstant Name="ControlData" XPath="MSAA/Control/ControlData/Value" Enable="1"/>
+	  <XPathConstant Name="ControlRegion" XPath="Standard/Regions/ControlRegion" Enable="1"/>
+	  <XPathConstant Name="EventName" XPath="Standard/Control/HighLevelEvent" Enable="1"/>
+	  <XPathConstant Name="ParentControlName" XPath="MSAA/ParentControl/@Name" Enable="1"/>
+	  <XPathConstant Name="ParentControlType" XPath="MSAA/ParentControl/@Role" Enable="1"/>
+	  <XPathConstant Name="HashCode" XPath="@SecDefHashCode" Enable="1"/>	
+	  <XPathConstant Name="GUID" XPath="@Guid" Enable="1"/>	
+	  <XPathConstant Name="ChannelID" XPath="@ActiveChannelID" Enable="1"/>
+	  <XPathConstant Name="TotalCapDuaration" XPath="Header/IdleTimeInfo/@CaptureDuration" Enable="1" IsGlobalInfo="1"/>
+	  <XPathConstant Name="NoiseDuration" XPath="Header/NoiseInfo/@Duration" Enable="1" IsGlobalInfo="1"/>	 
+	  <XPathConstant Name="TotalSystemIdleInfo" XPath="Header/IdleTimeInfo/SystemIdleInfo/@Duration" Enable="1" IsGlobalInfo="1"/>
+	  <XPathConstant Name="ProcessIdleInfo" XPath="Header/IdleTimeInfo/ProcessIdleInfo/@Duration" Enable="1" IsGlobalInfo="1"/>
+	  <XPathConstant Name="ExcludedAppName" XPath="Header/IdleTimeInfo/ExcludedAppInfo/ExcludedApp/@ExeName" Iterate="1" Enable="1" IsGlobalInfo="1"/>
+	  <XPathConstant Name="ExcludedAppDuration" XPath="Header/IdleTimeInfo/ExcludedAppInfo/ExcludedApp/@Duration" Iterate="1" Enable="1" IsGlobalInfo="1"/>
+          <XPathConstant Name="CDT_GUID" XPath="CDTData//ControlCollectionInfo/ControlInfo/@RuleId" Iterate="1" Enable="1" />
+	  <XPathConstant Name="CDTFieldType" XPath="CDTData//ControlCollectionInfo/ControlInfo/@Type" Iterate="1" Enable="1" />
+  	  <XPathConstant Name="CDTKey" XPath="CDTData//ControlCollectionInfo/ControlInfo/@UID" Iterate="1" Enable="1" />
+  	  <XPathConstant Name="CDTValue" XPath="CDTData//ControlCollectionInfo/ControlInfo/@Value" Iterate="1" Enable="1" />
+    	  
+	  <XPathConstant Name="IdleTime" XPath="Info/TimeStamp/IdleTimeInfo/@IdleDuration" Enable="1" LogEventInfo="1" FileType="GPS" />
+	  <XPathConstant Name="ThinkTime" XPath="Info/TimeStamp/IdleTimeInfo/@ThinkDuration" Enable="1" LogEventInfo="1" FileType="GPS" />
+	</GWZ>
+</XPathConstantSettings>

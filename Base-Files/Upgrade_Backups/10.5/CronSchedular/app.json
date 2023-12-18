@@ -1,0 +1,14 @@
+var appjson=[
+  {
+    "_id": "8tgjgNCgbgcmhDXTf",
+    "ProjectName": "Project1",
+    "ProcessName": "procname1",
+    "MachineName": "mchnCode01",
+    "DomainUserName": "admin",
+    "ApplicationLoginID": "ApploginID",
+    "ApplicationPassword": "password",
+    "ApplicationName": "App1",
+    "DeleteDate": "" ,
+    "createdOn": 1573123919164,
+    "modifiedOn": 1573193541063
+  }]

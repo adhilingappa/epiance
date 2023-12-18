@@ -1,0 +1,4253 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8' /> 
+	<meta name='description' content='' />
+	<meta name='robots' content='noodp, noydir' />
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
+	
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css' />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link href='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/css/extent.css' type='text/css' rel='stylesheet' />
+	
+	<title>EPIPLEX500 - HOME Automation Report</title>
+
+	<style type='text/css'>
+		/* json-tree */
+		.jstBracket,.jstComma,.jstValue{white-space:pre-wrap}.jstValue{font-size:10px;font-weight:400;font-family:"Lucida Console",Monaco,monospace}.jstProperty{color:#666;word-wrap:break-word}.jstBool{color:#2525CC}.jstNum{color:#D036D0}.jstNull{color:gray}.jstStr{color:#2DB669}.jstFold:after{content:' -';cursor:pointer}.jstExpand{white-space:normal}.jstExpand:after{content:' +';cursor:pointer}.jstFolded{white-space:normal!important}.jstHiddenBlock{display:none}
+	</style>
+	
+	<script type="text/javascript">
+		/*! json-tree - v0.2.2 - 2017-09-25, MIT LICENSE */
+		var JSONTree=function(){var n={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#x27;","/":"&#x2F;"},t=0,r=0;this.create=function(n,t){return r+=1,N(u(n,0,!1),{class:"jstValue"})};var e=function(t){return t.replace(/[&<>'"]/g,function(t){return n[t]})},s=function(){return r+"_"+t++},u=function(n,t,r){if(null===n)return f(r?t:0);switch(typeof n){case"boolean":return l(n,r?t:0);case"number":return i(n,r?t:0);case"string":return o(n,r?t:0);default:return n instanceof Array?a(n,t,r):c(n,t,r)}},c=function(n,t,r){var e=s(),u=Object.keys(n).map(function(r){return j(r,n[r],t+1,!0)}).join(m()),c=[g("{",r?t:0,e),N(u,{id:e}),p("}",t)].join("\n");return N(c,{})},a=function(n,t,r){var e=s(),c=n.map(function(n){return u(n,t+1,!0)}).join(m());return[g("[",r?t:0,e),N(c,{id:e}),p("]",t)].join("\n")},o=function(n,t){var r=e(JSON.stringify(n));return N(v(r,t),{class:"jstStr"})},i=function(n,t){return N(v(n,t),{class:"jstNum"})},l=function(n,t){return N(v(n,t),{class:"jstBool"})},f=function(n){return N(v("null",n),{class:"jstNull"})},j=function(n,t,r){var s=v(e(JSON.stringify(n))+": ",r),c=N(u(t,r,!1),{});return N(s+c,{class:"jstProperty"})},m=function(){return N(",\n",{class:"jstComma"})},N=function(n,t){return d("span",t,n)},d=function(n,t,r){return"<"+n+Object.keys(t).map(function(n){return" "+n+'="'+t[n]+'"'}).join("")+">"+r+"</"+n+">"},g=function(n,t,r){return N(v(n,t),{class:"jstBracket"})+N("",{class:"jstFold",onclick:"JSONTree.toggle('"+r+"')"})};this.toggle=function(n){var t=document.getElementById(n),r=t.parentNode,e=t.previousElementSibling;""===t.className?(t.className="jstHiddenBlock",r.className="jstFolded",e.className="jstExpand"):(t.className="",r.className="",e.className="jstFold")};var p=function(n,t){return N(v(n,t),{})},v=function(n,t){return Array(2*t+1).join(" ")+n};return this}();
+	</script>
+</head>
+	<body class='extent standard default hide-overflow '>
+		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
+			<span><i class='material-icons'>desktop_windows</i></span>
+		</div>
+<nav>
+	<div class="nav-wrapper">
+		<a href="#!" class="brand-logo black"><img src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png"></a>
+		<!-- slideout menu -->
+		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
+			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
+		</ul>
+		<!-- report name -->
+		<span class='report-name'>Automation Test Report</span>
+		<!-- report headline -->
+		<span class='report-headline'></span>
+		<!-- nav-right -->
+		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+			<a href='#!'>
+			<span class='label blue darken-3 suite-start-time'>Dec 8, 2023 02:30:54 PM</span>
+			</a>
+		</ul>
+	</div>
+</nav>		<!-- container -->
+		<div class='container'>
+<div id='test-view' class='view'>
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- test toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
+				<i class='material-icons'>warning</i> Status
+				</a>
+				<ul id='tests-toggle' class='dropdown-content'>
+										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+					<li class='divider'></li>
+					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
+				</ul>
+			</div>
+			<!-- test toggle -->
+			<!-- category toggle -->
+			<!-- category toggle -->
+			<!-- clear filters -->
+			<div class='chip transparent hide'>
+				<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
+				<i class='material-icons'>close</i> Clear
+				</a>
+			</div>
+			<!-- clear filters -->
+			<!-- enable dashboard -->
+			<div id='toggle-test-view-charts' class='chip transparent'>
+				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
+				<i class='material-icons'>track_changes</i> Dashboard
+				</a>
+			</div>
+			<!-- enable dashboard -->
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+				<i class='material-icons'>search</i> Search
+				</a>
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+<div id='test-view-charts' class='subview-full'>
+    <div id='charts-row' class='row nm-v nm-h'>
+        <div class='col s12 m12 l12 np-h'>
+            <div class='card-panel nm-v'>
+                <div class='left panel-name'>Tests</div>
+                <div class='chart-box' style="max-height:94px;">
+                    <canvas id='parent-analysis' width='90' height='70'></canvas>
+                </div>
+                <div class='block text-small'>
+                    <span class='tooltipped' data-position='top' data-tooltip='10.714%'><span class='strong'>12</span> test(s) passed</span>
+                </div>
+                <div class='block text-small'>
+                    <span class='strong tooltipped' data-position='top' data-tooltip='89.286%'>100</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="timeline-chart" class="row nm-v nm-h">
+        <div class="col s12 m12 l12 np-h">
+            <div class="card-panel">
+                <div class='left panel-name'>Timeline (seconds)</div>
+                <div class="chart-box" style="width:98%;max-height:145px;">
+                    <canvas id="timeline" height="120"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>	<div class='subview-left left'>
+		<div class='view-summary'>
+			<ul id='test-collection' class='test-collection'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+					<div class='test-heading'>
+						<span class='test-name'>Upgrade check</span>
+						<span class='test-time'>Dec 8, 2023 02:30:55 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:55 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+339ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>2:30:55 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'>startTest - Upgrade check started successfully</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>2:30:55 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'>Load  Backup XML Paths Completed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>2:30:55 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'>Load XML Paths Completed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'>Offline upgrade check started...</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'>Offline upgrade check completed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'>offlineUpgradeCheck Completed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'>Capture upgrade check started...</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'>Capture Upgrade Check completed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'>captureUpgradeCheck Completed</span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePrefernce.xml - ApplicationFilterApps</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>ApplicationFilterApps</td><td><b style="color:red;">explorer.exe|WINWORD.EXE</td><td><b style="color:red;">explorer.exe</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePrefernce.xml - ApplicationFilterInclude</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>ApplicationFilterInclude</td><td><b style="color:red;">2</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='4'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePrefernce.xml - ApplyAliasName</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>ApplyAliasName</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePrefernce.xml - AudioVideoSelection</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td>1</td><td><b>AudioVideoSelection</td><td><b style="color:LimeGreen;">1</td><td><b style="color:LimeGreen;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePrefernce.xml - CaptureAudio</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td>1</td><td><b>CaptureAudio</td><td><b style="color:LimeGreen;">1</td><td><b style="color:LimeGreen;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='7'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePrefernce.xml - CopyRight</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>CopyRight</td><td><b style="color:red;">www.epiance.com</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='8'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePrefernce.xml - FullScreenMode</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>FullScreenMode</td><td><b style="color:red;">2</td><td><b style="color:red;">3</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='9'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePrefernce.xml - HotKeyAudioVideo</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>HotKeyAudioVideo</td><td><b style="color:red;">F8</td><td><b style="color:red;">F2</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='10'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePrefernce.xml - HotKeyException</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>HotKeyException</td><td><b style="color:red;">Exception</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='11'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePrefernce.xml - HotKeyNarration</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>HotKeyNarration</td><td><b style="color:red;">Narration</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='12'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePrefernce.xml - HotKeyValidation</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>HotKeyValidation</td><td><b style="color:red;">Validation</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='13'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePrefernce.xml - NLPEnabled</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>NLPEnabled</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='14'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePrefernce.xml - Organization</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>Organization</td><td><b style="color:red;">Epiance Software</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='15'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePrefernce.xml - PropertiesWhileSave</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>PropertiesWhileSave</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='16'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePrefernce.xml - SensDataMaskRuleImg</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td>1</td><td><b>SensDataMaskRuleImg</td><td><b style="color:LimeGreen;">0</td><td><b style="color:LimeGreen;">0</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='17'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePrefernce.xml - SentenceFormat</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>SentenceFormat</td><td><b style="color:red;">4</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='18'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePrefernce.xml - SentenceStructure</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>SentenceStructure</td><td><b style="color:red;">1013</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='19'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePrefernce.xml - TaxonomyAddToNextStepsOnly</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>TaxonomyAddToNextStepsOnly</td><td><b style="color:red;"></td><td><b style="color:red;">0</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='20'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePrefernce.xml - UIACaptureEnabled</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>UIACaptureEnabled</td><td><b style="color:red;">1</td><td><b style="color:red;">0</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='21'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePrefernce.xml - UseControlImg_Uncheck</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>UseControlImg_Uncheck</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='22'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePreference.xml - BorderColor</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>BorderColor</td><td><b style="color:red;">#FF0070C0</td><td><b style="color:red;">#FFFF0000</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='23'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePreference.xml - BorderShow</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td>1</td><td><b>BorderShow</td><td><b style="color:LimeGreen;">1</td><td><b style="color:LimeGreen;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='24'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePreference.xml - BorderThickness</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>BorderThickness</td><td><b style="color:red;">3</td><td><b style="color:red;">2</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='25'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePreference.xml - HideNoiseStep</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>HideNoiseStep</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='26'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePreference.xml - ShowHideAdditionalGrid</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>ShowHideAdditionalGrid</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='27'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePreference.xml - ShowHideKeyStepGrid</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td>1</td><td><b>ShowHideKeyStepGrid</td><td><b style="color:LimeGreen;">0</td><td><b style="color:LimeGreen;">0</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='28'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePreference.xml - ShowMousePointer</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>ShowMousePointer</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='29'>
+					<div class='test-heading'>
+						<span class='test-name'>NewCapturePreference.xml - ShowNavigationData</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>ShowNavigationData</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='30'>
+					<div class='test-heading'>
+						<span class='test-name'>AutoSecurityKeys.xml - createAndApplyRulesInstantly</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>createAndApplyRulesInstantly</td><td><b style="color:red;">2</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='31'>
+					<div class='test-heading'>
+						<span class='test-name'>AutoSecurityKeys.xml - maskDataUsingSensDataFormat</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>maskDataUsingSensDataFormat</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='32'>
+					<div class='test-heading'>
+						<span class='test-name'>ExclusionFilter.xml - IsApplyAllRulesDuringOpen_NoiseAndNavigation</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>IsApplyAllRulesDuringOpen_NoiseAndNavigation</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='33'>
+					<div class='test-heading'>
+						<span class='test-name'>ExclusionFilter.xml - NavigationNewRule</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>NavigationNewRule</td><td><b style="color:red;">SCROLL</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='34'>
+					<div class='test-heading'>
+						<span class='test-name'>ExclusionFilter.xml - NoiseNewRule</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td>1</td><td><b>NoiseNewRule</td><td><b style="color:LimeGreen;">KEYEVENT</td><td><b style="color:LimeGreen;">KEYEVENT</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='35'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - AddAudioToCalloutAndSticky</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>AddAudioToCalloutAndSticky</td><td><b style="color:red;">4</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='36'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - AutoScrollCanvas</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>AutoScrollCanvas</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='37'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - CalloutColor</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>CalloutColor</td><td><b style="color:red;">#9CC3FF</td><td><b style="color:red;">#FFFFC6</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='38'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - CalloutOrientation</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>CalloutOrientation</td><td><b style="color:red;">2</td><td><b style="color:red;">0</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='39'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - CtrlRegionColor</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>CtrlRegionColor</td><td><b style="color:red;">#FFFF33</td><td><b style="color:red;">#FF0000</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='40'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - CtrlRegionThickness</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>CtrlRegionThickness</td><td><b style="color:red;">5</td><td><b style="color:red;">3</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='41'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - DOCX_Template</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>DOCX_Template</td><td><b style="color:red;">TestingGuide.dot</td><td><b style="color:red;">SOP.dot</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='42'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - Excel_Template</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td>1</td><td><b>Excel_Template</td><td><b style="color:LimeGreen;">Default.xlt</td><td><b style="color:LimeGreen;">Default.xlt</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='43'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - ExcludeRegColor</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>ExcludeRegColor</td><td><b style="color:red;">#FFCC99</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='44'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - ExcludeRegThickness</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>ExcludeRegThickness</td><td><b style="color:red;">3</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='45'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - FontStyle</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>FontStyle</td><td><b style="color:red;">Arial Black</td><td><b style="color:red;">Arial</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='46'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - FontStyleBold</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>FontStyleBold</td><td><b style="color:red;">1</td><td><b style="color:red;">0</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='47'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - FontStyleItalic</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>FontStyleItalic</td><td><b style="color:red;">1</td><td><b style="color:red;">0</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='48'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - FontStyleUnderLine</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>FontStyleUnderLine</td><td><b style="color:red;">1</td><td><b style="color:red;">0</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='49'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - GenCuecardInfoStep</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>GenCuecardInfoStep</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='50'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - GenDocLaunchAfter</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>GenDocLaunchAfter</td><td><b style="color:red;">1</td><td><b style="color:red;">0</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='51'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - GenDocSaveInDocxFormat</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>GenDocSaveInDocxFormat</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='52'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - GenSimLaunchAfter</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>GenSimLaunchAfter</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='53'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - GenVideoApplyThemeToAnnotation</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>GenVideoApplyThemeToAnnotation</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='54'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - GenVideoLaunchAfter</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>GenVideoLaunchAfter</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='55'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - GenVideoShowMousePointer</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>GenVideoShowMousePointer</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='56'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - GenVideoStepDelay</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>GenVideoStepDelay</td><td><b style="color:red;">5</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='57'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - Gender</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>Gender</td><td><b style="color:red;">1</td><td><b style="color:red;">2</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='58'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - HTML_Template</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>HTML_Template</td><td><b style="color:red;">proceduralmanual.htm</td><td><b style="color:red;">SOP.htm</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='59'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - NewSenApplyTo</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>NewSenApplyTo</td><td><b style="color:red;">1</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='60'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - PPT_Template</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>PPT_Template</td><td><b style="color:red;">Theme4.pot</td><td><b style="color:red;">Theme3.pot</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='61'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - Prompt</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>Prompt</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='62'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - ReGenSenOnGrping</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>ReGenSenOnGrping</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='63'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - SentenceFormat</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>SentenceFormat</td><td><b style="color:red;">3</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='64'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - SentenceStructure</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>SentenceStructure</td><td><b style="color:red;">12</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='65'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - ShowEPSSSentence</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>ShowEPSSSentence</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='66'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - Simulation_Template</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td>1</td><td><b>Simulation_Template</td><td><b style="color:LimeGreen;">epiplex_mb1</td><td><b style="color:LimeGreen;">epiplex_mb1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='67'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - SyncAutoCalloutToNotes</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>SyncAutoCalloutToNotes</td><td><b style="color:red;">0</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='68'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - TextToSpeechApplyTo</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>TextToSpeechApplyTo</td><td><b style="color:red;">1</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='69'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - TextToSpeechOverrideStepAudio</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>TextToSpeechOverrideStepAudio</td><td><b style="color:red;">1</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='70'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - ToolsCalloutColor</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>ToolsCalloutColor</td><td><b style="color:red;">#FFFFFF</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='71'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - ToolsStickyColor</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>ToolsStickyColor</td><td><b style="color:red;">#9CC3FF</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='72'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - UpdateAnnotation</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>UpdateAnnotation</td><td><b style="color:red;">0</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='73'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - UpdateFontColor</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>UpdateFontColor</td><td><b style="color:red;">1</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='74'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - UpdateFontName</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>UpdateFontName</td><td><b style="color:red;">Malgun Gothic</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='75'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - UpdateNotes</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>UpdateNotes</td><td><b style="color:red;">0</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='76'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - UseControlImage</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>UseControlImage</td><td><b style="color:red;">1</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='77'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - UseEpssCuecardSens</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>UseEpssCuecardSens</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='78'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - Voice</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>Voice</td><td><b style="color:red;">Raveena</td><td><b style="color:red;">Microsoft David Desktop - English (United States)</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='79'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - VoiceType</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>VoiceType</td><td><b style="color:red;">1</td><td><b style="color:red;">0</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='80'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - XML_Template</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td>1</td><td><b>XML_Template</td><td><b style="color:LimeGreen;">purexmldocument.xsl</td><td><b style="color:LimeGreen;">purexmldocument.xsl</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='81'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - AddCalloutStickyNoteToSteps</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>AddCalloutStickyNoteToSteps</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='82'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - BackgroundColor</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>BackgroundColor</td><td><b style="color:red;">#00FFFF</td><td><b style="color:red;">#FFFFFF</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='83'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - ExactValue</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>ExactValue</td><td><b style="color:red;">1</td><td><b style="color:red;">0</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='84'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - FontStyle</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>FontStyle</td><td><b style="color:red;">Book Antiqua</td><td><b style="color:red;">Arial</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='85'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - ImportCaptureAudio</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>ImportCaptureAudio</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='86'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - SentenceStructure</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td>1</td><td><b>SentenceStructure</td><td><b style="color:LimeGreen;">Formal</td><td><b style="color:LimeGreen;">Formal</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='87'>
+					<div class='test-heading'>
+						<span class='test-name'>epiSimDoc.xml - ValidationForTypeText</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>ValidationForTypeText</td><td><b style="color:red;">3</td><td><b style="color:red;">0</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='88'>
+					<div class='test-heading'>
+						<span class='test-name'>UserSettings.xml - RTLMode</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>RTLMode</td><td><b style="color:red;">1</td><td><b style="color:red;">0</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='89'>
+					<div class='test-heading'>
+						<span class='test-name'>STTSettings - CredentialFiles</span>
+						<span class='test-time'>Dec 8, 2023 02:30:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:56 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>CredentialFiles</td><td><b style="color:red;">C:\ProgramData\Epiplex500\Settings\SpeechToText\License.json</td><td><b style="color:red;">D:\Selenium Workspace\Framework\Automation-Framework\Base-Files\License.json</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='90'>
+					<div class='test-heading'>
+						<span class='test-name'>CaptureSetting.xml - CleanUpAterSave</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>CleanUpAterSave</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='91'>
+					<div class='test-heading'>
+						<span class='test-name'>CaptureSetting.xml - GPSSaveMode</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>GPSSaveMode</td><td><b style="color:red;">0</td><td><b style="color:red;">1</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='92'>
+					<div class='test-heading'>
+						<span class='test-name'>CaptureSetting.xml - GlobalAliasName</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>GlobalAliasName</td><td><b style="color:red;">TestingAliasName</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='93'>
+					<div class='test-heading'>
+						<span class='test-name'>CaptureSetting.xml - GlobalAliasNameControlName</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>GlobalAliasNameControlName</td><td><b style="color:red;">Header</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='94'>
+					<div class='test-heading'>
+						<span class='test-name'>CaptureSetting.xml - MaskAllTypeTexts</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>MaskAllTypeTexts</td><td><b style="color:red;">1</td><td><b style="color:red;">0</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='95'>
+					<div class='test-heading'>
+						<span class='test-name'>CaptureSetting.xml - URLBasedCaptureEnable</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>URLBasedCaptureEnable</td><td><b style="color:red;">1</td><td><b style="color:red;">0</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='96'>
+					<div class='test-heading'>
+						<span class='test-name'>CaptureSetting.xml - URLBasedCaptureURL</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>URLBasedCaptureURL</td><td><b style="color:red;">login.salesforce.com</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='97'>
+					<div class='test-heading'>
+						<span class='test-name'>CaptureSetting.xml - considertitleorheaderasdialogname</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>considertitleorheaderasdialogname</td><td><b style="color:red;"></td><td><b style="color:red;">2</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='98'>
+					<div class='test-heading'>
+						<span class='test-name'>DialogRules.xml - AmoutRuleEnable</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>AmoutRuleEnable</td><td><b style="color:red;"></td><td><b style="color:red;">0</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='99'>
+					<div class='test-heading'>
+						<span class='test-name'>DialogRules.xml - RulesEncryptionEnable</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>RulesEncryptionEnable</td><td><b style="color:red;">1</td><td><b style="color:red;">0</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='100'>
+					<div class='test-heading'>
+						<span class='test-name'>AdaptorInfo.xml - IncludeEXE</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>IncludeEXE</td><td><b style="color:red;">notepad.exe</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='101'>
+					<div class='test-heading'>
+						<span class='test-name'>ClawAdaptor.xml - AppName</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>AppName</td><td><b style="color:red;">TESTING.EXE</td><td><b style="color:red;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='102'>
+					<div class='test-heading'>
+						<span class='test-name'>ImageSettings.xml - GreyScaleImg</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>GreyScaleImg</td><td><b style="color:red;">1</td><td><b style="color:red;">0</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='103'>
+					<div class='test-heading'>
+						<span class='test-name'>KeyClubbing.xml - EnableClipboard</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>EnableClipboard</td><td><b style="color:red;">1</td><td><b style="color:red;">0</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='104'>
+					<div class='test-heading'>
+						<span class='test-name'>IEAdaptor.xml - CheckBox_BasedOnAttr</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>CheckBox_BasedOnAttr</td><td><b style="color:red;"></td><td><b style="color:red;">checkmark</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='105'>
+					<div class='test-heading'>
+						<span class='test-name'>IEAdaptor.xml - ComboBox_BasedOnAttr</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>ComboBox_BasedOnAttr</td><td><b style="color:red;">|urCoB2Btn|lsEdf3HlpBtnColsEdf3HlpBtnCoB|i_dropdownarrow|ddarrowSpan|fwpopupsel|toolbarButton|options_mink_menu float_left|down_arrow|x-form-trigger x-form-arrow-trigger|urCoB2TxtDdl|listinlinefocusedrowcell|dopdownInput textbox||column|operator|select|select2-selection__arrow|select2-selection__rendered|multiselect dropdown-toggle btn btn-default|select|dropdown icon|</td><td><b style="color:red;">|urCoB2Btn|lsEdf3HlpBtnColsEdf3HlpBtnCoB|i_dropdownarrow|ddarrowSpan|fwpopupsel|toolbarButton|options_mink_menu float_left|down_arrow|x-form-trigger x-form-arrow-trigger|urCoB2TxtDdl|listinlinefocusedrowcell|dopdownInput textbox||column|operator|select|select2-selection__arrow|select2-selection__rendered|multiselect dropdown-toggle btn btn-default|select|dropdown icon|appmagic-dropdownLabelArrow|combobox-view-chevron|</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='106'>
+					<div class='test-heading'>
+						<span class='test-name'>IEAdaptor.xml - ComboBox_div_BasedOnTrvrsLogic</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>ComboBox_div_BasedOnTrvrsLogic</td><td><b style="color:red;"></td><td><b style="color:red;">react-combobox-view</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='107'>
+					<div class='test-heading'>
+						<span class='test-name'>IEAdaptor.xml - ComboBox_span_BasedOnTrvrsLogic</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>ComboBox_span_BasedOnTrvrsLogic</td><td><b style="color:red;"></td><td><b style="color:red;">appmagic-border-inner</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='108'>
+					<div class='test-heading'>
+						<span class='test-name'>IEAdaptor.xml - ListItem_span_BasedOnTraverseLogic_1</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td>1</td><td><b>ListItem_span_BasedOnTraverseLogic_1</td><td><b style="color:LimeGreen;"></td><td><b style="color:LimeGreen;"></td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='109'>
+					<div class='test-heading'>
+						<span class='test-name'>IEAdaptor.xml - ListItem_span_BasedOnTraverseLogic_3</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>ListItem_span_BasedOnTraverseLogic_3</td><td><b style="color:red;"></td><td><b style="color:red;">div</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='110'>
+					<div class='test-heading'>
+						<span class='test-name'>IEAdaptor.xml - PushButton_BasedOnAttr</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>PushButton_BasedOnAttr</td><td><b style="color:red;">|mat-tab-label|urBorderBox lsEdf2HlpRadius lsEdf3HlpBtn lsEdf3HlpBtnF4|lsButton|btn|</td><td><b style="color:red;">|mat-tab-label|urBorderBox lsEdf2HlpRadius lsEdf3HlpBtn lsEdf3HlpBtnF4|lsButton|btn|appmagic-button middle center|appmagic-button-label no-focus-outline|appmagic-button-wrapper|</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='111'>
+					<div class='test-heading'>
+						<span class='test-name'>IEAdaptor.xml - PushButton_BasedOnTag</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>PushButton_BasedOnTag</td><td><b style="color:red;"></td><td><b style="color:red;">|powerapps-icon|powerapps-icon no-focus-outline|</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='112'>
+					<div class='test-heading'>
+						<span class='test-name'>IEAdaptor.xml - RadioButton_BasedOnAttr</span>
+						<span class='test-time'>Dec 8, 2023 02:30:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label end-time'>Dec 8, 2023 02:30:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>2:30:57 PM</td>
+				<td class='step-details'>
+						<table class='runtime-table table-striped table'><tr><td><b>SI NO</td><td><b>Property</td><td><b>Expected</td><td><b>Actual</td></tr><tr><td><b>1</td><td><b>RadioButton_BasedOnAttr</td><td><b style="color:red;">|mat-radio-button|mat-radio-label|mat-radio-container|mat-radio-inner-circle|mat-radio-ripple|mat-radio-persistent-ripple|urNoUserSelect urRImgOff|urNoUserSelect urRImgOn|radio|</td><td><b style="color:red;">|mat-radio-button|mat-radio-label|mat-radio-container|mat-radio-inner-circle|mat-radio-ripple|mat-radio-persistent-ripple|urNoUserSelect urRImgOff|urNoUserSelect urRImgOn|radio|radio-input|</td></tr></table>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- subview left -->
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<div id='step-filters' class="right sr-filters">
+				<a class="btn-floating waves-effect waves-light green" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></a>
+				<a class="btn-floating waves-effect waves-light red" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></a>
+				<a class="btn-floating waves-effect waves-light red darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></a>
+				<a class="btn-floating waves-effect waves-light pink text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></a>
+				<a class="btn-floating waves-effect waves-light orange" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></a>
+				<a class="btn-floating waves-effect waves-light teal" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></a>
+				<a class="btn-floating waves-effect waves-light grey" status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></a>
+			</div>
+			<h5 class='test-name'></h5>
+		</div>
+	</div>
+	<!-- subview right -->
+</div>
+<!-- test view --><!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
+	<div class='card-panel transparent np-v'>
+		<h5>Dashboard</h5>
+
+		<div class='row'>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Tests
+					<div class='panel-lead'>112</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Steps
+					<div class='panel-lead'>0</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Start
+					<div class='panel-lead'>Dec 8, 2023 02:30:54 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+			 		End
+			 		<div class='panel-lead'>Dec 8, 2023 02:30:57 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Time Taken
+					<div class='panel-lead'>0h 0m 3s+61ms</div>
+				</div>
+			</div>
+			<div class='col s4'>
+				<div class='card-panel dashboard-environment'>
+					<span class='right label cyan white-text'>Environment</span><p>&nbsp;</p>
+					
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Value</th>
+						</tr>
+							<tr>
+								<td>Organization</td>
+								<td>Epiance Software</td>
+							</tr>
+							<tr>
+								<td>Build No</td>
+								<td>11.2.279</td>
+							</tr>
+							<tr>
+								<td>Hotfix Id</td>
+								<td>11.2_SP2</td>
+							</tr>
+							<tr>
+								<td>Patch Info</td>
+								<td>--</td>
+							</tr>
+							<tr>
+								<td>UPGRADE_FROM</td>
+								<td>--</td>
+							</tr>
+							<tr>
+								<td>Build By</td>
+								<td>Sunil</td>
+							</tr>
+							<tr>
+								<td>Automation Tester</td>
+								<td>Adhilingappa M</td>
+							</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- dashboard view -->
+<!-- testrunner-logs view -->		</div>
+		<!-- container -->
+		<script>
+			var statusGroup = {
+                parentCount: 112,
+				passParent: 12,
+				failParent: 100,
+				fatalParent: 0,
+				errorParent: 0,
+				warningParent: 0,
+				skipParent: 0,
+				exceptionsParent: 100,
+				childCount: 0,
+				passChild: 0,
+				failChild: 0,
+				fatalChild: 0,
+				errorChild: 0,
+				warningChild: 0,
+				skipChild: 0,
+				infoChild: 0,
+				debugChild: 0,
+				exceptionsChild: 0,
+				grandChildCount: 0,
+				passGrandChild: 0,
+				failGrandChild: 0,
+				fatalGrandChild: 0,
+				errorGrandChild: 0,
+				warningGrandChild: 0,
+				skipGrandChild: 0,
+				infoGrandChild: 0,
+				debugGrandChild: 0,
+				exceptionsGrandChild: 0,
+			};
+		</script>
+		<script>
+			var timeline = {
+			        "Upgrade check":2.339,"NewCapturePrefernce.xml - ApplicationFilterApps":0,"NewCapturePrefernce.xml - ApplicationFilterInclude":0,"NewCapturePrefernce.xml - ApplyAliasName":0,"NewCapturePrefernce.xml - AudioVideoSelection":0,"NewCapturePrefernce.xml - CaptureAudio":0,"NewCapturePrefernce.xml - CopyRight":0,"NewCapturePrefernce.xml - FullScreenMode":0,"NewCapturePrefernce.xml - HotKeyAudioVideo":0,"NewCapturePrefernce.xml - HotKeyException":0,"NewCapturePrefernce.xml - HotKeyNarration":0,"NewCapturePrefernce.xml - HotKeyValidation":0,"NewCapturePrefernce.xml - NLPEnabled":0,"NewCapturePrefernce.xml - Organization":0,"NewCapturePrefernce.xml - PropertiesWhileSave":0,"NewCapturePrefernce.xml - SensDataMaskRuleImg":0,"NewCapturePrefernce.xml - SentenceFormat":0,"NewCapturePrefernce.xml - SentenceStructure":0,"NewCapturePrefernce.xml - TaxonomyAddToNextStepsOnly":0,"NewCapturePrefernce.xml - UIACaptureEnabled":0,"NewCapturePrefernce.xml - UseControlImg_Uncheck":0,"NewCapturePreference.xml - BorderColor":0,"NewCapturePreference.xml - BorderShow":0,"NewCapturePreference.xml - BorderThickness":0,"NewCapturePreference.xml - HideNoiseStep":0,"NewCapturePreference.xml - ShowHideAdditionalGrid":0,"NewCapturePreference.xml - ShowHideKeyStepGrid":0,"NewCapturePreference.xml - ShowMousePointer":0,"NewCapturePreference.xml - ShowNavigationData":0,"AutoSecurityKeys.xml - createAndApplyRulesInstantly":0.001,"AutoSecurityKeys.xml - maskDataUsingSensDataFormat":0,"ExclusionFilter.xml - IsApplyAllRulesDuringOpen_NoiseAndNavigation":0,"ExclusionFilter.xml - NavigationNewRule":0,"ExclusionFilter.xml - NoiseNewRule":0,"epiSimDoc.xml - AddAudioToCalloutAndSticky":0,"epiSimDoc.xml - AutoScrollCanvas":0,"epiSimDoc.xml - CalloutColor":0,"epiSimDoc.xml - CalloutOrientation":0,"epiSimDoc.xml - CtrlRegionColor":0,"epiSimDoc.xml - CtrlRegionThickness":0,"epiSimDoc.xml - DOCX_Template":0,"epiSimDoc.xml - Excel_Template":0,"epiSimDoc.xml - ExcludeRegColor":0,"epiSimDoc.xml - ExcludeRegThickness":0,"epiSimDoc.xml - FontStyle":0,"epiSimDoc.xml - FontStyleBold":0,"epiSimDoc.xml - FontStyleItalic":0,"epiSimDoc.xml - FontStyleUnderLine":0,"epiSimDoc.xml - GenCuecardInfoStep":0,"epiSimDoc.xml - GenDocLaunchAfter":0,"epiSimDoc.xml - GenDocSaveInDocxFormat":0.001,"epiSimDoc.xml - GenSimLaunchAfter":0,"epiSimDoc.xml - GenVideoApplyThemeToAnnotation":0,"epiSimDoc.xml - GenVideoLaunchAfter":0,"epiSimDoc.xml - GenVideoShowMousePointer":0,"epiSimDoc.xml - GenVideoStepDelay":0,"epiSimDoc.xml - Gender":0,"epiSimDoc.xml - HTML_Template":0,"epiSimDoc.xml - NewSenApplyTo":0,"epiSimDoc.xml - PPT_Template":0,"epiSimDoc.xml - Prompt":0,"epiSimDoc.xml - ReGenSenOnGrping":0,"epiSimDoc.xml - SentenceFormat":0.001,"epiSimDoc.xml - SentenceStructure":0,"epiSimDoc.xml - ShowEPSSSentence":0,"epiSimDoc.xml - Simulation_Template":0,"epiSimDoc.xml - SyncAutoCalloutToNotes":0,"epiSimDoc.xml - TextToSpeechApplyTo":0,"epiSimDoc.xml - TextToSpeechOverrideStepAudio":0.001,"epiSimDoc.xml - ToolsCalloutColor":0,"epiSimDoc.xml - ToolsStickyColor":0,"epiSimDoc.xml - UpdateAnnotation":0,"epiSimDoc.xml - UpdateFontColor":0,"epiSimDoc.xml - UpdateFontName":0,"epiSimDoc.xml - UpdateNotes":0,"epiSimDoc.xml - UseControlImage":0,"epiSimDoc.xml - UseEpssCuecardSens":0,"epiSimDoc.xml - Voice":0,"epiSimDoc.xml - VoiceType":0,"epiSimDoc.xml - XML_Template":0,"epiSimDoc.xml - AddCalloutStickyNoteToSteps":0.001,"epiSimDoc.xml - BackgroundColor":0,"epiSimDoc.xml - ExactValue":0,"epiSimDoc.xml - FontStyle":0,"epiSimDoc.xml - ImportCaptureAudio":0,"epiSimDoc.xml - SentenceStructure":0,"epiSimDoc.xml - ValidationForTypeText":0,"UserSettings.xml - RTLMode":0,"STTSettings - CredentialFiles":0,"CaptureSetting.xml - CleanUpAterSave":0,"CaptureSetting.xml - GPSSaveMode":0.001,"CaptureSetting.xml - GlobalAliasName":0,"CaptureSetting.xml - GlobalAliasNameControlName":0,"CaptureSetting.xml - MaskAllTypeTexts":0,"CaptureSetting.xml - URLBasedCaptureEnable":0,"CaptureSetting.xml - URLBasedCaptureURL":0,"CaptureSetting.xml - considertitleorheaderasdialogname":0.001,"DialogRules.xml - AmoutRuleEnable":0,"DialogRules.xml - RulesEncryptionEnable":0,"AdaptorInfo.xml - IncludeEXE":0,"ClawAdaptor.xml - AppName":0,"ImageSettings.xml - GreyScaleImg":0,"KeyClubbing.xml - EnableClipboard":0,"IEAdaptor.xml - CheckBox_BasedOnAttr":0,"IEAdaptor.xml - ComboBox_BasedOnAttr":0,"IEAdaptor.xml - ComboBox_div_BasedOnTrvrsLogic":0,"IEAdaptor.xml - ComboBox_span_BasedOnTrvrsLogic":0,"IEAdaptor.xml - ListItem_span_BasedOnTraverseLogic_1":0,"IEAdaptor.xml - ListItem_span_BasedOnTraverseLogic_3":0,"IEAdaptor.xml - PushButton_BasedOnAttr":0,"IEAdaptor.xml - PushButton_BasedOnTag":0,"IEAdaptor.xml - RadioButton_BasedOnAttr":0
+			};
+		</script>
+		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>
+		<script type='text/javascript'>
+		</script>
+	</body>
+</html>

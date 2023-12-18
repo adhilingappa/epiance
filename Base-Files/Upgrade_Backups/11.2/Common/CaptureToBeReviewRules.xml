@@ -1,0 +1,155 @@
+<epiplex500>
+	<keys>
+		<key name="NetOn_Failed_In_Document_Area" value="1" />
+		<key name="NetOn_Role_Identification_Failed" value="2" />
+		<key name="NetOn_ControlName_Wrong" value="3" />
+		<key name="Browser_MSAA_URL_Empty" value="4" />
+		<key name="Wrong_Adapter" value="5" />
+		<key name="Adapter_Crash" value="6" />
+		<key name="ControlName_Wrong" value="7" />
+		<key name="ControlRegion_Wrong" value="8" />
+		<key name="Role_Identification_Failed" value="9" />
+		<key name="ControlName_Empty" value="10" />
+	</keys>
+	<rules>
+		<rule id="fe798f31-f123-4fa3-8f96-cda3d4bc4932" key="1" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="DocArea" operator="equal" value="1"></cond>
+			<cond gpsconst="ChannelId" operator="notequal" value="12"></cond>
+		</rule>	
+		<rule id="3fb76990-84fe-4590-9d65-7a1f597010db" key="2" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="DocArea" operator="equal" value="1"></cond>
+			<cond gpsconst="ChannelId" operator="equal" value="12"></cond>
+			<cond gpsconst="ControlType" operator="equal" value="10"></cond>
+		</rule>
+		<rule id="586d88b9-baac-40fd-b7bf-6d16c42eb26d" key="3" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="DocArea" operator="equal" value="1"></cond>
+			<cond gpsconst="ChannelId" operator="equal" value="12"></cond>
+			<cond gpsconst="ControlName" operator="lessthan" value="2" xvalue="length"></cond>
+		</rule>
+		<rule id="e25e0529-7b74-40bd-a995-29a7b2ecc923" key="3" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="DocArea" operator="equal" value="1"></cond>
+			<cond gpsconst="ChannelId" operator="equal" value="12"></cond>
+			<cond gpsconst="ControlName" operator="greaterthan" value="50" xvalue="length"></cond>
+		</rule>		
+		<rule id="c205e236-97c7-423d-b170-67e8bf60b0a2" key="4" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="DocArea" operator="equal" value="1"></cond>
+			<cond gpsconst="ChannelId" operator="notequal" value="12"></cond>
+			<cond gpsconst="docurl" operator="equal" value=""></cond>
+		</rule>
+		<rule id="9bbd6c0d-260b-41c4-9ba4-f027d5605983" key="5" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="AppName" operator="equal" value="saplogon.exe"></cond>
+			<cond gpsconst="ChannelId" operator="notequal" value="6"></cond>
+		</rule>
+		<rule id="f9a1fbc2-b63b-4cbe-bebb-146018e568a7" key="5" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="AppName" operator="equal" value="sap.exe"></cond>
+			<cond gpsconst="ChannelId" operator="notequal" value="6"></cond>
+		</rule>
+		<rule id="73a2d7f4-a57e-4ff4-b91e-14b7d34774bc" key="6" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="Event" operator="equal" value="windowactivate"></cond>
+			<cond gpsconst="StepDuration" operator="greaterthan" value="100"></cond>
+		</rule>
+		<rule id="270dfe5e-ab1e-475f-9c4c-4b617b6305a8" key="7" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="ControlName" operator="lessthan" value="2" xvalue="length"></cond>
+			<cond gpsconst="ControlType" operator="equal" value="42"></cond>
+		</rule>
+		<rule id="fdcd9cac-9dc4-41df-b981-4a081f540790" key="7" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="ControlName" operator="greaterthan" value="50" xvalue="length"></cond>
+			<cond gpsconst="ControlType" operator="equal" value="42"></cond>
+		</rule>
+		<rule id="61cd901d-44d1-4b51-af78-59b592cca8c9" key="7" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="ControlName" operator="lessthan" value="2" xvalue="length"></cond>
+			<cond gpsconst="ControlType" operator="equal" value="44"></cond>
+		</rule>
+		<rule id="af8ee972-ac1e-48ce-8dfa-01f8476576af" key="7" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="ControlName" operator="greaterthan" value="50" xvalue="length"></cond>
+			<cond gpsconst="ControlType" operator="equal" value="44"></cond>
+		</rule>
+		<rule id="98107cd7-e009-45d4-8550-301255168192" key="7" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="ControlName" operator="lessthan" value="2" xvalue="length"></cond>
+			<cond gpsconst="ControlType" operator="equal" value="45"></cond>
+		</rule>
+		<rule id="b35d972c-cafd-4d8d-8901-cdd7cbf7fff6" key="7" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="ControlName" operator="greaterthan" value="50" xvalue="length"></cond>
+			<cond gpsconst="ControlType" operator="equal" value="45"></cond>
+		</rule>
+		<rule id="8d7d8c7b-9f7c-4e31-b9eb-4a64c6620930" key="7" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="ControlName" operator="lessthan" value="2" xvalue="length"></cond>
+			<cond gpsconst="ControlType" operator="equal" value="46"></cond>
+		</rule>
+		<rule id="79fdf561-b250-41e6-a70c-6b200594fbec" key="7" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="ControlName" operator="greaterthan" value="50" xvalue="length"></cond>
+			<cond gpsconst="ControlType" operator="equal" value="46"></cond>
+		</rule>
+		<rule id="d3451572-1550-4b1b-91fa-a695bb9ddc88" key="7" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="ControlName" operator="lessthan" value="2" xvalue="length"></cond>
+			<cond gpsconst="ControlType" operator="equal" value="33"></cond>
+		</rule>
+		<rule id="223aa711-f1e1-4dd8-b95b-23602e014be6" key="7" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="ControlName" operator="greaterthan" value="50" xvalue="length"></cond>
+			<cond gpsconst="ControlType" operator="equal" value="33"></cond>
+		</rule>
+		<rule id="a4b5dcd4-17e8-4828-aa14-ee2239e0e2a4" key="7" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="ControlName" operator="lessthan" value="2" xvalue="length"></cond>
+			<cond gpsconst="ControlType" operator="equal" value="34"></cond>
+		</rule>
+		<rule id="7a3d9cc9-e886-4760-8481-3d0df747da8d" key="7" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="ControlName" operator="greaterthan" value="50" xvalue="length"></cond>
+			<cond gpsconst="ControlType" operator="equal" value="34"></cond>
+		</rule>
+		<rule id="10dc70fc-f331-41d6-89dc-ccd742fc332c" key="8" >
+			<cond gpsconst="ControlType" operator="notequal" value="42"></cond>
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="LocationRight" operation="minus" gpsconst2="LocationLeft" operator="greaterthan" value="800" ></cond>
+		</rule>
+		<rule id="8f3348f2-94c0-41ce-950a-dd19b219a895" key="8" >
+			<cond gpsconst="ControlType" operator="notequal" value="42"></cond>
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="LocationBottom" operation="minus" gpsconst2="LocationTop" operator="greaterthan" value="600" ></cond>
+		</rule>
+		<rule id="9baa94eb-199f-4b03-8e7e-0b297b315d15" key="9" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="ControlType" operator="equal" value="10"></cond>
+		</rule>
+		<rule id="bc98c4f3-ef6f-4826-bae4-6904c356019f" key="10" >
+			<cond gpsconst="Event" operator="notequal" value="windowactivate"></cond>
+			<cond gpsconst="ControlName" operator="equal" value="0" xvalue="length"></cond>
+		</rule>
+	</rules>
+</epiplex500>
+  <!--
+		1. SAP exe NOT getting into channel number 6
+		2. Browser exe, Any Event on Document Area, Not getting into channel number 12
+		3. Browser exe, Any Event on Document Area, ControlType=10, Role identification failed, Needs to add new/modify rules in IEAdapter.xml
+		4. Browser exe, Any Event on Document Area, (Control Name Length < 2) or greater than specified count, ControlName identification failed
+		5. Browser exe, Any Event on Document Area, XPath is empty, Fix required in NetOn Code 
+		6. Browser exe, Any Event on Non-Document Area, URL is empty, UIAutomation not working
+		7. Event=WindowActivate, Step Duration > Specified , Could be adapter crash.
+		8. Control Name lessthan 2 char and greaterthan 50 char,Wrong Control Name.
+		9. Control Region width GreaterThan 800 and Height GreaterThan 600,Wrong Control region.
+		10. Control Type Is 10 Than Control Identification Failed.
+		
+		
+		=>Operators[equal,notequal,lessthan,greaterthan,contains]
+		=>Operations[add,minus,multiply,divide]
+		=>xValues[length]
+  -->

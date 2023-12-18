@@ -1,0 +1,11 @@
+<CDTRules>
+	<Rules>
+		<Rule Id="1"  AppName="notepad" DialogName="Replace">
+			<ControlNames>
+				<ControlName Id="1" Name="Find what:" Type="Edit" />
+				<ControlName Id="2" Name="Replace with:" Type="Edit"/>	
+				<ControlName Id="3" Name="Match case" Type="Checkbox"/>	
+			</ControlNames>
+		</Rule>		
+	</Rules>
+</CDTRules>

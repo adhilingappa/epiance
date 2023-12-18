@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HashCodeRules>
+	<DefaultRules>
+		<Rule Name="Normal">
+			<Window Name="MainWindow1">
+				<Controls>
+					<Control Name="button1" Visibility="true" IsEnabled="False" />
+					<Control Name="button2" Visibility="true" IsEnabled="False" />
+					<Control Name="button3" Visibility="true" IsEnabled="False" />
+				</Controls>
+			</Window>
+			<Window Name="MainWindow1">
+				<Controls>
+					<Control Name="button1" Visibility="true" IsEnabled="False" />
+					<Control Name="button2" Visibility="true" IsEnabled="False" />
+					<Control Name="button3" Visibility="true" IsEnabled="False" />
+				</Controls>
+			</Window>
+			<Window Name="ctrl_SysTrayNotifyIcon">
+				<Controls>
+					<Control Name="ctrl_SysTrayMnuExit" Visible="True" />
+					<Control Name="ctrl_SysTrayMnuPreference" Visible="True" />
+					<Control Name="ctrl_SysTrayMnuCueCard" Enabled="True" />
+					<Control Name="ctrl_SysTrayMnuAddNote" Visible="True" />
+					<Control Name="ctrl_SysTrayMnuSwitchUser" Visible="True" />
+				</Controls>
+			</Window>
+		</Rule>
+		<Rule Name="">
+			<Window Name="MainWindow1">
+				<Controls>
+					<Control Name="button1" Visibility="true" IsEnabled="False" />
+					<Control Name="button2" Visibility="true" IsEnabled="False" />
+					<Control Name="button3" Visibility="true" IsEnabled="False" />
+				</Controls>
+			</Window>
+		</Rule>
+	</DefaultRules>
+	<CustomRules BorderThickness="1">
+		<Window Name="ctrl_CalloutWindow" Mode="DesignAddnote">
+			<Controls>
+				<Control Name="ctrl_CalloutWindow_Richtextbox" IsReadOnly="false" IsEnabled="true" BorderThickness="1" Visibility="true"/>
+				<Control Name="ctrl_CalloutWindow_ResizingRectangle" Visibility="true" IsEnabled="true" />
+				<Control Name="ctrl_CalloutWindow_AdvancedOption" Visibility="true" IsEnabled="true"/>
+				<Control Name="ctrl_CalloutWindow_FloatingToolBar" IsEnabled="true" Visibility="false"/>
+				<Control Name="ctrl_CalloutWindow_AttachmentsForCallout" Visibility="true" IsEnabled="true"/>
+				<Control Name="ctrl_CalloutWindow_NextAndPrevious_Border" Visibility="Collapsed" IsEnabled="true"/>
+			</Controls>
+		</Window>
+		<Window Name="ctrl_CalloutWindow" Mode="CueCardDisplay">
+			<Controls>
+				<Control Name="ctrl_CalloutWindow_Richtextbox" IsReadOnly="false" IsEnabled="true" BorderThickness="0" Visibility="Collapsed"/>
+				<Control Name="ctrl_CalloutWindow_ResizingRectangle" Visibility="false" IsEnabled="false" />
+				<Control Name="ctrl_CalloutWindow_AdvancedOption" Visibility="true" IsEnabled="true"/>
+				<Control Name="ctrl_CalloutWindow_FloatingToolBar" IsEnabled="false" Visibility="false"/>
+				<Control Name="ctrl_CalloutWindow_AttachmentsForCallout" Visibility="false" IsEnabled="false"/>
+				<Control Name="ctrl_CalloutWindow_NextAndPrevious_Border" Visibility="false" IsEnabled="false"/>
+			</Controls>
+		</Window>
+		<Window Name="ctrl_CalloutWindow" Mode="RuntimeAddnote">
+			<Controls>
+				<Control Name="ctrl_CalloutWindow_Richtextbox" IsReadOnly="True" IsEnabled="True" BorderThickness="0" Visibility="true"/>
+				<Control Name="ctrl_CalloutWindow_ResizingRectangle" Visibility="false" IsEnabled="false" />
+				<Control Name="ctrl_CalloutWindow_AdvancedOption" Visibility="true" IsEnabled="true"/>
+				<Control Name="ctrl_CalloutWindow_FloatingToolBar" IsEnabled="false" Visibility="false"/>
+				<Control Name="ctrl_CalloutWindow_AttachmentsForCallout" Visibility="true" IsEnabled="true"/>
+				<Control Name="ctrl_CalloutWindow_NextAndPrevious_Border" Visibility="true" IsEnabled="true"/>
+			</Controls>
+		</Window>
+		<Window Name="ctrl_CalloutWindow" Mode="DesignAddnotePublic">
+			<Controls>
+				<Control Name="ctrl_CalloutWindow_Richtextbox" IsReadOnly="false" IsEnabled="true" BorderThickness="1" Visibility="true"/>
+				<Control Name="ctrl_CalloutWindow_ResizingRectangle" Visibility="true" IsEnabled="true" />
+				<Control Name="ctrl_CalloutWindow_AdvancedOption" Visibility="true" IsEnabled="true"/>
+				<Control Name="ctrl_CalloutWindow_FloatingToolBar" IsEnabled="true" Visibility="false"/>
+				<Control Name="ctrl_CalloutWindow_AttachmentsForCallout" Visibility="true" IsEnabled="true"/>
+				<Control Name="ctrl_CalloutWindow_NextAndPrevious_Border" Visibility="Collapsed" IsEnabled="true"/>
+			</Controls>
+		</Window>
+		<Window Name="ctrl_CalloutWindow" Mode="DesignAddnotePrivate">
+			<Controls>
+				<Control Name="ctrl_CalloutWindow_Richtextbox" IsReadOnly="false" IsEnabled="true" BorderThickness="1" Visibility="true"/>
+				<Control Name="ctrl_CalloutWindow_ResizingRectangle" Visibility="true" IsEnabled="true" />
+				<Control Name="ctrl_CalloutWindow_AdvancedOption" Visibility="true" IsEnabled="true"/>
+				<Control Name="ctrl_CalloutWindow_FloatingToolBar" IsEnabled="true" Visibility="false"/>
+				<Control Name="ctrl_CalloutWindow_AttachmentsForCallout" Visibility="true" IsEnabled="true"/>
+				<Control Name="ctrl_CalloutWindow_NextAndPrevious_Border" Visibility="Collapsed" IsEnabled="true"/>
+			</Controls>
+		</Window>
+		<Window Name="ctrl_AttachmentsForCallout" Mode="RuntimeAddnote">
+			<Controls>
+				<Control Name="ctrl_AttachmentsForCallout_StackPanelForAttachment" Visibility="true" IsEnabled="true"/>
+				<Control Name="ctrl_AttachmentsForCallout_AttachmentImage" Visibility="true" IsEnabled="true" />
+				<Control Name="ctrl_AttachmentsForCallout_AttachmentVideo" Visibility="true" IsEnabled="true"/>
+				<Control Name="ctrl_AttachmentsForCallout_AttachmentAudio" Visibility="true" IsEnabled="true"/>
+			</Controls>
+		</Window>
+		<Window Name="ctrl_CalloutWindow_AdvancedOption" Mode="RuntimeAddnote">
+			<Controls>
+				<Control Name="ctrl_AdvancedOption_MainStackPanel" Visibility="true"/>
+				<Control Name="ctrl_AdvancedOption_AdvancedControls" Visibility="Collapsed"/>
+				<Control Name="ctrl_AdvancedOption_SaveAsPrivate" Visibility="Collapsed" />
+				<Control Name="ctrl_AdvancedOption_Cancel_document" Visibility="true" />
+				<Control Name="ctrl_AdvancedOption_PublicPrivateNode" Visibility="true"/>
+				<Control Name="ctrl_AdvancedOption_SaveAsPublic" Visibility="Collapsed" />
+				<Control Name="ctrl_AdvancedOption_SaveManually" Visibility="Collapsed"/>
+				<Control Name="ctrl_AdvancedOption_EditNode" Visibility="true" />
+				<Control Name="ctrl_AdvancedOption_DeleteNote" Visibility="true" />
+			</Controls>
+		</Window>
+
+		<Window Name="ctrl_CalloutWindow_AdvancedOption" Mode="CueCardDisplay">
+			<Controls>
+				<Control Name="ctrl_AdvancedOption_MainStackPanel" Visibility="true"/>
+				<Control Name="ctrl_AdvancedOption_AdvancedControls" Visibility="Collapsed"/>
+				<Control Name="ctrl_AdvancedOption_SaveAsPrivate" Visibility="Collapsed" />
+				<Control Name="ctrl_AdvancedOption_Cancel_document" Visibility="true" />
+				<Control Name="ctrl_AdvancedOption_PublicPrivateNode" Visibility="true"/>
+				<Control Name="ctrl_AdvancedOption_SaveAsPublic" Visibility="Collapsed" />
+				<Control Name="ctrl_AdvancedOption_SaveManually" Visibility="Collapsed"/>
+				<Control Name="ctrl_AdvancedOption_EditNode" Visibility="Collapsed" />
+				<Control Name="ctrl_AdvancedOption_DeleteNote" Visibility="Collapsed" />
+			</Controls>
+		</Window>
+		<Window Name="ctrl_CalloutWindow_AdvancedOption" Mode="DesignAddnote">
+			<Controls>
+				<Control Name="ctrl_AdvancedOption_MainStackPanel" Visibility="true"/>
+				<Control Name="ctrl_AdvancedOption_AdvancedControls" Visibility="true"/>
+				<Control Name="ctrl_AdvancedOption_SaveAsPrivate" Visibility="true" />
+				<Control Name="ctrl_AdvancedOption_Cancel_document" Visibility="true" />
+				<Control Name="ctrl_AdvancedOption_PublicPrivateNode" Visibility="Collapsed"/>
+				<Control Name="ctrl_AdvancedOption_SaveAsPublic" Visibility="true" />
+				<Control Name="ctrl_AdvancedOption_SaveManually" Visibility="Collapsed"/>
+				<Control Name="ctrl_AdvancedOption_EditNode" Visibility="Collapsed" />
+				<Control Name="ctrl_AdvancedOption_DeleteNote" Visibility="Collapsed" />
+			</Controls>
+		</Window>
+		<Window Name="ctrl_CalloutWindow_AdvancedOption" Mode="DesignAddnotePublic">
+			<Controls>
+				<Control Name="ctrl_AdvancedOption_MainStackPanel" Visibility="true"/>
+				<Control Name="ctrl_AdvancedOption_AdvancedControls" Visibility="true"/>
+				<Control Name="ctrl_AdvancedOption_SaveAsPrivate" Visibility="true" />
+				<Control Name="ctrl_AdvancedOption_Cancel_document" Visibility="true" />
+				<Control Name="ctrl_AdvancedOption_PublicPrivateNode" Visibility="Collapsed"/>
+				<Control Name="ctrl_AdvancedOption_SaveAsPublic" Visibility="Collapsed" />
+				<Control Name="ctrl_AdvancedOption_SaveManually" Visibility="Collapsed"/>
+				<Control Name="ctrl_AdvancedOption_EditNode" Visibility="Collapsed" />
+				<Control Name="ctrl_AdvancedOption_DeleteNote" Visibility="Collapsed" />
+			</Controls>
+		</Window>
+		<Window Name="ctrl_CalloutWindow_AdvancedOption" Mode="DesignAddnotePrivate">
+			<Controls>
+				<Control Name="ctrl_AdvancedOption_MainStackPanel" Visibility="true"/>
+				<Control Name="ctrl_AdvancedOption_AdvancedControls" Visibility="true"/>
+				<Control Name="ctrl_AdvancedOption_SaveAsPrivate" Visibility="true" />
+				<Control Name="ctrl_AdvancedOption_Cancel_document" Visibility="true" />
+				<Control Name="ctrl_AdvancedOption_PublicPrivateNode" Visibility="Collapsed"/>
+				<Control Name="ctrl_AdvancedOption_SaveAsPublic" Visibility="Collapsed" />
+				<Control Name="ctrl_AdvancedOption_SaveManually" Visibility="Collapsed"/>
+				<Control Name="ctrl_AdvancedOption_EditNode" Visibility="Collapsed" />
+				<Control Name="ctrl_AdvancedOption_DeleteNote" Visibility="Collapsed" />
+			</Controls>
+		</Window>
+		<Window Name="ctrl_CalloutWindow_AdvancedOption" Mode="AdvancedMode">
+			<Controls>
+				<Control Name="ctrl_AdvancedOption_MainStackPanel" Visibility="true"/>
+				<Control Name="ctrl_AdvancedOption_AdvancedControls" Visibility="true"/>
+				<Control Name="ctrl_AdvancedOption_SaveAsPrivate" Visibility="Collapsed" />
+				<Control Name="ctrl_AdvancedOption_Cancel_document" Visibility="true" />
+				<Control Name="ctrl_AdvancedOption_PublicPrivateNode" Visibility="Collapsed"/>
+				<Control Name="ctrl_AdvancedOption_SaveAsPublic" Visibility="Collapsed" />
+				<Control Name="ctrl_AdvancedOption_SaveManually" Visibility="true"/>
+				<Control Name="ctrl_AdvancedOption_EditNode" Visibility="Collapsed" />
+				<Control Name="ctrl_AdvancedOption_DeleteNote" Visibility="Collapsed" />
+			</Controls>
+		</Window>
+	</CustomRules>
+	<GlobalRules>
+		<Window Name="MainWindow1">
+			<Controls>
+				<Control Name="button1" Visibility="true" IsEnabled="False" />
+				<Control Name="button2" Visibility="true" IsEnabled="False" />
+				<Control Name="button3" Visibility="true" IsEnabled="False" />
+			</Controls>
+		</Window>
+	</GlobalRules>
+	<ColorCode>
+		<CueCardWindow Wnd_BG="#FFFFFFFF"  WndBorder_BG="#FF008FE4" 
+		WndTitleBar_BG="#008FE4" 	WndTitleBarText_FG="#FFFFFFFF" 
+		SearchContent_BB="#FF000000"  WindowDefaultLabel_FG="#FFFFFF"  
+		SearchFilterPanel_BG="#FFEEF7FC" SearchFilterPanel_BB="#FFAFD1E3"
+		SearchButton_BB="#099AF0" SearchButton_BG="#FFFFFF"
+		FilterButton_BB="#099AF0" FilterButton_BG="#FFFFFF"
+		DefaultSearchText_FG="#FFC3CEE1" SearchBox_BG="#FFFFFFFF"		 
+
+		TaskTabUnSelect_BG="#727272" TaskTabSelect_BG="#0378BC" 
+		TaskTabUnSelectLowerGradient_BG="#4B4B4B" TaskTabUnSelectUpperGradient_BG="#727272"
+		TaskTabSelectLowerGradient_BG="#0378BC" TaskTabSelectUpperGradient_BG="#099AF0"
+		TaskTabMouseOver_BG="#0D598B"  	TaskTabText_FG="#FFFFFFFF"  	
+		TabGapBorder_BG="#FF95a5b3" 
+		TaskCount_BG="#59B552" 	TaskCount_FG="#FFFFFFFF" 
+		SelectedTaskHeaderLowerGradient_BG="#015E94" 	SelectedTaskHeaderUppperGradient_BG="#015E94" TaskNameTextFG="#FFFFFFFF"
+		TaskDiscription_BG="#015E94" 	TaskDiscription_FG="#FFFFFF"  
+		UnHighlightSelectedStep_BG="#00FFFFFF"
+		TaskContentBorder_BB="#0D598B" 
+		TaskCollection_FG="#000000" TaskCollectionMouseOver_FG="#FF2D80C6" 
+		TaskContent_BB="#0473BB" NoTaskText_FG="#FF000000" 
+		ContentPopUp_BG="#FFFFFFFF" ContentPopUp_FG="#FF000000" ContentPopUpHover_BG="#d1e2f9" ContentPopUp_BB="#909090" 
+
+		NoteTabUnSelect_BG="#727272" 	NoteTabSelect_BG="#0378BC"
+		NoteTabUnSelectLowerGradient_BG="#4B4B4B" NoteTabUnSelectUpperGradient_BG="#727272"
+		NoteTabSelectLowerGradient_BG="#0378BC" NoteTabSelectUpperGradient_BG="#099AF0"
+		NoteTabMouseOver_BG="#0D598B"   NoteTabText_FG="#FFFFFFFF" 
+		NoteCount_BG="#59B552" 	NoteCount_FG="#FFFFFFFF" 
+		NoteExpanderLowerGradient_BG="#015E94" NoteExpanderUpperGradient_BG="#015E94" 
+		NoteContentBorder_BB="#0D598B" NoteContent_BG="#FFFFFFFF" 
+		NoteHeaderText_FG="#FF000000" NoteContentText_FG="#FF000000"
+		NoteContentMouseOver_FG="#FF2D80C6" 
+		NoWorkSpaceText_FG="#FF000000"
+		>
+		</CueCardWindow>
+		<PreferencesWindow Wnd_BG="#FF177BC6" Wnd_Border_BG="#FF177BC6" />
+		<AdvancedWindow Wnd_BG="#177BC6" />
+	</ColorCode>
+</HashCodeRules>

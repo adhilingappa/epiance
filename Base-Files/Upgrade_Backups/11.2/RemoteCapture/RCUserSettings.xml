@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserSettings xmlns:urn="http://www.epiplex500.com">
+	<UserInfo>
+		<Name></Name>
+	</UserInfo>
+	<Project>
+		<ID>0385AE16-35AA-46EE-01C1-08D8190A7908</ID>
+		<Group>ForGroups</Group>
+	</Project>
+	<ProcessDiscovery OverrideSSLErrors="true">
+		<SecurityProtocolConfig Enabled="0" SecurityProtocol="Tls12"></SecurityProtocolConfig>
+		<WindowsAuthentication>Disabled</WindowsAuthentication>
+		<URL Address="http://localhost:65155/" AllowUnstrustedCertificate="true"></URL>
+		<Proxy UseProxySettings="false">
+			<Address></Address>
+			<Port></Port>
+		</Proxy>
+	</ProcessDiscovery>
+</UserSettings>

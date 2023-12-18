@@ -1,0 +1,31 @@
+<DocWiz Name="Current" Shared="1" ReadOnly="0">
+	<DocFileFormat>0</DocFileFormat>
+	<GenerateForSelectedProcesses/>
+	<IntroductionPage></IntroductionPage>
+	<LaunchDocument>0</LaunchDocument>
+	<SaveAsDocx>1</SaveAsDocx>
+	<UseWordTemplate4PDF>0</UseWordTemplate4PDF>
+	<UseHtmlTemplate4Excel>0</UseHtmlTemplate4Excel>
+	<UseIncludeImageForXml>0</UseIncludeImageForXml>
+	<ExcludeDocSectionForPPT>1</ExcludeDocSectionForPPT>
+	<A4MaxWidth>600</A4MaxWidth>
+	<A4MaxHeight>820</A4MaxHeight>
+	<IncludeImageForXSL>0</IncludeImageForXSL>
+	<HideNew>0</HideNew>
+	<HideExtraTemplates>1</HideExtraTemplates>
+	<Title>Untitled</Title><SelectedTemplates Name="Current" Shared="1" ReadOnly="0">
+		<ProcessWord id="335">BRD_Template_copy1.dot</ProcessWord>
+		<ProcessHTML id="35">proceduralmanual.htm</ProcessHTML>
+		<ProcessXML id="10">purexmldocument.xsl</ProcessXML>
+		<ProcessPPT id="105">Theme3.pot</ProcessPPT>
+		<ProcessExcel id="119">BRD_Default.xlt</ProcessExcel>
+		<EpiLearn>Default.etp</EpiLearn>
+		<ManualActivity>Epiplex Blue.mtp</ManualActivity>
+		<Question>Epiplex Blue.qtp</Question>
+		<InfoStep>Epiplex Blue.itp</InfoStep>
+		<HTML5EpiLearn>epiplex_darkgrey</HTML5EpiLearn>
+		<ProcessBPMN id="116">bpmnbase.xml</ProcessBPMN>
+		<ProcessVisio id="116">baseVisio.xml</ProcessVisio>
+		<VariationStep>Epiplex Blue.vtp</VariationStep>
+	</SelectedTemplates>
+</DocWiz>

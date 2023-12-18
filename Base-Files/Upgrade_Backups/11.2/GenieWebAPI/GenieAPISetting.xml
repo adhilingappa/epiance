@@ -1,0 +1,8 @@
+<GenieAPISetting>
+	<EngineIPCAddress>
+		<endpointadress value="net.tcp://localhost"/>
+	</EngineIPCAddress>
+	<endpointadress value="http://localhost:8095/genie/api"/>
+	<!-- timeout in milliseconds -->
+	<requesttimeout value="60000"/>
+</GenieAPISetting>

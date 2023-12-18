@@ -1,0 +1,17 @@
+<CDTrules>
+	<DomainRule domain="epiancesoftware.lightning.force.com">
+		<PageRules>
+			<PageRule>
+				<URL><![CDATA[https://epiancesoftware.lightning.force.com/lightning/o/Lead/new]]></URL>
+				<Title><![CDATA[New \w \\| Salesforce]]></Title>
+				<ElementRules>			
+					<ElementRule Name="head" Type="header">
+						<Xpath>//*[@id='content_336:0']/div/div/div/records-modal-lwc-detail-panel-wrapper/records-record-layout-event-broker/slot/records-lwc-detail-panel/div/h2</Xpath>
+						<Cssselector>#content_336\:0 > div > div > div > records-modal-lwc-detail-panel-wrapper > records-record-layout-event-broker > slot > records-lwc-detail-panel > div > h2</Cssselector> 
+						<CDTAttributes>value|innerText</CDTAttributes> 
+					</ElementRule>
+				</ElementRules>
+			</PageRule>
+		</PageRules>
+	</DomainRule>
+</CDTrules>

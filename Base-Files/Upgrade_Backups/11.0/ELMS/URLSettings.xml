@@ -1,0 +1,9 @@
+<LicenseURL WebService="/WebService/ELMSWebService.asmx" EnforceEval="1">
+  <URL ID="1" IsDefault="0" Address="https://license.epiplex500.com" />
+  <URL ID="2" IsDefault="0" Address="http://license.epiplex500.com" />
+  <URL ID="3" IsDefault="0" Address="http://www.epiplexlicensegateway.com" />
+  <URL ID="4" IsDefault="0" Address="https://license.epiplex500.com" />
+  <SecurityProtocolConfig Enabled="0" SecurityProtocol="Tls12" />
+  <UserAgent Enabled="1" value="Epiance(Epilex500 License Gateway 1.0);" />
+  <URL ID="5" IsDefault="1" Address="http://staging.epiplex500.com" />
+</LicenseURL>
