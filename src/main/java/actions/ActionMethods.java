@@ -892,6 +892,19 @@ public class ActionMethods {
 		}
 	}
 
+	public void clickIndex1(String locatorType, String parameter1, String parameter2, String ind) {
+		try {
+			int index = Integer.parseInt(ind);
+			System.err.println("Click - " + Settings.FIND_WAIT);
+			elementFinder.getElementIndex(locatorType, parameter1, parameter2, Settings.FIND_WAIT, index).click();
+			reportLogger.info(config.getPassMarkUp(parameter1 + " " + parameter2 + " clickIndex  successfully."));
+			eventStatus = true;
+		} catch (NullPointerException e) {
+			reportLogger.info(config.getFailMarkUp(parameter1 + " " + parameter2 + " clickIndex failed."));
+			eventStatus = false;
+		}
+	}
+
 	/**
 	 * This method will click center on given element
 	 * 

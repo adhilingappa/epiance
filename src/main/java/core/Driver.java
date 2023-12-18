@@ -252,7 +252,8 @@ public class Driver {
 	}
 
 	/**
-	 * This method will find element with given locator and value and specified index
+	 * This method will find element with given locator and value and specified
+	 * index
 	 * 
 	 * @param locatorType
 	 * @param controlType
